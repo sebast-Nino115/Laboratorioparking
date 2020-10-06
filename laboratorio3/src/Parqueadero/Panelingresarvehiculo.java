@@ -93,9 +93,9 @@ public class Panelingresarvehiculo extends javax.swing.JFrame {
 
         jLabel4.setFont(new java.awt.Font("MS UI Gothic", 3, 18)); // NOI18N
         jLabel4.setText("Ingreso de vehiculos al parquedero");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(41, 11, 307, -1));
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 20, 460, -1));
 
-        TipoVehiculo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Carro", "Moto", "Bicicleta" }));
+        TipoVehiculo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Tipo de Vehiculo...", "Carro", "Moto", "Bicicleta" }));
         TipoVehiculo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TipoVehiculoActionPerformed(evt);
@@ -150,14 +150,29 @@ public class Panelingresarvehiculo extends javax.swing.JFrame {
     private void RegistrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RegistrarActionPerformed
         String placa = this.Placa.getText();
         String cedula=this.Cedula.getText();
-        Date inicial = new Date(); // Sistema actual La fecha y la hora se asignan a objDate 
 
-        if (TipoVehiculo.getSelectedItem()== "Carro")
+        Date hinicial = new Date(); // Sistema actual La fecha y la hora se asignan a objDate 
+        System.out.println(hinicial); 
+        if (TipoVehiculo.getSelectedItem()== "Tipo de Vehiculo..."){
+             JOptionPane.showMessageDialog(null, "Seleccione el tipo de vehiculo");
+        }
+        else if (Nombre.getText().equals("")){
+            JOptionPane.showMessageDialog(null, "Ingrese el Nombre del propietario");
+        }
+        else if (TipoVehiculo.getSelectedItem()== "Carro")
         {
-            carros carronuevo = new carros();
-            carronuevo.placa = Placa.getText();
-            carronuevo.nombre = Nombre.getText();
-            System.out.println(""+ carronuevo.fechaingreso);
+            if (Placa.getText()== "")
+            {
+                JOptionPane.showMessageDialog(null, "Ingrese la placa del vehiculo");
+            } 
+            else {
+                parqueadero.parquearCarro(placa, hinicial);
+            }
+            parqueadero.parquearCarro(placa, hinicial);
+            
+            this.pantalla.setText("Parqueadero\n\n" + this.parqueadero.concatenarPlacasCarros());
+            this.Placa.setText("");
+            
         }
         else if(TipoVehiculo.getSelectedItem()== "Moto")
         {
@@ -165,16 +180,19 @@ public class Panelingresarvehiculo extends javax.swing.JFrame {
         }
         else if (TipoVehiculo.getSelectedItem() == "Bicicleta")
         {
-            if(Nombre.getText().isEmpty()){
-            JOptionPane.showMessageDialog(null, "Ingrese el nombre del propietario");
-            }else if(Cedula.getText().isEmpty()){
+            if(Cedula.getText().isEmpty()){
              JOptionPane.showMessageDialog(null, "Ingrese cedula del dueño de bicicleta");
+
             }else{
-            parqueadero.parquearBici(cedula, inicial);
+                parqueadero.parquearBici(cedula, hinicial);
             }
-        }
+            
         this.pantalla.setText("Parqueadero\n\n"+this.parqueadero.concatenarInfoBici());
+        this.pantalla.setText("Parqueadero\n\n"+this.parqueadero.concatenarPlacasCarros());
         this.Placa.setText("");
+        this.Cedula.setText("");
+        
+    }      
         
     }//GEN-LAST:event_RegistrarActionPerformed
 

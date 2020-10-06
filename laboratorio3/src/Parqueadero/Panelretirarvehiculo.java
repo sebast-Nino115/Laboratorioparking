@@ -166,7 +166,7 @@ public class Panelretirarvehiculo extends javax.swing.JFrame {
             parqueadero.retirarBici(cedula, hfinal);
             }
         }
-        this.txtAreaInfo.setText("Parqueadero\n\n"+this.parqueadero.concatenarInfoBici());
+      
     }//GEN-LAST:event_RetirarActionPerformed
 
     /**
