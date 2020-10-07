@@ -9,9 +9,11 @@ public class Interfazsillas extends javax.swing.JFrame {
 
     public Interfazsillas() {
         initComponents();
-      
+        
     }
-
+       int fila[];
+       int columna[];
+       
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -22,40 +24,40 @@ public class Interfazsillas extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        Silla1 = new javax.swing.JToggleButton();
-        Silla2 = new javax.swing.JToggleButton();
-        Silla3 = new javax.swing.JToggleButton();
-        Silla4 = new javax.swing.JToggleButton();
-        Silla5 = new javax.swing.JToggleButton();
-        Silla6 = new javax.swing.JToggleButton();
-        Silla7 = new javax.swing.JToggleButton();
-        Silla8 = new javax.swing.JToggleButton();
-        Silla20 = new javax.swing.JToggleButton();
-        Silla21 = new javax.swing.JToggleButton();
-        Silla22 = new javax.swing.JToggleButton();
-        Silla23 = new javax.swing.JToggleButton();
-        Silla24 = new javax.swing.JToggleButton();
-        Silla25 = new javax.swing.JToggleButton();
-        Silla26 = new javax.swing.JToggleButton();
-        Silla27 = new javax.swing.JToggleButton();
-        Silla28 = new javax.swing.JToggleButton();
-        Silla29 = new javax.swing.JToggleButton();
-        Silla30 = new javax.swing.JToggleButton();
-        Silla31 = new javax.swing.JToggleButton();
-        Silla32 = new javax.swing.JToggleButton();
-        Silla33 = new javax.swing.JToggleButton();
-        Silla34 = new javax.swing.JToggleButton();
-        Silla35 = new javax.swing.JToggleButton();
-        Silla36 = new javax.swing.JToggleButton();
-        Silla37 = new javax.swing.JToggleButton();
-        Silla38 = new javax.swing.JToggleButton();
-        Silla39 = new javax.swing.JToggleButton();
-        Silla40 = new javax.swing.JToggleButton();
-        Silla41 = new javax.swing.JToggleButton();
-        Silla9 = new javax.swing.JToggleButton();
-        Silla10 = new javax.swing.JToggleButton();
-        Silla11 = new javax.swing.JToggleButton();
-        Silla12 = new javax.swing.JToggleButton();
+        silla4 = new javax.swing.JToggleButton();
+        silla5 = new javax.swing.JToggleButton();
+        silla3 = new javax.swing.JToggleButton();
+        silla1 = new javax.swing.JToggleButton();
+        silla2 = new javax.swing.JToggleButton();
+        silla6 = new javax.swing.JToggleButton();
+        silla7 = new javax.swing.JToggleButton();
+        silla8 = new javax.swing.JToggleButton();
+        silla9 = new javax.swing.JToggleButton();
+        silla10 = new javax.swing.JToggleButton();
+        silla11 = new javax.swing.JToggleButton();
+        silla12 = new javax.swing.JToggleButton();
+        silla13 = new javax.swing.JToggleButton();
+        silla14 = new javax.swing.JToggleButton();
+        silla15 = new javax.swing.JToggleButton();
+        silla16 = new javax.swing.JToggleButton();
+        silla17 = new javax.swing.JToggleButton();
+        silla18 = new javax.swing.JToggleButton();
+        silla19 = new javax.swing.JToggleButton();
+        silla20 = new javax.swing.JToggleButton();
+        silla21 = new javax.swing.JToggleButton();
+        silla22 = new javax.swing.JToggleButton();
+        silla23 = new javax.swing.JToggleButton();
+        silla24 = new javax.swing.JToggleButton();
+        silla25 = new javax.swing.JToggleButton();
+        silla26 = new javax.swing.JToggleButton();
+        silla27 = new javax.swing.JToggleButton();
+        silla28 = new javax.swing.JToggleButton();
+        silla29 = new javax.swing.JToggleButton();
+        silla30 = new javax.swing.JToggleButton();
+        silla31 = new javax.swing.JToggleButton();
+        silla61 = new javax.swing.JToggleButton();
+        silla91 = new javax.swing.JToggleButton();
+        silla121 = new javax.swing.JToggleButton();
         Silla13 = new javax.swing.JToggleButton();
         Silla14 = new javax.swing.JToggleButton();
         Silla15 = new javax.swing.JToggleButton();
@@ -66,122 +68,122 @@ public class Interfazsillas extends javax.swing.JFrame {
         Silla42 = new javax.swing.JToggleButton();
         Silla43 = new javax.swing.JToggleButton();
         Silla44 = new javax.swing.JToggleButton();
-        Silla45 = new javax.swing.JToggleButton();
-        Silla46 = new javax.swing.JToggleButton();
-        Silla47 = new javax.swing.JToggleButton();
-        Silla48 = new javax.swing.JToggleButton();
-        Silla49 = new javax.swing.JToggleButton();
-        Silla50 = new javax.swing.JToggleButton();
-        Silla51 = new javax.swing.JToggleButton();
-        Silla52 = new javax.swing.JToggleButton();
-        Silla53 = new javax.swing.JToggleButton();
-        Silla54 = new javax.swing.JToggleButton();
-        Silla55 = new javax.swing.JToggleButton();
-        Silla56 = new javax.swing.JToggleButton();
-        Silla57 = new javax.swing.JToggleButton();
-        Silla58 = new javax.swing.JToggleButton();
-        Silla59 = new javax.swing.JToggleButton();
-        Silla60 = new javax.swing.JToggleButton();
-        Silla61 = new javax.swing.JToggleButton();
-        Silla62 = new javax.swing.JToggleButton();
-        Silla63 = new javax.swing.JToggleButton();
-        Silla64 = new javax.swing.JToggleButton();
-        Silla65 = new javax.swing.JToggleButton();
-        Silla66 = new javax.swing.JToggleButton();
-        Silla67 = new javax.swing.JToggleButton();
-        Silla68 = new javax.swing.JToggleButton();
-        Silla69 = new javax.swing.JToggleButton();
-        Silla70 = new javax.swing.JToggleButton();
-        Silla71 = new javax.swing.JToggleButton();
-        Silla72 = new javax.swing.JToggleButton();
-        Silla73 = new javax.swing.JToggleButton();
-        Silla74 = new javax.swing.JToggleButton();
-        Silla75 = new javax.swing.JToggleButton();
-        Silla76 = new javax.swing.JToggleButton();
-        Silla77 = new javax.swing.JToggleButton();
-        Silla78 = new javax.swing.JToggleButton();
-        Silla79 = new javax.swing.JToggleButton();
-        Silla80 = new javax.swing.JToggleButton();
-        Silla81 = new javax.swing.JToggleButton();
-        Silla82 = new javax.swing.JToggleButton();
-        Silla83 = new javax.swing.JToggleButton();
-        Silla84 = new javax.swing.JToggleButton();
-        Silla85 = new javax.swing.JToggleButton();
-        Silla86 = new javax.swing.JToggleButton();
-        Silla87 = new javax.swing.JToggleButton();
-        Silla88 = new javax.swing.JToggleButton();
-        Silla89 = new javax.swing.JToggleButton();
-        Silla90 = new javax.swing.JToggleButton();
-        Silla91 = new javax.swing.JToggleButton();
-        Silla92 = new javax.swing.JToggleButton();
-        Silla93 = new javax.swing.JToggleButton();
-        Silla94 = new javax.swing.JToggleButton();
-        Silla95 = new javax.swing.JToggleButton();
-        Silla96 = new javax.swing.JToggleButton();
-        Silla97 = new javax.swing.JToggleButton();
-        Silla98 = new javax.swing.JToggleButton();
-        Silla99 = new javax.swing.JToggleButton();
-        Silla100 = new javax.swing.JToggleButton();
-        Silla101 = new javax.swing.JToggleButton();
-        Silla102 = new javax.swing.JToggleButton();
-        Silla103 = new javax.swing.JToggleButton();
-        Silla104 = new javax.swing.JToggleButton();
-        Silla105 = new javax.swing.JToggleButton();
-        Silla106 = new javax.swing.JToggleButton();
-        Silla107 = new javax.swing.JToggleButton();
-        Silla108 = new javax.swing.JToggleButton();
-        Silla109 = new javax.swing.JToggleButton();
-        Silla110 = new javax.swing.JToggleButton();
-        Silla111 = new javax.swing.JToggleButton();
-        Silla112 = new javax.swing.JToggleButton();
-        Silla113 = new javax.swing.JToggleButton();
-        Silla114 = new javax.swing.JToggleButton();
-        Silla115 = new javax.swing.JToggleButton();
-        Silla116 = new javax.swing.JToggleButton();
-        Silla117 = new javax.swing.JToggleButton();
-        Silla118 = new javax.swing.JToggleButton();
-        Silla119 = new javax.swing.JToggleButton();
-        Silla120 = new javax.swing.JToggleButton();
-        Silla121 = new javax.swing.JToggleButton();
-        Silla122 = new javax.swing.JToggleButton();
-        Silla123 = new javax.swing.JToggleButton();
-        Silla124 = new javax.swing.JToggleButton();
-        Silla125 = new javax.swing.JToggleButton();
-        Silla126 = new javax.swing.JToggleButton();
-        Silla127 = new javax.swing.JToggleButton();
-        Silla128 = new javax.swing.JToggleButton();
-        Silla129 = new javax.swing.JToggleButton();
-        Silla130 = new javax.swing.JToggleButton();
-        Silla131 = new javax.swing.JToggleButton();
-        Silla132 = new javax.swing.JToggleButton();
-        Silla133 = new javax.swing.JToggleButton();
-        Silla134 = new javax.swing.JToggleButton();
-        Silla135 = new javax.swing.JToggleButton();
-        Silla136 = new javax.swing.JToggleButton();
-        Silla137 = new javax.swing.JToggleButton();
-        Silla138 = new javax.swing.JToggleButton();
-        Silla139 = new javax.swing.JToggleButton();
-        Silla140 = new javax.swing.JToggleButton();
-        Silla141 = new javax.swing.JToggleButton();
-        Silla142 = new javax.swing.JToggleButton();
-        Silla143 = new javax.swing.JToggleButton();
-        Silla144 = new javax.swing.JToggleButton();
-        Silla145 = new javax.swing.JToggleButton();
-        Silla146 = new javax.swing.JToggleButton();
-        Silla147 = new javax.swing.JToggleButton();
-        Silla148 = new javax.swing.JToggleButton();
-        Silla149 = new javax.swing.JToggleButton();
-        Silla150 = new javax.swing.JToggleButton();
-        Silla151 = new javax.swing.JToggleButton();
-        Silla152 = new javax.swing.JToggleButton();
-        Silla153 = new javax.swing.JToggleButton();
-        Silla154 = new javax.swing.JToggleButton();
-        Silla155 = new javax.swing.JToggleButton();
-        Silla156 = new javax.swing.JToggleButton();
-        Silla157 = new javax.swing.JToggleButton();
-        Silla158 = new javax.swing.JToggleButton();
-        Silla159 = new javax.swing.JToggleButton();
-        Silla160 = new javax.swing.JToggleButton();
+        silla32 = new javax.swing.JToggleButton();
+        silla33 = new javax.swing.JToggleButton();
+        silla34 = new javax.swing.JToggleButton();
+        silla35 = new javax.swing.JToggleButton();
+        silla36 = new javax.swing.JToggleButton();
+        silla37 = new javax.swing.JToggleButton();
+        silla38 = new javax.swing.JToggleButton();
+        silla39 = new javax.swing.JToggleButton();
+        silla40 = new javax.swing.JToggleButton();
+        silla41 = new javax.swing.JToggleButton();
+        silla42 = new javax.swing.JToggleButton();
+        silla43 = new javax.swing.JToggleButton();
+        silla44 = new javax.swing.JToggleButton();
+        silla45 = new javax.swing.JToggleButton();
+        silla46 = new javax.swing.JToggleButton();
+        silla47 = new javax.swing.JToggleButton();
+        silla48 = new javax.swing.JToggleButton();
+        silla49 = new javax.swing.JToggleButton();
+        silla50 = new javax.swing.JToggleButton();
+        silla51 = new javax.swing.JToggleButton();
+        silla52 = new javax.swing.JToggleButton();
+        silla53 = new javax.swing.JToggleButton();
+        silla54 = new javax.swing.JToggleButton();
+        silla55 = new javax.swing.JToggleButton();
+        silla56 = new javax.swing.JToggleButton();
+        silla57 = new javax.swing.JToggleButton();
+        silla58 = new javax.swing.JToggleButton();
+        silla59 = new javax.swing.JToggleButton();
+        silla60 = new javax.swing.JToggleButton();
+        silla62 = new javax.swing.JToggleButton();
+        silla63 = new javax.swing.JToggleButton();
+        silla64 = new javax.swing.JToggleButton();
+        silla65 = new javax.swing.JToggleButton();
+        silla66 = new javax.swing.JToggleButton();
+        silla67 = new javax.swing.JToggleButton();
+        silla68 = new javax.swing.JToggleButton();
+        silla69 = new javax.swing.JToggleButton();
+        silla70 = new javax.swing.JToggleButton();
+        silla71 = new javax.swing.JToggleButton();
+        silla72 = new javax.swing.JToggleButton();
+        silla73 = new javax.swing.JToggleButton();
+        silla74 = new javax.swing.JToggleButton();
+        silla75 = new javax.swing.JToggleButton();
+        silla76 = new javax.swing.JToggleButton();
+        silla77 = new javax.swing.JToggleButton();
+        silla78 = new javax.swing.JToggleButton();
+        silla79 = new javax.swing.JToggleButton();
+        silla80 = new javax.swing.JToggleButton();
+        silla81 = new javax.swing.JToggleButton();
+        silla82 = new javax.swing.JToggleButton();
+        silla83 = new javax.swing.JToggleButton();
+        silla84 = new javax.swing.JToggleButton();
+        silla85 = new javax.swing.JToggleButton();
+        silla86 = new javax.swing.JToggleButton();
+        silla87 = new javax.swing.JToggleButton();
+        silla88 = new javax.swing.JToggleButton();
+        silla89 = new javax.swing.JToggleButton();
+        silla90 = new javax.swing.JToggleButton();
+        silla92 = new javax.swing.JToggleButton();
+        silla93 = new javax.swing.JToggleButton();
+        silla94 = new javax.swing.JToggleButton();
+        silla95 = new javax.swing.JToggleButton();
+        silla96 = new javax.swing.JToggleButton();
+        silla97 = new javax.swing.JToggleButton();
+        silla98 = new javax.swing.JToggleButton();
+        silla99 = new javax.swing.JToggleButton();
+        silla100 = new javax.swing.JToggleButton();
+        sila101 = new javax.swing.JToggleButton();
+        silla102 = new javax.swing.JToggleButton();
+        silla103 = new javax.swing.JToggleButton();
+        silla104 = new javax.swing.JToggleButton();
+        silla105 = new javax.swing.JToggleButton();
+        silla106 = new javax.swing.JToggleButton();
+        silla107 = new javax.swing.JToggleButton();
+        silla108 = new javax.swing.JToggleButton();
+        silla109 = new javax.swing.JToggleButton();
+        silla110 = new javax.swing.JToggleButton();
+        silla111 = new javax.swing.JToggleButton();
+        silla112 = new javax.swing.JToggleButton();
+        silla113 = new javax.swing.JToggleButton();
+        silla114 = new javax.swing.JToggleButton();
+        silla115 = new javax.swing.JToggleButton();
+        silla116 = new javax.swing.JToggleButton();
+        silla117 = new javax.swing.JToggleButton();
+        silla118 = new javax.swing.JToggleButton();
+        silla119 = new javax.swing.JToggleButton();
+        silla120 = new javax.swing.JToggleButton();
+        silla122 = new javax.swing.JToggleButton();
+        silla123 = new javax.swing.JToggleButton();
+        silla124 = new javax.swing.JToggleButton();
+        silla125 = new javax.swing.JToggleButton();
+        silla126 = new javax.swing.JToggleButton();
+        silla127 = new javax.swing.JToggleButton();
+        silla128 = new javax.swing.JToggleButton();
+        silla129 = new javax.swing.JToggleButton();
+        silla130 = new javax.swing.JToggleButton();
+        silla131 = new javax.swing.JToggleButton();
+        silla132 = new javax.swing.JToggleButton();
+        silla133 = new javax.swing.JToggleButton();
+        silla134 = new javax.swing.JToggleButton();
+        silla135 = new javax.swing.JToggleButton();
+        silla136 = new javax.swing.JToggleButton();
+        silla137 = new javax.swing.JToggleButton();
+        silla138 = new javax.swing.JToggleButton();
+        silla139 = new javax.swing.JToggleButton();
+        silla140 = new javax.swing.JToggleButton();
+        silla141 = new javax.swing.JToggleButton();
+        silla142 = new javax.swing.JToggleButton();
+        silla143 = new javax.swing.JToggleButton();
+        silla144 = new javax.swing.JToggleButton();
+        silla145 = new javax.swing.JToggleButton();
+        silla146 = new javax.swing.JToggleButton();
+        silla147 = new javax.swing.JToggleButton();
+        silla148 = new javax.swing.JToggleButton();
+        silla149 = new javax.swing.JToggleButton();
+        silla150 = new javax.swing.JToggleButton();
         Silla161 = new javax.swing.JToggleButton();
         Silla162 = new javax.swing.JToggleButton();
         Silla163 = new javax.swing.JToggleButton();
@@ -472,290 +474,327 @@ public class Interfazsillas extends javax.swing.JFrame {
         Silla448 = new javax.swing.JToggleButton();
         Silla449 = new javax.swing.JToggleButton();
         Silla450 = new javax.swing.JToggleButton();
+        Cancelar = new javax.swing.JButton();
+        Aceptar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        Silla1.setBackground(new java.awt.Color(255, 255, 255));
-        Silla1.setForeground(new java.awt.Color(0, 0, 153));
-        Silla1.addActionListener(new java.awt.event.ActionListener() {
+        silla4.setBackground(new java.awt.Color(255, 255, 255));
+        silla4.setForeground(new java.awt.Color(0, 0, 153));
+        silla4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla1ActionPerformed(evt);
+                silla4ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla4, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 236, 46, 30));
 
-        Silla2.setBackground(new java.awt.Color(255, 255, 255));
-        Silla2.setForeground(new java.awt.Color(0, 0, 102));
-        Silla2.addActionListener(new java.awt.event.ActionListener() {
+        silla5.setBackground(new java.awt.Color(255, 255, 255));
+        silla5.setForeground(new java.awt.Color(0, 0, 102));
+        silla5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla2ActionPerformed(evt);
+                silla5ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla5, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 236, 46, 30));
 
-        Silla3.setBackground(new java.awt.Color(255, 255, 255));
-        Silla3.setForeground(new java.awt.Color(0, 0, 153));
-        Silla3.addActionListener(new java.awt.event.ActionListener() {
+        silla3.setBackground(new java.awt.Color(255, 255, 255));
+        silla3.setForeground(new java.awt.Color(0, 0, 153));
+        silla3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla3ActionPerformed(evt);
+                silla3ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla3, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 236, 46, 30));
 
-        Silla4.setBackground(new java.awt.Color(255, 255, 255));
-        Silla4.setForeground(new java.awt.Color(0, 0, 153));
-        Silla4.addMouseListener(new java.awt.event.MouseAdapter() {
+        silla1.setBackground(new java.awt.Color(255, 255, 255));
+        silla1.setForeground(new java.awt.Color(0, 0, 153));
+        silla1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
-                Silla4MousePressed(evt);
+                silla1MousePressed(evt);
             }
             public void mouseReleased(java.awt.event.MouseEvent evt) {
-                Silla4MouseReleased(evt);
+                silla1MouseReleased(evt);
             }
         });
-        Silla4.addActionListener(new java.awt.event.ActionListener() {
+        silla1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla4ActionPerformed(evt);
+                silla1ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla1, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 236, 46, 30));
 
-        Silla5.setBackground(new java.awt.Color(255, 255, 255));
-        Silla5.setForeground(new java.awt.Color(0, 0, 153));
-        Silla5.addActionListener(new java.awt.event.ActionListener() {
+        silla2.setBackground(new java.awt.Color(255, 255, 255));
+        silla2.setForeground(new java.awt.Color(0, 0, 153));
+        silla2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla5ActionPerformed(evt);
+                silla2ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla2, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 236, 46, 30));
 
-        Silla6.setBackground(new java.awt.Color(255, 255, 255));
-        Silla6.setForeground(new java.awt.Color(0, 0, 153));
-        Silla6.addActionListener(new java.awt.event.ActionListener() {
+        silla6.setBackground(new java.awt.Color(255, 255, 255));
+        silla6.setForeground(new java.awt.Color(0, 0, 153));
+        silla6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla6ActionPerformed(evt);
+                silla6ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla6, new org.netbeans.lib.awtextra.AbsoluteConstraints(314, 236, 46, 30));
 
-        Silla7.setBackground(new java.awt.Color(255, 255, 255));
-        Silla7.setForeground(new java.awt.Color(0, 0, 153));
-        Silla7.addActionListener(new java.awt.event.ActionListener() {
+        silla7.setBackground(new java.awt.Color(255, 255, 255));
+        silla7.setForeground(new java.awt.Color(0, 0, 153));
+        silla7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla7ActionPerformed(evt);
+                silla7ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla7, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 236, 46, 30));
 
-        Silla8.setBackground(new java.awt.Color(255, 255, 255));
-        Silla8.setForeground(new java.awt.Color(0, 0, 153));
-        Silla8.addActionListener(new java.awt.event.ActionListener() {
+        silla8.setBackground(new java.awt.Color(255, 255, 255));
+        silla8.setForeground(new java.awt.Color(0, 0, 153));
+        silla8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla8ActionPerformed(evt);
+                silla8ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla8, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 236, 46, 30));
 
-        Silla20.setBackground(new java.awt.Color(255, 255, 255));
-        Silla20.setForeground(new java.awt.Color(0, 0, 153));
-        Silla20.addActionListener(new java.awt.event.ActionListener() {
+        silla9.setBackground(new java.awt.Color(255, 255, 255));
+        silla9.setForeground(new java.awt.Color(0, 0, 153));
+        silla9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla20ActionPerformed(evt);
+                silla9ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla9, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 236, 46, 30));
 
-        Silla21.setBackground(new java.awt.Color(255, 255, 255));
-        Silla21.setForeground(new java.awt.Color(0, 0, 153));
-        Silla21.addActionListener(new java.awt.event.ActionListener() {
+        silla10.setBackground(new java.awt.Color(255, 255, 255));
+        silla10.setForeground(new java.awt.Color(0, 0, 153));
+        silla10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla21ActionPerformed(evt);
+                silla10ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla10, new org.netbeans.lib.awtextra.AbsoluteConstraints(546, 236, 46, 30));
 
-        Silla22.setBackground(new java.awt.Color(255, 255, 255));
-        Silla22.setForeground(new java.awt.Color(0, 0, 153));
-        Silla22.addActionListener(new java.awt.event.ActionListener() {
+        silla11.setBackground(new java.awt.Color(255, 255, 255));
+        silla11.setForeground(new java.awt.Color(0, 0, 153));
+        silla11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla22ActionPerformed(evt);
+                silla11ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla11, new org.netbeans.lib.awtextra.AbsoluteConstraints(604, 236, 46, 30));
 
-        Silla23.setBackground(new java.awt.Color(255, 255, 255));
-        Silla23.setForeground(new java.awt.Color(0, 0, 153));
-        Silla23.addActionListener(new java.awt.event.ActionListener() {
+        silla12.setBackground(new java.awt.Color(255, 255, 255));
+        silla12.setForeground(new java.awt.Color(0, 0, 153));
+        silla12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla23ActionPerformed(evt);
+                silla12ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla12, new org.netbeans.lib.awtextra.AbsoluteConstraints(656, 236, 46, 30));
 
-        Silla24.setBackground(new java.awt.Color(255, 255, 255));
-        Silla24.setForeground(new java.awt.Color(0, 0, 153));
-        Silla24.addActionListener(new java.awt.event.ActionListener() {
+        silla13.setBackground(new java.awt.Color(255, 255, 255));
+        silla13.setForeground(new java.awt.Color(0, 0, 153));
+        silla13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla24ActionPerformed(evt);
+                silla13ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla13, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 236, 46, 30));
 
-        Silla25.setBackground(new java.awt.Color(255, 255, 255));
-        Silla25.setForeground(new java.awt.Color(0, 0, 153));
-        Silla25.addActionListener(new java.awt.event.ActionListener() {
+        silla14.setBackground(new java.awt.Color(255, 255, 255));
+        silla14.setForeground(new java.awt.Color(0, 0, 153));
+        silla14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla25ActionPerformed(evt);
+                silla14ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla14, new org.netbeans.lib.awtextra.AbsoluteConstraints(772, 236, 46, 30));
 
-        Silla26.setBackground(new java.awt.Color(255, 255, 255));
-        Silla26.setForeground(new java.awt.Color(0, 0, 153));
-        Silla26.addActionListener(new java.awt.event.ActionListener() {
+        silla15.setBackground(new java.awt.Color(255, 255, 255));
+        silla15.setForeground(new java.awt.Color(0, 0, 153));
+        silla15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla26ActionPerformed(evt);
+                silla15ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla15, new org.netbeans.lib.awtextra.AbsoluteConstraints(824, 236, 46, 30));
 
-        Silla27.setBackground(new java.awt.Color(255, 255, 255));
-        Silla27.setForeground(new java.awt.Color(0, 0, 153));
-        Silla27.addActionListener(new java.awt.event.ActionListener() {
+        silla16.setBackground(new java.awt.Color(255, 255, 255));
+        silla16.setForeground(new java.awt.Color(0, 0, 153));
+        silla16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla27ActionPerformed(evt);
+                silla16ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla16, new org.netbeans.lib.awtextra.AbsoluteConstraints(888, 236, 46, 30));
 
-        Silla28.setBackground(new java.awt.Color(255, 255, 255));
-        Silla28.setForeground(new java.awt.Color(0, 0, 153));
-        Silla28.addActionListener(new java.awt.event.ActionListener() {
+        silla17.setBackground(new java.awt.Color(255, 255, 255));
+        silla17.setForeground(new java.awt.Color(0, 0, 153));
+        silla17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla28ActionPerformed(evt);
+                silla17ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla17, new org.netbeans.lib.awtextra.AbsoluteConstraints(941, 236, 46, 30));
 
-        Silla29.setBackground(new java.awt.Color(255, 255, 255));
-        Silla29.setForeground(new java.awt.Color(0, 0, 153));
-        Silla29.addActionListener(new java.awt.event.ActionListener() {
+        silla18.setBackground(new java.awt.Color(255, 255, 255));
+        silla18.setForeground(new java.awt.Color(0, 0, 153));
+        silla18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla29ActionPerformed(evt);
+                silla18ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla18, new org.netbeans.lib.awtextra.AbsoluteConstraints(993, 236, 46, 30));
 
-        Silla30.setBackground(new java.awt.Color(255, 255, 255));
-        Silla30.setForeground(new java.awt.Color(0, 0, 153));
-        Silla30.addActionListener(new java.awt.event.ActionListener() {
+        silla19.setBackground(new java.awt.Color(255, 255, 255));
+        silla19.setForeground(new java.awt.Color(0, 0, 153));
+        silla19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla30ActionPerformed(evt);
+                silla19ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla19, new org.netbeans.lib.awtextra.AbsoluteConstraints(1057, 236, 46, 30));
 
-        Silla31.setBackground(new java.awt.Color(255, 255, 255));
-        Silla31.setForeground(new java.awt.Color(0, 0, 153));
-        Silla31.addActionListener(new java.awt.event.ActionListener() {
+        silla20.setBackground(new java.awt.Color(255, 255, 255));
+        silla20.setForeground(new java.awt.Color(0, 0, 153));
+        silla20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla31ActionPerformed(evt);
+                silla20ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla20, new org.netbeans.lib.awtextra.AbsoluteConstraints(1109, 236, 46, 30));
 
-        Silla32.setBackground(new java.awt.Color(255, 255, 255));
-        Silla32.setForeground(new java.awt.Color(0, 0, 153));
-        Silla32.addActionListener(new java.awt.event.ActionListener() {
+        silla21.setBackground(new java.awt.Color(255, 255, 255));
+        silla21.setForeground(new java.awt.Color(0, 0, 153));
+        silla21.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla32ActionPerformed(evt);
+                silla21ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla21, new org.netbeans.lib.awtextra.AbsoluteConstraints(1161, 236, 46, 30));
 
-        Silla33.setBackground(new java.awt.Color(255, 255, 255));
-        Silla33.setForeground(new java.awt.Color(0, 0, 153));
-        Silla33.addActionListener(new java.awt.event.ActionListener() {
+        silla22.setBackground(new java.awt.Color(255, 255, 255));
+        silla22.setForeground(new java.awt.Color(0, 0, 153));
+        silla22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla33ActionPerformed(evt);
+                silla22ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla22, new org.netbeans.lib.awtextra.AbsoluteConstraints(1225, 236, 46, 30));
 
-        Silla34.setBackground(new java.awt.Color(255, 255, 255));
-        Silla34.setForeground(new java.awt.Color(0, 0, 153));
-        Silla34.addActionListener(new java.awt.event.ActionListener() {
+        silla23.setBackground(new java.awt.Color(255, 255, 255));
+        silla23.setForeground(new java.awt.Color(0, 0, 153));
+        silla23.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla34ActionPerformed(evt);
+                silla23ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla23, new org.netbeans.lib.awtextra.AbsoluteConstraints(1277, 236, 46, 30));
 
-        Silla35.setBackground(new java.awt.Color(255, 255, 255));
-        Silla35.setForeground(new java.awt.Color(0, 0, 153));
-        Silla35.addActionListener(new java.awt.event.ActionListener() {
+        silla24.setBackground(new java.awt.Color(255, 255, 255));
+        silla24.setForeground(new java.awt.Color(0, 0, 153));
+        silla24.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla35ActionPerformed(evt);
+                silla24ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla24, new org.netbeans.lib.awtextra.AbsoluteConstraints(1330, 236, 46, 30));
 
-        Silla36.setBackground(new java.awt.Color(255, 255, 255));
-        Silla36.setForeground(new java.awt.Color(0, 0, 153));
-        Silla36.addActionListener(new java.awt.event.ActionListener() {
+        silla25.setBackground(new java.awt.Color(255, 255, 255));
+        silla25.setForeground(new java.awt.Color(0, 0, 153));
+        silla25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla36ActionPerformed(evt);
+                silla25ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla25, new org.netbeans.lib.awtextra.AbsoluteConstraints(1394, 236, 46, 30));
 
-        Silla37.setBackground(new java.awt.Color(255, 255, 255));
-        Silla37.setForeground(new java.awt.Color(0, 0, 153));
-        Silla37.addActionListener(new java.awt.event.ActionListener() {
+        silla26.setBackground(new java.awt.Color(255, 255, 255));
+        silla26.setForeground(new java.awt.Color(0, 0, 153));
+        silla26.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla37ActionPerformed(evt);
+                silla26ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla26, new org.netbeans.lib.awtextra.AbsoluteConstraints(1446, 236, 46, 30));
 
-        Silla38.setBackground(new java.awt.Color(255, 255, 255));
-        Silla38.setForeground(new java.awt.Color(0, 0, 153));
-        Silla38.addActionListener(new java.awt.event.ActionListener() {
+        silla27.setBackground(new java.awt.Color(255, 255, 255));
+        silla27.setForeground(new java.awt.Color(0, 0, 153));
+        silla27.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla38ActionPerformed(evt);
+                silla27ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla27, new org.netbeans.lib.awtextra.AbsoluteConstraints(1498, 236, 46, 30));
 
-        Silla39.setBackground(new java.awt.Color(255, 255, 255));
-        Silla39.setForeground(new java.awt.Color(0, 0, 153));
-        Silla39.addActionListener(new java.awt.event.ActionListener() {
+        silla28.setBackground(new java.awt.Color(255, 255, 255));
+        silla28.setForeground(new java.awt.Color(0, 0, 153));
+        silla28.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla39ActionPerformed(evt);
+                silla28ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla28, new org.netbeans.lib.awtextra.AbsoluteConstraints(1562, 236, 46, 30));
 
-        Silla40.setBackground(new java.awt.Color(255, 255, 255));
-        Silla40.setForeground(new java.awt.Color(0, 0, 153));
-        Silla40.addActionListener(new java.awt.event.ActionListener() {
+        silla29.setBackground(new java.awt.Color(255, 255, 255));
+        silla29.setForeground(new java.awt.Color(0, 0, 153));
+        silla29.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla40ActionPerformed(evt);
+                silla29ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla29, new org.netbeans.lib.awtextra.AbsoluteConstraints(1614, 236, 46, 30));
 
-        Silla41.setBackground(new java.awt.Color(255, 255, 255));
-        Silla41.setForeground(new java.awt.Color(0, 0, 153));
-        Silla41.addActionListener(new java.awt.event.ActionListener() {
+        silla30.setBackground(new java.awt.Color(255, 255, 255));
+        silla30.setForeground(new java.awt.Color(0, 0, 153));
+        silla30.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla41ActionPerformed(evt);
+                silla30ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla30, new org.netbeans.lib.awtextra.AbsoluteConstraints(1666, 236, 46, 30));
 
-        Silla9.setBackground(new java.awt.Color(255, 255, 255));
-        Silla9.setForeground(new java.awt.Color(0, 0, 153));
-        Silla9.addActionListener(new java.awt.event.ActionListener() {
+        silla31.setBackground(new java.awt.Color(255, 255, 255));
+        silla31.setForeground(new java.awt.Color(0, 0, 153));
+        silla31.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla9ActionPerformed(evt);
+                silla31ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla31, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 272, 46, 31));
 
-        Silla10.setBackground(new java.awt.Color(255, 255, 255));
-        Silla10.setForeground(new java.awt.Color(0, 0, 153));
-        Silla10.addActionListener(new java.awt.event.ActionListener() {
+        silla61.setBackground(new java.awt.Color(255, 255, 255));
+        silla61.setForeground(new java.awt.Color(0, 0, 153));
+        silla61.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla10ActionPerformed(evt);
+                silla61ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla61, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 309, 46, 31));
 
-        Silla11.setBackground(new java.awt.Color(255, 255, 255));
-        Silla11.setForeground(new java.awt.Color(0, 0, 153));
-        Silla11.addActionListener(new java.awt.event.ActionListener() {
+        silla91.setBackground(new java.awt.Color(255, 255, 255));
+        silla91.setForeground(new java.awt.Color(0, 0, 153));
+        silla91.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla11ActionPerformed(evt);
+                silla91ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla91, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 356, 46, 31));
 
-        Silla12.setBackground(new java.awt.Color(255, 255, 255));
-        Silla12.setForeground(new java.awt.Color(0, 0, 153));
-        Silla12.addActionListener(new java.awt.event.ActionListener() {
+        silla121.setBackground(new java.awt.Color(255, 255, 255));
+        silla121.setForeground(new java.awt.Color(0, 0, 153));
+        silla121.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla12ActionPerformed(evt);
+                silla121ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla121, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 393, 46, 31));
 
         Silla13.setBackground(new java.awt.Color(255, 255, 255));
         Silla13.setForeground(new java.awt.Color(0, 0, 153));
@@ -764,6 +803,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla13ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla13, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 430, 46, 31));
 
         Silla14.setBackground(new java.awt.Color(255, 255, 255));
         Silla14.setForeground(new java.awt.Color(0, 0, 153));
@@ -772,6 +812,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla14ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla14, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 468, 46, 31));
 
         Silla15.setBackground(new java.awt.Color(255, 255, 255));
         Silla15.setForeground(new java.awt.Color(0, 0, 153));
@@ -780,6 +821,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla15ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla15, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 515, 46, 31));
 
         Silla16.setBackground(new java.awt.Color(255, 255, 255));
         Silla16.setForeground(new java.awt.Color(0, 0, 153));
@@ -788,6 +830,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla16ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla16, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 553, 46, 31));
 
         Silla17.setBackground(new java.awt.Color(255, 255, 255));
         Silla17.setForeground(new java.awt.Color(0, 0, 153));
@@ -796,6 +839,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla17ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla17, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 590, 46, 31));
 
         Silla18.setBackground(new java.awt.Color(255, 255, 255));
         Silla18.setForeground(new java.awt.Color(0, 0, 153));
@@ -804,6 +848,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla18ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla18, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 627, 46, 31));
 
         Silla19.setBackground(new java.awt.Color(255, 255, 255));
         Silla19.setForeground(new java.awt.Color(0, 0, 153));
@@ -812,6 +857,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla19ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla19, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 670, 46, 31));
 
         Silla42.setBackground(new java.awt.Color(255, 255, 255));
         Silla42.setForeground(new java.awt.Color(0, 0, 153));
@@ -820,6 +866,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla42ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla42, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 707, 46, 31));
 
         Silla43.setBackground(new java.awt.Color(255, 255, 255));
         Silla43.setForeground(new java.awt.Color(0, 0, 153));
@@ -828,6 +875,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla43ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla43, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 744, 46, 31));
 
         Silla44.setBackground(new java.awt.Color(255, 255, 255));
         Silla44.setForeground(new java.awt.Color(0, 0, 153));
@@ -836,934 +884,1051 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla44ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla44, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 781, 46, 31));
 
-        Silla45.setBackground(new java.awt.Color(255, 255, 255));
-        Silla45.setForeground(new java.awt.Color(0, 0, 153));
-        Silla45.addActionListener(new java.awt.event.ActionListener() {
+        silla32.setBackground(new java.awt.Color(255, 255, 255));
+        silla32.setForeground(new java.awt.Color(0, 0, 153));
+        silla32.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla45ActionPerformed(evt);
+                silla32ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla32, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 272, 46, 30));
 
-        Silla46.setBackground(new java.awt.Color(255, 255, 255));
-        Silla46.setForeground(new java.awt.Color(0, 0, 153));
-        Silla46.addActionListener(new java.awt.event.ActionListener() {
+        silla33.setBackground(new java.awt.Color(255, 255, 255));
+        silla33.setForeground(new java.awt.Color(0, 0, 153));
+        silla33.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla46ActionPerformed(evt);
+                silla33ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla33, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 272, 46, 30));
 
-        Silla47.setBackground(new java.awt.Color(255, 255, 255));
-        Silla47.setForeground(new java.awt.Color(0, 0, 153));
-        Silla47.addActionListener(new java.awt.event.ActionListener() {
+        silla34.setBackground(new java.awt.Color(255, 255, 255));
+        silla34.setForeground(new java.awt.Color(0, 0, 153));
+        silla34.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla47ActionPerformed(evt);
+                silla34ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla34, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 272, 46, 30));
 
-        Silla48.setBackground(new java.awt.Color(255, 255, 255));
-        Silla48.setForeground(new java.awt.Color(0, 0, 153));
-        Silla48.addActionListener(new java.awt.event.ActionListener() {
+        silla35.setBackground(new java.awt.Color(255, 255, 255));
+        silla35.setForeground(new java.awt.Color(0, 0, 153));
+        silla35.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla48ActionPerformed(evt);
+                silla35ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla35, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 272, 46, 30));
 
-        Silla49.setBackground(new java.awt.Color(255, 255, 255));
-        Silla49.setForeground(new java.awt.Color(0, 0, 153));
-        Silla49.addActionListener(new java.awt.event.ActionListener() {
+        silla36.setBackground(new java.awt.Color(255, 255, 255));
+        silla36.setForeground(new java.awt.Color(0, 0, 153));
+        silla36.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla49ActionPerformed(evt);
+                silla36ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla36, new org.netbeans.lib.awtextra.AbsoluteConstraints(314, 272, 46, 30));
 
-        Silla50.setBackground(new java.awt.Color(255, 255, 255));
-        Silla50.setForeground(new java.awt.Color(0, 0, 153));
-        Silla50.addActionListener(new java.awt.event.ActionListener() {
+        silla37.setBackground(new java.awt.Color(255, 255, 255));
+        silla37.setForeground(new java.awt.Color(0, 0, 153));
+        silla37.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla50ActionPerformed(evt);
+                silla37ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla37, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 272, 46, 30));
 
-        Silla51.setBackground(new java.awt.Color(255, 255, 255));
-        Silla51.setForeground(new java.awt.Color(0, 0, 153));
-        Silla51.addActionListener(new java.awt.event.ActionListener() {
+        silla38.setBackground(new java.awt.Color(255, 255, 255));
+        silla38.setForeground(new java.awt.Color(0, 0, 153));
+        silla38.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla51ActionPerformed(evt);
+                silla38ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla38, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 272, 46, 30));
 
-        Silla52.setBackground(new java.awt.Color(255, 255, 255));
-        Silla52.setForeground(new java.awt.Color(0, 0, 153));
-        Silla52.addActionListener(new java.awt.event.ActionListener() {
+        silla39.setBackground(new java.awt.Color(255, 255, 255));
+        silla39.setForeground(new java.awt.Color(0, 0, 153));
+        silla39.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla52ActionPerformed(evt);
+                silla39ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla39, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 272, 46, 30));
 
-        Silla53.setBackground(new java.awt.Color(255, 255, 255));
-        Silla53.setForeground(new java.awt.Color(0, 0, 153));
-        Silla53.addActionListener(new java.awt.event.ActionListener() {
+        silla40.setBackground(new java.awt.Color(255, 255, 255));
+        silla40.setForeground(new java.awt.Color(0, 0, 153));
+        silla40.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla53ActionPerformed(evt);
+                silla40ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla40, new org.netbeans.lib.awtextra.AbsoluteConstraints(546, 272, 46, 30));
 
-        Silla54.setBackground(new java.awt.Color(255, 255, 255));
-        Silla54.setForeground(new java.awt.Color(0, 0, 153));
-        Silla54.addActionListener(new java.awt.event.ActionListener() {
+        silla41.setBackground(new java.awt.Color(255, 255, 255));
+        silla41.setForeground(new java.awt.Color(0, 0, 153));
+        silla41.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla54ActionPerformed(evt);
+                silla41ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla41, new org.netbeans.lib.awtextra.AbsoluteConstraints(604, 272, 46, 30));
 
-        Silla55.setBackground(new java.awt.Color(255, 255, 255));
-        Silla55.setForeground(new java.awt.Color(0, 0, 153));
-        Silla55.addActionListener(new java.awt.event.ActionListener() {
+        silla42.setBackground(new java.awt.Color(255, 255, 255));
+        silla42.setForeground(new java.awt.Color(0, 0, 153));
+        silla42.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla55ActionPerformed(evt);
+                silla42ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla42, new org.netbeans.lib.awtextra.AbsoluteConstraints(657, 272, 46, 30));
 
-        Silla56.setBackground(new java.awt.Color(255, 255, 255));
-        Silla56.setForeground(new java.awt.Color(0, 0, 153));
-        Silla56.addActionListener(new java.awt.event.ActionListener() {
+        silla43.setBackground(new java.awt.Color(255, 255, 255));
+        silla43.setForeground(new java.awt.Color(0, 0, 153));
+        silla43.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla56ActionPerformed(evt);
+                silla43ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla43, new org.netbeans.lib.awtextra.AbsoluteConstraints(721, 272, 46, 30));
 
-        Silla57.setBackground(new java.awt.Color(255, 255, 255));
-        Silla57.setForeground(new java.awt.Color(0, 0, 153));
-        Silla57.addActionListener(new java.awt.event.ActionListener() {
+        silla44.setBackground(new java.awt.Color(255, 255, 255));
+        silla44.setForeground(new java.awt.Color(0, 0, 153));
+        silla44.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla57ActionPerformed(evt);
+                silla44ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla44, new org.netbeans.lib.awtextra.AbsoluteConstraints(773, 272, 46, 30));
 
-        Silla58.setBackground(new java.awt.Color(255, 255, 255));
-        Silla58.setForeground(new java.awt.Color(0, 0, 153));
-        Silla58.addActionListener(new java.awt.event.ActionListener() {
+        silla45.setBackground(new java.awt.Color(255, 255, 255));
+        silla45.setForeground(new java.awt.Color(0, 0, 153));
+        silla45.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla58ActionPerformed(evt);
+                silla45ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla45, new org.netbeans.lib.awtextra.AbsoluteConstraints(825, 272, 46, 30));
 
-        Silla59.setBackground(new java.awt.Color(255, 255, 255));
-        Silla59.setForeground(new java.awt.Color(0, 0, 153));
-        Silla59.addActionListener(new java.awt.event.ActionListener() {
+        silla46.setBackground(new java.awt.Color(255, 255, 255));
+        silla46.setForeground(new java.awt.Color(0, 0, 153));
+        silla46.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla59ActionPerformed(evt);
+                silla46ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla46, new org.netbeans.lib.awtextra.AbsoluteConstraints(889, 272, 46, 30));
 
-        Silla60.setBackground(new java.awt.Color(255, 255, 255));
-        Silla60.setForeground(new java.awt.Color(0, 0, 153));
-        Silla60.addActionListener(new java.awt.event.ActionListener() {
+        silla47.setBackground(new java.awt.Color(255, 255, 255));
+        silla47.setForeground(new java.awt.Color(0, 0, 153));
+        silla47.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla60ActionPerformed(evt);
+                silla47ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla47, new org.netbeans.lib.awtextra.AbsoluteConstraints(941, 272, 46, 30));
 
-        Silla61.setBackground(new java.awt.Color(255, 255, 255));
-        Silla61.setForeground(new java.awt.Color(0, 0, 153));
-        Silla61.addActionListener(new java.awt.event.ActionListener() {
+        silla48.setBackground(new java.awt.Color(255, 255, 255));
+        silla48.setForeground(new java.awt.Color(0, 0, 153));
+        silla48.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla61ActionPerformed(evt);
+                silla48ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla48, new org.netbeans.lib.awtextra.AbsoluteConstraints(993, 272, 46, 30));
 
-        Silla62.setBackground(new java.awt.Color(255, 255, 255));
-        Silla62.setForeground(new java.awt.Color(0, 0, 153));
-        Silla62.addActionListener(new java.awt.event.ActionListener() {
+        silla49.setBackground(new java.awt.Color(255, 255, 255));
+        silla49.setForeground(new java.awt.Color(0, 0, 153));
+        silla49.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla62ActionPerformed(evt);
+                silla49ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla49, new org.netbeans.lib.awtextra.AbsoluteConstraints(1057, 272, 46, 30));
 
-        Silla63.setBackground(new java.awt.Color(255, 255, 255));
-        Silla63.setForeground(new java.awt.Color(0, 0, 153));
-        Silla63.addActionListener(new java.awt.event.ActionListener() {
+        silla50.setBackground(new java.awt.Color(255, 255, 255));
+        silla50.setForeground(new java.awt.Color(0, 0, 153));
+        silla50.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla63ActionPerformed(evt);
+                silla50ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla50, new org.netbeans.lib.awtextra.AbsoluteConstraints(1109, 272, 46, 30));
 
-        Silla64.setBackground(new java.awt.Color(255, 255, 255));
-        Silla64.setForeground(new java.awt.Color(0, 0, 153));
-        Silla64.addActionListener(new java.awt.event.ActionListener() {
+        silla51.setBackground(new java.awt.Color(255, 255, 255));
+        silla51.setForeground(new java.awt.Color(0, 0, 153));
+        silla51.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla64ActionPerformed(evt);
+                silla51ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla51, new org.netbeans.lib.awtextra.AbsoluteConstraints(1161, 272, 46, 30));
 
-        Silla65.setBackground(new java.awt.Color(255, 255, 255));
-        Silla65.setForeground(new java.awt.Color(0, 0, 153));
-        Silla65.addActionListener(new java.awt.event.ActionListener() {
+        silla52.setBackground(new java.awt.Color(255, 255, 255));
+        silla52.setForeground(new java.awt.Color(0, 0, 153));
+        silla52.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla65ActionPerformed(evt);
+                silla52ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla52, new org.netbeans.lib.awtextra.AbsoluteConstraints(1225, 272, 46, 30));
 
-        Silla66.setBackground(new java.awt.Color(255, 255, 255));
-        Silla66.setForeground(new java.awt.Color(0, 0, 153));
-        Silla66.addActionListener(new java.awt.event.ActionListener() {
+        silla53.setBackground(new java.awt.Color(255, 255, 255));
+        silla53.setForeground(new java.awt.Color(0, 0, 153));
+        silla53.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla66ActionPerformed(evt);
+                silla53ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla53, new org.netbeans.lib.awtextra.AbsoluteConstraints(1277, 272, 46, 30));
 
-        Silla67.setBackground(new java.awt.Color(255, 255, 255));
-        Silla67.setForeground(new java.awt.Color(0, 0, 153));
-        Silla67.addActionListener(new java.awt.event.ActionListener() {
+        silla54.setBackground(new java.awt.Color(255, 255, 255));
+        silla54.setForeground(new java.awt.Color(0, 0, 153));
+        silla54.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla67ActionPerformed(evt);
+                silla54ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla54, new org.netbeans.lib.awtextra.AbsoluteConstraints(1329, 272, 46, 30));
 
-        Silla68.setBackground(new java.awt.Color(255, 255, 255));
-        Silla68.setForeground(new java.awt.Color(0, 0, 153));
-        Silla68.addActionListener(new java.awt.event.ActionListener() {
+        silla55.setBackground(new java.awt.Color(255, 255, 255));
+        silla55.setForeground(new java.awt.Color(0, 0, 153));
+        silla55.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla68ActionPerformed(evt);
+                silla55ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla55, new org.netbeans.lib.awtextra.AbsoluteConstraints(1393, 272, 46, 30));
 
-        Silla69.setBackground(new java.awt.Color(255, 255, 255));
-        Silla69.setForeground(new java.awt.Color(0, 0, 153));
-        Silla69.addActionListener(new java.awt.event.ActionListener() {
+        silla56.setBackground(new java.awt.Color(255, 255, 255));
+        silla56.setForeground(new java.awt.Color(0, 0, 153));
+        silla56.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla69ActionPerformed(evt);
+                silla56ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla56, new org.netbeans.lib.awtextra.AbsoluteConstraints(1445, 272, 46, 30));
 
-        Silla70.setBackground(new java.awt.Color(255, 255, 255));
-        Silla70.setForeground(new java.awt.Color(0, 0, 153));
-        Silla70.addActionListener(new java.awt.event.ActionListener() {
+        silla57.setBackground(new java.awt.Color(255, 255, 255));
+        silla57.setForeground(new java.awt.Color(0, 0, 153));
+        silla57.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla70ActionPerformed(evt);
+                silla57ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla57, new org.netbeans.lib.awtextra.AbsoluteConstraints(1497, 272, 46, 30));
 
-        Silla71.setBackground(new java.awt.Color(255, 255, 255));
-        Silla71.setForeground(new java.awt.Color(0, 0, 153));
-        Silla71.addActionListener(new java.awt.event.ActionListener() {
+        silla58.setBackground(new java.awt.Color(255, 255, 255));
+        silla58.setForeground(new java.awt.Color(0, 0, 153));
+        silla58.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla71ActionPerformed(evt);
+                silla58ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla58, new org.netbeans.lib.awtextra.AbsoluteConstraints(1561, 272, 46, 30));
 
-        Silla72.setBackground(new java.awt.Color(255, 255, 255));
-        Silla72.setForeground(new java.awt.Color(0, 0, 153));
-        Silla72.addActionListener(new java.awt.event.ActionListener() {
+        silla59.setBackground(new java.awt.Color(255, 255, 255));
+        silla59.setForeground(new java.awt.Color(0, 0, 153));
+        silla59.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla72ActionPerformed(evt);
+                silla59ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla59, new org.netbeans.lib.awtextra.AbsoluteConstraints(1613, 272, 46, 30));
 
-        Silla73.setBackground(new java.awt.Color(255, 255, 255));
-        Silla73.setForeground(new java.awt.Color(0, 0, 153));
-        Silla73.addActionListener(new java.awt.event.ActionListener() {
+        silla60.setBackground(new java.awt.Color(255, 255, 255));
+        silla60.setForeground(new java.awt.Color(0, 0, 153));
+        silla60.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla73ActionPerformed(evt);
+                silla60ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla60, new org.netbeans.lib.awtextra.AbsoluteConstraints(1665, 272, 46, 30));
 
-        Silla74.setBackground(new java.awt.Color(255, 255, 255));
-        Silla74.setForeground(new java.awt.Color(0, 0, 153));
-        Silla74.addActionListener(new java.awt.event.ActionListener() {
+        silla62.setBackground(new java.awt.Color(255, 255, 255));
+        silla62.setForeground(new java.awt.Color(0, 0, 153));
+        silla62.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla74ActionPerformed(evt);
+                silla62ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla62, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 309, 46, 30));
 
-        Silla75.setBackground(new java.awt.Color(255, 255, 255));
-        Silla75.setForeground(new java.awt.Color(0, 0, 153));
-        Silla75.addActionListener(new java.awt.event.ActionListener() {
+        silla63.setBackground(new java.awt.Color(255, 255, 255));
+        silla63.setForeground(new java.awt.Color(0, 0, 153));
+        silla63.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla75ActionPerformed(evt);
+                silla63ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla63, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 309, 46, 30));
 
-        Silla76.setBackground(new java.awt.Color(255, 255, 255));
-        Silla76.setForeground(new java.awt.Color(0, 0, 153));
-        Silla76.addActionListener(new java.awt.event.ActionListener() {
+        silla64.setBackground(new java.awt.Color(255, 255, 255));
+        silla64.setForeground(new java.awt.Color(0, 0, 153));
+        silla64.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla76ActionPerformed(evt);
+                silla64ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla64, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 309, 46, 30));
 
-        Silla77.setBackground(new java.awt.Color(255, 255, 255));
-        Silla77.setForeground(new java.awt.Color(0, 0, 153));
-        Silla77.addActionListener(new java.awt.event.ActionListener() {
+        silla65.setBackground(new java.awt.Color(255, 255, 255));
+        silla65.setForeground(new java.awt.Color(0, 0, 153));
+        silla65.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla77ActionPerformed(evt);
+                silla65ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla65, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 309, 46, 30));
 
-        Silla78.setBackground(new java.awt.Color(255, 255, 255));
-        Silla78.setForeground(new java.awt.Color(0, 0, 153));
-        Silla78.addActionListener(new java.awt.event.ActionListener() {
+        silla66.setBackground(new java.awt.Color(255, 255, 255));
+        silla66.setForeground(new java.awt.Color(0, 0, 153));
+        silla66.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla78ActionPerformed(evt);
+                silla66ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla66, new org.netbeans.lib.awtextra.AbsoluteConstraints(314, 309, 46, 30));
 
-        Silla79.setBackground(new java.awt.Color(255, 255, 255));
-        Silla79.setForeground(new java.awt.Color(0, 0, 153));
-        Silla79.addActionListener(new java.awt.event.ActionListener() {
+        silla67.setBackground(new java.awt.Color(255, 255, 255));
+        silla67.setForeground(new java.awt.Color(0, 0, 153));
+        silla67.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla79ActionPerformed(evt);
+                silla67ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla67, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 309, 46, 30));
 
-        Silla80.setBackground(new java.awt.Color(255, 255, 255));
-        Silla80.setForeground(new java.awt.Color(0, 0, 153));
-        Silla80.addActionListener(new java.awt.event.ActionListener() {
+        silla68.setBackground(new java.awt.Color(255, 255, 255));
+        silla68.setForeground(new java.awt.Color(0, 0, 153));
+        silla68.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla80ActionPerformed(evt);
+                silla68ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla68, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 309, 46, 30));
 
-        Silla81.setBackground(new java.awt.Color(255, 255, 255));
-        Silla81.setForeground(new java.awt.Color(0, 0, 153));
-        Silla81.addActionListener(new java.awt.event.ActionListener() {
+        silla69.setBackground(new java.awt.Color(255, 255, 255));
+        silla69.setForeground(new java.awt.Color(0, 0, 153));
+        silla69.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla81ActionPerformed(evt);
+                silla69ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla69, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 309, 46, 30));
 
-        Silla82.setBackground(new java.awt.Color(255, 255, 255));
-        Silla82.setForeground(new java.awt.Color(0, 0, 153));
-        Silla82.addActionListener(new java.awt.event.ActionListener() {
+        silla70.setBackground(new java.awt.Color(255, 255, 255));
+        silla70.setForeground(new java.awt.Color(0, 0, 153));
+        silla70.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla82ActionPerformed(evt);
+                silla70ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla70, new org.netbeans.lib.awtextra.AbsoluteConstraints(546, 309, 46, 30));
 
-        Silla83.setBackground(new java.awt.Color(255, 255, 255));
-        Silla83.setForeground(new java.awt.Color(0, 0, 153));
-        Silla83.addActionListener(new java.awt.event.ActionListener() {
+        silla71.setBackground(new java.awt.Color(255, 255, 255));
+        silla71.setForeground(new java.awt.Color(0, 0, 153));
+        silla71.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla83ActionPerformed(evt);
+                silla71ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla71, new org.netbeans.lib.awtextra.AbsoluteConstraints(604, 309, 46, 30));
 
-        Silla84.setBackground(new java.awt.Color(255, 255, 255));
-        Silla84.setForeground(new java.awt.Color(0, 0, 153));
-        Silla84.addActionListener(new java.awt.event.ActionListener() {
+        silla72.setBackground(new java.awt.Color(255, 255, 255));
+        silla72.setForeground(new java.awt.Color(0, 0, 153));
+        silla72.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla84ActionPerformed(evt);
+                silla72ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla72, new org.netbeans.lib.awtextra.AbsoluteConstraints(656, 309, 46, 30));
 
-        Silla85.setBackground(new java.awt.Color(255, 255, 255));
-        Silla85.setForeground(new java.awt.Color(0, 0, 153));
-        Silla85.addActionListener(new java.awt.event.ActionListener() {
+        silla73.setBackground(new java.awt.Color(255, 255, 255));
+        silla73.setForeground(new java.awt.Color(0, 0, 153));
+        silla73.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla85ActionPerformed(evt);
+                silla73ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla73, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 309, 46, 30));
 
-        Silla86.setBackground(new java.awt.Color(255, 255, 255));
-        Silla86.setForeground(new java.awt.Color(0, 0, 153));
-        Silla86.addActionListener(new java.awt.event.ActionListener() {
+        silla74.setBackground(new java.awt.Color(255, 255, 255));
+        silla74.setForeground(new java.awt.Color(0, 0, 153));
+        silla74.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla86ActionPerformed(evt);
+                silla74ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla74, new org.netbeans.lib.awtextra.AbsoluteConstraints(772, 309, 46, 30));
 
-        Silla87.setBackground(new java.awt.Color(255, 255, 255));
-        Silla87.setForeground(new java.awt.Color(0, 0, 153));
-        Silla87.addActionListener(new java.awt.event.ActionListener() {
+        silla75.setBackground(new java.awt.Color(255, 255, 255));
+        silla75.setForeground(new java.awt.Color(0, 0, 153));
+        silla75.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla87ActionPerformed(evt);
+                silla75ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla75, new org.netbeans.lib.awtextra.AbsoluteConstraints(824, 309, 46, 30));
 
-        Silla88.setBackground(new java.awt.Color(255, 255, 255));
-        Silla88.setForeground(new java.awt.Color(0, 0, 153));
-        Silla88.addActionListener(new java.awt.event.ActionListener() {
+        silla76.setBackground(new java.awt.Color(255, 255, 255));
+        silla76.setForeground(new java.awt.Color(0, 0, 153));
+        silla76.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla88ActionPerformed(evt);
+                silla76ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla76, new org.netbeans.lib.awtextra.AbsoluteConstraints(888, 309, 46, 30));
 
-        Silla89.setBackground(new java.awt.Color(255, 255, 255));
-        Silla89.setForeground(new java.awt.Color(0, 0, 153));
-        Silla89.addActionListener(new java.awt.event.ActionListener() {
+        silla77.setBackground(new java.awt.Color(255, 255, 255));
+        silla77.setForeground(new java.awt.Color(0, 0, 153));
+        silla77.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla89ActionPerformed(evt);
+                silla77ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla77, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 309, 46, 30));
 
-        Silla90.setBackground(new java.awt.Color(255, 255, 255));
-        Silla90.setForeground(new java.awt.Color(0, 0, 153));
-        Silla90.addActionListener(new java.awt.event.ActionListener() {
+        silla78.setBackground(new java.awt.Color(255, 255, 255));
+        silla78.setForeground(new java.awt.Color(0, 0, 153));
+        silla78.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla90ActionPerformed(evt);
+                silla78ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla78, new org.netbeans.lib.awtextra.AbsoluteConstraints(992, 309, 46, 30));
 
-        Silla91.setBackground(new java.awt.Color(255, 255, 255));
-        Silla91.setForeground(new java.awt.Color(0, 0, 153));
-        Silla91.addActionListener(new java.awt.event.ActionListener() {
+        silla79.setBackground(new java.awt.Color(255, 255, 255));
+        silla79.setForeground(new java.awt.Color(0, 0, 153));
+        silla79.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla91ActionPerformed(evt);
+                silla79ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla79, new org.netbeans.lib.awtextra.AbsoluteConstraints(1056, 309, 46, 30));
 
-        Silla92.setBackground(new java.awt.Color(255, 255, 255));
-        Silla92.setForeground(new java.awt.Color(0, 0, 153));
-        Silla92.addActionListener(new java.awt.event.ActionListener() {
+        silla80.setBackground(new java.awt.Color(255, 255, 255));
+        silla80.setForeground(new java.awt.Color(0, 0, 153));
+        silla80.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla92ActionPerformed(evt);
+                silla80ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla80, new org.netbeans.lib.awtextra.AbsoluteConstraints(1108, 309, 46, 30));
 
-        Silla93.setBackground(new java.awt.Color(255, 255, 255));
-        Silla93.setForeground(new java.awt.Color(0, 0, 153));
-        Silla93.addActionListener(new java.awt.event.ActionListener() {
+        silla81.setBackground(new java.awt.Color(255, 255, 255));
+        silla81.setForeground(new java.awt.Color(0, 0, 153));
+        silla81.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla93ActionPerformed(evt);
+                silla81ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla81, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 309, 46, 30));
 
-        Silla94.setBackground(new java.awt.Color(255, 255, 255));
-        Silla94.setForeground(new java.awt.Color(0, 0, 153));
-        Silla94.addActionListener(new java.awt.event.ActionListener() {
+        silla82.setBackground(new java.awt.Color(255, 255, 255));
+        silla82.setForeground(new java.awt.Color(0, 0, 153));
+        silla82.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla94ActionPerformed(evt);
+                silla82ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla82, new org.netbeans.lib.awtextra.AbsoluteConstraints(1224, 309, 46, 30));
 
-        Silla95.setBackground(new java.awt.Color(255, 255, 255));
-        Silla95.setForeground(new java.awt.Color(0, 0, 153));
-        Silla95.addActionListener(new java.awt.event.ActionListener() {
+        silla83.setBackground(new java.awt.Color(255, 255, 255));
+        silla83.setForeground(new java.awt.Color(0, 0, 153));
+        silla83.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla95ActionPerformed(evt);
+                silla83ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla83, new org.netbeans.lib.awtextra.AbsoluteConstraints(1276, 309, 46, 30));
 
-        Silla96.setBackground(new java.awt.Color(255, 255, 255));
-        Silla96.setForeground(new java.awt.Color(0, 0, 153));
-        Silla96.addActionListener(new java.awt.event.ActionListener() {
+        silla84.setBackground(new java.awt.Color(255, 255, 255));
+        silla84.setForeground(new java.awt.Color(0, 0, 153));
+        silla84.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla96ActionPerformed(evt);
+                silla84ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla84, new org.netbeans.lib.awtextra.AbsoluteConstraints(1328, 309, 46, 30));
 
-        Silla97.setBackground(new java.awt.Color(255, 255, 255));
-        Silla97.setForeground(new java.awt.Color(0, 0, 153));
-        Silla97.addActionListener(new java.awt.event.ActionListener() {
+        silla85.setBackground(new java.awt.Color(255, 255, 255));
+        silla85.setForeground(new java.awt.Color(0, 0, 153));
+        silla85.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla97ActionPerformed(evt);
+                silla85ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla85, new org.netbeans.lib.awtextra.AbsoluteConstraints(1392, 309, 46, 30));
 
-        Silla98.setBackground(new java.awt.Color(255, 255, 255));
-        Silla98.setForeground(new java.awt.Color(0, 0, 153));
-        Silla98.addActionListener(new java.awt.event.ActionListener() {
+        silla86.setBackground(new java.awt.Color(255, 255, 255));
+        silla86.setForeground(new java.awt.Color(0, 0, 153));
+        silla86.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla98ActionPerformed(evt);
+                silla86ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla86, new org.netbeans.lib.awtextra.AbsoluteConstraints(1444, 309, 46, 30));
 
-        Silla99.setBackground(new java.awt.Color(255, 255, 255));
-        Silla99.setForeground(new java.awt.Color(0, 0, 153));
-        Silla99.addActionListener(new java.awt.event.ActionListener() {
+        silla87.setBackground(new java.awt.Color(255, 255, 255));
+        silla87.setForeground(new java.awt.Color(0, 0, 153));
+        silla87.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla99ActionPerformed(evt);
+                silla87ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla87, new org.netbeans.lib.awtextra.AbsoluteConstraints(1496, 309, 46, 30));
 
-        Silla100.setBackground(new java.awt.Color(255, 255, 255));
-        Silla100.setForeground(new java.awt.Color(0, 0, 153));
-        Silla100.addActionListener(new java.awt.event.ActionListener() {
+        silla88.setBackground(new java.awt.Color(255, 255, 255));
+        silla88.setForeground(new java.awt.Color(0, 0, 153));
+        silla88.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla100ActionPerformed(evt);
+                silla88ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla88, new org.netbeans.lib.awtextra.AbsoluteConstraints(1560, 309, 46, 30));
 
-        Silla101.setBackground(new java.awt.Color(255, 255, 255));
-        Silla101.setForeground(new java.awt.Color(0, 0, 153));
-        Silla101.addActionListener(new java.awt.event.ActionListener() {
+        silla89.setBackground(new java.awt.Color(255, 255, 255));
+        silla89.setForeground(new java.awt.Color(0, 0, 153));
+        silla89.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla101ActionPerformed(evt);
+                silla89ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla89, new org.netbeans.lib.awtextra.AbsoluteConstraints(1612, 309, 46, 30));
 
-        Silla102.setBackground(new java.awt.Color(255, 255, 255));
-        Silla102.setForeground(new java.awt.Color(0, 0, 153));
-        Silla102.addActionListener(new java.awt.event.ActionListener() {
+        silla90.setBackground(new java.awt.Color(255, 255, 255));
+        silla90.setForeground(new java.awt.Color(0, 0, 153));
+        silla90.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla102ActionPerformed(evt);
+                silla90ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla90, new org.netbeans.lib.awtextra.AbsoluteConstraints(1664, 309, 46, 30));
 
-        Silla103.setBackground(new java.awt.Color(255, 255, 255));
-        Silla103.setForeground(new java.awt.Color(0, 0, 153));
-        Silla103.addActionListener(new java.awt.event.ActionListener() {
+        silla92.setBackground(new java.awt.Color(255, 255, 255));
+        silla92.setForeground(new java.awt.Color(0, 0, 153));
+        silla92.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla103ActionPerformed(evt);
+                silla92ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla92, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 356, 46, 30));
 
-        Silla104.setBackground(new java.awt.Color(255, 255, 255));
-        Silla104.setForeground(new java.awt.Color(0, 0, 153));
-        Silla104.addActionListener(new java.awt.event.ActionListener() {
+        silla93.setBackground(new java.awt.Color(255, 255, 255));
+        silla93.setForeground(new java.awt.Color(0, 0, 153));
+        silla93.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla104ActionPerformed(evt);
+                silla93ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla93, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 356, 46, 30));
 
-        Silla105.setBackground(new java.awt.Color(255, 255, 255));
-        Silla105.setForeground(new java.awt.Color(0, 0, 153));
-        Silla105.addActionListener(new java.awt.event.ActionListener() {
+        silla94.setBackground(new java.awt.Color(255, 255, 255));
+        silla94.setForeground(new java.awt.Color(0, 0, 153));
+        silla94.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla105ActionPerformed(evt);
+                silla94ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla94, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 356, 46, 30));
 
-        Silla106.setBackground(new java.awt.Color(255, 255, 255));
-        Silla106.setForeground(new java.awt.Color(0, 0, 153));
-        Silla106.addActionListener(new java.awt.event.ActionListener() {
+        silla95.setBackground(new java.awt.Color(255, 255, 255));
+        silla95.setForeground(new java.awt.Color(0, 0, 153));
+        silla95.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla106ActionPerformed(evt);
+                silla95ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla95, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 356, 46, 30));
 
-        Silla107.setBackground(new java.awt.Color(255, 255, 255));
-        Silla107.setForeground(new java.awt.Color(0, 0, 153));
-        Silla107.addActionListener(new java.awt.event.ActionListener() {
+        silla96.setBackground(new java.awt.Color(255, 255, 255));
+        silla96.setForeground(new java.awt.Color(0, 0, 153));
+        silla96.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla107ActionPerformed(evt);
+                silla96ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla96, new org.netbeans.lib.awtextra.AbsoluteConstraints(314, 356, 46, 30));
 
-        Silla108.setBackground(new java.awt.Color(255, 255, 255));
-        Silla108.setForeground(new java.awt.Color(0, 0, 153));
-        Silla108.addActionListener(new java.awt.event.ActionListener() {
+        silla97.setBackground(new java.awt.Color(255, 255, 255));
+        silla97.setForeground(new java.awt.Color(0, 0, 153));
+        silla97.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla108ActionPerformed(evt);
+                silla97ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla97, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 356, 46, 30));
 
-        Silla109.setBackground(new java.awt.Color(255, 255, 255));
-        Silla109.setForeground(new java.awt.Color(0, 0, 153));
-        Silla109.addActionListener(new java.awt.event.ActionListener() {
+        silla98.setBackground(new java.awt.Color(255, 255, 255));
+        silla98.setForeground(new java.awt.Color(0, 0, 153));
+        silla98.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla109ActionPerformed(evt);
+                silla98ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla98, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 356, 46, 30));
 
-        Silla110.setBackground(new java.awt.Color(255, 255, 255));
-        Silla110.setForeground(new java.awt.Color(0, 0, 153));
-        Silla110.addActionListener(new java.awt.event.ActionListener() {
+        silla99.setBackground(new java.awt.Color(255, 255, 255));
+        silla99.setForeground(new java.awt.Color(0, 0, 153));
+        silla99.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla110ActionPerformed(evt);
+                silla99ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla99, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 356, 46, 30));
 
-        Silla111.setBackground(new java.awt.Color(255, 255, 255));
-        Silla111.setForeground(new java.awt.Color(0, 0, 153));
-        Silla111.addActionListener(new java.awt.event.ActionListener() {
+        silla100.setBackground(new java.awt.Color(255, 255, 255));
+        silla100.setForeground(new java.awt.Color(0, 0, 153));
+        silla100.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla111ActionPerformed(evt);
+                silla100ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla100, new org.netbeans.lib.awtextra.AbsoluteConstraints(546, 356, 46, 30));
 
-        Silla112.setBackground(new java.awt.Color(255, 255, 255));
-        Silla112.setForeground(new java.awt.Color(0, 0, 153));
-        Silla112.addActionListener(new java.awt.event.ActionListener() {
+        sila101.setBackground(new java.awt.Color(255, 255, 255));
+        sila101.setForeground(new java.awt.Color(0, 0, 153));
+        sila101.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla112ActionPerformed(evt);
+                sila101ActionPerformed(evt);
             }
         });
+        jPanel1.add(sila101, new org.netbeans.lib.awtextra.AbsoluteConstraints(602, 356, 46, 30));
 
-        Silla113.setBackground(new java.awt.Color(255, 255, 255));
-        Silla113.setForeground(new java.awt.Color(0, 0, 153));
-        Silla113.addActionListener(new java.awt.event.ActionListener() {
+        silla102.setBackground(new java.awt.Color(255, 255, 255));
+        silla102.setForeground(new java.awt.Color(0, 0, 153));
+        silla102.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla113ActionPerformed(evt);
+                silla102ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla102, new org.netbeans.lib.awtextra.AbsoluteConstraints(654, 356, 46, 30));
 
-        Silla114.setBackground(new java.awt.Color(255, 255, 255));
-        Silla114.setForeground(new java.awt.Color(0, 0, 153));
-        Silla114.addActionListener(new java.awt.event.ActionListener() {
+        silla103.setBackground(new java.awt.Color(255, 255, 255));
+        silla103.setForeground(new java.awt.Color(0, 0, 153));
+        silla103.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla114ActionPerformed(evt);
+                silla103ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla103, new org.netbeans.lib.awtextra.AbsoluteConstraints(718, 356, 46, 30));
 
-        Silla115.setBackground(new java.awt.Color(255, 255, 255));
-        Silla115.setForeground(new java.awt.Color(0, 0, 153));
-        Silla115.addActionListener(new java.awt.event.ActionListener() {
+        silla104.setBackground(new java.awt.Color(255, 255, 255));
+        silla104.setForeground(new java.awt.Color(0, 0, 153));
+        silla104.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla115ActionPerformed(evt);
+                silla104ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla104, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 356, 46, 30));
 
-        Silla116.setBackground(new java.awt.Color(255, 255, 255));
-        Silla116.setForeground(new java.awt.Color(0, 0, 153));
-        Silla116.addActionListener(new java.awt.event.ActionListener() {
+        silla105.setBackground(new java.awt.Color(255, 255, 255));
+        silla105.setForeground(new java.awt.Color(0, 0, 153));
+        silla105.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla116ActionPerformed(evt);
+                silla105ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla105, new org.netbeans.lib.awtextra.AbsoluteConstraints(822, 356, 46, 30));
 
-        Silla117.setBackground(new java.awt.Color(255, 255, 255));
-        Silla117.setForeground(new java.awt.Color(0, 0, 153));
-        Silla117.addActionListener(new java.awt.event.ActionListener() {
+        silla106.setBackground(new java.awt.Color(255, 255, 255));
+        silla106.setForeground(new java.awt.Color(0, 0, 153));
+        silla106.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla117ActionPerformed(evt);
+                silla106ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla106, new org.netbeans.lib.awtextra.AbsoluteConstraints(886, 356, 46, 30));
 
-        Silla118.setBackground(new java.awt.Color(255, 255, 255));
-        Silla118.setForeground(new java.awt.Color(0, 0, 153));
-        Silla118.addActionListener(new java.awt.event.ActionListener() {
+        silla107.setBackground(new java.awt.Color(255, 255, 255));
+        silla107.setForeground(new java.awt.Color(0, 0, 153));
+        silla107.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla118ActionPerformed(evt);
+                silla107ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla107, new org.netbeans.lib.awtextra.AbsoluteConstraints(938, 356, 46, 30));
 
-        Silla119.setBackground(new java.awt.Color(255, 255, 255));
-        Silla119.setForeground(new java.awt.Color(0, 0, 153));
-        Silla119.addActionListener(new java.awt.event.ActionListener() {
+        silla108.setBackground(new java.awt.Color(255, 255, 255));
+        silla108.setForeground(new java.awt.Color(0, 0, 153));
+        silla108.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla119ActionPerformed(evt);
+                silla108ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla108, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 356, 46, 30));
 
-        Silla120.setBackground(new java.awt.Color(255, 255, 255));
-        Silla120.setForeground(new java.awt.Color(0, 0, 153));
-        Silla120.addActionListener(new java.awt.event.ActionListener() {
+        silla109.setBackground(new java.awt.Color(255, 255, 255));
+        silla109.setForeground(new java.awt.Color(0, 0, 153));
+        silla109.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla120ActionPerformed(evt);
+                silla109ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla109, new org.netbeans.lib.awtextra.AbsoluteConstraints(1054, 356, 46, 30));
 
-        Silla121.setBackground(new java.awt.Color(255, 255, 255));
-        Silla121.setForeground(new java.awt.Color(0, 0, 153));
-        Silla121.addActionListener(new java.awt.event.ActionListener() {
+        silla110.setBackground(new java.awt.Color(255, 255, 255));
+        silla110.setForeground(new java.awt.Color(0, 0, 153));
+        silla110.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla121ActionPerformed(evt);
+                silla110ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla110, new org.netbeans.lib.awtextra.AbsoluteConstraints(1106, 356, 46, 30));
 
-        Silla122.setBackground(new java.awt.Color(255, 255, 255));
-        Silla122.setForeground(new java.awt.Color(0, 0, 153));
-        Silla122.addActionListener(new java.awt.event.ActionListener() {
+        silla111.setBackground(new java.awt.Color(255, 255, 255));
+        silla111.setForeground(new java.awt.Color(0, 0, 153));
+        silla111.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla122ActionPerformed(evt);
+                silla111ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla111, new org.netbeans.lib.awtextra.AbsoluteConstraints(1158, 356, 46, 30));
 
-        Silla123.setBackground(new java.awt.Color(255, 255, 255));
-        Silla123.setForeground(new java.awt.Color(0, 0, 153));
-        Silla123.addActionListener(new java.awt.event.ActionListener() {
+        silla112.setBackground(new java.awt.Color(255, 255, 255));
+        silla112.setForeground(new java.awt.Color(0, 0, 153));
+        silla112.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla123ActionPerformed(evt);
+                silla112ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla112, new org.netbeans.lib.awtextra.AbsoluteConstraints(1222, 356, 46, 30));
 
-        Silla124.setBackground(new java.awt.Color(255, 255, 255));
-        Silla124.setForeground(new java.awt.Color(0, 0, 153));
-        Silla124.addActionListener(new java.awt.event.ActionListener() {
+        silla113.setBackground(new java.awt.Color(255, 255, 255));
+        silla113.setForeground(new java.awt.Color(0, 0, 153));
+        silla113.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla124ActionPerformed(evt);
+                silla113ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla113, new org.netbeans.lib.awtextra.AbsoluteConstraints(1274, 356, 46, 30));
 
-        Silla125.setBackground(new java.awt.Color(255, 255, 255));
-        Silla125.setForeground(new java.awt.Color(0, 0, 153));
-        Silla125.addActionListener(new java.awt.event.ActionListener() {
+        silla114.setBackground(new java.awt.Color(255, 255, 255));
+        silla114.setForeground(new java.awt.Color(0, 0, 153));
+        silla114.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla125ActionPerformed(evt);
+                silla114ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla114, new org.netbeans.lib.awtextra.AbsoluteConstraints(1326, 356, 46, 30));
 
-        Silla126.setBackground(new java.awt.Color(255, 255, 255));
-        Silla126.setForeground(new java.awt.Color(0, 0, 153));
-        Silla126.addActionListener(new java.awt.event.ActionListener() {
+        silla115.setBackground(new java.awt.Color(255, 255, 255));
+        silla115.setForeground(new java.awt.Color(0, 0, 153));
+        silla115.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla126ActionPerformed(evt);
+                silla115ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla115, new org.netbeans.lib.awtextra.AbsoluteConstraints(1390, 356, 46, 30));
 
-        Silla127.setBackground(new java.awt.Color(255, 255, 255));
-        Silla127.setForeground(new java.awt.Color(0, 0, 153));
-        Silla127.addActionListener(new java.awt.event.ActionListener() {
+        silla116.setBackground(new java.awt.Color(255, 255, 255));
+        silla116.setForeground(new java.awt.Color(0, 0, 153));
+        silla116.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla127ActionPerformed(evt);
+                silla116ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla116, new org.netbeans.lib.awtextra.AbsoluteConstraints(1442, 356, 46, 30));
 
-        Silla128.setBackground(new java.awt.Color(255, 255, 255));
-        Silla128.setForeground(new java.awt.Color(0, 0, 153));
-        Silla128.addActionListener(new java.awt.event.ActionListener() {
+        silla117.setBackground(new java.awt.Color(255, 255, 255));
+        silla117.setForeground(new java.awt.Color(0, 0, 153));
+        silla117.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla128ActionPerformed(evt);
+                silla117ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla117, new org.netbeans.lib.awtextra.AbsoluteConstraints(1494, 356, 46, 30));
 
-        Silla129.setBackground(new java.awt.Color(255, 255, 255));
-        Silla129.setForeground(new java.awt.Color(0, 0, 153));
-        Silla129.addActionListener(new java.awt.event.ActionListener() {
+        silla118.setBackground(new java.awt.Color(255, 255, 255));
+        silla118.setForeground(new java.awt.Color(0, 0, 153));
+        silla118.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla129ActionPerformed(evt);
+                silla118ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla118, new org.netbeans.lib.awtextra.AbsoluteConstraints(1558, 356, 46, 30));
 
-        Silla130.setBackground(new java.awt.Color(255, 255, 255));
-        Silla130.setForeground(new java.awt.Color(0, 0, 153));
-        Silla130.addActionListener(new java.awt.event.ActionListener() {
+        silla119.setBackground(new java.awt.Color(255, 255, 255));
+        silla119.setForeground(new java.awt.Color(0, 0, 153));
+        silla119.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla130ActionPerformed(evt);
+                silla119ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla119, new org.netbeans.lib.awtextra.AbsoluteConstraints(1610, 356, 46, 30));
 
-        Silla131.setBackground(new java.awt.Color(255, 255, 255));
-        Silla131.setForeground(new java.awt.Color(0, 0, 153));
-        Silla131.addActionListener(new java.awt.event.ActionListener() {
+        silla120.setBackground(new java.awt.Color(255, 255, 255));
+        silla120.setForeground(new java.awt.Color(0, 0, 153));
+        silla120.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla131ActionPerformed(evt);
+                silla120ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla120, new org.netbeans.lib.awtextra.AbsoluteConstraints(1662, 356, 46, 30));
 
-        Silla132.setBackground(new java.awt.Color(255, 255, 255));
-        Silla132.setForeground(new java.awt.Color(0, 0, 153));
-        Silla132.addActionListener(new java.awt.event.ActionListener() {
+        silla122.setBackground(new java.awt.Color(255, 255, 255));
+        silla122.setForeground(new java.awt.Color(0, 0, 153));
+        silla122.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla132ActionPerformed(evt);
+                silla122ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla122, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 394, 46, 30));
 
-        Silla133.setBackground(new java.awt.Color(255, 255, 255));
-        Silla133.setForeground(new java.awt.Color(0, 0, 153));
-        Silla133.addActionListener(new java.awt.event.ActionListener() {
+        silla123.setBackground(new java.awt.Color(255, 255, 255));
+        silla123.setForeground(new java.awt.Color(0, 0, 153));
+        silla123.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla133ActionPerformed(evt);
+                silla123ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla123, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 394, 46, 30));
 
-        Silla134.setBackground(new java.awt.Color(255, 255, 255));
-        Silla134.setForeground(new java.awt.Color(0, 0, 153));
-        Silla134.addActionListener(new java.awt.event.ActionListener() {
+        silla124.setBackground(new java.awt.Color(255, 255, 255));
+        silla124.setForeground(new java.awt.Color(0, 0, 153));
+        silla124.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla134ActionPerformed(evt);
+                silla124ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla124, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 394, 46, 30));
 
-        Silla135.setBackground(new java.awt.Color(255, 255, 255));
-        Silla135.setForeground(new java.awt.Color(0, 0, 153));
-        Silla135.addActionListener(new java.awt.event.ActionListener() {
+        silla125.setBackground(new java.awt.Color(255, 255, 255));
+        silla125.setForeground(new java.awt.Color(0, 0, 153));
+        silla125.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla135ActionPerformed(evt);
+                silla125ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla125, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 394, 46, 30));
 
-        Silla136.setBackground(new java.awt.Color(255, 255, 255));
-        Silla136.setForeground(new java.awt.Color(0, 0, 153));
-        Silla136.addActionListener(new java.awt.event.ActionListener() {
+        silla126.setBackground(new java.awt.Color(255, 255, 255));
+        silla126.setForeground(new java.awt.Color(0, 0, 153));
+        silla126.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla136ActionPerformed(evt);
+                silla126ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla126, new org.netbeans.lib.awtextra.AbsoluteConstraints(314, 394, 46, 30));
 
-        Silla137.setBackground(new java.awt.Color(255, 255, 255));
-        Silla137.setForeground(new java.awt.Color(0, 0, 153));
-        Silla137.addActionListener(new java.awt.event.ActionListener() {
+        silla127.setBackground(new java.awt.Color(255, 255, 255));
+        silla127.setForeground(new java.awt.Color(0, 0, 153));
+        silla127.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla137ActionPerformed(evt);
+                silla127ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla127, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 393, 46, 30));
 
-        Silla138.setBackground(new java.awt.Color(255, 255, 255));
-        Silla138.setForeground(new java.awt.Color(0, 0, 153));
-        Silla138.addActionListener(new java.awt.event.ActionListener() {
+        silla128.setBackground(new java.awt.Color(255, 255, 255));
+        silla128.setForeground(new java.awt.Color(0, 0, 153));
+        silla128.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla138ActionPerformed(evt);
+                silla128ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla128, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 393, 46, 30));
 
-        Silla139.setBackground(new java.awt.Color(255, 255, 255));
-        Silla139.setForeground(new java.awt.Color(0, 0, 153));
-        Silla139.addActionListener(new java.awt.event.ActionListener() {
+        silla129.setBackground(new java.awt.Color(255, 255, 255));
+        silla129.setForeground(new java.awt.Color(0, 0, 153));
+        silla129.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla139ActionPerformed(evt);
+                silla129ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla129, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 393, 46, 30));
 
-        Silla140.setBackground(new java.awt.Color(255, 255, 255));
-        Silla140.setForeground(new java.awt.Color(0, 0, 153));
-        Silla140.addActionListener(new java.awt.event.ActionListener() {
+        silla130.setBackground(new java.awt.Color(255, 255, 255));
+        silla130.setForeground(new java.awt.Color(0, 0, 153));
+        silla130.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla140ActionPerformed(evt);
+                silla130ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla130, new org.netbeans.lib.awtextra.AbsoluteConstraints(546, 393, 46, 30));
 
-        Silla141.setBackground(new java.awt.Color(255, 255, 255));
-        Silla141.setForeground(new java.awt.Color(0, 0, 153));
-        Silla141.addActionListener(new java.awt.event.ActionListener() {
+        silla131.setBackground(new java.awt.Color(255, 255, 255));
+        silla131.setForeground(new java.awt.Color(0, 0, 153));
+        silla131.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla141ActionPerformed(evt);
+                silla131ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla131, new org.netbeans.lib.awtextra.AbsoluteConstraints(604, 393, 46, 30));
 
-        Silla142.setBackground(new java.awt.Color(255, 255, 255));
-        Silla142.setForeground(new java.awt.Color(0, 0, 153));
-        Silla142.addActionListener(new java.awt.event.ActionListener() {
+        silla132.setBackground(new java.awt.Color(255, 255, 255));
+        silla132.setForeground(new java.awt.Color(0, 0, 153));
+        silla132.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla142ActionPerformed(evt);
+                silla132ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla132, new org.netbeans.lib.awtextra.AbsoluteConstraints(656, 393, 46, 30));
 
-        Silla143.setBackground(new java.awt.Color(255, 255, 255));
-        Silla143.setForeground(new java.awt.Color(0, 0, 153));
-        Silla143.addActionListener(new java.awt.event.ActionListener() {
+        silla133.setBackground(new java.awt.Color(255, 255, 255));
+        silla133.setForeground(new java.awt.Color(0, 0, 153));
+        silla133.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla143ActionPerformed(evt);
+                silla133ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla133, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 393, 46, 30));
 
-        Silla144.setBackground(new java.awt.Color(255, 255, 255));
-        Silla144.setForeground(new java.awt.Color(0, 0, 153));
-        Silla144.addActionListener(new java.awt.event.ActionListener() {
+        silla134.setBackground(new java.awt.Color(255, 255, 255));
+        silla134.setForeground(new java.awt.Color(0, 0, 153));
+        silla134.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla144ActionPerformed(evt);
+                silla134ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla134, new org.netbeans.lib.awtextra.AbsoluteConstraints(772, 393, 46, 30));
 
-        Silla145.setBackground(new java.awt.Color(255, 255, 255));
-        Silla145.setForeground(new java.awt.Color(0, 0, 153));
-        Silla145.addActionListener(new java.awt.event.ActionListener() {
+        silla135.setBackground(new java.awt.Color(255, 255, 255));
+        silla135.setForeground(new java.awt.Color(0, 0, 153));
+        silla135.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla145ActionPerformed(evt);
+                silla135ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla135, new org.netbeans.lib.awtextra.AbsoluteConstraints(824, 393, 46, 30));
 
-        Silla146.setBackground(new java.awt.Color(255, 255, 255));
-        Silla146.setForeground(new java.awt.Color(0, 0, 153));
-        Silla146.addActionListener(new java.awt.event.ActionListener() {
+        silla136.setBackground(new java.awt.Color(255, 255, 255));
+        silla136.setForeground(new java.awt.Color(0, 0, 153));
+        silla136.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla146ActionPerformed(evt);
+                silla136ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla136, new org.netbeans.lib.awtextra.AbsoluteConstraints(888, 393, 46, 30));
 
-        Silla147.setBackground(new java.awt.Color(255, 255, 255));
-        Silla147.setForeground(new java.awt.Color(0, 0, 153));
-        Silla147.addActionListener(new java.awt.event.ActionListener() {
+        silla137.setBackground(new java.awt.Color(255, 255, 255));
+        silla137.setForeground(new java.awt.Color(0, 0, 153));
+        silla137.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla147ActionPerformed(evt);
+                silla137ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla137, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 393, 46, 30));
 
-        Silla148.setBackground(new java.awt.Color(255, 255, 255));
-        Silla148.setForeground(new java.awt.Color(0, 0, 153));
-        Silla148.addActionListener(new java.awt.event.ActionListener() {
+        silla138.setBackground(new java.awt.Color(255, 255, 255));
+        silla138.setForeground(new java.awt.Color(0, 0, 153));
+        silla138.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla148ActionPerformed(evt);
+                silla138ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla138, new org.netbeans.lib.awtextra.AbsoluteConstraints(992, 393, 46, 30));
 
-        Silla149.setBackground(new java.awt.Color(255, 255, 255));
-        Silla149.setForeground(new java.awt.Color(0, 0, 153));
-        Silla149.addActionListener(new java.awt.event.ActionListener() {
+        silla139.setBackground(new java.awt.Color(255, 255, 255));
+        silla139.setForeground(new java.awt.Color(0, 0, 153));
+        silla139.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla149ActionPerformed(evt);
+                silla139ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla139, new org.netbeans.lib.awtextra.AbsoluteConstraints(1056, 393, 46, 30));
 
-        Silla150.setBackground(new java.awt.Color(255, 255, 255));
-        Silla150.setForeground(new java.awt.Color(0, 0, 153));
-        Silla150.addActionListener(new java.awt.event.ActionListener() {
+        silla140.setBackground(new java.awt.Color(255, 255, 255));
+        silla140.setForeground(new java.awt.Color(0, 0, 153));
+        silla140.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla150ActionPerformed(evt);
+                silla140ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla140, new org.netbeans.lib.awtextra.AbsoluteConstraints(1108, 393, 46, 30));
 
-        Silla151.setBackground(new java.awt.Color(255, 255, 255));
-        Silla151.setForeground(new java.awt.Color(0, 0, 153));
-        Silla151.addActionListener(new java.awt.event.ActionListener() {
+        silla141.setBackground(new java.awt.Color(255, 255, 255));
+        silla141.setForeground(new java.awt.Color(0, 0, 153));
+        silla141.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla151ActionPerformed(evt);
+                silla141ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla141, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 393, 46, 30));
 
-        Silla152.setBackground(new java.awt.Color(255, 255, 255));
-        Silla152.setForeground(new java.awt.Color(0, 0, 153));
-        Silla152.addActionListener(new java.awt.event.ActionListener() {
+        silla142.setBackground(new java.awt.Color(255, 255, 255));
+        silla142.setForeground(new java.awt.Color(0, 0, 153));
+        silla142.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla152ActionPerformed(evt);
+                silla142ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla142, new org.netbeans.lib.awtextra.AbsoluteConstraints(1224, 393, 46, 30));
 
-        Silla153.setBackground(new java.awt.Color(255, 255, 255));
-        Silla153.setForeground(new java.awt.Color(0, 0, 153));
-        Silla153.addActionListener(new java.awt.event.ActionListener() {
+        silla143.setBackground(new java.awt.Color(255, 255, 255));
+        silla143.setForeground(new java.awt.Color(0, 0, 153));
+        silla143.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla153ActionPerformed(evt);
+                silla143ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla143, new org.netbeans.lib.awtextra.AbsoluteConstraints(1276, 393, 46, 30));
 
-        Silla154.setBackground(new java.awt.Color(255, 255, 255));
-        Silla154.setForeground(new java.awt.Color(0, 0, 153));
-        Silla154.addActionListener(new java.awt.event.ActionListener() {
+        silla144.setBackground(new java.awt.Color(255, 255, 255));
+        silla144.setForeground(new java.awt.Color(0, 0, 153));
+        silla144.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla154ActionPerformed(evt);
+                silla144ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla144, new org.netbeans.lib.awtextra.AbsoluteConstraints(1328, 393, 46, 30));
 
-        Silla155.setBackground(new java.awt.Color(255, 255, 255));
-        Silla155.setForeground(new java.awt.Color(0, 0, 153));
-        Silla155.addActionListener(new java.awt.event.ActionListener() {
+        silla145.setBackground(new java.awt.Color(255, 255, 255));
+        silla145.setForeground(new java.awt.Color(0, 0, 153));
+        silla145.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla155ActionPerformed(evt);
+                silla145ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla145, new org.netbeans.lib.awtextra.AbsoluteConstraints(1392, 393, 46, 30));
 
-        Silla156.setBackground(new java.awt.Color(255, 255, 255));
-        Silla156.setForeground(new java.awt.Color(0, 0, 153));
-        Silla156.addActionListener(new java.awt.event.ActionListener() {
+        silla146.setBackground(new java.awt.Color(255, 255, 255));
+        silla146.setForeground(new java.awt.Color(0, 0, 153));
+        silla146.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla156ActionPerformed(evt);
+                silla146ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla146, new org.netbeans.lib.awtextra.AbsoluteConstraints(1444, 393, 46, 30));
 
-        Silla157.setBackground(new java.awt.Color(255, 255, 255));
-        Silla157.setForeground(new java.awt.Color(0, 0, 153));
-        Silla157.addActionListener(new java.awt.event.ActionListener() {
+        silla147.setBackground(new java.awt.Color(255, 255, 255));
+        silla147.setForeground(new java.awt.Color(0, 0, 153));
+        silla147.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla157ActionPerformed(evt);
+                silla147ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla147, new org.netbeans.lib.awtextra.AbsoluteConstraints(1496, 393, 46, 30));
 
-        Silla158.setBackground(new java.awt.Color(255, 255, 255));
-        Silla158.setForeground(new java.awt.Color(0, 0, 153));
-        Silla158.addActionListener(new java.awt.event.ActionListener() {
+        silla148.setBackground(new java.awt.Color(255, 255, 255));
+        silla148.setForeground(new java.awt.Color(0, 0, 153));
+        silla148.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla158ActionPerformed(evt);
+                silla148ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla148, new org.netbeans.lib.awtextra.AbsoluteConstraints(1560, 393, 46, 30));
 
-        Silla159.setBackground(new java.awt.Color(255, 255, 255));
-        Silla159.setForeground(new java.awt.Color(0, 0, 153));
-        Silla159.addActionListener(new java.awt.event.ActionListener() {
+        silla149.setBackground(new java.awt.Color(255, 255, 255));
+        silla149.setForeground(new java.awt.Color(0, 0, 153));
+        silla149.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla159ActionPerformed(evt);
+                silla149ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla149, new org.netbeans.lib.awtextra.AbsoluteConstraints(1612, 393, 46, 30));
 
-        Silla160.setBackground(new java.awt.Color(255, 255, 255));
-        Silla160.setForeground(new java.awt.Color(0, 0, 153));
-        Silla160.addActionListener(new java.awt.event.ActionListener() {
+        silla150.setBackground(new java.awt.Color(255, 255, 255));
+        silla150.setForeground(new java.awt.Color(0, 0, 153));
+        silla150.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla160ActionPerformed(evt);
+                silla150ActionPerformed(evt);
             }
         });
+        jPanel1.add(silla150, new org.netbeans.lib.awtextra.AbsoluteConstraints(1664, 393, 46, 30));
 
         Silla161.setBackground(new java.awt.Color(255, 255, 255));
         Silla161.setForeground(new java.awt.Color(0, 0, 153));
@@ -1772,6 +1937,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla161ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla161, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 431, 46, 30));
 
         Silla162.setBackground(new java.awt.Color(255, 255, 255));
         Silla162.setForeground(new java.awt.Color(0, 0, 153));
@@ -1780,6 +1946,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla162ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla162, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 431, 46, 30));
 
         Silla163.setBackground(new java.awt.Color(255, 255, 255));
         Silla163.setForeground(new java.awt.Color(0, 0, 153));
@@ -1788,6 +1955,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla163ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla163, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 431, 46, 30));
 
         Silla164.setBackground(new java.awt.Color(255, 255, 255));
         Silla164.setForeground(new java.awt.Color(0, 0, 153));
@@ -1796,6 +1964,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla164ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla164, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 431, 46, 30));
 
         Silla165.setBackground(new java.awt.Color(255, 255, 255));
         Silla165.setForeground(new java.awt.Color(0, 0, 153));
@@ -1804,6 +1973,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla165ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla165, new org.netbeans.lib.awtextra.AbsoluteConstraints(314, 431, 46, 30));
 
         Silla166.setBackground(new java.awt.Color(255, 255, 255));
         Silla166.setForeground(new java.awt.Color(0, 0, 153));
@@ -1812,6 +1982,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla166ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla166, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 431, 46, 30));
 
         Silla167.setBackground(new java.awt.Color(255, 255, 255));
         Silla167.setForeground(new java.awt.Color(0, 0, 153));
@@ -1820,6 +1991,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla167ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla167, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 431, 46, 30));
 
         Silla168.setBackground(new java.awt.Color(255, 255, 255));
         Silla168.setForeground(new java.awt.Color(0, 0, 153));
@@ -1828,6 +2000,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla168ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla168, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 431, 46, 30));
 
         Silla169.setBackground(new java.awt.Color(255, 255, 255));
         Silla169.setForeground(new java.awt.Color(0, 0, 153));
@@ -1836,6 +2009,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla169ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla169, new org.netbeans.lib.awtextra.AbsoluteConstraints(546, 431, 46, 30));
 
         Silla170.setBackground(new java.awt.Color(255, 255, 255));
         Silla170.setForeground(new java.awt.Color(0, 0, 153));
@@ -1844,6 +2018,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla170ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla170, new org.netbeans.lib.awtextra.AbsoluteConstraints(604, 431, 46, 30));
 
         Silla171.setBackground(new java.awt.Color(255, 255, 255));
         Silla171.setForeground(new java.awt.Color(0, 0, 153));
@@ -1852,6 +2027,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla171ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla171, new org.netbeans.lib.awtextra.AbsoluteConstraints(656, 431, 46, 30));
 
         Silla172.setBackground(new java.awt.Color(255, 255, 255));
         Silla172.setForeground(new java.awt.Color(0, 0, 153));
@@ -1860,6 +2036,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla172ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla172, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 431, 46, 30));
 
         Silla173.setBackground(new java.awt.Color(255, 255, 255));
         Silla173.setForeground(new java.awt.Color(0, 0, 153));
@@ -1868,6 +2045,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla173ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla173, new org.netbeans.lib.awtextra.AbsoluteConstraints(772, 431, 46, 30));
 
         Silla174.setBackground(new java.awt.Color(255, 255, 255));
         Silla174.setForeground(new java.awt.Color(0, 0, 153));
@@ -1876,6 +2054,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla174ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla174, new org.netbeans.lib.awtextra.AbsoluteConstraints(824, 431, 46, 30));
 
         Silla175.setBackground(new java.awt.Color(255, 255, 255));
         Silla175.setForeground(new java.awt.Color(0, 0, 153));
@@ -1884,6 +2063,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla175ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla175, new org.netbeans.lib.awtextra.AbsoluteConstraints(888, 431, 46, 30));
 
         Silla176.setBackground(new java.awt.Color(255, 255, 255));
         Silla176.setForeground(new java.awt.Color(0, 0, 153));
@@ -1892,6 +2072,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla176ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla176, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 431, 46, 30));
 
         Silla177.setBackground(new java.awt.Color(255, 255, 255));
         Silla177.setForeground(new java.awt.Color(0, 0, 153));
@@ -1900,6 +2081,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla177ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla177, new org.netbeans.lib.awtextra.AbsoluteConstraints(992, 431, 46, 30));
 
         Silla178.setBackground(new java.awt.Color(255, 255, 255));
         Silla178.setForeground(new java.awt.Color(0, 0, 153));
@@ -1908,6 +2090,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla178ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla178, new org.netbeans.lib.awtextra.AbsoluteConstraints(1056, 431, 46, 30));
 
         Silla179.setBackground(new java.awt.Color(255, 255, 255));
         Silla179.setForeground(new java.awt.Color(0, 0, 153));
@@ -1916,6 +2099,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla179ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla179, new org.netbeans.lib.awtextra.AbsoluteConstraints(1108, 431, 46, 30));
 
         Silla180.setBackground(new java.awt.Color(255, 255, 255));
         Silla180.setForeground(new java.awt.Color(0, 0, 153));
@@ -1924,6 +2108,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla180ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla180, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 431, 46, 30));
 
         Silla181.setBackground(new java.awt.Color(255, 255, 255));
         Silla181.setForeground(new java.awt.Color(0, 0, 153));
@@ -1932,6 +2117,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla181ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla181, new org.netbeans.lib.awtextra.AbsoluteConstraints(1224, 431, 46, 30));
 
         Silla182.setBackground(new java.awt.Color(255, 255, 255));
         Silla182.setForeground(new java.awt.Color(0, 0, 153));
@@ -1940,6 +2126,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla182ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla182, new org.netbeans.lib.awtextra.AbsoluteConstraints(1276, 431, 46, 30));
 
         Silla183.setBackground(new java.awt.Color(255, 255, 255));
         Silla183.setForeground(new java.awt.Color(0, 0, 153));
@@ -1948,6 +2135,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla183ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla183, new org.netbeans.lib.awtextra.AbsoluteConstraints(1328, 431, 46, 30));
 
         Silla184.setBackground(new java.awt.Color(255, 255, 255));
         Silla184.setForeground(new java.awt.Color(0, 0, 153));
@@ -1956,6 +2144,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla184ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla184, new org.netbeans.lib.awtextra.AbsoluteConstraints(1392, 431, 46, 30));
 
         Silla185.setBackground(new java.awt.Color(255, 255, 255));
         Silla185.setForeground(new java.awt.Color(0, 0, 153));
@@ -1964,6 +2153,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla185ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla185, new org.netbeans.lib.awtextra.AbsoluteConstraints(1444, 431, 46, 30));
 
         Silla186.setBackground(new java.awt.Color(255, 255, 255));
         Silla186.setForeground(new java.awt.Color(0, 0, 153));
@@ -1972,6 +2162,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla186ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla186, new org.netbeans.lib.awtextra.AbsoluteConstraints(1496, 431, 46, 30));
 
         Silla187.setBackground(new java.awt.Color(255, 255, 255));
         Silla187.setForeground(new java.awt.Color(0, 0, 153));
@@ -1980,6 +2171,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla187ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla187, new org.netbeans.lib.awtextra.AbsoluteConstraints(1560, 431, 46, 30));
 
         Silla188.setBackground(new java.awt.Color(255, 255, 255));
         Silla188.setForeground(new java.awt.Color(0, 0, 153));
@@ -1988,6 +2180,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla188ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla188, new org.netbeans.lib.awtextra.AbsoluteConstraints(1612, 431, 46, 30));
 
         Silla189.setBackground(new java.awt.Color(255, 255, 255));
         Silla189.setForeground(new java.awt.Color(0, 0, 153));
@@ -1996,6 +2189,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla189ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla189, new org.netbeans.lib.awtextra.AbsoluteConstraints(1664, 431, 46, 30));
 
         Silla190.setBackground(new java.awt.Color(255, 255, 255));
         Silla190.setForeground(new java.awt.Color(0, 0, 153));
@@ -2004,6 +2198,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla190ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla190, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 469, 46, 30));
 
         Silla191.setBackground(new java.awt.Color(255, 255, 255));
         Silla191.setForeground(new java.awt.Color(0, 0, 153));
@@ -2012,6 +2207,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla191ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla191, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 469, 46, 30));
 
         Silla192.setBackground(new java.awt.Color(255, 255, 255));
         Silla192.setForeground(new java.awt.Color(0, 0, 153));
@@ -2020,6 +2216,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla192ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla192, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 468, 46, 30));
 
         Silla193.setBackground(new java.awt.Color(255, 255, 255));
         Silla193.setForeground(new java.awt.Color(0, 0, 153));
@@ -2028,6 +2225,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla193ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla193, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 468, 46, 30));
 
         Silla194.setBackground(new java.awt.Color(255, 255, 255));
         Silla194.setForeground(new java.awt.Color(0, 0, 153));
@@ -2036,6 +2234,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla194ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla194, new org.netbeans.lib.awtextra.AbsoluteConstraints(314, 468, 46, 30));
 
         Silla195.setBackground(new java.awt.Color(255, 255, 255));
         Silla195.setForeground(new java.awt.Color(0, 0, 153));
@@ -2044,6 +2243,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla195ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla195, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 469, 46, 30));
 
         Silla196.setBackground(new java.awt.Color(255, 255, 255));
         Silla196.setForeground(new java.awt.Color(0, 0, 153));
@@ -2052,6 +2252,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla196ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla196, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 469, 46, 30));
 
         Silla197.setBackground(new java.awt.Color(255, 255, 255));
         Silla197.setForeground(new java.awt.Color(0, 0, 153));
@@ -2060,6 +2261,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla197ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla197, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 469, 46, 30));
 
         Silla198.setBackground(new java.awt.Color(255, 255, 255));
         Silla198.setForeground(new java.awt.Color(0, 0, 153));
@@ -2068,6 +2270,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla198ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla198, new org.netbeans.lib.awtextra.AbsoluteConstraints(546, 469, 46, 30));
 
         Silla199.setBackground(new java.awt.Color(255, 255, 255));
         Silla199.setForeground(new java.awt.Color(0, 0, 153));
@@ -2076,6 +2279,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla199ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla199, new org.netbeans.lib.awtextra.AbsoluteConstraints(604, 469, 46, 30));
 
         Silla200.setBackground(new java.awt.Color(255, 255, 255));
         Silla200.setForeground(new java.awt.Color(0, 0, 153));
@@ -2084,6 +2288,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla200ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla200, new org.netbeans.lib.awtextra.AbsoluteConstraints(656, 469, 46, 30));
 
         Silla201.setBackground(new java.awt.Color(255, 255, 255));
         Silla201.setForeground(new java.awt.Color(0, 0, 153));
@@ -2092,6 +2297,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla201ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla201, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 469, 46, 30));
 
         Silla202.setBackground(new java.awt.Color(255, 255, 255));
         Silla202.setForeground(new java.awt.Color(0, 0, 153));
@@ -2100,6 +2306,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla202ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla202, new org.netbeans.lib.awtextra.AbsoluteConstraints(772, 469, 46, 30));
 
         Silla203.setBackground(new java.awt.Color(255, 255, 255));
         Silla203.setForeground(new java.awt.Color(0, 0, 153));
@@ -2108,6 +2315,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla203ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla203, new org.netbeans.lib.awtextra.AbsoluteConstraints(824, 469, 46, 30));
 
         Silla204.setBackground(new java.awt.Color(255, 255, 255));
         Silla204.setForeground(new java.awt.Color(0, 0, 153));
@@ -2116,6 +2324,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla204ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla204, new org.netbeans.lib.awtextra.AbsoluteConstraints(888, 469, 46, 30));
 
         Silla205.setBackground(new java.awt.Color(255, 255, 255));
         Silla205.setForeground(new java.awt.Color(0, 0, 153));
@@ -2124,6 +2333,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla205ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla205, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 469, 46, 30));
 
         Silla206.setBackground(new java.awt.Color(255, 255, 255));
         Silla206.setForeground(new java.awt.Color(0, 0, 153));
@@ -2132,6 +2342,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla206ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla206, new org.netbeans.lib.awtextra.AbsoluteConstraints(992, 469, 46, 30));
 
         Silla207.setBackground(new java.awt.Color(255, 255, 255));
         Silla207.setForeground(new java.awt.Color(0, 0, 153));
@@ -2140,6 +2351,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla207ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla207, new org.netbeans.lib.awtextra.AbsoluteConstraints(1056, 469, 46, 30));
 
         Silla208.setBackground(new java.awt.Color(255, 255, 255));
         Silla208.setForeground(new java.awt.Color(0, 0, 153));
@@ -2148,6 +2360,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla208ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla208, new org.netbeans.lib.awtextra.AbsoluteConstraints(1108, 469, 46, 30));
 
         Silla209.setBackground(new java.awt.Color(255, 255, 255));
         Silla209.setForeground(new java.awt.Color(0, 0, 153));
@@ -2156,6 +2369,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla209ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla209, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 469, 46, 30));
 
         Silla210.setBackground(new java.awt.Color(255, 255, 255));
         Silla210.setForeground(new java.awt.Color(0, 0, 153));
@@ -2164,6 +2378,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla210ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla210, new org.netbeans.lib.awtextra.AbsoluteConstraints(1224, 469, 46, 30));
 
         Silla211.setBackground(new java.awt.Color(255, 255, 255));
         Silla211.setForeground(new java.awt.Color(0, 0, 153));
@@ -2172,6 +2387,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla211ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla211, new org.netbeans.lib.awtextra.AbsoluteConstraints(1276, 469, 46, 30));
 
         Silla212.setBackground(new java.awt.Color(255, 255, 255));
         Silla212.setForeground(new java.awt.Color(0, 0, 153));
@@ -2180,6 +2396,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla212ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla212, new org.netbeans.lib.awtextra.AbsoluteConstraints(1328, 469, 46, 30));
 
         Silla213.setBackground(new java.awt.Color(255, 255, 255));
         Silla213.setForeground(new java.awt.Color(0, 0, 153));
@@ -2188,6 +2405,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla213ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla213, new org.netbeans.lib.awtextra.AbsoluteConstraints(1392, 469, 46, 30));
 
         Silla214.setBackground(new java.awt.Color(255, 255, 255));
         Silla214.setForeground(new java.awt.Color(0, 0, 153));
@@ -2196,6 +2414,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla214ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla214, new org.netbeans.lib.awtextra.AbsoluteConstraints(1444, 469, 46, 30));
 
         Silla215.setBackground(new java.awt.Color(255, 255, 255));
         Silla215.setForeground(new java.awt.Color(0, 0, 153));
@@ -2204,6 +2423,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla215ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla215, new org.netbeans.lib.awtextra.AbsoluteConstraints(1496, 469, 46, 30));
 
         Silla216.setBackground(new java.awt.Color(255, 255, 255));
         Silla216.setForeground(new java.awt.Color(0, 0, 153));
@@ -2212,6 +2432,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla216ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla216, new org.netbeans.lib.awtextra.AbsoluteConstraints(1560, 469, 46, 30));
 
         Silla217.setBackground(new java.awt.Color(255, 255, 255));
         Silla217.setForeground(new java.awt.Color(0, 0, 153));
@@ -2220,6 +2441,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla217ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla217, new org.netbeans.lib.awtextra.AbsoluteConstraints(1612, 469, 46, 30));
 
         Silla218.setBackground(new java.awt.Color(255, 255, 255));
         Silla218.setForeground(new java.awt.Color(0, 0, 153));
@@ -2228,6 +2450,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla218ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla218, new org.netbeans.lib.awtextra.AbsoluteConstraints(1664, 469, 46, 30));
 
         Silla219.setBackground(new java.awt.Color(255, 255, 255));
         Silla219.setForeground(new java.awt.Color(0, 0, 153));
@@ -2236,6 +2459,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla219ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla219, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 515, 46, 30));
 
         Silla220.setBackground(new java.awt.Color(255, 255, 255));
         Silla220.setForeground(new java.awt.Color(0, 0, 153));
@@ -2244,6 +2468,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla220ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla220, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 515, 46, 30));
 
         Silla221.setBackground(new java.awt.Color(255, 255, 255));
         Silla221.setForeground(new java.awt.Color(0, 0, 153));
@@ -2252,6 +2477,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla221ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla221, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 515, 46, 30));
 
         Silla222.setBackground(new java.awt.Color(255, 255, 255));
         Silla222.setForeground(new java.awt.Color(0, 0, 153));
@@ -2260,6 +2486,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla222ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla222, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 515, 46, 30));
 
         Silla223.setBackground(new java.awt.Color(255, 255, 255));
         Silla223.setForeground(new java.awt.Color(0, 0, 153));
@@ -2268,6 +2495,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla223ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla223, new org.netbeans.lib.awtextra.AbsoluteConstraints(314, 515, 46, 30));
 
         Silla224.setBackground(new java.awt.Color(255, 255, 255));
         Silla224.setForeground(new java.awt.Color(0, 0, 153));
@@ -2276,6 +2504,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla224ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla224, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 515, 46, 30));
 
         Silla225.setBackground(new java.awt.Color(255, 255, 255));
         Silla225.setForeground(new java.awt.Color(0, 0, 153));
@@ -2284,6 +2513,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla225ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla225, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 515, 46, 30));
 
         Silla226.setBackground(new java.awt.Color(255, 255, 255));
         Silla226.setForeground(new java.awt.Color(0, 0, 153));
@@ -2292,6 +2522,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla226ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla226, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 515, 46, 30));
 
         Silla227.setBackground(new java.awt.Color(255, 255, 255));
         Silla227.setForeground(new java.awt.Color(0, 0, 153));
@@ -2300,6 +2531,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla227ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla227, new org.netbeans.lib.awtextra.AbsoluteConstraints(546, 515, 46, 30));
 
         Silla228.setBackground(new java.awt.Color(255, 255, 255));
         Silla228.setForeground(new java.awt.Color(0, 0, 153));
@@ -2308,6 +2540,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla228ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla228, new org.netbeans.lib.awtextra.AbsoluteConstraints(604, 515, 46, 30));
 
         Silla229.setBackground(new java.awt.Color(255, 255, 255));
         Silla229.setForeground(new java.awt.Color(0, 0, 153));
@@ -2316,6 +2549,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla229ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla229, new org.netbeans.lib.awtextra.AbsoluteConstraints(656, 515, 46, 30));
 
         Silla230.setBackground(new java.awt.Color(255, 255, 255));
         Silla230.setForeground(new java.awt.Color(0, 0, 153));
@@ -2324,6 +2558,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla230ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla230, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 515, 46, 30));
 
         Silla231.setBackground(new java.awt.Color(255, 255, 255));
         Silla231.setForeground(new java.awt.Color(0, 0, 153));
@@ -2332,6 +2567,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla231ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla231, new org.netbeans.lib.awtextra.AbsoluteConstraints(772, 515, 46, 30));
 
         Silla232.setBackground(new java.awt.Color(255, 255, 255));
         Silla232.setForeground(new java.awt.Color(0, 0, 153));
@@ -2340,6 +2576,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla232ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla232, new org.netbeans.lib.awtextra.AbsoluteConstraints(824, 515, 46, 30));
 
         Silla233.setBackground(new java.awt.Color(255, 255, 255));
         Silla233.setForeground(new java.awt.Color(0, 0, 153));
@@ -2348,6 +2585,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla233ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla233, new org.netbeans.lib.awtextra.AbsoluteConstraints(888, 515, 46, 30));
 
         Silla234.setBackground(new java.awt.Color(255, 255, 255));
         Silla234.setForeground(new java.awt.Color(0, 0, 153));
@@ -2356,6 +2594,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla234ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla234, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 515, 46, 30));
 
         Silla235.setBackground(new java.awt.Color(255, 255, 255));
         Silla235.setForeground(new java.awt.Color(0, 0, 153));
@@ -2364,6 +2603,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla235ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla235, new org.netbeans.lib.awtextra.AbsoluteConstraints(992, 515, 46, 30));
 
         Silla236.setBackground(new java.awt.Color(255, 255, 255));
         Silla236.setForeground(new java.awt.Color(0, 0, 153));
@@ -2372,6 +2612,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla236ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla236, new org.netbeans.lib.awtextra.AbsoluteConstraints(1056, 515, 46, 30));
 
         Silla237.setBackground(new java.awt.Color(255, 255, 255));
         Silla237.setForeground(new java.awt.Color(0, 0, 153));
@@ -2380,6 +2621,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla237ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla237, new org.netbeans.lib.awtextra.AbsoluteConstraints(1108, 515, 46, 30));
 
         Silla238.setBackground(new java.awt.Color(255, 255, 255));
         Silla238.setForeground(new java.awt.Color(0, 0, 153));
@@ -2388,6 +2630,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla238ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla238, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 515, 46, 30));
 
         Silla239.setBackground(new java.awt.Color(255, 255, 255));
         Silla239.setForeground(new java.awt.Color(0, 0, 153));
@@ -2396,6 +2639,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla239ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla239, new org.netbeans.lib.awtextra.AbsoluteConstraints(1224, 515, 46, 30));
 
         Silla240.setBackground(new java.awt.Color(255, 255, 255));
         Silla240.setForeground(new java.awt.Color(0, 0, 153));
@@ -2404,6 +2648,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla240ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla240, new org.netbeans.lib.awtextra.AbsoluteConstraints(1276, 515, 46, 30));
 
         Silla241.setBackground(new java.awt.Color(255, 255, 255));
         Silla241.setForeground(new java.awt.Color(0, 0, 153));
@@ -2412,6 +2657,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla241ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla241, new org.netbeans.lib.awtextra.AbsoluteConstraints(1328, 515, 46, 30));
 
         Silla242.setBackground(new java.awt.Color(255, 255, 255));
         Silla242.setForeground(new java.awt.Color(0, 0, 153));
@@ -2420,6 +2666,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla242ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla242, new org.netbeans.lib.awtextra.AbsoluteConstraints(1392, 515, 46, 30));
 
         Silla243.setBackground(new java.awt.Color(255, 255, 255));
         Silla243.setForeground(new java.awt.Color(0, 0, 153));
@@ -2428,6 +2675,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla243ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla243, new org.netbeans.lib.awtextra.AbsoluteConstraints(1444, 515, 46, 30));
 
         Silla244.setBackground(new java.awt.Color(255, 255, 255));
         Silla244.setForeground(new java.awt.Color(0, 0, 153));
@@ -2436,6 +2684,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla244ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla244, new org.netbeans.lib.awtextra.AbsoluteConstraints(1496, 515, 46, 30));
 
         Silla245.setBackground(new java.awt.Color(255, 255, 255));
         Silla245.setForeground(new java.awt.Color(0, 0, 153));
@@ -2444,6 +2693,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla245ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla245, new org.netbeans.lib.awtextra.AbsoluteConstraints(1560, 515, 46, 30));
 
         Silla246.setBackground(new java.awt.Color(255, 255, 255));
         Silla246.setForeground(new java.awt.Color(0, 0, 153));
@@ -2452,6 +2702,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla246ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla246, new org.netbeans.lib.awtextra.AbsoluteConstraints(1612, 515, 46, 30));
 
         Silla247.setBackground(new java.awt.Color(255, 255, 255));
         Silla247.setForeground(new java.awt.Color(0, 0, 153));
@@ -2460,6 +2711,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla247ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla247, new org.netbeans.lib.awtextra.AbsoluteConstraints(1664, 515, 46, 30));
 
         Silla248.setBackground(new java.awt.Color(255, 255, 255));
         Silla248.setForeground(new java.awt.Color(0, 0, 153));
@@ -2468,6 +2720,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla248ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla248, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 554, 46, 30));
 
         Silla249.setBackground(new java.awt.Color(255, 255, 255));
         Silla249.setForeground(new java.awt.Color(0, 0, 153));
@@ -2476,6 +2729,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla249ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla249, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 554, 46, 30));
 
         Silla250.setBackground(new java.awt.Color(255, 255, 255));
         Silla250.setForeground(new java.awt.Color(0, 0, 153));
@@ -2484,6 +2738,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla250ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla250, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 554, 46, 30));
 
         Silla251.setBackground(new java.awt.Color(255, 255, 255));
         Silla251.setForeground(new java.awt.Color(0, 0, 153));
@@ -2492,6 +2747,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla251ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla251, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 554, 46, 30));
 
         Silla252.setBackground(new java.awt.Color(255, 255, 255));
         Silla252.setForeground(new java.awt.Color(0, 0, 153));
@@ -2500,6 +2756,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla252ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla252, new org.netbeans.lib.awtextra.AbsoluteConstraints(314, 554, 46, 30));
 
         Silla253.setBackground(new java.awt.Color(255, 255, 255));
         Silla253.setForeground(new java.awt.Color(0, 0, 153));
@@ -2508,6 +2765,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla253ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla253, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 553, 46, 30));
 
         Silla254.setBackground(new java.awt.Color(255, 255, 255));
         Silla254.setForeground(new java.awt.Color(0, 0, 153));
@@ -2516,6 +2774,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla254ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla254, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 553, 46, 30));
 
         Silla255.setBackground(new java.awt.Color(255, 255, 255));
         Silla255.setForeground(new java.awt.Color(0, 0, 153));
@@ -2524,6 +2783,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla255ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla255, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 553, 46, 30));
 
         Silla256.setBackground(new java.awt.Color(255, 255, 255));
         Silla256.setForeground(new java.awt.Color(0, 0, 153));
@@ -2532,6 +2792,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla256ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla256, new org.netbeans.lib.awtextra.AbsoluteConstraints(546, 553, 46, 30));
 
         Silla257.setBackground(new java.awt.Color(255, 255, 255));
         Silla257.setForeground(new java.awt.Color(0, 0, 153));
@@ -2540,6 +2801,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla257ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla257, new org.netbeans.lib.awtextra.AbsoluteConstraints(604, 553, 46, 30));
 
         Silla258.setBackground(new java.awt.Color(255, 255, 255));
         Silla258.setForeground(new java.awt.Color(0, 0, 153));
@@ -2548,6 +2810,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla258ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla258, new org.netbeans.lib.awtextra.AbsoluteConstraints(656, 553, 46, 30));
 
         Silla259.setBackground(new java.awt.Color(255, 255, 255));
         Silla259.setForeground(new java.awt.Color(0, 0, 153));
@@ -2556,6 +2819,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla259ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla259, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 553, 46, 30));
 
         Silla260.setBackground(new java.awt.Color(255, 255, 255));
         Silla260.setForeground(new java.awt.Color(0, 0, 153));
@@ -2564,6 +2828,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla260ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla260, new org.netbeans.lib.awtextra.AbsoluteConstraints(772, 553, 46, 30));
 
         Silla261.setBackground(new java.awt.Color(255, 255, 255));
         Silla261.setForeground(new java.awt.Color(0, 0, 153));
@@ -2572,6 +2837,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla261ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla261, new org.netbeans.lib.awtextra.AbsoluteConstraints(824, 553, 46, 30));
 
         Silla262.setBackground(new java.awt.Color(255, 255, 255));
         Silla262.setForeground(new java.awt.Color(0, 0, 153));
@@ -2580,6 +2846,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla262ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla262, new org.netbeans.lib.awtextra.AbsoluteConstraints(888, 553, 46, 30));
 
         Silla263.setBackground(new java.awt.Color(255, 255, 255));
         Silla263.setForeground(new java.awt.Color(0, 0, 153));
@@ -2588,6 +2855,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla263ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla263, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 553, 46, 30));
 
         Silla264.setBackground(new java.awt.Color(255, 255, 255));
         Silla264.setForeground(new java.awt.Color(0, 0, 153));
@@ -2596,6 +2864,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla264ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla264, new org.netbeans.lib.awtextra.AbsoluteConstraints(992, 553, 46, 30));
 
         Silla265.setBackground(new java.awt.Color(255, 255, 255));
         Silla265.setForeground(new java.awt.Color(0, 0, 153));
@@ -2604,6 +2873,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla265ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla265, new org.netbeans.lib.awtextra.AbsoluteConstraints(1056, 553, 46, 30));
 
         Silla266.setBackground(new java.awt.Color(255, 255, 255));
         Silla266.setForeground(new java.awt.Color(0, 0, 153));
@@ -2612,6 +2882,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla266ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla266, new org.netbeans.lib.awtextra.AbsoluteConstraints(1108, 553, 46, 30));
 
         Silla267.setBackground(new java.awt.Color(255, 255, 255));
         Silla267.setForeground(new java.awt.Color(0, 0, 153));
@@ -2620,6 +2891,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla267ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla267, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 553, 46, 30));
 
         Silla268.setBackground(new java.awt.Color(255, 255, 255));
         Silla268.setForeground(new java.awt.Color(0, 0, 153));
@@ -2628,6 +2900,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla268ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla268, new org.netbeans.lib.awtextra.AbsoluteConstraints(1224, 553, 46, 30));
 
         Silla269.setBackground(new java.awt.Color(255, 255, 255));
         Silla269.setForeground(new java.awt.Color(0, 0, 153));
@@ -2636,6 +2909,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla269ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla269, new org.netbeans.lib.awtextra.AbsoluteConstraints(1276, 553, 46, 30));
 
         Silla270.setBackground(new java.awt.Color(255, 255, 255));
         Silla270.setForeground(new java.awt.Color(0, 0, 153));
@@ -2644,6 +2918,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla270ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla270, new org.netbeans.lib.awtextra.AbsoluteConstraints(1328, 553, 46, 30));
 
         Silla271.setBackground(new java.awt.Color(255, 255, 255));
         Silla271.setForeground(new java.awt.Color(0, 0, 153));
@@ -2652,6 +2927,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla271ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla271, new org.netbeans.lib.awtextra.AbsoluteConstraints(1392, 553, 46, 30));
 
         Silla272.setBackground(new java.awt.Color(255, 255, 255));
         Silla272.setForeground(new java.awt.Color(0, 0, 153));
@@ -2660,6 +2936,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla272ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla272, new org.netbeans.lib.awtextra.AbsoluteConstraints(1444, 553, 46, 30));
 
         Silla273.setBackground(new java.awt.Color(255, 255, 255));
         Silla273.setForeground(new java.awt.Color(0, 0, 153));
@@ -2668,6 +2945,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla273ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla273, new org.netbeans.lib.awtextra.AbsoluteConstraints(1496, 553, 46, 30));
 
         Silla274.setBackground(new java.awt.Color(255, 255, 255));
         Silla274.setForeground(new java.awt.Color(0, 0, 153));
@@ -2676,6 +2954,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla274ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla274, new org.netbeans.lib.awtextra.AbsoluteConstraints(1560, 553, 46, 30));
 
         Silla275.setBackground(new java.awt.Color(255, 255, 255));
         Silla275.setForeground(new java.awt.Color(0, 0, 153));
@@ -2684,6 +2963,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla275ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla275, new org.netbeans.lib.awtextra.AbsoluteConstraints(1612, 553, 46, 30));
 
         Silla276.setBackground(new java.awt.Color(255, 255, 255));
         Silla276.setForeground(new java.awt.Color(0, 0, 153));
@@ -2692,6 +2972,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla276ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla276, new org.netbeans.lib.awtextra.AbsoluteConstraints(1664, 553, 46, 30));
 
         Silla277.setBackground(new java.awt.Color(255, 255, 255));
         Silla277.setForeground(new java.awt.Color(0, 0, 153));
@@ -2700,6 +2981,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla277ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla277, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 591, 46, 30));
 
         Silla278.setBackground(new java.awt.Color(255, 255, 255));
         Silla278.setForeground(new java.awt.Color(0, 0, 153));
@@ -2708,6 +2990,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla278ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla278, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 591, 46, 30));
 
         Silla279.setBackground(new java.awt.Color(255, 255, 255));
         Silla279.setForeground(new java.awt.Color(0, 0, 153));
@@ -2716,6 +2999,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla279ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla279, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 590, 46, 30));
 
         Silla280.setBackground(new java.awt.Color(255, 255, 255));
         Silla280.setForeground(new java.awt.Color(0, 0, 153));
@@ -2724,6 +3008,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla280ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla280, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 590, 46, 30));
 
         Silla281.setBackground(new java.awt.Color(255, 255, 255));
         Silla281.setForeground(new java.awt.Color(0, 0, 153));
@@ -2732,6 +3017,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla281ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla281, new org.netbeans.lib.awtextra.AbsoluteConstraints(314, 590, 46, 30));
 
         Silla282.setBackground(new java.awt.Color(255, 255, 255));
         Silla282.setForeground(new java.awt.Color(0, 0, 153));
@@ -2740,6 +3026,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla282ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla282, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 590, 46, 30));
 
         Silla283.setBackground(new java.awt.Color(255, 255, 255));
         Silla283.setForeground(new java.awt.Color(0, 0, 153));
@@ -2748,6 +3035,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla283ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla283, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 590, 46, 30));
 
         Silla284.setBackground(new java.awt.Color(255, 255, 255));
         Silla284.setForeground(new java.awt.Color(0, 0, 153));
@@ -2756,6 +3044,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla284ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla284, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 590, 46, 30));
 
         Silla285.setBackground(new java.awt.Color(255, 255, 255));
         Silla285.setForeground(new java.awt.Color(0, 0, 153));
@@ -2764,6 +3053,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla285ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla285, new org.netbeans.lib.awtextra.AbsoluteConstraints(546, 590, 46, 30));
 
         Silla286.setBackground(new java.awt.Color(255, 255, 255));
         Silla286.setForeground(new java.awt.Color(0, 0, 153));
@@ -2772,6 +3062,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla286ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla286, new org.netbeans.lib.awtextra.AbsoluteConstraints(604, 590, 46, 30));
 
         Silla287.setBackground(new java.awt.Color(255, 255, 255));
         Silla287.setForeground(new java.awt.Color(0, 0, 153));
@@ -2780,6 +3071,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla287ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla287, new org.netbeans.lib.awtextra.AbsoluteConstraints(656, 590, 46, 30));
 
         Silla288.setBackground(new java.awt.Color(255, 255, 255));
         Silla288.setForeground(new java.awt.Color(0, 0, 153));
@@ -2788,6 +3080,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla288ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla288, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 590, 46, 30));
 
         Silla289.setBackground(new java.awt.Color(255, 255, 255));
         Silla289.setForeground(new java.awt.Color(0, 0, 153));
@@ -2796,6 +3089,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla289ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla289, new org.netbeans.lib.awtextra.AbsoluteConstraints(772, 590, 46, 30));
 
         Silla290.setBackground(new java.awt.Color(255, 255, 255));
         Silla290.setForeground(new java.awt.Color(0, 0, 153));
@@ -2804,6 +3098,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla290ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla290, new org.netbeans.lib.awtextra.AbsoluteConstraints(824, 590, 46, 30));
 
         Silla291.setBackground(new java.awt.Color(255, 255, 255));
         Silla291.setForeground(new java.awt.Color(0, 0, 153));
@@ -2812,6 +3107,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla291ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla291, new org.netbeans.lib.awtextra.AbsoluteConstraints(888, 590, 46, 30));
 
         Silla292.setBackground(new java.awt.Color(255, 255, 255));
         Silla292.setForeground(new java.awt.Color(0, 0, 153));
@@ -2820,6 +3116,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla292ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla292, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 590, 46, 30));
 
         Silla293.setBackground(new java.awt.Color(255, 255, 255));
         Silla293.setForeground(new java.awt.Color(0, 0, 153));
@@ -2828,6 +3125,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla293ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla293, new org.netbeans.lib.awtextra.AbsoluteConstraints(992, 590, 46, 30));
 
         Silla294.setBackground(new java.awt.Color(255, 255, 255));
         Silla294.setForeground(new java.awt.Color(0, 0, 153));
@@ -2836,6 +3134,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla294ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla294, new org.netbeans.lib.awtextra.AbsoluteConstraints(1056, 590, 46, 30));
 
         Silla295.setBackground(new java.awt.Color(255, 255, 255));
         Silla295.setForeground(new java.awt.Color(0, 0, 153));
@@ -2844,6 +3143,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla295ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla295, new org.netbeans.lib.awtextra.AbsoluteConstraints(1108, 590, 46, 30));
 
         Silla296.setBackground(new java.awt.Color(255, 255, 255));
         Silla296.setForeground(new java.awt.Color(0, 0, 153));
@@ -2852,6 +3152,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla296ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla296, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 590, 46, 30));
 
         Silla297.setBackground(new java.awt.Color(255, 255, 255));
         Silla297.setForeground(new java.awt.Color(0, 0, 153));
@@ -2860,6 +3161,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla297ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla297, new org.netbeans.lib.awtextra.AbsoluteConstraints(1224, 590, 46, 30));
 
         Silla298.setBackground(new java.awt.Color(255, 255, 255));
         Silla298.setForeground(new java.awt.Color(0, 0, 153));
@@ -2868,6 +3170,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla298ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla298, new org.netbeans.lib.awtextra.AbsoluteConstraints(1276, 590, 46, 30));
 
         Silla299.setBackground(new java.awt.Color(255, 255, 255));
         Silla299.setForeground(new java.awt.Color(0, 0, 153));
@@ -2876,6 +3179,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla299ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla299, new org.netbeans.lib.awtextra.AbsoluteConstraints(1328, 590, 46, 30));
 
         Silla300.setBackground(new java.awt.Color(255, 255, 255));
         Silla300.setForeground(new java.awt.Color(0, 0, 153));
@@ -2884,6 +3188,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla300ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla300, new org.netbeans.lib.awtextra.AbsoluteConstraints(1392, 590, 46, 30));
 
         Silla301.setBackground(new java.awt.Color(255, 255, 255));
         Silla301.setForeground(new java.awt.Color(0, 0, 153));
@@ -2892,6 +3197,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla301ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla301, new org.netbeans.lib.awtextra.AbsoluteConstraints(1444, 590, 46, 30));
 
         Silla302.setBackground(new java.awt.Color(255, 255, 255));
         Silla302.setForeground(new java.awt.Color(0, 0, 153));
@@ -2900,6 +3206,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla302ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla302, new org.netbeans.lib.awtextra.AbsoluteConstraints(1496, 590, 46, 30));
 
         Silla303.setBackground(new java.awt.Color(255, 255, 255));
         Silla303.setForeground(new java.awt.Color(0, 0, 153));
@@ -2908,6 +3215,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla303ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla303, new org.netbeans.lib.awtextra.AbsoluteConstraints(1560, 590, 46, 30));
 
         Silla304.setBackground(new java.awt.Color(255, 255, 255));
         Silla304.setForeground(new java.awt.Color(0, 0, 153));
@@ -2916,6 +3224,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla304ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla304, new org.netbeans.lib.awtextra.AbsoluteConstraints(1612, 590, 46, 30));
 
         Silla305.setBackground(new java.awt.Color(255, 255, 255));
         Silla305.setForeground(new java.awt.Color(0, 0, 153));
@@ -2924,6 +3233,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla305ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla305, new org.netbeans.lib.awtextra.AbsoluteConstraints(1664, 590, 46, 30));
 
         Silla306.setBackground(new java.awt.Color(255, 255, 255));
         Silla306.setForeground(new java.awt.Color(0, 0, 153));
@@ -2932,6 +3242,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla306ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla306, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 627, 46, 30));
 
         Silla307.setBackground(new java.awt.Color(255, 255, 255));
         Silla307.setForeground(new java.awt.Color(0, 0, 153));
@@ -2940,6 +3251,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla307ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla307, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 627, 46, 30));
 
         Silla308.setBackground(new java.awt.Color(255, 255, 255));
         Silla308.setForeground(new java.awt.Color(0, 0, 153));
@@ -2948,6 +3260,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla308ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla308, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 627, 46, 30));
 
         Silla309.setBackground(new java.awt.Color(255, 255, 255));
         Silla309.setForeground(new java.awt.Color(0, 0, 153));
@@ -2956,6 +3269,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla309ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla309, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 627, 46, 30));
 
         Silla310.setBackground(new java.awt.Color(255, 255, 255));
         Silla310.setForeground(new java.awt.Color(0, 0, 153));
@@ -2964,6 +3278,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla310ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla310, new org.netbeans.lib.awtextra.AbsoluteConstraints(314, 627, 46, 30));
 
         Silla311.setBackground(new java.awt.Color(255, 255, 255));
         Silla311.setForeground(new java.awt.Color(0, 0, 153));
@@ -2972,6 +3287,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla311ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla311, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 627, 46, 30));
 
         Silla312.setBackground(new java.awt.Color(255, 255, 255));
         Silla312.setForeground(new java.awt.Color(0, 0, 153));
@@ -2980,6 +3296,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla312ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla312, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 627, 46, 30));
 
         Silla313.setBackground(new java.awt.Color(255, 255, 255));
         Silla313.setForeground(new java.awt.Color(0, 0, 153));
@@ -2988,6 +3305,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla313ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla313, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 627, 46, 30));
 
         Silla314.setBackground(new java.awt.Color(255, 255, 255));
         Silla314.setForeground(new java.awt.Color(0, 0, 153));
@@ -2996,6 +3314,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla314ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla314, new org.netbeans.lib.awtextra.AbsoluteConstraints(546, 627, 46, 30));
 
         Silla315.setBackground(new java.awt.Color(255, 255, 255));
         Silla315.setForeground(new java.awt.Color(0, 0, 153));
@@ -3004,6 +3323,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla315ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla315, new org.netbeans.lib.awtextra.AbsoluteConstraints(604, 627, 46, 30));
 
         Silla316.setBackground(new java.awt.Color(255, 255, 255));
         Silla316.setForeground(new java.awt.Color(0, 0, 153));
@@ -3012,6 +3332,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla316ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla316, new org.netbeans.lib.awtextra.AbsoluteConstraints(656, 627, 46, 30));
 
         Silla317.setBackground(new java.awt.Color(255, 255, 255));
         Silla317.setForeground(new java.awt.Color(0, 0, 153));
@@ -3020,6 +3341,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla317ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla317, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 627, 46, 30));
 
         Silla318.setBackground(new java.awt.Color(255, 255, 255));
         Silla318.setForeground(new java.awt.Color(0, 0, 153));
@@ -3028,6 +3350,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla318ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla318, new org.netbeans.lib.awtextra.AbsoluteConstraints(772, 627, 46, 30));
 
         Silla319.setBackground(new java.awt.Color(255, 255, 255));
         Silla319.setForeground(new java.awt.Color(0, 0, 153));
@@ -3036,6 +3359,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla319ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla319, new org.netbeans.lib.awtextra.AbsoluteConstraints(824, 627, 46, 30));
 
         Silla320.setBackground(new java.awt.Color(255, 255, 255));
         Silla320.setForeground(new java.awt.Color(0, 0, 153));
@@ -3044,6 +3368,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla320ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla320, new org.netbeans.lib.awtextra.AbsoluteConstraints(888, 627, 46, 30));
 
         Silla321.setBackground(new java.awt.Color(255, 255, 255));
         Silla321.setForeground(new java.awt.Color(0, 0, 153));
@@ -3052,6 +3377,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla321ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla321, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 627, 46, 30));
 
         Silla322.setBackground(new java.awt.Color(255, 255, 255));
         Silla322.setForeground(new java.awt.Color(0, 0, 153));
@@ -3060,6 +3386,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla322ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla322, new org.netbeans.lib.awtextra.AbsoluteConstraints(992, 627, 46, 30));
 
         Silla323.setBackground(new java.awt.Color(255, 255, 255));
         Silla323.setForeground(new java.awt.Color(0, 0, 153));
@@ -3068,6 +3395,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla323ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla323, new org.netbeans.lib.awtextra.AbsoluteConstraints(1056, 627, 46, 30));
 
         Silla324.setBackground(new java.awt.Color(255, 255, 255));
         Silla324.setForeground(new java.awt.Color(0, 0, 153));
@@ -3076,6 +3404,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla324ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla324, new org.netbeans.lib.awtextra.AbsoluteConstraints(1108, 627, 46, 30));
 
         Silla325.setBackground(new java.awt.Color(255, 255, 255));
         Silla325.setForeground(new java.awt.Color(0, 0, 153));
@@ -3084,6 +3413,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla325ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla325, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 627, 46, 30));
 
         Silla326.setBackground(new java.awt.Color(255, 255, 255));
         Silla326.setForeground(new java.awt.Color(0, 0, 153));
@@ -3092,6 +3422,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla326ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla326, new org.netbeans.lib.awtextra.AbsoluteConstraints(1224, 627, 46, 30));
 
         Silla327.setBackground(new java.awt.Color(255, 255, 255));
         Silla327.setForeground(new java.awt.Color(0, 0, 153));
@@ -3100,6 +3431,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla327ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla327, new org.netbeans.lib.awtextra.AbsoluteConstraints(1276, 627, 46, 30));
 
         Silla328.setBackground(new java.awt.Color(255, 255, 255));
         Silla328.setForeground(new java.awt.Color(0, 0, 153));
@@ -3108,6 +3440,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla328ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla328, new org.netbeans.lib.awtextra.AbsoluteConstraints(1328, 627, 46, 30));
 
         Silla329.setBackground(new java.awt.Color(255, 255, 255));
         Silla329.setForeground(new java.awt.Color(0, 0, 153));
@@ -3116,6 +3449,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla329ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla329, new org.netbeans.lib.awtextra.AbsoluteConstraints(1392, 627, 46, 30));
 
         Silla330.setBackground(new java.awt.Color(255, 255, 255));
         Silla330.setForeground(new java.awt.Color(0, 0, 153));
@@ -3124,6 +3458,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla330ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla330, new org.netbeans.lib.awtextra.AbsoluteConstraints(1444, 627, 46, 30));
 
         Silla331.setBackground(new java.awt.Color(255, 255, 255));
         Silla331.setForeground(new java.awt.Color(0, 0, 153));
@@ -3132,6 +3467,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla331ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla331, new org.netbeans.lib.awtextra.AbsoluteConstraints(1496, 627, 46, 30));
 
         Silla332.setBackground(new java.awt.Color(255, 255, 255));
         Silla332.setForeground(new java.awt.Color(0, 0, 153));
@@ -3140,6 +3476,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla332ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla332, new org.netbeans.lib.awtextra.AbsoluteConstraints(1560, 627, 46, 30));
 
         Silla333.setBackground(new java.awt.Color(255, 255, 255));
         Silla333.setForeground(new java.awt.Color(0, 0, 153));
@@ -3148,6 +3485,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla333ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla333, new org.netbeans.lib.awtextra.AbsoluteConstraints(1612, 627, 46, 30));
 
         Silla334.setBackground(new java.awt.Color(255, 255, 255));
         Silla334.setForeground(new java.awt.Color(0, 0, 153));
@@ -3156,6 +3494,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla334ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla334, new org.netbeans.lib.awtextra.AbsoluteConstraints(1664, 708, 46, 30));
 
         Silla335.setBackground(new java.awt.Color(255, 255, 255));
         Silla335.setForeground(new java.awt.Color(0, 0, 153));
@@ -3164,6 +3503,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla335ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla335, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 671, 46, 30));
 
         Silla336.setBackground(new java.awt.Color(255, 255, 255));
         Silla336.setForeground(new java.awt.Color(0, 0, 153));
@@ -3172,6 +3512,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla336ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla336, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 671, 46, 30));
 
         Silla337.setBackground(new java.awt.Color(255, 255, 255));
         Silla337.setForeground(new java.awt.Color(0, 0, 153));
@@ -3180,6 +3521,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla337ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla337, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 671, 46, 30));
 
         Silla338.setBackground(new java.awt.Color(255, 255, 255));
         Silla338.setForeground(new java.awt.Color(0, 0, 153));
@@ -3188,6 +3530,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla338ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla338, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 671, 46, 30));
 
         Silla339.setBackground(new java.awt.Color(255, 255, 255));
         Silla339.setForeground(new java.awt.Color(0, 0, 153));
@@ -3196,6 +3539,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla339ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla339, new org.netbeans.lib.awtextra.AbsoluteConstraints(314, 671, 46, 30));
 
         Silla340.setBackground(new java.awt.Color(255, 255, 255));
         Silla340.setForeground(new java.awt.Color(0, 0, 153));
@@ -3204,6 +3548,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla340ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla340, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 670, 46, 30));
 
         Silla341.setBackground(new java.awt.Color(255, 255, 255));
         Silla341.setForeground(new java.awt.Color(0, 0, 153));
@@ -3212,6 +3557,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla341ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla341, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 670, 46, 30));
 
         Silla342.setBackground(new java.awt.Color(255, 255, 255));
         Silla342.setForeground(new java.awt.Color(0, 0, 153));
@@ -3220,6 +3566,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla342ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla342, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 670, 46, 30));
 
         Silla343.setBackground(new java.awt.Color(255, 255, 255));
         Silla343.setForeground(new java.awt.Color(0, 0, 153));
@@ -3228,6 +3575,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla343ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla343, new org.netbeans.lib.awtextra.AbsoluteConstraints(546, 671, 46, 30));
 
         Silla344.setBackground(new java.awt.Color(255, 255, 255));
         Silla344.setForeground(new java.awt.Color(0, 0, 153));
@@ -3236,6 +3584,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla344ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla344, new org.netbeans.lib.awtextra.AbsoluteConstraints(602, 671, 46, 30));
 
         Silla345.setBackground(new java.awt.Color(255, 255, 255));
         Silla345.setForeground(new java.awt.Color(0, 0, 153));
@@ -3244,6 +3593,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla345ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla345, new org.netbeans.lib.awtextra.AbsoluteConstraints(654, 671, 46, 30));
 
         Silla346.setBackground(new java.awt.Color(255, 255, 255));
         Silla346.setForeground(new java.awt.Color(0, 0, 153));
@@ -3252,6 +3602,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla346ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla346, new org.netbeans.lib.awtextra.AbsoluteConstraints(718, 671, 46, 30));
 
         Silla347.setBackground(new java.awt.Color(255, 255, 255));
         Silla347.setForeground(new java.awt.Color(0, 0, 153));
@@ -3260,6 +3611,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla347ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla347, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 671, 46, 30));
 
         Silla348.setBackground(new java.awt.Color(255, 255, 255));
         Silla348.setForeground(new java.awt.Color(0, 0, 153));
@@ -3268,6 +3620,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla348ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla348, new org.netbeans.lib.awtextra.AbsoluteConstraints(822, 671, 46, 30));
 
         Silla349.setBackground(new java.awt.Color(255, 255, 255));
         Silla349.setForeground(new java.awt.Color(0, 0, 153));
@@ -3276,6 +3629,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla349ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla349, new org.netbeans.lib.awtextra.AbsoluteConstraints(886, 671, 46, 30));
 
         Silla350.setBackground(new java.awt.Color(255, 255, 255));
         Silla350.setForeground(new java.awt.Color(0, 0, 153));
@@ -3284,6 +3638,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla350ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla350, new org.netbeans.lib.awtextra.AbsoluteConstraints(938, 671, 46, 30));
 
         Silla351.setBackground(new java.awt.Color(255, 255, 255));
         Silla351.setForeground(new java.awt.Color(0, 0, 153));
@@ -3292,6 +3647,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla351ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla351, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 671, 46, 30));
 
         Silla352.setBackground(new java.awt.Color(255, 255, 255));
         Silla352.setForeground(new java.awt.Color(0, 0, 153));
@@ -3300,6 +3656,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla352ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla352, new org.netbeans.lib.awtextra.AbsoluteConstraints(1054, 671, 46, 30));
 
         Silla353.setBackground(new java.awt.Color(255, 255, 255));
         Silla353.setForeground(new java.awt.Color(0, 0, 153));
@@ -3308,6 +3665,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla353ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla353, new org.netbeans.lib.awtextra.AbsoluteConstraints(1106, 671, 46, 30));
 
         Silla354.setBackground(new java.awt.Color(255, 255, 255));
         Silla354.setForeground(new java.awt.Color(0, 0, 153));
@@ -3316,6 +3674,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla354ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla354, new org.netbeans.lib.awtextra.AbsoluteConstraints(1158, 671, 46, 30));
 
         Silla355.setBackground(new java.awt.Color(255, 255, 255));
         Silla355.setForeground(new java.awt.Color(0, 0, 153));
@@ -3324,6 +3683,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla355ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla355, new org.netbeans.lib.awtextra.AbsoluteConstraints(1222, 671, 46, 30));
 
         Silla356.setBackground(new java.awt.Color(255, 255, 255));
         Silla356.setForeground(new java.awt.Color(0, 0, 153));
@@ -3332,6 +3692,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla356ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla356, new org.netbeans.lib.awtextra.AbsoluteConstraints(1274, 671, 46, 30));
 
         Silla357.setBackground(new java.awt.Color(255, 255, 255));
         Silla357.setForeground(new java.awt.Color(0, 0, 153));
@@ -3340,6 +3701,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla357ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla357, new org.netbeans.lib.awtextra.AbsoluteConstraints(1326, 671, 46, 30));
 
         Silla358.setBackground(new java.awt.Color(255, 255, 255));
         Silla358.setForeground(new java.awt.Color(0, 0, 153));
@@ -3348,6 +3710,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla358ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla358, new org.netbeans.lib.awtextra.AbsoluteConstraints(1390, 671, 46, 30));
 
         Silla359.setBackground(new java.awt.Color(255, 255, 255));
         Silla359.setForeground(new java.awt.Color(0, 0, 153));
@@ -3356,6 +3719,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla359ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla359, new org.netbeans.lib.awtextra.AbsoluteConstraints(1442, 671, 46, 30));
 
         Silla360.setBackground(new java.awt.Color(255, 255, 255));
         Silla360.setForeground(new java.awt.Color(0, 0, 153));
@@ -3364,6 +3728,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla360ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla360, new org.netbeans.lib.awtextra.AbsoluteConstraints(1494, 671, 46, 30));
 
         Silla361.setBackground(new java.awt.Color(255, 255, 255));
         Silla361.setForeground(new java.awt.Color(0, 0, 153));
@@ -3372,6 +3737,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla361ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla361, new org.netbeans.lib.awtextra.AbsoluteConstraints(1558, 671, 46, 30));
 
         Silla362.setBackground(new java.awt.Color(255, 255, 255));
         Silla362.setForeground(new java.awt.Color(0, 0, 153));
@@ -3380,6 +3746,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla362ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla362, new org.netbeans.lib.awtextra.AbsoluteConstraints(1610, 671, 46, 30));
 
         Silla363.setBackground(new java.awt.Color(255, 255, 255));
         Silla363.setForeground(new java.awt.Color(0, 0, 153));
@@ -3388,6 +3755,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla363ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla363, new org.netbeans.lib.awtextra.AbsoluteConstraints(1662, 671, 46, 30));
 
         Silla364.setBackground(new java.awt.Color(255, 255, 255));
         Silla364.setForeground(new java.awt.Color(0, 0, 153));
@@ -3396,6 +3764,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla364ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla364, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 708, 46, 30));
 
         Silla365.setBackground(new java.awt.Color(255, 255, 255));
         Silla365.setForeground(new java.awt.Color(0, 0, 153));
@@ -3404,6 +3773,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla365ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla365, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 708, 46, 30));
 
         Silla366.setBackground(new java.awt.Color(255, 255, 255));
         Silla366.setForeground(new java.awt.Color(0, 0, 153));
@@ -3412,6 +3782,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla366ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla366, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 708, 46, 30));
 
         Silla367.setBackground(new java.awt.Color(255, 255, 255));
         Silla367.setForeground(new java.awt.Color(0, 0, 153));
@@ -3420,6 +3791,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla367ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla367, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 708, 46, 30));
 
         Silla368.setBackground(new java.awt.Color(255, 255, 255));
         Silla368.setForeground(new java.awt.Color(0, 0, 153));
@@ -3428,6 +3800,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla368ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla368, new org.netbeans.lib.awtextra.AbsoluteConstraints(314, 708, 46, 30));
 
         Silla369.setBackground(new java.awt.Color(255, 255, 255));
         Silla369.setForeground(new java.awt.Color(0, 0, 153));
@@ -3436,6 +3809,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla369ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla369, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 708, 46, 30));
 
         Silla370.setBackground(new java.awt.Color(255, 255, 255));
         Silla370.setForeground(new java.awt.Color(0, 0, 153));
@@ -3444,6 +3818,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla370ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla370, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 708, 46, 30));
 
         Silla371.setBackground(new java.awt.Color(255, 255, 255));
         Silla371.setForeground(new java.awt.Color(0, 0, 153));
@@ -3452,12 +3827,15 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla371ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla371, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 708, 46, 30));
 
         Silla372.setBackground(new java.awt.Color(255, 255, 255));
         Silla372.setForeground(new java.awt.Color(0, 0, 153));
+        jPanel1.add(Silla372, new org.netbeans.lib.awtextra.AbsoluteConstraints(546, 708, 46, 30));
 
         Silla373.setBackground(new java.awt.Color(255, 255, 255));
         Silla373.setForeground(new java.awt.Color(0, 0, 153));
+        jPanel1.add(Silla373, new org.netbeans.lib.awtextra.AbsoluteConstraints(604, 708, 46, 30));
 
         Silla374.setBackground(new java.awt.Color(255, 255, 255));
         Silla374.setForeground(new java.awt.Color(0, 0, 153));
@@ -3466,6 +3844,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla374ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla374, new org.netbeans.lib.awtextra.AbsoluteConstraints(656, 708, 46, 30));
 
         Silla375.setBackground(new java.awt.Color(255, 255, 255));
         Silla375.setForeground(new java.awt.Color(0, 0, 153));
@@ -3474,6 +3853,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla375ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla375, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 708, 46, 30));
 
         Silla376.setBackground(new java.awt.Color(255, 255, 255));
         Silla376.setForeground(new java.awt.Color(0, 0, 153));
@@ -3482,6 +3862,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla376ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla376, new org.netbeans.lib.awtextra.AbsoluteConstraints(772, 708, 46, 30));
 
         Silla377.setBackground(new java.awt.Color(255, 255, 255));
         Silla377.setForeground(new java.awt.Color(0, 0, 153));
@@ -3490,6 +3871,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla377ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla377, new org.netbeans.lib.awtextra.AbsoluteConstraints(824, 708, 46, 30));
 
         Silla378.setBackground(new java.awt.Color(255, 255, 255));
         Silla378.setForeground(new java.awt.Color(0, 0, 153));
@@ -3498,6 +3880,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla378ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla378, new org.netbeans.lib.awtextra.AbsoluteConstraints(888, 708, 46, 30));
 
         Silla379.setBackground(new java.awt.Color(255, 255, 255));
         Silla379.setForeground(new java.awt.Color(0, 0, 153));
@@ -3506,6 +3889,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla379ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla379, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 708, 46, 30));
 
         Silla380.setBackground(new java.awt.Color(255, 255, 255));
         Silla380.setForeground(new java.awt.Color(0, 0, 153));
@@ -3514,6 +3898,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla380ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla380, new org.netbeans.lib.awtextra.AbsoluteConstraints(992, 708, 46, 30));
 
         Silla381.setBackground(new java.awt.Color(255, 255, 255));
         Silla381.setForeground(new java.awt.Color(0, 0, 153));
@@ -3522,6 +3907,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla381ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla381, new org.netbeans.lib.awtextra.AbsoluteConstraints(1056, 708, 46, 30));
 
         Silla382.setBackground(new java.awt.Color(255, 255, 255));
         Silla382.setForeground(new java.awt.Color(0, 0, 153));
@@ -3530,6 +3916,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla382ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla382, new org.netbeans.lib.awtextra.AbsoluteConstraints(1108, 708, 46, 30));
 
         Silla383.setBackground(new java.awt.Color(255, 255, 255));
         Silla383.setForeground(new java.awt.Color(0, 0, 153));
@@ -3538,6 +3925,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla383ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla383, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 708, 46, 30));
 
         Silla384.setBackground(new java.awt.Color(255, 255, 255));
         Silla384.setForeground(new java.awt.Color(0, 0, 153));
@@ -3546,6 +3934,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla384ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla384, new org.netbeans.lib.awtextra.AbsoluteConstraints(1224, 708, 46, 30));
 
         Silla385.setBackground(new java.awt.Color(255, 255, 255));
         Silla385.setForeground(new java.awt.Color(0, 0, 153));
@@ -3554,6 +3943,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla385ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla385, new org.netbeans.lib.awtextra.AbsoluteConstraints(1276, 708, 46, 30));
 
         Silla386.setBackground(new java.awt.Color(255, 255, 255));
         Silla386.setForeground(new java.awt.Color(0, 0, 153));
@@ -3562,6 +3952,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla386ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla386, new org.netbeans.lib.awtextra.AbsoluteConstraints(1328, 708, 46, 30));
 
         Silla387.setBackground(new java.awt.Color(255, 255, 255));
         Silla387.setForeground(new java.awt.Color(0, 0, 153));
@@ -3570,6 +3961,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla387ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla387, new org.netbeans.lib.awtextra.AbsoluteConstraints(1392, 708, 46, 30));
 
         Silla388.setBackground(new java.awt.Color(255, 255, 255));
         Silla388.setForeground(new java.awt.Color(0, 0, 153));
@@ -3578,6 +3970,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla388ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla388, new org.netbeans.lib.awtextra.AbsoluteConstraints(1444, 708, 46, 30));
 
         Silla389.setBackground(new java.awt.Color(255, 255, 255));
         Silla389.setForeground(new java.awt.Color(0, 0, 153));
@@ -3586,6 +3979,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla389ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla389, new org.netbeans.lib.awtextra.AbsoluteConstraints(1496, 708, 46, 30));
 
         Silla390.setBackground(new java.awt.Color(255, 255, 255));
         Silla390.setForeground(new java.awt.Color(0, 0, 153));
@@ -3594,6 +3988,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla390ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla390, new org.netbeans.lib.awtextra.AbsoluteConstraints(1560, 708, 46, 30));
 
         Silla391.setBackground(new java.awt.Color(255, 255, 255));
         Silla391.setForeground(new java.awt.Color(0, 0, 153));
@@ -3602,6 +3997,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla391ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla391, new org.netbeans.lib.awtextra.AbsoluteConstraints(1612, 708, 46, 30));
 
         Silla392.setBackground(new java.awt.Color(255, 255, 255));
         Silla392.setForeground(new java.awt.Color(0, 0, 153));
@@ -3610,6 +4006,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla392ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla392, new org.netbeans.lib.awtextra.AbsoluteConstraints(1664, 627, 46, 30));
 
         Silla393.setBackground(new java.awt.Color(255, 255, 255));
         Silla393.setForeground(new java.awt.Color(0, 0, 153));
@@ -3618,6 +4015,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla393ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla393, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 745, 46, 30));
 
         Silla394.setBackground(new java.awt.Color(255, 255, 255));
         Silla394.setForeground(new java.awt.Color(0, 0, 153));
@@ -3626,6 +4024,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla394ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla394, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 745, 46, 30));
 
         Silla395.setBackground(new java.awt.Color(255, 255, 255));
         Silla395.setForeground(new java.awt.Color(0, 0, 153));
@@ -3634,6 +4033,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla395ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla395, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 745, 46, 30));
 
         Silla396.setBackground(new java.awt.Color(255, 255, 255));
         Silla396.setForeground(new java.awt.Color(0, 0, 153));
@@ -3642,6 +4042,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla396ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla396, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 745, 46, 30));
 
         Silla397.setBackground(new java.awt.Color(255, 255, 255));
         Silla397.setForeground(new java.awt.Color(0, 0, 153));
@@ -3650,6 +4051,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla397ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla397, new org.netbeans.lib.awtextra.AbsoluteConstraints(314, 745, 46, 30));
 
         Silla398.setBackground(new java.awt.Color(255, 255, 255));
         Silla398.setForeground(new java.awt.Color(0, 0, 153));
@@ -3658,6 +4060,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla398ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla398, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 745, 46, 30));
 
         Silla399.setBackground(new java.awt.Color(255, 255, 255));
         Silla399.setForeground(new java.awt.Color(0, 0, 153));
@@ -3666,6 +4069,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla399ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla399, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 745, 46, 30));
 
         Silla400.setBackground(new java.awt.Color(255, 255, 255));
         Silla400.setForeground(new java.awt.Color(0, 0, 153));
@@ -3674,6 +4078,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla400ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla400, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 745, 46, 30));
 
         Silla401.setBackground(new java.awt.Color(255, 255, 255));
         Silla401.setForeground(new java.awt.Color(0, 0, 153));
@@ -3682,6 +4087,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla401ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla401, new org.netbeans.lib.awtextra.AbsoluteConstraints(546, 745, 46, 30));
 
         Silla402.setBackground(new java.awt.Color(255, 255, 255));
         Silla402.setForeground(new java.awt.Color(0, 0, 153));
@@ -3690,6 +4096,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla402ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla402, new org.netbeans.lib.awtextra.AbsoluteConstraints(604, 745, 46, 30));
 
         Silla403.setBackground(new java.awt.Color(255, 255, 255));
         Silla403.setForeground(new java.awt.Color(0, 0, 153));
@@ -3698,6 +4105,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla403ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla403, new org.netbeans.lib.awtextra.AbsoluteConstraints(656, 745, 46, 30));
 
         Silla404.setBackground(new java.awt.Color(255, 255, 255));
         Silla404.setForeground(new java.awt.Color(0, 0, 153));
@@ -3706,6 +4114,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla404ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla404, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 745, 46, 30));
 
         Silla405.setBackground(new java.awt.Color(255, 255, 255));
         Silla405.setForeground(new java.awt.Color(0, 0, 153));
@@ -3714,6 +4123,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla405ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla405, new org.netbeans.lib.awtextra.AbsoluteConstraints(772, 745, 46, 30));
 
         Silla406.setBackground(new java.awt.Color(255, 255, 255));
         Silla406.setForeground(new java.awt.Color(0, 0, 153));
@@ -3722,6 +4132,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla406ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla406, new org.netbeans.lib.awtextra.AbsoluteConstraints(824, 745, 46, 30));
 
         Silla407.setBackground(new java.awt.Color(255, 255, 255));
         Silla407.setForeground(new java.awt.Color(0, 0, 153));
@@ -3730,6 +4141,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla407ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla407, new org.netbeans.lib.awtextra.AbsoluteConstraints(888, 745, 46, 30));
 
         Silla408.setBackground(new java.awt.Color(255, 255, 255));
         Silla408.setForeground(new java.awt.Color(0, 0, 153));
@@ -3738,6 +4150,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla408ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla408, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 745, 46, 30));
 
         Silla409.setBackground(new java.awt.Color(255, 255, 255));
         Silla409.setForeground(new java.awt.Color(0, 0, 153));
@@ -3746,6 +4159,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla409ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla409, new org.netbeans.lib.awtextra.AbsoluteConstraints(992, 745, 46, 30));
 
         Silla410.setBackground(new java.awt.Color(255, 255, 255));
         Silla410.setForeground(new java.awt.Color(0, 0, 153));
@@ -3754,6 +4168,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla410ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla410, new org.netbeans.lib.awtextra.AbsoluteConstraints(1056, 745, 46, 30));
 
         Silla411.setBackground(new java.awt.Color(255, 255, 255));
         Silla411.setForeground(new java.awt.Color(0, 0, 153));
@@ -3762,6 +4177,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla411ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla411, new org.netbeans.lib.awtextra.AbsoluteConstraints(1108, 745, 46, 30));
 
         Silla412.setBackground(new java.awt.Color(255, 255, 255));
         Silla412.setForeground(new java.awt.Color(0, 0, 153));
@@ -3770,6 +4186,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla412ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla412, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 745, 46, 30));
 
         Silla413.setBackground(new java.awt.Color(255, 255, 255));
         Silla413.setForeground(new java.awt.Color(0, 0, 153));
@@ -3778,6 +4195,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla413ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla413, new org.netbeans.lib.awtextra.AbsoluteConstraints(1224, 745, 46, 30));
 
         Silla414.setBackground(new java.awt.Color(255, 255, 255));
         Silla414.setForeground(new java.awt.Color(0, 0, 153));
@@ -3786,6 +4204,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla414ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla414, new org.netbeans.lib.awtextra.AbsoluteConstraints(1276, 745, 46, 30));
 
         Silla415.setBackground(new java.awt.Color(255, 255, 255));
         Silla415.setForeground(new java.awt.Color(0, 0, 153));
@@ -3794,6 +4213,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla415ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla415, new org.netbeans.lib.awtextra.AbsoluteConstraints(1328, 745, 46, 30));
 
         Silla416.setBackground(new java.awt.Color(255, 255, 255));
         Silla416.setForeground(new java.awt.Color(0, 0, 153));
@@ -3802,6 +4222,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla416ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla416, new org.netbeans.lib.awtextra.AbsoluteConstraints(1392, 745, 46, 30));
 
         Silla417.setBackground(new java.awt.Color(255, 255, 255));
         Silla417.setForeground(new java.awt.Color(0, 0, 153));
@@ -3810,6 +4231,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla417ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla417, new org.netbeans.lib.awtextra.AbsoluteConstraints(1444, 745, 46, 30));
 
         Silla418.setBackground(new java.awt.Color(255, 255, 255));
         Silla418.setForeground(new java.awt.Color(0, 0, 153));
@@ -3818,6 +4240,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla418ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla418, new org.netbeans.lib.awtextra.AbsoluteConstraints(1496, 745, 46, 30));
 
         Silla419.setBackground(new java.awt.Color(255, 255, 255));
         Silla419.setForeground(new java.awt.Color(0, 0, 153));
@@ -3826,6 +4249,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla419ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla419, new org.netbeans.lib.awtextra.AbsoluteConstraints(1560, 745, 46, 30));
 
         Silla420.setBackground(new java.awt.Color(255, 255, 255));
         Silla420.setForeground(new java.awt.Color(0, 0, 153));
@@ -3834,6 +4258,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla420ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla420, new org.netbeans.lib.awtextra.AbsoluteConstraints(1612, 745, 46, 30));
 
         Silla421.setBackground(new java.awt.Color(255, 255, 255));
         Silla421.setForeground(new java.awt.Color(0, 0, 153));
@@ -3842,6 +4267,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla421ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla421, new org.netbeans.lib.awtextra.AbsoluteConstraints(1664, 745, 46, 30));
 
         Silla422.setBackground(new java.awt.Color(255, 255, 255));
         Silla422.setForeground(new java.awt.Color(0, 0, 153));
@@ -3850,6 +4276,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla422ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla422, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 782, 46, 30));
 
         Silla423.setBackground(new java.awt.Color(255, 255, 255));
         Silla423.setForeground(new java.awt.Color(0, 0, 153));
@@ -3858,6 +4285,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla423ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla423, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 782, 46, 30));
 
         Silla424.setBackground(new java.awt.Color(255, 255, 255));
         Silla424.setForeground(new java.awt.Color(0, 0, 153));
@@ -3866,6 +4294,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla424ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla424, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 782, 46, 30));
 
         Silla425.setBackground(new java.awt.Color(255, 255, 255));
         Silla425.setForeground(new java.awt.Color(0, 0, 153));
@@ -3874,6 +4303,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla425ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla425, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 782, 46, 30));
 
         Silla426.setBackground(new java.awt.Color(255, 255, 255));
         Silla426.setForeground(new java.awt.Color(0, 0, 153));
@@ -3882,6 +4312,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla426ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla426, new org.netbeans.lib.awtextra.AbsoluteConstraints(314, 782, 46, 30));
 
         Silla427.setBackground(new java.awt.Color(255, 255, 255));
         Silla427.setForeground(new java.awt.Color(0, 0, 153));
@@ -3890,6 +4321,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla427ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla427, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 781, 46, 30));
 
         Silla428.setBackground(new java.awt.Color(255, 255, 255));
         Silla428.setForeground(new java.awt.Color(0, 0, 153));
@@ -3898,6 +4330,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla428ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla428, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 781, 46, 30));
 
         Silla429.setBackground(new java.awt.Color(255, 255, 255));
         Silla429.setForeground(new java.awt.Color(0, 0, 153));
@@ -3906,6 +4339,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla429ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla429, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 781, 46, 30));
 
         Silla430.setBackground(new java.awt.Color(255, 255, 255));
         Silla430.setForeground(new java.awt.Color(0, 0, 153));
@@ -3914,6 +4348,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla430ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla430, new org.netbeans.lib.awtextra.AbsoluteConstraints(546, 781, 46, 30));
 
         Silla431.setBackground(new java.awt.Color(255, 255, 255));
         Silla431.setForeground(new java.awt.Color(0, 0, 153));
@@ -3922,6 +4357,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla431ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla431, new org.netbeans.lib.awtextra.AbsoluteConstraints(604, 781, 46, 30));
 
         Silla432.setBackground(new java.awt.Color(255, 255, 255));
         Silla432.setForeground(new java.awt.Color(0, 0, 153));
@@ -3930,6 +4366,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla432ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla432, new org.netbeans.lib.awtextra.AbsoluteConstraints(656, 781, 46, 30));
 
         Silla433.setBackground(new java.awt.Color(255, 255, 255));
         Silla433.setForeground(new java.awt.Color(0, 0, 153));
@@ -3938,6 +4375,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla433ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla433, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 781, 46, 30));
 
         Silla434.setBackground(new java.awt.Color(255, 255, 255));
         Silla434.setForeground(new java.awt.Color(0, 0, 153));
@@ -3946,6 +4384,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla434ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla434, new org.netbeans.lib.awtextra.AbsoluteConstraints(772, 781, 46, 30));
 
         Silla435.setBackground(new java.awt.Color(255, 255, 255));
         Silla435.setForeground(new java.awt.Color(0, 0, 153));
@@ -3954,6 +4393,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla435ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla435, new org.netbeans.lib.awtextra.AbsoluteConstraints(824, 781, 46, 30));
 
         Silla436.setBackground(new java.awt.Color(255, 255, 255));
         Silla436.setForeground(new java.awt.Color(0, 0, 153));
@@ -3962,6 +4402,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla436ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla436, new org.netbeans.lib.awtextra.AbsoluteConstraints(888, 781, 46, 30));
 
         Silla437.setBackground(new java.awt.Color(255, 255, 255));
         Silla437.setForeground(new java.awt.Color(0, 0, 153));
@@ -3970,6 +4411,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla437ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla437, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 781, 46, 30));
 
         Silla438.setBackground(new java.awt.Color(255, 255, 255));
         Silla438.setForeground(new java.awt.Color(0, 0, 153));
@@ -3978,6 +4420,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla438ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla438, new org.netbeans.lib.awtextra.AbsoluteConstraints(992, 781, 46, 30));
 
         Silla439.setBackground(new java.awt.Color(255, 255, 255));
         Silla439.setForeground(new java.awt.Color(0, 0, 153));
@@ -3986,6 +4429,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla439ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla439, new org.netbeans.lib.awtextra.AbsoluteConstraints(1056, 781, 46, 30));
 
         Silla440.setBackground(new java.awt.Color(255, 255, 255));
         Silla440.setForeground(new java.awt.Color(0, 0, 153));
@@ -3994,6 +4438,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla440ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla440, new org.netbeans.lib.awtextra.AbsoluteConstraints(1108, 781, 46, 30));
 
         Silla441.setBackground(new java.awt.Color(255, 255, 255));
         Silla441.setForeground(new java.awt.Color(0, 0, 153));
@@ -4002,6 +4447,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla441ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla441, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 781, 46, 30));
 
         Silla442.setBackground(new java.awt.Color(255, 255, 255));
         Silla442.setForeground(new java.awt.Color(0, 0, 153));
@@ -4010,6 +4456,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla442ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla442, new org.netbeans.lib.awtextra.AbsoluteConstraints(1224, 781, 46, 30));
 
         Silla443.setBackground(new java.awt.Color(255, 255, 255));
         Silla443.setForeground(new java.awt.Color(0, 0, 153));
@@ -4018,6 +4465,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla443ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla443, new org.netbeans.lib.awtextra.AbsoluteConstraints(1276, 781, 46, 30));
 
         Silla444.setBackground(new java.awt.Color(255, 255, 255));
         Silla444.setForeground(new java.awt.Color(0, 0, 153));
@@ -4026,6 +4474,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla444ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla444, new org.netbeans.lib.awtextra.AbsoluteConstraints(1328, 781, 46, 30));
 
         Silla445.setBackground(new java.awt.Color(255, 255, 255));
         Silla445.setForeground(new java.awt.Color(0, 0, 153));
@@ -4034,6 +4483,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla445ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla445, new org.netbeans.lib.awtextra.AbsoluteConstraints(1392, 781, 46, 30));
 
         Silla446.setBackground(new java.awt.Color(255, 255, 255));
         Silla446.setForeground(new java.awt.Color(0, 0, 153));
@@ -4042,6 +4492,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla446ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla446, new org.netbeans.lib.awtextra.AbsoluteConstraints(1444, 781, 46, 30));
 
         Silla447.setBackground(new java.awt.Color(255, 255, 255));
         Silla447.setForeground(new java.awt.Color(0, 0, 153));
@@ -4050,6 +4501,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla447ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla447, new org.netbeans.lib.awtextra.AbsoluteConstraints(1496, 781, 46, 30));
 
         Silla448.setBackground(new java.awt.Color(255, 255, 255));
         Silla448.setForeground(new java.awt.Color(0, 0, 153));
@@ -4058,6 +4510,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla448ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla448, new org.netbeans.lib.awtextra.AbsoluteConstraints(1560, 781, 46, 30));
 
         Silla449.setBackground(new java.awt.Color(255, 255, 255));
         Silla449.setForeground(new java.awt.Color(0, 0, 153));
@@ -4066,6 +4519,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla449ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla449, new org.netbeans.lib.awtextra.AbsoluteConstraints(1612, 781, 46, 30));
 
         Silla450.setBackground(new java.awt.Color(255, 255, 255));
         Silla450.setForeground(new java.awt.Color(0, 0, 153));
@@ -4074,1495 +4528,23 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla450ActionPerformed(evt);
             }
         });
+        jPanel1.add(Silla450, new org.netbeans.lib.awtextra.AbsoluteConstraints(1664, 781, 46, 30));
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(42, 42, 42)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(Silla17, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla277, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla278, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla279, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla280, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla281, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla282, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla283, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla284, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla285, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(Silla286, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla287, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla288, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla289, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla290, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla291, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla292, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla293, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla294, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla295, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla296, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla297, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla298, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla299, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla300, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla301, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla302, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla303, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla304, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla305, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(Silla18, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla306, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla307, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla308, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla309, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla310, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla311, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla312, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla313, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla314, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(Silla315, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla316, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla317, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla318, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla319, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla320, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla321, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla322, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla323, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla324, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla325, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla326, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla327, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla328, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla329, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla330, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla331, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla332, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla333, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addComponent(Silla42, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla364, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla365, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla366, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla367, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla368, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(Silla398, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla399, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla400, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla401, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(Silla402, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla403, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla404, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla405, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla406, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla407, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla408, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla409, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla410, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla411, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla412, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla413, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla414, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla415, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla416, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla417, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla418, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla419, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(Silla420, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla421, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(12, 12, 12))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(Silla369, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla370, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla371, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla372, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(Silla373, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla374, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla375, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla376, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla377, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla378, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla379, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla380, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla381, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla382, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla383, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla384, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla385, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla386, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla387, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla388, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla389, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla390, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla391, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(Silla392, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla334, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(0, 0, Short.MAX_VALUE))))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(Silla43, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla393, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla394, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla395, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla396, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla397, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(Silla4, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla5, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla3, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla1, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla2, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla6, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla7, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla8, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla20, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla21, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(Silla22, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(Silla9, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla45, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla46, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla47, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla48, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla49, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla50, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla51, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla52, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla53, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(Silla54, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(Silla23, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla24, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla25, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla26, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla27, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(1, 1, 1)
-                                .addComponent(Silla55, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla56, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla57, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla58, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla59, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(6, 6, 6)
-                                .addComponent(Silla60, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla61, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla62, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla63, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla64, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla65, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla66, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla67, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla68, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla69, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla70, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla71, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla72, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla73, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla28, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla29, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla30, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla31, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla32, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla33, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla34, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(7, 7, 7)
-                                .addComponent(Silla35, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla36, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla37, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla38, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla39, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla40, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla41, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(Silla11, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla103, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla104, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla105, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla106, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla107, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla108, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla109, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla110, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla111, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(10, 10, 10)
-                        .addComponent(Silla112, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla113, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla114, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla115, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla116, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla117, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla118, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla119, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla120, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla121, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla122, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla123, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla124, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla125, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla126, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla127, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla128, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla129, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla130, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla131, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(Silla19, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla335, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla336, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla337, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla338, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla339, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla340, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla341, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla342, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla343, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(10, 10, 10)
-                        .addComponent(Silla344, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla345, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla346, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla347, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla348, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla349, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla350, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla351, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla352, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla353, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla354, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla355, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla356, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla357, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla358, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla359, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla360, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Silla361, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla362, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Silla363, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                .addComponent(Silla44, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla422, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla423, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla424, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(Silla425, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla426, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla427, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla428, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla429, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla430, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(Silla431, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla432, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla433, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla434, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla435, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla436, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla437, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla438, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla439, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla440, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla441, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla442, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla443, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla444, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla445, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla446, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla447, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla448, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla449, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla450, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(Silla16, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla15, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla248, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla249, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla250, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla251, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla252, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla253, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla254, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla255, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla256, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(Silla257, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla258, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla259, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla260, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla261, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla262, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla263, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla264, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla265, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla266, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla267, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla268, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla269, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla270, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla271, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla272, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla273, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla274, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla275, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla276, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGap(6, 6, 6)
-                                        .addComponent(Silla219, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla220, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla221, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla222, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla223, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla224, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla225, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla226, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla227, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(Silla228, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla229, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla230, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla231, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla232, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla233, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla234, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla235, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla236, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla237, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla238, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla239, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla240, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla241, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla242, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla243, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla244, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla245, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla246, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla247, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(Silla10, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla74, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla75, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla76, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla77, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla78, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla79, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla80, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla81, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla82, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(Silla83, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla84, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla85, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla86, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla87, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla88, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla89, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla90, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla91, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla92, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla93, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla94, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla95, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(Silla96, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla97, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla98, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla99, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Silla100, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla101, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(Silla102, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(Silla13, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla14, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla12, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla190, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla191, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla192, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla193, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla194, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla195, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla196, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla197, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla198, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(Silla199, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla200, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla201, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla202, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla203, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla204, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla205, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla206, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla207, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla208, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla209, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla210, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla211, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla212, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla213, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla214, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla215, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(Silla216, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla217, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(Silla218, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGap(6, 6, 6)
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                                .addComponent(Silla161, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla162, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(Silla163, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla164, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla165, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(Silla166, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla167, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla168, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(Silla169, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                                .addComponent(Silla170, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla171, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(Silla172, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla173, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla174, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(Silla175, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla176, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla177, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(Silla178, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla179, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla180, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(Silla181, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla182, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla183, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(Silla184, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla185, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla186, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(Silla187, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla188, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla189, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                                .addComponent(Silla132, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla133, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(Silla134, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla135, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla136, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(Silla137, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla138, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla139, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(Silla140, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                                .addComponent(Silla141, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla142, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(Silla143, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla144, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla145, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(Silla146, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla147, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla148, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(Silla149, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla150, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla151, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(Silla152, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla153, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla154, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(Silla155, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla156, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla157, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(Silla158, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla159, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(Silla160, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
-                        .addGap(12, 12, 12)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(236, 236, 236)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(Silla1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla8, javax.swing.GroupLayout.DEFAULT_SIZE, 30, Short.MAX_VALUE)
-                    .addComponent(Silla20, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla23, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla24, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla25, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla26, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla27, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla28, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla29, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla30, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla31, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla32, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla33, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla34, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla35, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla36, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla37, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla38, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla39, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla40, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Silla41, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Silla9, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla48, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla49, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla50, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla51, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla52, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla53, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla54, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla55, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addComponent(Silla45, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 30, Short.MAX_VALUE)
-                        .addComponent(Silla46, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(Silla47, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addComponent(Silla56, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla57, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla58, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla59, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla60, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla61, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla62, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla63, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla64, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla65, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla66, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla67, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla68, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla69, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla70, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla71, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla72, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla73, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Silla74, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla10, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla75, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla76, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla77, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla78, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla79, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla80, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla81, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla82, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla83, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla84, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla85, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla86, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla87, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla88, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla89, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla90, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla91, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla92, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla93, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla94, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla95, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla96, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla97, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla98, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla99, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla100, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla101, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla102, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 16, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Silla11, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla106, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla107, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla108, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla109, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla110, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla111, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla112, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla113, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addComponent(Silla104, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(Silla105, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(Silla114, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla115, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla116, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla117, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla118, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla119, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla120, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla121, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla122, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla123, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla124, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla125, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla126, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla127, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla128, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla129, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla130, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla131, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla103, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(Silla160, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(1, 1, 1))
-                            .addComponent(Silla12, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla132, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addComponent(Silla133, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla134, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla135, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla136, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla137, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(Silla138, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla139, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla140, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla141, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla142, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla143, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla144, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla145, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla146, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla147, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla148, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla149, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla150, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla151, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla152, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla153, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla154, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla155, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla156, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla157, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla158, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla159, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(Silla162, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla161, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla13, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(Silla164, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla165, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla166, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla167, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla168, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla169, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla170, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla171, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla163, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla172, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla173, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla174, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla175, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla176, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla177, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla178, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla179, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla180, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla181, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla182, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla183, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla184, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla185, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla186, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla187, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla188, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla189, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(7, 7, 7)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(Silla193, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla192, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla194, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla14, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(Silla190, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addGap(8, 8, 8)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(Silla195, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla196, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla197, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla198, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla199, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla200, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla201, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla202, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla203, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla204, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla205, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla206, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla207, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla208, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla209, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla210, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla211, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla212, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla213, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla214, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla215, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla216, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla217, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla218, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(Silla191, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addGap(0, 15, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(Silla224, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla225, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla226, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla227, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla228, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla229, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla230, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla231, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla232, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla233, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla234, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla235, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla236, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla237, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla238, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla239, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla240, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla241, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla242, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla243, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla244, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla245, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla246, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla247, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addComponent(Silla221, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(Silla222, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla223, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla219, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla220, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla15, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(7, 7, 7)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(Silla16, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla253, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla254, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla255, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla256, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla257, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla258, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla259, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla260, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla261, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla262, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla263, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla264, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla265, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla266, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla267, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla268, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla269, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla270, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla271, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla272, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla273, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla274, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla275, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla276, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(Silla248, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(Silla249, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla250, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla251, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla252, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(Silla17, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla280, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla281, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla282, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla283, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla284, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla285, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla286, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla287, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla279, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla288, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla289, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla290, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla291, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla292, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla293, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla294, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla295, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla296, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla297, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla298, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla299, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla300, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla301, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla302, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla303, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla304, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla305, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Silla277, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(Silla278, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(Silla18, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla311, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla313, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                                .addComponent(Silla19, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                                .addGap(12, 12, 12)
-                                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addComponent(Silla341, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(Silla340, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(Silla342, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(Silla306, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla307, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla308, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla309, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla310, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla312, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla314, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla315, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla316, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla317, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla318, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla319, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla320, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla321, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla322, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla323, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla324, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla325, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla326, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla327, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla328, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla329, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla330, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla331, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla332, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla333, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addComponent(Silla338, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addComponent(Silla339, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                                    .addComponent(Silla336, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                                    .addComponent(Silla337, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                            .addComponent(Silla335, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla343, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla344, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla345, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla346, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla347, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla348, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla349, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla350, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla351, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla352, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla353, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla354, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla355, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla356, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla357, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla358, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla359, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla360, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla361, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla362, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla363, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(Silla42, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla364, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla365, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGap(7, 7, 7)
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(Silla367, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla366, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla368, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGap(7, 7, 7)
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(Silla370, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla369, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGap(7, 7, 7)
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(Silla372, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla371, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGap(7, 7, 7)
-                                        .addComponent(Silla373, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(Silla374, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla375, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla376, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla377, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla378, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla379, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla380, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla381, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla382, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla383, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGap(7, 7, 7)
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(Silla385, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla384, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla386, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla387, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla388, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla389, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla390, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla391, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(Silla334, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                            .addComponent(Silla392, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(Silla43, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla393, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla394, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(7, 7, 7)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(Silla396, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla395, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla397, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(7, 7, 7)
-                                .addComponent(Silla398, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(7, 7, 7)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(Silla400, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla399, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla401, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(7, 7, 7)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(Silla403, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla402, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla404, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(7, 7, 7)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(Silla406, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla405, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla407, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla408, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla409, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla410, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla411, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla412, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(7, 7, 7)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(Silla414, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla413, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla415, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla416, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla417, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla418, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla419, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla420, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Silla421, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(Silla44, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla427, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla428, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla429, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla430, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla431, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla432, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla433, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla434, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla435, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla436, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla437, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla438, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla439, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla440, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla441, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla442, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla443, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla444, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla445, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla446, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla447, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla448, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla449, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla450, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla423, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla424, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla425, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Silla426, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addComponent(Silla422, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(29, Short.MAX_VALUE))
-        );
+        Cancelar.setText("Cancelar");
+        Cancelar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CancelarActionPerformed(evt);
+            }
+        });
+        jPanel1.add(Cancelar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1480, 830, -1, 40));
+
+        Aceptar.setText("Aceptar");
+        Aceptar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AceptarActionPerformed(evt);
+            }
+        });
+        jPanel1.add(Aceptar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1600, 829, -1, 40));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -5572,39 +4554,43 @@ public class Interfazsillas extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 892, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void Silla4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla4ActionPerformed
-         Silla4.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla4ActionPerformed
+    private void silla1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla1ActionPerformed
+         silla1.setBackground(new Color(255,0,0));
+         for (int i=0; i<450;i++){
+            fila[1] = 1;
+            columna[1] = 1;
+         }
+    }//GEN-LAST:event_silla1ActionPerformed
 
-    private void Silla1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla1ActionPerformed
-         Silla1.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla1ActionPerformed
+    private void silla4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla4ActionPerformed
+         silla4.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla4ActionPerformed
 
-    private void Silla4MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Silla4MousePressed
+    private void silla1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_silla1MousePressed
+       
+    }//GEN-LAST:event_silla1MousePressed
 
-    }//GEN-LAST:event_Silla4MousePressed
-
-    private void Silla4MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Silla4MouseReleased
+    private void silla1MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_silla1MouseReleased
       
-    }//GEN-LAST:event_Silla4MouseReleased
+    }//GEN-LAST:event_silla1MouseReleased
 
-    private void Silla3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla3ActionPerformed
-       Silla3.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla3ActionPerformed
+    private void silla3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla3ActionPerformed
+       silla3.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla3ActionPerformed
 
-    private void Silla5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla5ActionPerformed
-       Silla5.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla5ActionPerformed
+    private void silla2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla2ActionPerformed
+       silla2.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla2ActionPerformed
 
-    private void Silla2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla2ActionPerformed
-        Silla2.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla2ActionPerformed
+    private void silla5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla5ActionPerformed
+        silla5.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla5ActionPerformed
 
     private void Silla162ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla162ActionPerformed
         Silla162.setBackground(new Color(255,0,0));
@@ -5614,21 +4600,21 @@ public class Interfazsillas extends javax.swing.JFrame {
         Silla264.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_Silla264ActionPerformed
 
-    private void Silla9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla9ActionPerformed
-        Silla9.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla9ActionPerformed
+    private void silla31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla31ActionPerformed
+        silla31.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla31ActionPerformed
 
-    private void Silla10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla10ActionPerformed
-       Silla10.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla10ActionPerformed
+    private void silla61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla61ActionPerformed
+       silla61.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla61ActionPerformed
 
-    private void Silla11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla11ActionPerformed
-      Silla11.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla11ActionPerformed
+    private void silla91ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla91ActionPerformed
+      silla91.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla91ActionPerformed
 
-    private void Silla12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla12ActionPerformed
-       Silla12.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla12ActionPerformed
+    private void silla121ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla121ActionPerformed
+       silla121.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla121ActionPerformed
 
     private void Silla13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla13ActionPerformed
      Silla13.setBackground(new Color(255,0,0));
@@ -5670,21 +4656,21 @@ public class Interfazsillas extends javax.swing.JFrame {
         Silla44.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_Silla44ActionPerformed
 
-    private void Silla45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla45ActionPerformed
-        Silla45.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla45ActionPerformed
+    private void silla32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla32ActionPerformed
+        silla32.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla32ActionPerformed
 
-    private void Silla74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla74ActionPerformed
-       Silla74.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla74ActionPerformed
+    private void silla62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla62ActionPerformed
+       silla62.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla62ActionPerformed
 
-    private void Silla103ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla103ActionPerformed
-       Silla103.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla103ActionPerformed
+    private void silla92ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla92ActionPerformed
+       silla92.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla92ActionPerformed
 
-    private void Silla132ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla132ActionPerformed
-        Silla132.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla132ActionPerformed
+    private void silla122ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla122ActionPerformed
+        silla122.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla122ActionPerformed
 
     private void Silla161ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla161ActionPerformed
        Silla161.setBackground(new Color(255,0,0));
@@ -5726,21 +4712,21 @@ public class Interfazsillas extends javax.swing.JFrame {
        Silla422.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_Silla422ActionPerformed
 
-    private void Silla46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla46ActionPerformed
-        Silla46.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla46ActionPerformed
+    private void silla33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla33ActionPerformed
+        silla33.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla33ActionPerformed
 
-    private void Silla75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla75ActionPerformed
-       Silla75.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla75ActionPerformed
+    private void silla63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla63ActionPerformed
+       silla63.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla63ActionPerformed
 
-    private void Silla104ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla104ActionPerformed
-       Silla104.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla104ActionPerformed
+    private void silla93ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla93ActionPerformed
+       silla93.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla93ActionPerformed
 
-    private void Silla133ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla133ActionPerformed
-        Silla133.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla133ActionPerformed
+    private void silla123ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla123ActionPerformed
+        silla123.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla123ActionPerformed
 
     private void Silla191ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla191ActionPerformed
        Silla191.setBackground(new Color(255,0,0));
@@ -5778,21 +4764,21 @@ public class Interfazsillas extends javax.swing.JFrame {
         Silla423.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_Silla423ActionPerformed
 
-    private void Silla47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla47ActionPerformed
-       Silla47.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla47ActionPerformed
+    private void silla34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla34ActionPerformed
+       silla34.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla34ActionPerformed
 
-    private void Silla76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla76ActionPerformed
-     Silla76.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla76ActionPerformed
+    private void silla64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla64ActionPerformed
+     silla64.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla64ActionPerformed
 
-    private void Silla105ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla105ActionPerformed
-      Silla105.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla105ActionPerformed
+    private void silla94ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla94ActionPerformed
+      silla94.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla94ActionPerformed
 
-    private void Silla134ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla134ActionPerformed
-       Silla134.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla134ActionPerformed
+    private void silla124ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla124ActionPerformed
+       silla124.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla124ActionPerformed
 
     private void Silla163ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla163ActionPerformed
         Silla163.setBackground(new Color(255,0,0));
@@ -5874,41 +4860,41 @@ public class Interfazsillas extends javax.swing.JFrame {
         Silla164.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_Silla164ActionPerformed
 
-    private void Silla135ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla135ActionPerformed
-         Silla135.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla135ActionPerformed
+    private void silla125ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla125ActionPerformed
+         silla125.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla125ActionPerformed
 
-    private void Silla106ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla106ActionPerformed
-         Silla106.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla106ActionPerformed
+    private void silla95ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla95ActionPerformed
+         silla95.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla95ActionPerformed
 
-    private void Silla77ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla77ActionPerformed
-        Silla77.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla77ActionPerformed
+    private void silla65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla65ActionPerformed
+        silla65.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla65ActionPerformed
 
-    private void Silla48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla48ActionPerformed
-        Silla48.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla48ActionPerformed
+    private void silla35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla35ActionPerformed
+        silla35.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla35ActionPerformed
 
-    private void Silla6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla6ActionPerformed
-         Silla6.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla6ActionPerformed
+    private void silla6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla6ActionPerformed
+         silla6.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla6ActionPerformed
 
-    private void Silla49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla49ActionPerformed
-        Silla49.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla49ActionPerformed
+    private void silla36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla36ActionPerformed
+        silla36.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla36ActionPerformed
 
-    private void Silla78ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla78ActionPerformed
-         Silla78.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla78ActionPerformed
+    private void silla66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla66ActionPerformed
+         silla66.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla66ActionPerformed
 
-    private void Silla107ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla107ActionPerformed
-        Silla107.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla107ActionPerformed
+    private void silla96ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla96ActionPerformed
+        silla96.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla96ActionPerformed
 
-    private void Silla136ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla136ActionPerformed
-         Silla136.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla136ActionPerformed
+    private void silla126ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla126ActionPerformed
+         silla126.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla126ActionPerformed
 
     private void Silla165ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla165ActionPerformed
         Silla165.setBackground(new Color(255,0,0));
@@ -6154,89 +5140,89 @@ public class Interfazsillas extends javax.swing.JFrame {
     Silla187.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_Silla187ActionPerformed
 
-    private void Silla130ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla130ActionPerformed
-       Silla130.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla130ActionPerformed
+    private void silla119ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla119ActionPerformed
+       silla119.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla119ActionPerformed
 
     private void Silla186ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla186ActionPerformed
       Silla186.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_Silla186ActionPerformed
 
-    private void Silla160ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla160ActionPerformed
-       Silla160.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla160ActionPerformed
+    private void silla150ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla150ActionPerformed
+       silla150.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla150ActionPerformed
 
-    private void Silla159ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla159ActionPerformed
-      Silla159.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla159ActionPerformed
+    private void silla149ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla149ActionPerformed
+      silla149.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla149ActionPerformed
 
-    private void Silla158ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla158ActionPerformed
-        Silla158.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla158ActionPerformed
+    private void silla148ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla148ActionPerformed
+        silla148.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla148ActionPerformed
 
-    private void Silla131ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla131ActionPerformed
-      Silla131.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla131ActionPerformed
+    private void silla120ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla120ActionPerformed
+      silla120.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla120ActionPerformed
 
-    private void Silla129ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla129ActionPerformed
-        Silla129.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla129ActionPerformed
+    private void silla118ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla118ActionPerformed
+        silla118.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla118ActionPerformed
 
-    private void Silla102ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla102ActionPerformed
-       Silla102.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla102ActionPerformed
+    private void silla90ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla90ActionPerformed
+       silla90.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla90ActionPerformed
 
-    private void Silla101ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla101ActionPerformed
-        Silla101.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla101ActionPerformed
+    private void silla89ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla89ActionPerformed
+        silla89.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla89ActionPerformed
 
-    private void Silla100ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla100ActionPerformed
-        Silla100.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla100ActionPerformed
+    private void silla88ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla88ActionPerformed
+        silla88.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla88ActionPerformed
 
-    private void Silla73ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla73ActionPerformed
-        Silla73.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla73ActionPerformed
+    private void silla60ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla60ActionPerformed
+        silla60.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla60ActionPerformed
 
-    private void Silla72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla72ActionPerformed
-        Silla72.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla72ActionPerformed
+    private void silla59ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla59ActionPerformed
+        silla59.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla59ActionPerformed
 
-    private void Silla71ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla71ActionPerformed
-       Silla71.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla71ActionPerformed
+    private void silla58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla58ActionPerformed
+       silla58.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla58ActionPerformed
 
-    private void Silla41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla41ActionPerformed
-       Silla41.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla41ActionPerformed
+    private void silla30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla30ActionPerformed
+       silla30.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla30ActionPerformed
 
-    private void Silla40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla40ActionPerformed
-      Silla40.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla40ActionPerformed
+    private void silla29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla29ActionPerformed
+      silla29.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla29ActionPerformed
 
-    private void Silla39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla39ActionPerformed
-       Silla39.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla39ActionPerformed
+    private void silla28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla28ActionPerformed
+       silla28.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla28ActionPerformed
 
-    private void Silla38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla38ActionPerformed
-        Silla38.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla38ActionPerformed
+    private void silla27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla27ActionPerformed
+        silla27.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla27ActionPerformed
 
-    private void Silla70ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla70ActionPerformed
-      Silla70.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla70ActionPerformed
+    private void silla57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla57ActionPerformed
+      silla57.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla57ActionPerformed
 
-    private void Silla99ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla99ActionPerformed
-        Silla99.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla99ActionPerformed
+    private void silla87ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla87ActionPerformed
+        silla87.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla87ActionPerformed
 
-    private void Silla128ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla128ActionPerformed
+    private void silla117ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla117ActionPerformed
         Silla192.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla128ActionPerformed
+    }//GEN-LAST:event_silla117ActionPerformed
 
-    private void Silla157ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla157ActionPerformed
-       Silla157.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla157ActionPerformed
+    private void silla147ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla147ActionPerformed
+       silla147.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla147ActionPerformed
 
     private void Silla215ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla215ActionPerformed
        Silla215.setBackground(new Color(255,0,0));
@@ -6342,105 +5328,105 @@ public class Interfazsillas extends javax.swing.JFrame {
         Silla184.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_Silla184ActionPerformed
 
-    private void Silla156ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla156ActionPerformed
-        Silla156.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla156ActionPerformed
+    private void silla146ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla146ActionPerformed
+        silla146.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla146ActionPerformed
 
-    private void Silla155ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla155ActionPerformed
-       Silla155.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla155ActionPerformed
+    private void silla145ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla145ActionPerformed
+       silla145.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla145ActionPerformed
 
-    private void Silla127ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla127ActionPerformed
-       Silla127.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla127ActionPerformed
+    private void silla116ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla116ActionPerformed
+       silla116.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla116ActionPerformed
 
-    private void Silla126ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla126ActionPerformed
-        Silla126.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla126ActionPerformed
+    private void silla115ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla115ActionPerformed
+        silla115.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla115ActionPerformed
 
-    private void Silla98ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla98ActionPerformed
-      Silla98.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla98ActionPerformed
+    private void silla86ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla86ActionPerformed
+      silla86.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla86ActionPerformed
 
-    private void Silla97ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla97ActionPerformed
-        Silla97.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla97ActionPerformed
+    private void silla85ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla85ActionPerformed
+        silla85.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla85ActionPerformed
 
-    private void Silla69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla69ActionPerformed
-       Silla69.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla69ActionPerformed
+    private void silla56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla56ActionPerformed
+       silla56.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla56ActionPerformed
 
-    private void Silla68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla68ActionPerformed
-         Silla68.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla68ActionPerformed
+    private void silla55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla55ActionPerformed
+         silla55.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla55ActionPerformed
 
-    private void Silla37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla37ActionPerformed
-         Silla73.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla37ActionPerformed
+    private void silla26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla26ActionPerformed
+         silla60.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla26ActionPerformed
 
-    private void Silla36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla36ActionPerformed
-         Silla36.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla36ActionPerformed
+    private void silla25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla25ActionPerformed
+         silla25.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla25ActionPerformed
 
-    private void Silla7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla7ActionPerformed
-         Silla7.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla7ActionPerformed
+    private void silla7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla7ActionPerformed
+         silla7.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla7ActionPerformed
 
-    private void Silla50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla50ActionPerformed
-         Silla50.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla50ActionPerformed
+    private void silla37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla37ActionPerformed
+         silla37.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla37ActionPerformed
 
-    private void Silla8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla8ActionPerformed
-        Silla8.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla8ActionPerformed
+    private void silla8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla8ActionPerformed
+        silla8.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla8ActionPerformed
 
-    private void Silla20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla20ActionPerformed
-         Silla20.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla20ActionPerformed
+    private void silla9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla9ActionPerformed
+         silla9.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla9ActionPerformed
 
-    private void Silla51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla51ActionPerformed
-         Silla51.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla51ActionPerformed
+    private void silla38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla38ActionPerformed
+         silla38.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla38ActionPerformed
 
-    private void Silla52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla52ActionPerformed
-        Silla52.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla52ActionPerformed
+    private void silla39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla39ActionPerformed
+        silla39.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla39ActionPerformed
 
-    private void Silla79ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla79ActionPerformed
-        Silla79.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla79ActionPerformed
+    private void silla67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla67ActionPerformed
+        silla67.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla67ActionPerformed
 
-    private void Silla80ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla80ActionPerformed
-         Silla80.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla80ActionPerformed
+    private void silla68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla68ActionPerformed
+         silla68.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla68ActionPerformed
 
-    private void Silla81ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla81ActionPerformed
-         Silla81.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla81ActionPerformed
+    private void silla69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla69ActionPerformed
+         silla69.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla69ActionPerformed
 
-    private void Silla108ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla108ActionPerformed
-         Silla108.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla108ActionPerformed
+    private void silla97ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla97ActionPerformed
+         silla97.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla97ActionPerformed
 
-    private void Silla109ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla109ActionPerformed
-        Silla109.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla109ActionPerformed
+    private void silla98ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla98ActionPerformed
+        silla98.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla98ActionPerformed
 
-    private void Silla110ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla110ActionPerformed
-         Silla110.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla110ActionPerformed
+    private void silla99ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla99ActionPerformed
+         silla99.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla99ActionPerformed
 
-    private void Silla137ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla137ActionPerformed
-         Silla137.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla137ActionPerformed
+    private void silla127ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla127ActionPerformed
+         silla127.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla127ActionPerformed
 
-    private void Silla138ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla138ActionPerformed
-        Silla138.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla138ActionPerformed
+    private void silla128ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla128ActionPerformed
+        silla128.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla128ActionPerformed
 
-    private void Silla139ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla139ActionPerformed
-         Silla139.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla139ActionPerformed
+    private void silla129ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla129ActionPerformed
+         silla129.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla129ActionPerformed
 
     private void Silla166ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla166ActionPerformed
         Silla166.setBackground(new Color(255,0,0));
@@ -6650,125 +5636,125 @@ public class Interfazsillas extends javax.swing.JFrame {
          Silla169.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_Silla169ActionPerformed
 
-    private void Silla142ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla142ActionPerformed
-         Silla142.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla142ActionPerformed
+    private void silla132ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla132ActionPerformed
+         silla132.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla132ActionPerformed
 
-    private void Silla141ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla141ActionPerformed
-         Silla141.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla141ActionPerformed
+    private void silla131ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla131ActionPerformed
+         silla131.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla131ActionPerformed
 
-    private void Silla140ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla140ActionPerformed
-         Silla140.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla140ActionPerformed
+    private void silla130ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla130ActionPerformed
+         silla130.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla130ActionPerformed
 
-    private void Silla113ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla113ActionPerformed
-        Silla131.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla113ActionPerformed
+    private void silla102ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla102ActionPerformed
+        silla120.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla102ActionPerformed
 
-    private void Silla112ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla112ActionPerformed
-         Silla112.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla112ActionPerformed
+    private void sila101ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sila101ActionPerformed
+         sila101.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_sila101ActionPerformed
 
-    private void Silla111ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla111ActionPerformed
-         Silla111.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla111ActionPerformed
+    private void silla100ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla100ActionPerformed
+         silla100.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla100ActionPerformed
 
-    private void Silla84ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla84ActionPerformed
-         Silla84.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla84ActionPerformed
+    private void silla72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla72ActionPerformed
+         silla72.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla72ActionPerformed
 
-    private void Silla83ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla83ActionPerformed
-         Silla83.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla83ActionPerformed
+    private void silla71ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla71ActionPerformed
+         silla71.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla71ActionPerformed
 
-    private void Silla82ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla82ActionPerformed
-        Silla82.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla82ActionPerformed
+    private void silla70ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla70ActionPerformed
+        silla70.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla70ActionPerformed
 
-    private void Silla55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla55ActionPerformed
-         Silla55.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla55ActionPerformed
+    private void silla42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla42ActionPerformed
+         silla42.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla42ActionPerformed
 
-    private void Silla54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla54ActionPerformed
-        Silla54.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla54ActionPerformed
+    private void silla41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla41ActionPerformed
+        silla41.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla41ActionPerformed
 
-    private void Silla53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla53ActionPerformed
-        Silla53.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla53ActionPerformed
+    private void silla40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla40ActionPerformed
+        silla40.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla40ActionPerformed
 
-    private void Silla23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla23ActionPerformed
-         Silla23.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla23ActionPerformed
+    private void silla12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla12ActionPerformed
+         silla12.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla12ActionPerformed
 
-    private void Silla22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla22ActionPerformed
-        Silla22.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla22ActionPerformed
+    private void silla11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla11ActionPerformed
+        silla11.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla11ActionPerformed
 
-    private void Silla21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla21ActionPerformed
-         Silla21.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla21ActionPerformed
+    private void silla10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla10ActionPerformed
+         silla10.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla10ActionPerformed
 
-    private void Silla24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla24ActionPerformed
-         Silla24.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla24ActionPerformed
+    private void silla13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla13ActionPerformed
+         silla13.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla13ActionPerformed
 
-    private void Silla25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla25ActionPerformed
-         Silla25.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla25ActionPerformed
+    private void silla14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla14ActionPerformed
+         silla14.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla14ActionPerformed
 
-    private void Silla26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla26ActionPerformed
-         Silla26.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla26ActionPerformed
+    private void silla15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla15ActionPerformed
+         silla15.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla15ActionPerformed
 
-    private void Silla56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla56ActionPerformed
-         Silla56.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla56ActionPerformed
+    private void silla43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla43ActionPerformed
+         silla43.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla43ActionPerformed
 
-    private void Silla57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla57ActionPerformed
-        Silla57.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla57ActionPerformed
+    private void silla44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla44ActionPerformed
+        silla44.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla44ActionPerformed
 
-    private void Silla58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla58ActionPerformed
-        Silla58.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla58ActionPerformed
+    private void silla45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla45ActionPerformed
+        silla45.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla45ActionPerformed
 
-    private void Silla85ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla85ActionPerformed
-         Silla85.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla85ActionPerformed
+    private void silla73ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla73ActionPerformed
+         silla73.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla73ActionPerformed
 
-    private void Silla86ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla86ActionPerformed
-        Silla86.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla86ActionPerformed
+    private void silla74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla74ActionPerformed
+        silla74.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla74ActionPerformed
 
-    private void Silla87ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla87ActionPerformed
-        Silla87.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla87ActionPerformed
+    private void silla75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla75ActionPerformed
+        silla75.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla75ActionPerformed
 
-    private void Silla114ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla114ActionPerformed
-         Silla114.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla114ActionPerformed
+    private void silla103ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla103ActionPerformed
+         silla103.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla103ActionPerformed
 
-    private void Silla115ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla115ActionPerformed
-         Silla115.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla115ActionPerformed
+    private void silla104ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla104ActionPerformed
+         silla104.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla104ActionPerformed
 
-    private void Silla116ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla116ActionPerformed
-        Silla116.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla116ActionPerformed
+    private void silla105ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla105ActionPerformed
+        silla105.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla105ActionPerformed
 
-    private void Silla143ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla143ActionPerformed
-        Silla143.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla143ActionPerformed
+    private void silla133ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla133ActionPerformed
+        silla133.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla133ActionPerformed
 
-    private void Silla144ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla144ActionPerformed
-         Silla144.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla144ActionPerformed
+    private void silla134ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla134ActionPerformed
+         silla134.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla134ActionPerformed
 
-    private void Silla145ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla145ActionPerformed
-        Silla145.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla145ActionPerformed
+    private void silla135ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla135ActionPerformed
+        silla135.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla135ActionPerformed
 
     private void Silla172ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla172ActionPerformed
          Silla172.setBackground(new Color(255,0,0));
@@ -6802,9 +5788,9 @@ public class Interfazsillas extends javax.swing.JFrame {
          Silla175.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_Silla175ActionPerformed
 
-    private void Silla117ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla117ActionPerformed
-        Silla117.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla117ActionPerformed
+    private void silla106ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla106ActionPerformed
+        silla106.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla106ActionPerformed
 
     private void Silla230ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla230ActionPerformed
          Silla230.setBackground(new Color(255,0,0));
@@ -6908,6 +5894,7 @@ public class Interfazsillas extends javax.swing.JFrame {
 
     private void Silla379ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla379ActionPerformed
          Silla379.setBackground(new Color(255,0,0));
+         
     }//GEN-LAST:event_Silla379ActionPerformed
 
     private void Silla378ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla378ActionPerformed
@@ -6986,121 +5973,121 @@ public class Interfazsillas extends javax.swing.JFrame {
          Silla176.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_Silla176ActionPerformed
 
-    private void Silla148ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla148ActionPerformed
-        Silla148.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla148ActionPerformed
+    private void silla138ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla138ActionPerformed
+        silla138.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla138ActionPerformed
 
-    private void Silla147ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla147ActionPerformed
-         Silla147.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla147ActionPerformed
+    private void silla137ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla137ActionPerformed
+         silla137.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla137ActionPerformed
 
-    private void Silla146ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla146ActionPerformed
-         Silla146.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla146ActionPerformed
+    private void silla136ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla136ActionPerformed
+         silla136.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla136ActionPerformed
 
-    private void Silla119ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla119ActionPerformed
-         Silla119.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla119ActionPerformed
+    private void silla108ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla108ActionPerformed
+         silla108.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla108ActionPerformed
 
-    private void Silla118ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla118ActionPerformed
-         Silla118.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla118ActionPerformed
+    private void silla107ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla107ActionPerformed
+         silla107.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla107ActionPerformed
 
-    private void Silla90ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla90ActionPerformed
-        Silla90.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla90ActionPerformed
+    private void silla78ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla78ActionPerformed
+        silla78.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_silla78ActionPerformed
 
-    private void Silla89ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla89ActionPerformed
-      Silla89.setBackground(new Color(255,0,0));   
-    }//GEN-LAST:event_Silla89ActionPerformed
+    private void silla77ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla77ActionPerformed
+      silla77.setBackground(new Color(255,0,0));   
+    }//GEN-LAST:event_silla77ActionPerformed
 
-    private void Silla88ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla88ActionPerformed
-        Silla88.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla88ActionPerformed
+    private void silla76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla76ActionPerformed
+        silla76.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla76ActionPerformed
 
-    private void Silla61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla61ActionPerformed
-        Silla61.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla61ActionPerformed
+    private void silla48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla48ActionPerformed
+        silla48.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla48ActionPerformed
 
-    private void Silla60ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla60ActionPerformed
-       Silla60.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla60ActionPerformed
+    private void silla47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla47ActionPerformed
+       silla47.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla47ActionPerformed
 
-    private void Silla59ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla59ActionPerformed
-      Silla59.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla59ActionPerformed
+    private void silla46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla46ActionPerformed
+      silla46.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla46ActionPerformed
 
-    private void Silla29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla29ActionPerformed
-       Silla29.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla29ActionPerformed
+    private void silla18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla18ActionPerformed
+       silla18.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla18ActionPerformed
 
-    private void Silla28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla28ActionPerformed
-       Silla28.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla28ActionPerformed
+    private void silla17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla17ActionPerformed
+       silla17.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla17ActionPerformed
 
-    private void Silla27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla27ActionPerformed
-        Silla27.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla27ActionPerformed
+    private void silla16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla16ActionPerformed
+        silla16.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla16ActionPerformed
 
-    private void Silla30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla30ActionPerformed
-        Silla30.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla30ActionPerformed
+    private void silla19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla19ActionPerformed
+        silla19.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla19ActionPerformed
 
-    private void Silla31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla31ActionPerformed
-       Silla31.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla31ActionPerformed
+    private void silla20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla20ActionPerformed
+       silla20.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla20ActionPerformed
 
-    private void Silla32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla32ActionPerformed
-      Silla32.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla32ActionPerformed
+    private void silla21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla21ActionPerformed
+      silla21.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla21ActionPerformed
 
-    private void Silla62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla62ActionPerformed
-        Silla62.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla62ActionPerformed
+    private void silla49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla49ActionPerformed
+        silla49.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla49ActionPerformed
 
-    private void Silla63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla63ActionPerformed
-       Silla63.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla63ActionPerformed
+    private void silla50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla50ActionPerformed
+       silla50.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla50ActionPerformed
 
-    private void Silla64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla64ActionPerformed
-       Silla64.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla64ActionPerformed
+    private void silla51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla51ActionPerformed
+       silla51.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla51ActionPerformed
 
-    private void Silla91ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla91ActionPerformed
-       Silla91.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla91ActionPerformed
+    private void silla79ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla79ActionPerformed
+       silla79.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla79ActionPerformed
 
-    private void Silla92ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla92ActionPerformed
-        Silla92.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla92ActionPerformed
+    private void silla80ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla80ActionPerformed
+        silla80.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla80ActionPerformed
 
-    private void Silla93ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla93ActionPerformed
-        Silla99.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla93ActionPerformed
+    private void silla81ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla81ActionPerformed
+        silla87.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla81ActionPerformed
 
-    private void Silla120ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla120ActionPerformed
-        Silla120.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla120ActionPerformed
+    private void silla109ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla109ActionPerformed
+        silla109.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla109ActionPerformed
 
-    private void Silla121ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla121ActionPerformed
-        Silla121.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla121ActionPerformed
+    private void silla110ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla110ActionPerformed
+        silla110.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla110ActionPerformed
 
-    private void Silla122ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla122ActionPerformed
-        Silla122.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla122ActionPerformed
+    private void silla111ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla111ActionPerformed
+        silla111.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla111ActionPerformed
 
-    private void Silla149ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla149ActionPerformed
-        Silla149.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla149ActionPerformed
+    private void silla139ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla139ActionPerformed
+        silla139.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla139ActionPerformed
 
-    private void Silla150ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla150ActionPerformed
-        Silla150.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla150ActionPerformed
+    private void silla140ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla140ActionPerformed
+        silla140.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla140ActionPerformed
 
-    private void Silla151ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla151ActionPerformed
-        Silla151.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla151ActionPerformed
+    private void silla141ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla141ActionPerformed
+        silla141.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla141ActionPerformed
 
     private void Silla178ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla178ActionPerformed
         Silla178.setBackground(new Color(255,0,0));  
@@ -7318,66 +6305,75 @@ public class Interfazsillas extends javax.swing.JFrame {
        Silla181.setBackground(new Color(255,0,0));  
     }//GEN-LAST:event_Silla181ActionPerformed
 
-    private void Silla154ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla154ActionPerformed
-       Silla154.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla154ActionPerformed
+    private void silla144ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla144ActionPerformed
+       silla144.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla144ActionPerformed
 
-    private void Silla153ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla153ActionPerformed
-        Silla153.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla153ActionPerformed
+    private void silla143ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla143ActionPerformed
+        silla143.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla143ActionPerformed
 
-    private void Silla152ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla152ActionPerformed
-        Silla152.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla152ActionPerformed
+    private void silla142ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla142ActionPerformed
+        silla142.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla142ActionPerformed
 
-    private void Silla125ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla125ActionPerformed
-        Silla125.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla125ActionPerformed
+    private void silla114ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla114ActionPerformed
+        silla114.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla114ActionPerformed
 
-    private void Silla124ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla124ActionPerformed
-        Silla124.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla124ActionPerformed
+    private void silla113ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla113ActionPerformed
+        silla113.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla113ActionPerformed
 
-    private void Silla123ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla123ActionPerformed
-        Silla123.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla123ActionPerformed
+    private void silla112ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla112ActionPerformed
+        silla112.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla112ActionPerformed
 
-    private void Silla96ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla96ActionPerformed
-        Silla96.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla96ActionPerformed
+    private void silla84ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla84ActionPerformed
+        silla84.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla84ActionPerformed
 
-    private void Silla95ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla95ActionPerformed
-        Silla95.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla95ActionPerformed
+    private void silla83ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla83ActionPerformed
+        silla83.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla83ActionPerformed
 
-    private void Silla94ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla94ActionPerformed
-       Silla94.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla94ActionPerformed
+    private void silla82ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla82ActionPerformed
+       silla82.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla82ActionPerformed
 
-    private void Silla67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla67ActionPerformed
-       Silla67.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla67ActionPerformed
+    private void silla54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla54ActionPerformed
+       silla54.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla54ActionPerformed
 
-    private void Silla66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla66ActionPerformed
-       Silla66.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla66ActionPerformed
+    private void silla53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla53ActionPerformed
+       silla53.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla53ActionPerformed
 
-    private void Silla65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla65ActionPerformed
-       Silla65.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla65ActionPerformed
+    private void silla52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla52ActionPerformed
+       silla52.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla52ActionPerformed
 
-    private void Silla35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla35ActionPerformed
-        Silla35.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla35ActionPerformed
+    private void silla24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla24ActionPerformed
+        silla24.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla24ActionPerformed
 
-    private void Silla34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla34ActionPerformed
-       Silla34.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla34ActionPerformed
+    private void silla23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla23ActionPerformed
+       silla23.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla23ActionPerformed
 
-    private void Silla33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla33ActionPerformed
-        Silla33.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla33ActionPerformed
+    private void silla22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla22ActionPerformed
+        silla22.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_silla22ActionPerformed
 
+    private void CancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CancelarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_CancelarActionPerformed
+
+    private void AceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AceptarActionPerformed
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_AceptarActionPerformed
+     
     /**
      * @param args the command line arguments
      */
@@ -7415,75 +6411,12 @@ public class Interfazsillas extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JToggleButton Silla1;
-    private javax.swing.JToggleButton Silla10;
-    private javax.swing.JToggleButton Silla100;
-    private javax.swing.JToggleButton Silla101;
-    private javax.swing.JToggleButton Silla102;
-    private javax.swing.JToggleButton Silla103;
-    private javax.swing.JToggleButton Silla104;
-    private javax.swing.JToggleButton Silla105;
-    private javax.swing.JToggleButton Silla106;
-    private javax.swing.JToggleButton Silla107;
-    private javax.swing.JToggleButton Silla108;
-    private javax.swing.JToggleButton Silla109;
-    private javax.swing.JToggleButton Silla11;
-    private javax.swing.JToggleButton Silla110;
-    private javax.swing.JToggleButton Silla111;
-    private javax.swing.JToggleButton Silla112;
-    private javax.swing.JToggleButton Silla113;
-    private javax.swing.JToggleButton Silla114;
-    private javax.swing.JToggleButton Silla115;
-    private javax.swing.JToggleButton Silla116;
-    private javax.swing.JToggleButton Silla117;
-    private javax.swing.JToggleButton Silla118;
-    private javax.swing.JToggleButton Silla119;
-    private javax.swing.JToggleButton Silla12;
-    private javax.swing.JToggleButton Silla120;
-    private javax.swing.JToggleButton Silla121;
-    private javax.swing.JToggleButton Silla122;
-    private javax.swing.JToggleButton Silla123;
-    private javax.swing.JToggleButton Silla124;
-    private javax.swing.JToggleButton Silla125;
-    private javax.swing.JToggleButton Silla126;
-    private javax.swing.JToggleButton Silla127;
-    private javax.swing.JToggleButton Silla128;
-    private javax.swing.JToggleButton Silla129;
+    private javax.swing.JButton Aceptar;
+    private javax.swing.JButton Cancelar;
     private javax.swing.JToggleButton Silla13;
-    private javax.swing.JToggleButton Silla130;
-    private javax.swing.JToggleButton Silla131;
-    private javax.swing.JToggleButton Silla132;
-    private javax.swing.JToggleButton Silla133;
-    private javax.swing.JToggleButton Silla134;
-    private javax.swing.JToggleButton Silla135;
-    private javax.swing.JToggleButton Silla136;
-    private javax.swing.JToggleButton Silla137;
-    private javax.swing.JToggleButton Silla138;
-    private javax.swing.JToggleButton Silla139;
     private javax.swing.JToggleButton Silla14;
-    private javax.swing.JToggleButton Silla140;
-    private javax.swing.JToggleButton Silla141;
-    private javax.swing.JToggleButton Silla142;
-    private javax.swing.JToggleButton Silla143;
-    private javax.swing.JToggleButton Silla144;
-    private javax.swing.JToggleButton Silla145;
-    private javax.swing.JToggleButton Silla146;
-    private javax.swing.JToggleButton Silla147;
-    private javax.swing.JToggleButton Silla148;
-    private javax.swing.JToggleButton Silla149;
     private javax.swing.JToggleButton Silla15;
-    private javax.swing.JToggleButton Silla150;
-    private javax.swing.JToggleButton Silla151;
-    private javax.swing.JToggleButton Silla152;
-    private javax.swing.JToggleButton Silla153;
-    private javax.swing.JToggleButton Silla154;
-    private javax.swing.JToggleButton Silla155;
-    private javax.swing.JToggleButton Silla156;
-    private javax.swing.JToggleButton Silla157;
-    private javax.swing.JToggleButton Silla158;
-    private javax.swing.JToggleButton Silla159;
     private javax.swing.JToggleButton Silla16;
-    private javax.swing.JToggleButton Silla160;
     private javax.swing.JToggleButton Silla161;
     private javax.swing.JToggleButton Silla162;
     private javax.swing.JToggleButton Silla163;
@@ -7526,8 +6459,6 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla197;
     private javax.swing.JToggleButton Silla198;
     private javax.swing.JToggleButton Silla199;
-    private javax.swing.JToggleButton Silla2;
-    private javax.swing.JToggleButton Silla20;
     private javax.swing.JToggleButton Silla200;
     private javax.swing.JToggleButton Silla201;
     private javax.swing.JToggleButton Silla202;
@@ -7538,7 +6469,6 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla207;
     private javax.swing.JToggleButton Silla208;
     private javax.swing.JToggleButton Silla209;
-    private javax.swing.JToggleButton Silla21;
     private javax.swing.JToggleButton Silla210;
     private javax.swing.JToggleButton Silla211;
     private javax.swing.JToggleButton Silla212;
@@ -7549,7 +6479,6 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla217;
     private javax.swing.JToggleButton Silla218;
     private javax.swing.JToggleButton Silla219;
-    private javax.swing.JToggleButton Silla22;
     private javax.swing.JToggleButton Silla220;
     private javax.swing.JToggleButton Silla221;
     private javax.swing.JToggleButton Silla222;
@@ -7560,7 +6489,6 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla227;
     private javax.swing.JToggleButton Silla228;
     private javax.swing.JToggleButton Silla229;
-    private javax.swing.JToggleButton Silla23;
     private javax.swing.JToggleButton Silla230;
     private javax.swing.JToggleButton Silla231;
     private javax.swing.JToggleButton Silla232;
@@ -7571,7 +6499,6 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla237;
     private javax.swing.JToggleButton Silla238;
     private javax.swing.JToggleButton Silla239;
-    private javax.swing.JToggleButton Silla24;
     private javax.swing.JToggleButton Silla240;
     private javax.swing.JToggleButton Silla241;
     private javax.swing.JToggleButton Silla242;
@@ -7582,7 +6509,6 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla247;
     private javax.swing.JToggleButton Silla248;
     private javax.swing.JToggleButton Silla249;
-    private javax.swing.JToggleButton Silla25;
     private javax.swing.JToggleButton Silla250;
     private javax.swing.JToggleButton Silla251;
     private javax.swing.JToggleButton Silla252;
@@ -7593,7 +6519,6 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla257;
     private javax.swing.JToggleButton Silla258;
     private javax.swing.JToggleButton Silla259;
-    private javax.swing.JToggleButton Silla26;
     private javax.swing.JToggleButton Silla260;
     private javax.swing.JToggleButton Silla261;
     private javax.swing.JToggleButton Silla262;
@@ -7604,7 +6529,6 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla267;
     private javax.swing.JToggleButton Silla268;
     private javax.swing.JToggleButton Silla269;
-    private javax.swing.JToggleButton Silla27;
     private javax.swing.JToggleButton Silla270;
     private javax.swing.JToggleButton Silla271;
     private javax.swing.JToggleButton Silla272;
@@ -7615,7 +6539,6 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla277;
     private javax.swing.JToggleButton Silla278;
     private javax.swing.JToggleButton Silla279;
-    private javax.swing.JToggleButton Silla28;
     private javax.swing.JToggleButton Silla280;
     private javax.swing.JToggleButton Silla281;
     private javax.swing.JToggleButton Silla282;
@@ -7626,7 +6549,6 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla287;
     private javax.swing.JToggleButton Silla288;
     private javax.swing.JToggleButton Silla289;
-    private javax.swing.JToggleButton Silla29;
     private javax.swing.JToggleButton Silla290;
     private javax.swing.JToggleButton Silla291;
     private javax.swing.JToggleButton Silla292;
@@ -7637,8 +6559,6 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla297;
     private javax.swing.JToggleButton Silla298;
     private javax.swing.JToggleButton Silla299;
-    private javax.swing.JToggleButton Silla3;
-    private javax.swing.JToggleButton Silla30;
     private javax.swing.JToggleButton Silla300;
     private javax.swing.JToggleButton Silla301;
     private javax.swing.JToggleButton Silla302;
@@ -7649,7 +6569,6 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla307;
     private javax.swing.JToggleButton Silla308;
     private javax.swing.JToggleButton Silla309;
-    private javax.swing.JToggleButton Silla31;
     private javax.swing.JToggleButton Silla310;
     private javax.swing.JToggleButton Silla311;
     private javax.swing.JToggleButton Silla312;
@@ -7660,7 +6579,6 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla317;
     private javax.swing.JToggleButton Silla318;
     private javax.swing.JToggleButton Silla319;
-    private javax.swing.JToggleButton Silla32;
     private javax.swing.JToggleButton Silla320;
     private javax.swing.JToggleButton Silla321;
     private javax.swing.JToggleButton Silla322;
@@ -7671,7 +6589,6 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla327;
     private javax.swing.JToggleButton Silla328;
     private javax.swing.JToggleButton Silla329;
-    private javax.swing.JToggleButton Silla33;
     private javax.swing.JToggleButton Silla330;
     private javax.swing.JToggleButton Silla331;
     private javax.swing.JToggleButton Silla332;
@@ -7682,7 +6599,6 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla337;
     private javax.swing.JToggleButton Silla338;
     private javax.swing.JToggleButton Silla339;
-    private javax.swing.JToggleButton Silla34;
     private javax.swing.JToggleButton Silla340;
     private javax.swing.JToggleButton Silla341;
     private javax.swing.JToggleButton Silla342;
@@ -7693,7 +6609,6 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla347;
     private javax.swing.JToggleButton Silla348;
     private javax.swing.JToggleButton Silla349;
-    private javax.swing.JToggleButton Silla35;
     private javax.swing.JToggleButton Silla350;
     private javax.swing.JToggleButton Silla351;
     private javax.swing.JToggleButton Silla352;
@@ -7704,7 +6619,6 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla357;
     private javax.swing.JToggleButton Silla358;
     private javax.swing.JToggleButton Silla359;
-    private javax.swing.JToggleButton Silla36;
     private javax.swing.JToggleButton Silla360;
     private javax.swing.JToggleButton Silla361;
     private javax.swing.JToggleButton Silla362;
@@ -7715,7 +6629,6 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla367;
     private javax.swing.JToggleButton Silla368;
     private javax.swing.JToggleButton Silla369;
-    private javax.swing.JToggleButton Silla37;
     private javax.swing.JToggleButton Silla370;
     private javax.swing.JToggleButton Silla371;
     private javax.swing.JToggleButton Silla372;
@@ -7726,7 +6639,6 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla377;
     private javax.swing.JToggleButton Silla378;
     private javax.swing.JToggleButton Silla379;
-    private javax.swing.JToggleButton Silla38;
     private javax.swing.JToggleButton Silla380;
     private javax.swing.JToggleButton Silla381;
     private javax.swing.JToggleButton Silla382;
@@ -7737,7 +6649,6 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla387;
     private javax.swing.JToggleButton Silla388;
     private javax.swing.JToggleButton Silla389;
-    private javax.swing.JToggleButton Silla39;
     private javax.swing.JToggleButton Silla390;
     private javax.swing.JToggleButton Silla391;
     private javax.swing.JToggleButton Silla392;
@@ -7748,8 +6659,6 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla397;
     private javax.swing.JToggleButton Silla398;
     private javax.swing.JToggleButton Silla399;
-    private javax.swing.JToggleButton Silla4;
-    private javax.swing.JToggleButton Silla40;
     private javax.swing.JToggleButton Silla400;
     private javax.swing.JToggleButton Silla401;
     private javax.swing.JToggleButton Silla402;
@@ -7760,7 +6669,6 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla407;
     private javax.swing.JToggleButton Silla408;
     private javax.swing.JToggleButton Silla409;
-    private javax.swing.JToggleButton Silla41;
     private javax.swing.JToggleButton Silla410;
     private javax.swing.JToggleButton Silla411;
     private javax.swing.JToggleButton Silla412;
@@ -7804,67 +6712,157 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla447;
     private javax.swing.JToggleButton Silla448;
     private javax.swing.JToggleButton Silla449;
-    private javax.swing.JToggleButton Silla45;
     private javax.swing.JToggleButton Silla450;
-    private javax.swing.JToggleButton Silla46;
-    private javax.swing.JToggleButton Silla47;
-    private javax.swing.JToggleButton Silla48;
-    private javax.swing.JToggleButton Silla49;
-    private javax.swing.JToggleButton Silla5;
-    private javax.swing.JToggleButton Silla50;
-    private javax.swing.JToggleButton Silla51;
-    private javax.swing.JToggleButton Silla52;
-    private javax.swing.JToggleButton Silla53;
-    private javax.swing.JToggleButton Silla54;
-    private javax.swing.JToggleButton Silla55;
-    private javax.swing.JToggleButton Silla56;
-    private javax.swing.JToggleButton Silla57;
-    private javax.swing.JToggleButton Silla58;
-    private javax.swing.JToggleButton Silla59;
-    private javax.swing.JToggleButton Silla6;
-    private javax.swing.JToggleButton Silla60;
-    private javax.swing.JToggleButton Silla61;
-    private javax.swing.JToggleButton Silla62;
-    private javax.swing.JToggleButton Silla63;
-    private javax.swing.JToggleButton Silla64;
-    private javax.swing.JToggleButton Silla65;
-    private javax.swing.JToggleButton Silla66;
-    private javax.swing.JToggleButton Silla67;
-    private javax.swing.JToggleButton Silla68;
-    private javax.swing.JToggleButton Silla69;
-    private javax.swing.JToggleButton Silla7;
-    private javax.swing.JToggleButton Silla70;
-    private javax.swing.JToggleButton Silla71;
-    private javax.swing.JToggleButton Silla72;
-    private javax.swing.JToggleButton Silla73;
-    private javax.swing.JToggleButton Silla74;
-    private javax.swing.JToggleButton Silla75;
-    private javax.swing.JToggleButton Silla76;
-    private javax.swing.JToggleButton Silla77;
-    private javax.swing.JToggleButton Silla78;
-    private javax.swing.JToggleButton Silla79;
-    private javax.swing.JToggleButton Silla8;
-    private javax.swing.JToggleButton Silla80;
-    private javax.swing.JToggleButton Silla81;
-    private javax.swing.JToggleButton Silla82;
-    private javax.swing.JToggleButton Silla83;
-    private javax.swing.JToggleButton Silla84;
-    private javax.swing.JToggleButton Silla85;
-    private javax.swing.JToggleButton Silla86;
-    private javax.swing.JToggleButton Silla87;
-    private javax.swing.JToggleButton Silla88;
-    private javax.swing.JToggleButton Silla89;
-    private javax.swing.JToggleButton Silla9;
-    private javax.swing.JToggleButton Silla90;
-    private javax.swing.JToggleButton Silla91;
-    private javax.swing.JToggleButton Silla92;
-    private javax.swing.JToggleButton Silla93;
-    private javax.swing.JToggleButton Silla94;
-    private javax.swing.JToggleButton Silla95;
-    private javax.swing.JToggleButton Silla96;
-    private javax.swing.JToggleButton Silla97;
-    private javax.swing.JToggleButton Silla98;
-    private javax.swing.JToggleButton Silla99;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JToggleButton sila101;
+    private javax.swing.JToggleButton silla1;
+    private javax.swing.JToggleButton silla10;
+    private javax.swing.JToggleButton silla100;
+    private javax.swing.JToggleButton silla102;
+    private javax.swing.JToggleButton silla103;
+    private javax.swing.JToggleButton silla104;
+    private javax.swing.JToggleButton silla105;
+    private javax.swing.JToggleButton silla106;
+    private javax.swing.JToggleButton silla107;
+    private javax.swing.JToggleButton silla108;
+    private javax.swing.JToggleButton silla109;
+    private javax.swing.JToggleButton silla11;
+    private javax.swing.JToggleButton silla110;
+    private javax.swing.JToggleButton silla111;
+    private javax.swing.JToggleButton silla112;
+    private javax.swing.JToggleButton silla113;
+    private javax.swing.JToggleButton silla114;
+    private javax.swing.JToggleButton silla115;
+    private javax.swing.JToggleButton silla116;
+    private javax.swing.JToggleButton silla117;
+    private javax.swing.JToggleButton silla118;
+    private javax.swing.JToggleButton silla119;
+    private javax.swing.JToggleButton silla12;
+    private javax.swing.JToggleButton silla120;
+    private javax.swing.JToggleButton silla121;
+    private javax.swing.JToggleButton silla122;
+    private javax.swing.JToggleButton silla123;
+    private javax.swing.JToggleButton silla124;
+    private javax.swing.JToggleButton silla125;
+    private javax.swing.JToggleButton silla126;
+    private javax.swing.JToggleButton silla127;
+    private javax.swing.JToggleButton silla128;
+    private javax.swing.JToggleButton silla129;
+    private javax.swing.JToggleButton silla13;
+    private javax.swing.JToggleButton silla130;
+    private javax.swing.JToggleButton silla131;
+    private javax.swing.JToggleButton silla132;
+    private javax.swing.JToggleButton silla133;
+    private javax.swing.JToggleButton silla134;
+    private javax.swing.JToggleButton silla135;
+    private javax.swing.JToggleButton silla136;
+    private javax.swing.JToggleButton silla137;
+    private javax.swing.JToggleButton silla138;
+    private javax.swing.JToggleButton silla139;
+    private javax.swing.JToggleButton silla14;
+    private javax.swing.JToggleButton silla140;
+    private javax.swing.JToggleButton silla141;
+    private javax.swing.JToggleButton silla142;
+    private javax.swing.JToggleButton silla143;
+    private javax.swing.JToggleButton silla144;
+    private javax.swing.JToggleButton silla145;
+    private javax.swing.JToggleButton silla146;
+    private javax.swing.JToggleButton silla147;
+    private javax.swing.JToggleButton silla148;
+    private javax.swing.JToggleButton silla149;
+    private javax.swing.JToggleButton silla15;
+    private javax.swing.JToggleButton silla150;
+    private javax.swing.JToggleButton silla16;
+    private javax.swing.JToggleButton silla17;
+    private javax.swing.JToggleButton silla18;
+    private javax.swing.JToggleButton silla19;
+    private javax.swing.JToggleButton silla2;
+    private javax.swing.JToggleButton silla20;
+    private javax.swing.JToggleButton silla21;
+    private javax.swing.JToggleButton silla22;
+    private javax.swing.JToggleButton silla23;
+    private javax.swing.JToggleButton silla24;
+    private javax.swing.JToggleButton silla25;
+    private javax.swing.JToggleButton silla26;
+    private javax.swing.JToggleButton silla27;
+    private javax.swing.JToggleButton silla28;
+    private javax.swing.JToggleButton silla29;
+    private javax.swing.JToggleButton silla3;
+    private javax.swing.JToggleButton silla30;
+    private javax.swing.JToggleButton silla31;
+    private javax.swing.JToggleButton silla32;
+    private javax.swing.JToggleButton silla33;
+    private javax.swing.JToggleButton silla34;
+    private javax.swing.JToggleButton silla35;
+    private javax.swing.JToggleButton silla36;
+    private javax.swing.JToggleButton silla37;
+    private javax.swing.JToggleButton silla38;
+    private javax.swing.JToggleButton silla39;
+    private javax.swing.JToggleButton silla4;
+    private javax.swing.JToggleButton silla40;
+    private javax.swing.JToggleButton silla41;
+    private javax.swing.JToggleButton silla42;
+    private javax.swing.JToggleButton silla43;
+    private javax.swing.JToggleButton silla44;
+    private javax.swing.JToggleButton silla45;
+    private javax.swing.JToggleButton silla46;
+    private javax.swing.JToggleButton silla47;
+    private javax.swing.JToggleButton silla48;
+    private javax.swing.JToggleButton silla49;
+    private javax.swing.JToggleButton silla5;
+    private javax.swing.JToggleButton silla50;
+    private javax.swing.JToggleButton silla51;
+    private javax.swing.JToggleButton silla52;
+    private javax.swing.JToggleButton silla53;
+    private javax.swing.JToggleButton silla54;
+    private javax.swing.JToggleButton silla55;
+    private javax.swing.JToggleButton silla56;
+    private javax.swing.JToggleButton silla57;
+    private javax.swing.JToggleButton silla58;
+    private javax.swing.JToggleButton silla59;
+    private javax.swing.JToggleButton silla6;
+    private javax.swing.JToggleButton silla60;
+    private javax.swing.JToggleButton silla61;
+    private javax.swing.JToggleButton silla62;
+    private javax.swing.JToggleButton silla63;
+    private javax.swing.JToggleButton silla64;
+    private javax.swing.JToggleButton silla65;
+    private javax.swing.JToggleButton silla66;
+    private javax.swing.JToggleButton silla67;
+    private javax.swing.JToggleButton silla68;
+    private javax.swing.JToggleButton silla69;
+    private javax.swing.JToggleButton silla7;
+    private javax.swing.JToggleButton silla70;
+    private javax.swing.JToggleButton silla71;
+    private javax.swing.JToggleButton silla72;
+    private javax.swing.JToggleButton silla73;
+    private javax.swing.JToggleButton silla74;
+    private javax.swing.JToggleButton silla75;
+    private javax.swing.JToggleButton silla76;
+    private javax.swing.JToggleButton silla77;
+    private javax.swing.JToggleButton silla78;
+    private javax.swing.JToggleButton silla79;
+    private javax.swing.JToggleButton silla8;
+    private javax.swing.JToggleButton silla80;
+    private javax.swing.JToggleButton silla81;
+    private javax.swing.JToggleButton silla82;
+    private javax.swing.JToggleButton silla83;
+    private javax.swing.JToggleButton silla84;
+    private javax.swing.JToggleButton silla85;
+    private javax.swing.JToggleButton silla86;
+    private javax.swing.JToggleButton silla87;
+    private javax.swing.JToggleButton silla88;
+    private javax.swing.JToggleButton silla89;
+    private javax.swing.JToggleButton silla9;
+    private javax.swing.JToggleButton silla90;
+    private javax.swing.JToggleButton silla91;
+    private javax.swing.JToggleButton silla92;
+    private javax.swing.JToggleButton silla93;
+    private javax.swing.JToggleButton silla94;
+    private javax.swing.JToggleButton silla95;
+    private javax.swing.JToggleButton silla96;
+    private javax.swing.JToggleButton silla97;
+    private javax.swing.JToggleButton silla98;
+    private javax.swing.JToggleButton silla99;
     // End of variables declaration//GEN-END:variables
 }

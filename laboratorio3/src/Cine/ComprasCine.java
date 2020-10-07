@@ -51,7 +51,7 @@ public class ComprasCine extends javax.swing.JFrame {
                 BoletasgeneralesActionPerformed(evt);
             }
         });
-        jPanel1.add(Boletasgenerales, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 240, 150, 60));
+        jPanel1.add(Boletasgenerales, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 240, 150, 60));
 
         Boletaspreferenciales.setText("Preferencial");
         Boletaspreferenciales.addActionListener(new java.awt.event.ActionListener() {
