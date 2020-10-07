@@ -13,6 +13,7 @@ public class Interfazsillas extends javax.swing.JFrame {
     }
        int fila[];
        int columna[];
+       int silla;
        
     /**
      * This method is called from within the constructor to initialize the form.
@@ -476,6 +477,7 @@ public class Interfazsillas extends javax.swing.JFrame {
         Silla450 = new javax.swing.JToggleButton();
         Cancelar = new javax.swing.JButton();
         Aceptar = new javax.swing.JButton();
+        asignacion = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -4546,6 +4548,14 @@ public class Interfazsillas extends javax.swing.JFrame {
         });
         jPanel1.add(Aceptar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1600, 829, -1, 40));
 
+        asignacion.setText("Asignacion");
+        asignacion.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                asignacionActionPerformed(evt);
+            }
+        });
+        jPanel1.add(asignacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 830, -1, 40));
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -4576,6 +4586,7 @@ public class Interfazsillas extends javax.swing.JFrame {
 
     private void silla4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla4ActionPerformed
          silla4.setBackground(new Color(255,0,0));
+         
     }//GEN-LAST:event_silla4ActionPerformed
 
     private void silla1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_silla1MousePressed
@@ -6379,6 +6390,15 @@ public class Interfazsillas extends javax.swing.JFrame {
         // TODO add your handling code here:
         
     }//GEN-LAST:event_AceptarActionPerformed
+
+    private void asignacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_asignacionActionPerformed
+        // TODO add your handling code here:
+        for (int silla=0;silla<450;silla++)
+        {
+            fila[silla] = (int)Math.ceil(silla/30); 
+            columna[silla] = silla-(30*(fila[silla]-1));
+        }
+    }//GEN-LAST:event_asignacionActionPerformed
      
     /**
      * @param args the command line arguments
@@ -6719,6 +6739,7 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla448;
     private javax.swing.JToggleButton Silla449;
     private javax.swing.JToggleButton Silla450;
+    private javax.swing.JButton asignacion;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JToggleButton sila101;
     private javax.swing.JToggleButton silla1;
