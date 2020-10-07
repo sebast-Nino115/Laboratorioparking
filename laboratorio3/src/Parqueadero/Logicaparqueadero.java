@@ -10,7 +10,7 @@ public int vacantesmotos=8;
 public int vacantesbicicletas=6;
 
 
-
+public ArrayList<puestosmoto> Puestom;
 public ArrayList<puestosbici> Puestob;
 public ArrayList<puestoscarro> Puestoc;
 public ArrayList<carros> Listadocarros;
@@ -31,6 +31,7 @@ public Logicaparqueadero(){
  this.Listadobicicletas = new ArrayList<bicicletas>();
  this.Puestob = new  ArrayList<puestosbici>();
  this.Puestoc = new ArrayList<puestoscarro>();
+ this.Puestom=new ArrayList<puestosmoto>();
  this.crearPuestosBici();
 }
 //cantidadde puestos
@@ -41,6 +42,10 @@ private void crearPuestosBici(){
 private void crearPuestosCarro(){
         for(int i=0; i<vacantescarros; i++)
             this.Puestoc.add(new puestoscarro(i+1));
+    }
+private void crearPuestosMoto(){
+        for(int i=0;i<vacantesmotos;i++)
+            this.Puestom.add(new puestosmoto(i+1));
     }
 //parquear Transportes
 
@@ -71,6 +76,21 @@ public String parquearCarro(String placa, Date fechaingreso){
             this.Puestoc.get(this.puestoVacio()).asignarpuesto(carro);
             this.Puestoc.get(this.puestoVacio()).setEstado("Ocupado");
             return "Carro parqueado con exito";
+        }
+            
+        return men;
+    }
+public String parquearMoto(String placa, Date fechaingreso){
+        String men = "No hay puestos para parquear más motos";
+        
+        if(this.buscarMoto(placa) != null)
+            return "La moto ya esta parqueado en un puesto";
+        
+        if(this.puestoVacio()!=-1){
+            motos moto = new motos(placa, fechaingreso);
+            this.Puestom.get(this.puestoVacio()).asignarpuesto(moto);
+            this.Puestom.get(this.puestoVacio()).setEstado("Ocupado");
+            return "Moto parqueada con exito";
         }
             
         return men;
@@ -108,6 +128,20 @@ public String parquearCarro(String placa, Date fechaingreso){
                 
         return mensaje;
     }
+     public String retirarmoto(String placa, Date fechasalida){
+        String mensaje = "No se ha podido retirar la moto";
+        int precio = 0 ;
+        
+        for(int i=0; i<=this.Puestom.size(); i++)
+            if(this.Puestom.get(i).getmoto()!= null && 
+                     this.Puestom.get(i).getmoto().getplaca().equalsIgnoreCase(placa)){
+                this.Puestom.get(i).setmoto(null);
+                this.Puestom.get(i).setEstado("Libre");
+                return "Se ha retirado correctamente, debe pagar " + precio;
+            }
+                
+        return mensaje;
+    }
     
     
     public String InfoPuestosLibresBici(){
@@ -128,6 +162,16 @@ public String parquearCarro(String placa, Date fechaingreso){
                 libresc += pc.libreStringc()+"\n\n";
                 
         return libresc;
+    }
+    
+      public String InfoPuestosLibresmoto(){
+        String libresm = "";
+        
+        for(puestosmoto pc: Puestom)
+            if(pc!=null && pc.getEstado().equalsIgnoreCase("Libre"))
+                libresm += pc.libreStringm()+"\n\n";
+                
+        return libresm;
     }
     
     
@@ -154,6 +198,16 @@ public carros buscarCarro(String placa){
         
         return carro;
     }
+public motos buscarMoto(String placa){
+        motos moto = null;
+        
+        for(puestosmoto pc: Puestom)
+            if(pc.getEstado().equalsIgnoreCase("Ocupado") && 
+                    pc.getmoto().getplaca().equalsIgnoreCase(placa))
+                moto = pc.getmoto();
+        
+        return moto;
+    }
     
     public int puestoVacio(){
         for(puestosbici pb: Puestob)
@@ -165,6 +219,14 @@ public carros buscarCarro(String placa){
     
     public int puestoVacioc(){
         for(puestoscarro pc: Puestoc)
+            if(pc.getEstado().equalsIgnoreCase("Libre"))
+                return (pc.getNumero()-1);
+        
+        return -1;
+    }
+    
+    public int puestoVaciom(){
+        for(puestosmoto pc: Puestom)
             if(pc.getEstado().equalsIgnoreCase("Libre"))
                 return (pc.getNumero()-1);
         
@@ -198,6 +260,23 @@ public carros buscarCarro(String placa){
         return costo;
     }
     
+    
+    public int calcularPreciomoto( Date fechaingreso, Date fechasalida, motos moto){
+        int costo = 0;
+        int canttiempo= fechaingreso.compareTo(fechasalida);
+        System.out.println(canttiempo + " segundos");
+        if (canttiempo <= 36000){
+            
+                costo = canttiempo/60*70;
+           
+        }
+        else {
+            costo = 13000;
+        }
+        
+        return costo;
+    }
+    
 
 
     public String concatenarPlacasCarros(){
@@ -209,6 +288,18 @@ public carros buscarCarro(String placa){
         
         return carros;
     }
+    
+     public String concatenarPlacasMotos(){
+        String motos = "";
+        
+        for(int i=0; i<this.Puestom.size();i++)
+            if(this.Puestom.get(i).getEstado().equalsIgnoreCase("Ocupado"))
+                motos += this.Puestom.get(i).getmoto().getplaca()+ "~";
+        
+        return motos;
+    }
+     
+     
     public String concatenarCedulaBici(){
         String bicicleta = "";
         
