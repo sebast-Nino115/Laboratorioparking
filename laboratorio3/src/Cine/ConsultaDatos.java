@@ -31,17 +31,17 @@ public class ConsultaDatos extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        jTextField2 = new javax.swing.JTextField();
+        compradasfila = new javax.swing.JTextField();
+        disponiblesfila = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        jTextField3 = new javax.swing.JTextField();
+        compradas = new javax.swing.JTextField();
         jLabel8 = new javax.swing.JLabel();
-        jTextField4 = new javax.swing.JTextField();
+        disponibles = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
-        jTextField5 = new javax.swing.JTextField();
+        dinero = new javax.swing.JTextField();
         jPanel1 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -71,19 +71,19 @@ public class ConsultaDatos extends javax.swing.JFrame {
         jLabel3.setText("Disponibilidad de sillas por fila");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 118, -1, -1));
 
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+        compradasfila.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
+                compradasfilaActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(95, 322, 97, 35));
+        getContentPane().add(compradasfila, new org.netbeans.lib.awtextra.AbsoluteConstraints(95, 322, 97, 35));
 
-        jTextField2.addActionListener(new java.awt.event.ActionListener() {
+        disponiblesfila.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField2ActionPerformed(evt);
+                disponiblesfilaActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 237, 97, 35));
+        getContentPane().add(disponiblesfila, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 237, 97, 35));
 
         jLabel4.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
@@ -105,36 +105,36 @@ public class ConsultaDatos extends javax.swing.JFrame {
         jLabel7.setText("Disponibles");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(295, 217, -1, -1));
 
-        jTextField3.addActionListener(new java.awt.event.ActionListener() {
+        compradas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField3ActionPerformed(evt);
+                compradasActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(316, 322, 97, 35));
+        getContentPane().add(compradas, new org.netbeans.lib.awtextra.AbsoluteConstraints(316, 322, 97, 35));
 
         jLabel8.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Compradas");
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(295, 300, -1, -1));
 
-        jTextField4.addActionListener(new java.awt.event.ActionListener() {
+        disponibles.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField4ActionPerformed(evt);
+                disponiblesActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(316, 239, 97, 35));
+        getContentPane().add(disponibles, new org.netbeans.lib.awtextra.AbsoluteConstraints(316, 239, 97, 35));
 
         jLabel9.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Dinero de boletas vendidas");
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(508, 118, -1, -1));
 
-        jTextField5.addActionListener(new java.awt.event.ActionListener() {
+        dinero.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField5ActionPerformed(evt);
+                dineroActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(526, 239, 136, 35));
+        getContentPane().add(dinero, new org.netbeans.lib.awtextra.AbsoluteConstraints(526, 239, 136, 35));
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
 
@@ -142,14 +142,14 @@ public class ConsultaDatos extends javax.swing.JFrame {
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 700, Short.MAX_VALUE)
+            .addGap(0, 710, Short.MAX_VALUE)
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 460, Short.MAX_VALUE)
         );
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 460));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 460));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -158,25 +158,25 @@ public class ConsultaDatos extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox1ActionPerformed
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+    private void compradasfilaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_compradasfilaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }//GEN-LAST:event_compradasfilaActionPerformed
 
-    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+    private void disponiblesfilaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_disponiblesfilaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField2ActionPerformed
+    }//GEN-LAST:event_disponiblesfilaActionPerformed
 
-    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
+    private void compradasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_compradasActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField3ActionPerformed
+    }//GEN-LAST:event_compradasActionPerformed
 
-    private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
+    private void disponiblesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_disponiblesActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField4ActionPerformed
+    }//GEN-LAST:event_disponiblesActionPerformed
 
-    private void jTextField5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField5ActionPerformed
+    private void dineroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dineroActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField5ActionPerformed
+    }//GEN-LAST:event_dineroActionPerformed
 
     /**
      * @param args the command line arguments
@@ -214,6 +214,11 @@ public class ConsultaDatos extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JTextField compradas;
+    private javax.swing.JTextField compradasfila;
+    private javax.swing.JTextField dinero;
+    private javax.swing.JTextField disponibles;
+    private javax.swing.JTextField disponiblesfila;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
@@ -225,10 +230,5 @@ public class ConsultaDatos extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField3;
-    private javax.swing.JTextField jTextField4;
-    private javax.swing.JTextField jTextField5;
     // End of variables declaration//GEN-END:variables
 }

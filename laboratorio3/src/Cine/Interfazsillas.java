@@ -16,7 +16,7 @@ public class Interfazsillas extends javax.swing.JFrame {
        int columna[];
        int silla;
        boolean disponibilidad[];
-       
+       int ocupados=0;
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -477,7 +477,6 @@ public class Interfazsillas extends javax.swing.JFrame {
         Silla448 = new javax.swing.JToggleButton();
         Silla449 = new javax.swing.JToggleButton();
         Silla450 = new javax.swing.JToggleButton();
-        Cancelar = new javax.swing.JButton();
         Aceptar = new javax.swing.JButton();
         asignacion = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
@@ -528,8 +527,10 @@ public class Interfazsillas extends javax.swing.JFrame {
         jLabel46 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel1.setMinimumSize(new java.awt.Dimension(1870, 870));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         silla4.setBackground(new java.awt.Color(255, 255, 255));
@@ -4580,21 +4581,13 @@ public class Interfazsillas extends javax.swing.JFrame {
         });
         jPanel1.add(Silla450, new org.netbeans.lib.awtextra.AbsoluteConstraints(1664, 781, 46, 30));
 
-        Cancelar.setText("Cancelar");
-        Cancelar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CancelarActionPerformed(evt);
-            }
-        });
-        jPanel1.add(Cancelar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1460, 840, -1, 40));
-
         Aceptar.setText("Aceptar");
         Aceptar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 AceptarActionPerformed(evt);
             }
         });
-        jPanel1.add(Aceptar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1600, 840, -1, 40));
+        jPanel1.add(Aceptar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1600, 820, -1, 40));
 
         asignacion.setText("Asignacion");
         asignacion.addActionListener(new java.awt.event.ActionListener() {
@@ -4602,7 +4595,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 asignacionActionPerformed(evt);
             }
         });
-        jPanel1.add(asignacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 840, -1, 40));
+        jPanel1.add(asignacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 820, -1, 40));
 
         jLabel1.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
@@ -4834,33 +4827,23 @@ public class Interfazsillas extends javax.swing.JFrame {
         jLabel46.setText("PANTALLA");
         jPanel1.add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 80, -1, -1));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1744, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 915, Short.MAX_VALUE)
-                .addContainerGap())
-        );
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1748, 912));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void silla1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla1ActionPerformed
-        silla1.setBackground(new Color(255,0,0));
-        disponibilidad[1] = false; 
+        if(silla1.getBackground() == new Color(255,255,255)){
+            silla1.setBackground(new Color(255,0,0));
+            ocupados++;
+        }
+        else{
+           JOptionPane.showMessageDialog(null, "Silla ocupada, seleccione otra");
+        }
     }//GEN-LAST:event_silla1ActionPerformed
 
     private void silla4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla4ActionPerformed
-         silla4.setBackground(new Color(255,0,0));
-         disponibilidad[4] = false; 
+        
     }//GEN-LAST:event_silla4ActionPerformed
 
     private void silla1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_silla1MousePressed
@@ -6669,13 +6652,10 @@ public class Interfazsillas extends javax.swing.JFrame {
         silla22.setBackground(new Color(255,0,0));  
     }//GEN-LAST:event_silla22ActionPerformed
 
-    private void CancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CancelarActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_CancelarActionPerformed
-
     private void AceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AceptarActionPerformed
         // TODO add your handling code here:
-        
+        Recibo abrir = new Recibo();
+        abrir.setVisible(true);
     }//GEN-LAST:event_AceptarActionPerformed
 
     private void asignacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_asignacionActionPerformed
@@ -6725,7 +6705,6 @@ public class Interfazsillas extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Aceptar;
-    private javax.swing.JButton Cancelar;
     private javax.swing.JToggleButton Silla151;
     private javax.swing.JToggleButton Silla152;
     private javax.swing.JToggleButton Silla153;
