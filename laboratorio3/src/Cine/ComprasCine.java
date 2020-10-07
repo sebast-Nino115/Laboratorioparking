@@ -5,6 +5,8 @@
  */
 package Cine;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author catal
@@ -16,8 +18,24 @@ public class ComprasCine extends javax.swing.JFrame {
      */
     public ComprasCine() {
         initComponents();
-    }
+        
 
+    }
+int preciof1;
+        Integer preciof2;
+        Integer preciof3;
+        Integer preciof4;
+        Integer preciof5;
+        Integer preciof6;
+        Integer preciof7;
+        Integer preciof8;
+        Integer preciof9;
+        Integer preciof10;
+        Integer preciof11;
+        Integer preciof12;
+        Integer preciof13;
+        Integer preciof14;
+        Integer preciof15;
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -28,68 +46,198 @@ public class ComprasCine extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        Retorno = new javax.swing.JButton();
-        Boletasgenerales = new javax.swing.JButton();
-        Boletaspreferenciales = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        fila1 = new javax.swing.JTextField();
+        fila2 = new javax.swing.JTextField();
+        fila3 = new javax.swing.JTextField();
+        fila4 = new javax.swing.JTextField();
+        fila5 = new javax.swing.JTextField();
+        fila6 = new javax.swing.JTextField();
+        fila7 = new javax.swing.JTextField();
+        fila8 = new javax.swing.JTextField();
+        fila9 = new javax.swing.JTextField();
+        fila10 = new javax.swing.JTextField();
+        fila11 = new javax.swing.JTextField();
+        fila12 = new javax.swing.JTextField();
+        fila13 = new javax.swing.JTextField();
+        fila14 = new javax.swing.JTextField();
+        fila15 = new javax.swing.JTextField();
+        guardar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        Retorno.setText("Return");
-        Retorno.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RetornoActionPerformed(evt);
-            }
-        });
-        jPanel1.add(Retorno, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 380, 130, 40));
+        jLabel1.setFont(new java.awt.Font("Lucida Bright", 0, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("BIENVENID@ A CINE COLOMBIA");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 30, -1, -1));
 
-        Boletasgenerales.setText("General");
-        Boletasgenerales.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BoletasgeneralesActionPerformed(evt);
-            }
-        });
-        jPanel1.add(Boletasgenerales, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 240, 150, 60));
+        jLabel2.setFont(new java.awt.Font("Lucida Bright", 0, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("Fila 3");
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 210, -1, -1));
 
-        Boletaspreferenciales.setText("Preferencial");
-        Boletaspreferenciales.addActionListener(new java.awt.event.ActionListener() {
+        jLabel3.setFont(new java.awt.Font("Lucida Bright", 0, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setText("Por favor ingrese los precios por fila");
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 80, 260, -1));
+
+        jLabel4.setFont(new java.awt.Font("Lucida Bright", 0, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setText("Fila 4");
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 250, -1, -1));
+
+        jLabel5.setFont(new java.awt.Font("Lucida Bright", 0, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setText("Fila 5");
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
+
+        jLabel6.setFont(new java.awt.Font("Lucida Bright", 0, 14)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel6.setText("Fila 6");
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 330, -1, -1));
+
+        jLabel7.setFont(new java.awt.Font("Lucida Bright", 0, 14)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setText("Fila 7");
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 370, -1, -1));
+
+        jLabel8.setFont(new java.awt.Font("Lucida Bright", 0, 14)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel8.setText("Fila 8");
+        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 130, -1, -1));
+
+        jLabel9.setFont(new java.awt.Font("Lucida Bright", 0, 14)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel9.setText("Fila 9");
+        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 170, -1, -1));
+
+        jLabel10.setFont(new java.awt.Font("Lucida Bright", 0, 14)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel10.setText("Fila 10");
+        jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 210, -1, -1));
+
+        jLabel11.setFont(new java.awt.Font("Lucida Bright", 0, 14)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel11.setText("Fila 11");
+        jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 250, -1, -1));
+
+        jLabel12.setFont(new java.awt.Font("Lucida Bright", 0, 14)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel12.setText("Fila 12");
+        jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 290, -1, -1));
+
+        jLabel13.setFont(new java.awt.Font("Lucida Bright", 0, 14)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel13.setText("Fila 1");
+        jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 130, -1, -1));
+
+        jLabel14.setFont(new java.awt.Font("Lucida Bright", 0, 14)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel14.setText("Fila 13");
+        jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 330, -1, -1));
+
+        jLabel15.setFont(new java.awt.Font("Lucida Bright", 0, 14)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel15.setText("Fila 14");
+        jPanel1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 370, -1, -1));
+
+        jLabel16.setFont(new java.awt.Font("Lucida Bright", 0, 14)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel16.setText("Fila 15");
+        jPanel1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 410, -1, -1));
+
+        jLabel17.setFont(new java.awt.Font("Lucida Bright", 0, 14)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel17.setText("Fila 2");
+        jPanel1.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 170, -1, -1));
+        jPanel1.add(fila1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 120, 120, -1));
+        jPanel1.add(fila2, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 160, 120, -1));
+        jPanel1.add(fila3, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 200, 120, -1));
+        jPanel1.add(fila4, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 240, 120, -1));
+        jPanel1.add(fila5, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 280, 120, -1));
+        jPanel1.add(fila6, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 320, 120, -1));
+        jPanel1.add(fila7, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 360, 120, -1));
+        jPanel1.add(fila8, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 120, 120, -1));
+        jPanel1.add(fila9, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 160, 120, -1));
+        jPanel1.add(fila10, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 200, 120, -1));
+        jPanel1.add(fila11, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 240, 120, -1));
+        jPanel1.add(fila12, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 280, 120, -1));
+        jPanel1.add(fila13, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 320, 120, -1));
+        jPanel1.add(fila14, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 360, 120, -1));
+        jPanel1.add(fila15, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 400, 120, -1));
+
+        guardar.setText("Guardar");
+        guardar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BoletaspreferencialesActionPerformed(evt);
+                guardarActionPerformed(evt);
             }
         });
-        jPanel1.add(Boletaspreferenciales, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 240, 150, 60));
+        jPanel1.add(guardar, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 389, -1, 50));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 688, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 430, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 468, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void BoletaspreferencialesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BoletaspreferencialesActionPerformed
-        Interfazsillas abrir = new Interfazsillas();
-        abrir.setVisible(true);
-        this.setVisible(false);
-    }//GEN-LAST:event_BoletaspreferencialesActionPerformed
-
-    private void BoletasgeneralesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BoletasgeneralesActionPerformed
-      Interfazsillas abrir = new Interfazsillas();
-        abrir.setVisible(true);
-        this.setVisible(false);
-    }//GEN-LAST:event_BoletasgeneralesActionPerformed
-
-    private void RetornoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RetornoActionPerformed
-        
-    }//GEN-LAST:event_RetornoActionPerformed
+    private void guardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_guardarActionPerformed
+        // TODO add your handling code here:
+        if (fila1.getText().isEmpty()||fila2.getText().isEmpty()||fila3.getText().isEmpty()||fila4.getText().isEmpty()||fila5.getText().isEmpty()||
+                fila6.getText().isEmpty()||fila7.getText().isEmpty()||fila8.getText().isEmpty()||fila9.getText().isEmpty()||fila10.getText().isEmpty()||fila11.getText().isEmpty()||
+                fila12.getText().isEmpty()||fila13.getText().isEmpty()||fila14.getText().isEmpty()||fila15.getText().isEmpty()){
+            JOptionPane.showMessageDialog(null, "Ingrese el valor de todas las filas");
+        }
+        else{
+          
+            preciof1 = Integer.valueOf(fila1.getText()); 
+            preciof2 = Integer.valueOf(fila2.getText()); 
+            preciof3 = Integer.valueOf(fila3.getText()); 
+            preciof4 = Integer.valueOf(fila4.getText()); 
+            preciof5 = Integer.valueOf(fila5.getText()); 
+            preciof6 = Integer.valueOf(fila6.getText()); 
+            preciof7 = Integer.valueOf(fila7.getText()); 
+            preciof8 = Integer.valueOf(fila8.getText()); 
+            preciof9 = Integer.valueOf(fila9.getText()); 
+            preciof10 = Integer.valueOf(fila10.getText()); 
+            preciof11 = Integer.valueOf(fila11.getText()); 
+            preciof12 = Integer.valueOf(fila12.getText()); 
+            preciof13 = Integer.valueOf(fila13.getText()); 
+            preciof14 = Integer.valueOf(fila14.getText());
+            preciof15 = Integer.valueOf(fila15.getText()); 
+          
+        }
+    }//GEN-LAST:event_guardarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -127,9 +275,39 @@ public class ComprasCine extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton Boletasgenerales;
-    private javax.swing.JButton Boletaspreferenciales;
-    private javax.swing.JButton Retorno;
+    private javax.swing.JTextField fila1;
+    private javax.swing.JTextField fila10;
+    private javax.swing.JTextField fila11;
+    private javax.swing.JTextField fila12;
+    private javax.swing.JTextField fila13;
+    private javax.swing.JTextField fila14;
+    private javax.swing.JTextField fila15;
+    private javax.swing.JTextField fila2;
+    private javax.swing.JTextField fila3;
+    private javax.swing.JTextField fila4;
+    private javax.swing.JTextField fila5;
+    private javax.swing.JTextField fila6;
+    private javax.swing.JTextField fila7;
+    private javax.swing.JTextField fila8;
+    private javax.swing.JTextField fila9;
+    private javax.swing.JButton guardar;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }

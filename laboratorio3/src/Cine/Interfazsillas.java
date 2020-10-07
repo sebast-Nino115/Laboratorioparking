@@ -2,6 +2,7 @@
 package Cine;
 
 import java.awt.Color;
+import javax.swing.JOptionPane;
 
 
 
@@ -14,6 +15,7 @@ public class Interfazsillas extends javax.swing.JFrame {
        int fila[];
        int columna[];
        int silla;
+       boolean disponibilidad[];
        
     /**
      * This method is called from within the constructor to initialize the form.
@@ -478,6 +480,52 @@ public class Interfazsillas extends javax.swing.JFrame {
         Cancelar = new javax.swing.JButton();
         Aceptar = new javax.swing.JButton();
         asignacion = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        jLabel25 = new javax.swing.JLabel();
+        jLabel26 = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        jLabel29 = new javax.swing.JLabel();
+        jLabel30 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
+        jLabel32 = new javax.swing.JLabel();
+        jLabel33 = new javax.swing.JLabel();
+        jLabel34 = new javax.swing.JLabel();
+        jLabel35 = new javax.swing.JLabel();
+        jLabel36 = new javax.swing.JLabel();
+        jLabel37 = new javax.swing.JLabel();
+        jLabel38 = new javax.swing.JLabel();
+        jLabel39 = new javax.swing.JLabel();
+        jLabel40 = new javax.swing.JLabel();
+        jLabel41 = new javax.swing.JLabel();
+        jLabel42 = new javax.swing.JLabel();
+        jLabel43 = new javax.swing.JLabel();
+        jLabel44 = new javax.swing.JLabel();
+        jLabel45 = new javax.swing.JLabel();
+        jLabel46 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -4538,7 +4586,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 CancelarActionPerformed(evt);
             }
         });
-        jPanel1.add(Cancelar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1460, 830, -1, 40));
+        jPanel1.add(Cancelar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1460, 840, -1, 40));
 
         Aceptar.setText("Aceptar");
         Aceptar.addActionListener(new java.awt.event.ActionListener() {
@@ -4546,7 +4594,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 AceptarActionPerformed(evt);
             }
         });
-        jPanel1.add(Aceptar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1600, 829, -1, 40));
+        jPanel1.add(Aceptar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1600, 840, -1, 40));
 
         asignacion.setText("Asignacion");
         asignacion.addActionListener(new java.awt.event.ActionListener() {
@@ -4554,39 +4602,265 @@ public class Interfazsillas extends javax.swing.JFrame {
                 asignacionActionPerformed(evt);
             }
         });
-        jPanel1.add(asignacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 830, -1, 40));
+        jPanel1.add(asignacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 840, -1, 40));
+
+        jLabel1.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("2");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 210, -1, -1));
+
+        jLabel2.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("3");
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 210, -1, -1));
+
+        jLabel3.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setText("4");
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 210, -1, -1));
+
+        jLabel4.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setText("5");
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 210, -1, -1));
+
+        jLabel5.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setText("6");
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 210, -1, -1));
+
+        jLabel6.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel6.setText("7");
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 210, -1, -1));
+
+        jLabel7.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setText("8");
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 210, -1, -1));
+
+        jLabel8.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel8.setText("10");
+        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 210, -1, -1));
+
+        jLabel9.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel9.setText("9");
+        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 210, -1, -1));
+
+        jLabel10.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel10.setText("12");
+        jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 210, -1, -1));
+
+        jLabel11.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel11.setText("1");
+        jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 240, -1, -1));
+
+        jLabel12.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel12.setText("2");
+        jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 280, -1, -1));
+
+        jLabel13.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel13.setText("4");
+        jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 360, -1, -1));
+
+        jLabel14.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel14.setText("3");
+        jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 320, -1, -1));
+
+        jLabel15.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel15.setText("5");
+        jPanel1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 400, -1, -1));
+
+        jLabel16.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel16.setText("6");
+        jPanel1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 440, -1, -1));
+
+        jLabel17.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel17.setText("15");
+        jPanel1.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 790, -1, -1));
+
+        jLabel18.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel18.setText("1");
+        jPanel1.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 210, -1, -1));
+
+        jLabel19.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel19.setText("8");
+        jPanel1.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 520, -1, -1));
+
+        jLabel20.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel20.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel20.setText("9");
+        jPanel1.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 560, -1, -1));
+
+        jLabel21.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel21.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel21.setText("10");
+        jPanel1.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 600, -1, -1));
+
+        jLabel22.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel22.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel22.setText("11");
+        jPanel1.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 640, -1, -1));
+
+        jLabel23.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel23.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel23.setText("12");
+        jPanel1.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 670, -1, -1));
+
+        jLabel24.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel24.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel24.setText("14");
+        jPanel1.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 750, -1, -1));
+
+        jLabel25.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel25.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel25.setText("7");
+        jPanel1.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 480, -1, -1));
+
+        jLabel26.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel26.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel26.setText("13");
+        jPanel1.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 710, -1, -1));
+
+        jLabel27.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel27.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel27.setText("13");
+        jPanel1.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 210, -1, -1));
+
+        jLabel28.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel28.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel28.setText("14");
+        jPanel1.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 210, -1, -1));
+
+        jLabel29.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel29.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel29.setText("15");
+        jPanel1.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 210, -1, -1));
+
+        jLabel30.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel30.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel30.setText("18");
+        jPanel1.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(1010, 210, -1, -1));
+
+        jLabel31.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel31.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel31.setText("19");
+        jPanel1.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 210, -1, -1));
+
+        jLabel32.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel32.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel32.setText("16");
+        jPanel1.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 210, -1, -1));
+
+        jLabel33.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel33.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel33.setText("17");
+        jPanel1.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 210, -1, -1));
+
+        jLabel34.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel34.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel34.setText("30");
+        jPanel1.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(1680, 210, -1, -1));
+
+        jLabel35.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel35.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel35.setText("11");
+        jPanel1.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 210, -1, -1));
+
+        jLabel36.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel36.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel36.setText("21");
+        jPanel1.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 210, -1, -1));
+
+        jLabel37.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel37.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel37.setText("22");
+        jPanel1.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(1240, 210, -1, -1));
+
+        jLabel38.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel38.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel38.setText("23");
+        jPanel1.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(1290, 210, -1, -1));
+
+        jLabel39.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel39.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel39.setText("24");
+        jPanel1.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(1340, 210, -1, -1));
+
+        jLabel40.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel40.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel40.setText("25");
+        jPanel1.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(1410, 210, -1, -1));
+
+        jLabel41.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel41.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel41.setText("27");
+        jPanel1.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(1510, 210, -1, -1));
+
+        jLabel42.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel42.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel42.setText("26");
+        jPanel1.add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(1460, 210, -1, -1));
+
+        jLabel43.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel43.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel43.setText("29");
+        jPanel1.add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(1630, 210, -1, -1));
+
+        jLabel44.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel44.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel44.setText("28");
+        jPanel1.add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(1580, 210, -1, -1));
+
+        jLabel45.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
+        jLabel45.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel45.setText("20");
+        jPanel1.add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 210, -1, -1));
+
+        jLabel46.setFont(new java.awt.Font("Lucida Bright", 0, 48)); // NOI18N
+        jLabel46.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel46.setText("PANTALLA");
+        jPanel1.add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 80, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(52, 52, 52)
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1744, Short.MAX_VALUE)
                 .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGap(45, 45, 45))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 915, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void silla1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla1ActionPerformed
-         silla1.setBackground(new Color(255,0,0));
-         for (int i=0; i<450;i++){
-            fila[1] = 1;
-            columna[1] = 1;
-         }
+        silla1.setBackground(new Color(255,0,0));
+        disponibilidad[1] = false; 
     }//GEN-LAST:event_silla1ActionPerformed
 
     private void silla4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla4ActionPerformed
          silla4.setBackground(new Color(255,0,0));
-         
+         disponibilidad[4] = false; 
     }//GEN-LAST:event_silla4ActionPerformed
 
     private void silla1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_silla1MousePressed
@@ -4599,54 +4873,67 @@ public class Interfazsillas extends javax.swing.JFrame {
 
     private void silla3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla3ActionPerformed
        silla3.setBackground(new Color(255,0,0));
+       disponibilidad[3] = false; 
     }//GEN-LAST:event_silla3ActionPerformed
 
     private void silla2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla2ActionPerformed
        silla2.setBackground(new Color(255,0,0));
+       disponibilidad[2] = false; 
     }//GEN-LAST:event_silla2ActionPerformed
 
     private void silla5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla5ActionPerformed
         silla5.setBackground(new Color(255,0,0));
+        disponibilidad[5] = false; 
     }//GEN-LAST:event_silla5ActionPerformed
 
     private void Silla153ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla153ActionPerformed
         Silla153.setBackground(new Color(255,0,0));
+        disponibilidad[153] = false; 
     }//GEN-LAST:event_Silla153ActionPerformed
 
     private void Silla258ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla258ActionPerformed
         Silla258.setBackground(new Color(255,0,0));
+        disponibilidad[258] = false; 
     }//GEN-LAST:event_Silla258ActionPerformed
 
     private void silla31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla31ActionPerformed
         silla31.setBackground(new Color(255,0,0));
+        disponibilidad[31] = false; 
     }//GEN-LAST:event_silla31ActionPerformed
 
     private void silla61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla61ActionPerformed
        silla61.setBackground(new Color(255,0,0));
+       disponibilidad[61] = false; 
     }//GEN-LAST:event_silla61ActionPerformed
 
     private void silla91ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla91ActionPerformed
       silla91.setBackground(new Color(255,0,0));
+      disponibilidad[91] = false; 
     }//GEN-LAST:event_silla91ActionPerformed
 
     private void silla121ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla121ActionPerformed
        silla121.setBackground(new Color(255,0,0));
+       disponibilidad[121] = false; 
     }//GEN-LAST:event_silla121ActionPerformed
 
     private void Silla151ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla151ActionPerformed
      Silla151.setBackground(new Color(255,0,0));
+       disponibilidad[151] = false; 
     }//GEN-LAST:event_Silla151ActionPerformed
 
     private void Silla181ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla181ActionPerformed
         Silla181.setBackground(new Color(255,0,0));
+       disponibilidad[181] = false; 
     }//GEN-LAST:event_Silla181ActionPerformed
 
     private void Silla211ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla211ActionPerformed
        Silla211.setBackground(new Color(255,0,0));
+       disponibilidad[211] = false; 
     }//GEN-LAST:event_Silla211ActionPerformed
 
     private void Silla241ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla241ActionPerformed
       Silla241.setBackground(new Color(255,0,0));
+      disponibilidad[24] = false; 
     }//GEN-LAST:event_Silla241ActionPerformed
 
     private void Silla271ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla271ActionPerformed
@@ -6393,7 +6680,7 @@ public class Interfazsillas extends javax.swing.JFrame {
 
     private void asignacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_asignacionActionPerformed
         // TODO add your handling code here:
-        for (int silla=0;silla<450;silla++)
+        for (silla=0;silla<450;silla++)
         {
             fila[silla] = (int)Math.ceil(silla/30); 
             columna[silla] = silla-(30*(fila[silla]-1));
@@ -6740,6 +7027,52 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla449;
     private javax.swing.JToggleButton Silla450;
     private javax.swing.JButton asignacion;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
+    private javax.swing.JLabel jLabel39;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel40;
+    private javax.swing.JLabel jLabel41;
+    private javax.swing.JLabel jLabel42;
+    private javax.swing.JLabel jLabel43;
+    private javax.swing.JLabel jLabel44;
+    private javax.swing.JLabel jLabel45;
+    private javax.swing.JLabel jLabel46;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JToggleButton sila101;
     private javax.swing.JToggleButton silla1;
