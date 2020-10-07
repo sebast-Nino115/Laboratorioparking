@@ -58,11 +58,11 @@ public class Interfazsillas extends javax.swing.JFrame {
         silla61 = new javax.swing.JToggleButton();
         silla91 = new javax.swing.JToggleButton();
         silla121 = new javax.swing.JToggleButton();
-        Silla13 = new javax.swing.JToggleButton();
-        Silla14 = new javax.swing.JToggleButton();
-        Silla15 = new javax.swing.JToggleButton();
-        Silla16 = new javax.swing.JToggleButton();
-        Silla17 = new javax.swing.JToggleButton();
+        Silla151 = new javax.swing.JToggleButton();
+        Silla181 = new javax.swing.JToggleButton();
+        Silla211 = new javax.swing.JToggleButton();
+        Silla241 = new javax.swing.JToggleButton();
+        Silla271 = new javax.swing.JToggleButton();
         Silla18 = new javax.swing.JToggleButton();
         Silla19 = new javax.swing.JToggleButton();
         Silla42 = new javax.swing.JToggleButton();
@@ -184,6 +184,15 @@ public class Interfazsillas extends javax.swing.JFrame {
         silla148 = new javax.swing.JToggleButton();
         silla149 = new javax.swing.JToggleButton();
         silla150 = new javax.swing.JToggleButton();
+        Silla152 = new javax.swing.JToggleButton();
+        Silla153 = new javax.swing.JToggleButton();
+        Silla154 = new javax.swing.JToggleButton();
+        Silla155 = new javax.swing.JToggleButton();
+        Silla156 = new javax.swing.JToggleButton();
+        Silla157 = new javax.swing.JToggleButton();
+        Silla158 = new javax.swing.JToggleButton();
+        Silla159 = new javax.swing.JToggleButton();
+        Silla160 = new javax.swing.JToggleButton();
         Silla161 = new javax.swing.JToggleButton();
         Silla162 = new javax.swing.JToggleButton();
         Silla163 = new javax.swing.JToggleButton();
@@ -204,7 +213,6 @@ public class Interfazsillas extends javax.swing.JFrame {
         Silla178 = new javax.swing.JToggleButton();
         Silla179 = new javax.swing.JToggleButton();
         Silla180 = new javax.swing.JToggleButton();
-        Silla181 = new javax.swing.JToggleButton();
         Silla182 = new javax.swing.JToggleButton();
         Silla183 = new javax.swing.JToggleButton();
         Silla184 = new javax.swing.JToggleButton();
@@ -234,7 +242,6 @@ public class Interfazsillas extends javax.swing.JFrame {
         Silla208 = new javax.swing.JToggleButton();
         Silla209 = new javax.swing.JToggleButton();
         Silla210 = new javax.swing.JToggleButton();
-        Silla211 = new javax.swing.JToggleButton();
         Silla212 = new javax.swing.JToggleButton();
         Silla213 = new javax.swing.JToggleButton();
         Silla214 = new javax.swing.JToggleButton();
@@ -264,7 +271,6 @@ public class Interfazsillas extends javax.swing.JFrame {
         Silla238 = new javax.swing.JToggleButton();
         Silla239 = new javax.swing.JToggleButton();
         Silla240 = new javax.swing.JToggleButton();
-        Silla241 = new javax.swing.JToggleButton();
         Silla242 = new javax.swing.JToggleButton();
         Silla243 = new javax.swing.JToggleButton();
         Silla244 = new javax.swing.JToggleButton();
@@ -294,7 +300,6 @@ public class Interfazsillas extends javax.swing.JFrame {
         Silla268 = new javax.swing.JToggleButton();
         Silla269 = new javax.swing.JToggleButton();
         Silla270 = new javax.swing.JToggleButton();
-        Silla271 = new javax.swing.JToggleButton();
         Silla272 = new javax.swing.JToggleButton();
         Silla273 = new javax.swing.JToggleButton();
         Silla274 = new javax.swing.JToggleButton();
@@ -324,11 +329,6 @@ public class Interfazsillas extends javax.swing.JFrame {
         Silla298 = new javax.swing.JToggleButton();
         Silla299 = new javax.swing.JToggleButton();
         Silla300 = new javax.swing.JToggleButton();
-        Silla301 = new javax.swing.JToggleButton();
-        Silla302 = new javax.swing.JToggleButton();
-        Silla303 = new javax.swing.JToggleButton();
-        Silla304 = new javax.swing.JToggleButton();
-        Silla305 = new javax.swing.JToggleButton();
         Silla306 = new javax.swing.JToggleButton();
         Silla307 = new javax.swing.JToggleButton();
         Silla308 = new javax.swing.JToggleButton();
@@ -796,50 +796,50 @@ public class Interfazsillas extends javax.swing.JFrame {
         });
         jPanel1.add(silla121, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 393, 46, 31));
 
-        Silla13.setBackground(new java.awt.Color(255, 255, 255));
-        Silla13.setForeground(new java.awt.Color(0, 0, 153));
-        Silla13.addActionListener(new java.awt.event.ActionListener() {
+        Silla151.setBackground(new java.awt.Color(255, 255, 255));
+        Silla151.setForeground(new java.awt.Color(0, 0, 153));
+        Silla151.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla13ActionPerformed(evt);
+                Silla151ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla13, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 430, 46, 31));
+        jPanel1.add(Silla151, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 430, 46, 31));
 
-        Silla14.setBackground(new java.awt.Color(255, 255, 255));
-        Silla14.setForeground(new java.awt.Color(0, 0, 153));
-        Silla14.addActionListener(new java.awt.event.ActionListener() {
+        Silla181.setBackground(new java.awt.Color(255, 255, 255));
+        Silla181.setForeground(new java.awt.Color(0, 0, 153));
+        Silla181.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla14ActionPerformed(evt);
+                Silla181ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla14, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 468, 46, 31));
+        jPanel1.add(Silla181, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 468, 46, 31));
 
-        Silla15.setBackground(new java.awt.Color(255, 255, 255));
-        Silla15.setForeground(new java.awt.Color(0, 0, 153));
-        Silla15.addActionListener(new java.awt.event.ActionListener() {
+        Silla211.setBackground(new java.awt.Color(255, 255, 255));
+        Silla211.setForeground(new java.awt.Color(0, 0, 153));
+        Silla211.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla15ActionPerformed(evt);
+                Silla211ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla15, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 515, 46, 31));
+        jPanel1.add(Silla211, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 515, 46, 31));
 
-        Silla16.setBackground(new java.awt.Color(255, 255, 255));
-        Silla16.setForeground(new java.awt.Color(0, 0, 153));
-        Silla16.addActionListener(new java.awt.event.ActionListener() {
+        Silla241.setBackground(new java.awt.Color(255, 255, 255));
+        Silla241.setForeground(new java.awt.Color(0, 0, 153));
+        Silla241.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla16ActionPerformed(evt);
+                Silla241ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla16, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 553, 46, 31));
+        jPanel1.add(Silla241, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 553, 46, 31));
 
-        Silla17.setBackground(new java.awt.Color(255, 255, 255));
-        Silla17.setForeground(new java.awt.Color(0, 0, 153));
-        Silla17.addActionListener(new java.awt.event.ActionListener() {
+        Silla271.setBackground(new java.awt.Color(255, 255, 255));
+        Silla271.setForeground(new java.awt.Color(0, 0, 153));
+        Silla271.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla17ActionPerformed(evt);
+                Silla271ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla17, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 590, 46, 31));
+        jPanel1.add(Silla271, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 590, 46, 31));
 
         Silla18.setBackground(new java.awt.Color(255, 255, 255));
         Silla18.setForeground(new java.awt.Color(0, 0, 153));
@@ -1930,6 +1930,87 @@ public class Interfazsillas extends javax.swing.JFrame {
         });
         jPanel1.add(silla150, new org.netbeans.lib.awtextra.AbsoluteConstraints(1664, 393, 46, 30));
 
+        Silla152.setBackground(new java.awt.Color(255, 255, 255));
+        Silla152.setForeground(new java.awt.Color(0, 0, 153));
+        Silla152.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Silla152ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(Silla152, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 431, 46, 30));
+
+        Silla153.setBackground(new java.awt.Color(255, 255, 255));
+        Silla153.setForeground(new java.awt.Color(0, 0, 153));
+        Silla153.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Silla153ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(Silla153, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 431, 46, 30));
+
+        Silla154.setBackground(new java.awt.Color(255, 255, 255));
+        Silla154.setForeground(new java.awt.Color(0, 0, 153));
+        Silla154.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Silla154ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(Silla154, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 431, 46, 30));
+
+        Silla155.setBackground(new java.awt.Color(255, 255, 255));
+        Silla155.setForeground(new java.awt.Color(0, 0, 153));
+        Silla155.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Silla155ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(Silla155, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 431, 46, 30));
+
+        Silla156.setBackground(new java.awt.Color(255, 255, 255));
+        Silla156.setForeground(new java.awt.Color(0, 0, 153));
+        Silla156.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Silla156ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(Silla156, new org.netbeans.lib.awtextra.AbsoluteConstraints(314, 431, 46, 30));
+
+        Silla157.setBackground(new java.awt.Color(255, 255, 255));
+        Silla157.setForeground(new java.awt.Color(0, 0, 153));
+        Silla157.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Silla157ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(Silla157, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 431, 46, 30));
+
+        Silla158.setBackground(new java.awt.Color(255, 255, 255));
+        Silla158.setForeground(new java.awt.Color(0, 0, 153));
+        Silla158.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Silla158ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(Silla158, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 431, 46, 30));
+
+        Silla159.setBackground(new java.awt.Color(255, 255, 255));
+        Silla159.setForeground(new java.awt.Color(0, 0, 153));
+        Silla159.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Silla159ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(Silla159, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 431, 46, 30));
+
+        Silla160.setBackground(new java.awt.Color(255, 255, 255));
+        Silla160.setForeground(new java.awt.Color(0, 0, 153));
+        Silla160.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Silla160ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(Silla160, new org.netbeans.lib.awtextra.AbsoluteConstraints(546, 431, 46, 30));
+
         Silla161.setBackground(new java.awt.Color(255, 255, 255));
         Silla161.setForeground(new java.awt.Color(0, 0, 153));
         Silla161.addActionListener(new java.awt.event.ActionListener() {
@@ -1937,7 +2018,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla161ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla161, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 431, 46, 30));
+        jPanel1.add(Silla161, new org.netbeans.lib.awtextra.AbsoluteConstraints(604, 431, 46, 30));
 
         Silla162.setBackground(new java.awt.Color(255, 255, 255));
         Silla162.setForeground(new java.awt.Color(0, 0, 153));
@@ -1946,7 +2027,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla162ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla162, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 431, 46, 30));
+        jPanel1.add(Silla162, new org.netbeans.lib.awtextra.AbsoluteConstraints(656, 431, 46, 30));
 
         Silla163.setBackground(new java.awt.Color(255, 255, 255));
         Silla163.setForeground(new java.awt.Color(0, 0, 153));
@@ -1955,7 +2036,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla163ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla163, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 431, 46, 30));
+        jPanel1.add(Silla163, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 431, 46, 30));
 
         Silla164.setBackground(new java.awt.Color(255, 255, 255));
         Silla164.setForeground(new java.awt.Color(0, 0, 153));
@@ -1964,7 +2045,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla164ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla164, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 431, 46, 30));
+        jPanel1.add(Silla164, new org.netbeans.lib.awtextra.AbsoluteConstraints(772, 431, 46, 30));
 
         Silla165.setBackground(new java.awt.Color(255, 255, 255));
         Silla165.setForeground(new java.awt.Color(0, 0, 153));
@@ -1973,7 +2054,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla165ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla165, new org.netbeans.lib.awtextra.AbsoluteConstraints(314, 431, 46, 30));
+        jPanel1.add(Silla165, new org.netbeans.lib.awtextra.AbsoluteConstraints(824, 431, 46, 30));
 
         Silla166.setBackground(new java.awt.Color(255, 255, 255));
         Silla166.setForeground(new java.awt.Color(0, 0, 153));
@@ -1982,7 +2063,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla166ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla166, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 431, 46, 30));
+        jPanel1.add(Silla166, new org.netbeans.lib.awtextra.AbsoluteConstraints(888, 431, 46, 30));
 
         Silla167.setBackground(new java.awt.Color(255, 255, 255));
         Silla167.setForeground(new java.awt.Color(0, 0, 153));
@@ -1991,7 +2072,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla167ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla167, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 431, 46, 30));
+        jPanel1.add(Silla167, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 431, 46, 30));
 
         Silla168.setBackground(new java.awt.Color(255, 255, 255));
         Silla168.setForeground(new java.awt.Color(0, 0, 153));
@@ -2000,7 +2081,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla168ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla168, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 431, 46, 30));
+        jPanel1.add(Silla168, new org.netbeans.lib.awtextra.AbsoluteConstraints(992, 431, 46, 30));
 
         Silla169.setBackground(new java.awt.Color(255, 255, 255));
         Silla169.setForeground(new java.awt.Color(0, 0, 153));
@@ -2009,7 +2090,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla169ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla169, new org.netbeans.lib.awtextra.AbsoluteConstraints(546, 431, 46, 30));
+        jPanel1.add(Silla169, new org.netbeans.lib.awtextra.AbsoluteConstraints(1056, 431, 46, 30));
 
         Silla170.setBackground(new java.awt.Color(255, 255, 255));
         Silla170.setForeground(new java.awt.Color(0, 0, 153));
@@ -2018,7 +2099,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla170ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla170, new org.netbeans.lib.awtextra.AbsoluteConstraints(604, 431, 46, 30));
+        jPanel1.add(Silla170, new org.netbeans.lib.awtextra.AbsoluteConstraints(1108, 431, 46, 30));
 
         Silla171.setBackground(new java.awt.Color(255, 255, 255));
         Silla171.setForeground(new java.awt.Color(0, 0, 153));
@@ -2027,7 +2108,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla171ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla171, new org.netbeans.lib.awtextra.AbsoluteConstraints(656, 431, 46, 30));
+        jPanel1.add(Silla171, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 431, 46, 30));
 
         Silla172.setBackground(new java.awt.Color(255, 255, 255));
         Silla172.setForeground(new java.awt.Color(0, 0, 153));
@@ -2036,7 +2117,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla172ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla172, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 431, 46, 30));
+        jPanel1.add(Silla172, new org.netbeans.lib.awtextra.AbsoluteConstraints(1224, 431, 46, 30));
 
         Silla173.setBackground(new java.awt.Color(255, 255, 255));
         Silla173.setForeground(new java.awt.Color(0, 0, 153));
@@ -2045,7 +2126,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla173ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla173, new org.netbeans.lib.awtextra.AbsoluteConstraints(772, 431, 46, 30));
+        jPanel1.add(Silla173, new org.netbeans.lib.awtextra.AbsoluteConstraints(1276, 431, 46, 30));
 
         Silla174.setBackground(new java.awt.Color(255, 255, 255));
         Silla174.setForeground(new java.awt.Color(0, 0, 153));
@@ -2054,7 +2135,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla174ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla174, new org.netbeans.lib.awtextra.AbsoluteConstraints(824, 431, 46, 30));
+        jPanel1.add(Silla174, new org.netbeans.lib.awtextra.AbsoluteConstraints(1328, 431, 46, 30));
 
         Silla175.setBackground(new java.awt.Color(255, 255, 255));
         Silla175.setForeground(new java.awt.Color(0, 0, 153));
@@ -2063,7 +2144,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla175ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla175, new org.netbeans.lib.awtextra.AbsoluteConstraints(888, 431, 46, 30));
+        jPanel1.add(Silla175, new org.netbeans.lib.awtextra.AbsoluteConstraints(1392, 431, 46, 30));
 
         Silla176.setBackground(new java.awt.Color(255, 255, 255));
         Silla176.setForeground(new java.awt.Color(0, 0, 153));
@@ -2072,7 +2153,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla176ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla176, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 431, 46, 30));
+        jPanel1.add(Silla176, new org.netbeans.lib.awtextra.AbsoluteConstraints(1444, 431, 46, 30));
 
         Silla177.setBackground(new java.awt.Color(255, 255, 255));
         Silla177.setForeground(new java.awt.Color(0, 0, 153));
@@ -2081,7 +2162,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla177ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla177, new org.netbeans.lib.awtextra.AbsoluteConstraints(992, 431, 46, 30));
+        jPanel1.add(Silla177, new org.netbeans.lib.awtextra.AbsoluteConstraints(1496, 431, 46, 30));
 
         Silla178.setBackground(new java.awt.Color(255, 255, 255));
         Silla178.setForeground(new java.awt.Color(0, 0, 153));
@@ -2090,7 +2171,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla178ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla178, new org.netbeans.lib.awtextra.AbsoluteConstraints(1056, 431, 46, 30));
+        jPanel1.add(Silla178, new org.netbeans.lib.awtextra.AbsoluteConstraints(1560, 431, 46, 30));
 
         Silla179.setBackground(new java.awt.Color(255, 255, 255));
         Silla179.setForeground(new java.awt.Color(0, 0, 153));
@@ -2099,7 +2180,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla179ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla179, new org.netbeans.lib.awtextra.AbsoluteConstraints(1108, 431, 46, 30));
+        jPanel1.add(Silla179, new org.netbeans.lib.awtextra.AbsoluteConstraints(1612, 431, 46, 30));
 
         Silla180.setBackground(new java.awt.Color(255, 255, 255));
         Silla180.setForeground(new java.awt.Color(0, 0, 153));
@@ -2108,16 +2189,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla180ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla180, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 431, 46, 30));
-
-        Silla181.setBackground(new java.awt.Color(255, 255, 255));
-        Silla181.setForeground(new java.awt.Color(0, 0, 153));
-        Silla181.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla181ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(Silla181, new org.netbeans.lib.awtextra.AbsoluteConstraints(1224, 431, 46, 30));
+        jPanel1.add(Silla180, new org.netbeans.lib.awtextra.AbsoluteConstraints(1664, 431, 46, 30));
 
         Silla182.setBackground(new java.awt.Color(255, 255, 255));
         Silla182.setForeground(new java.awt.Color(0, 0, 153));
@@ -2126,7 +2198,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla182ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla182, new org.netbeans.lib.awtextra.AbsoluteConstraints(1276, 431, 46, 30));
+        jPanel1.add(Silla182, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 469, 46, 30));
 
         Silla183.setBackground(new java.awt.Color(255, 255, 255));
         Silla183.setForeground(new java.awt.Color(0, 0, 153));
@@ -2135,7 +2207,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla183ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla183, new org.netbeans.lib.awtextra.AbsoluteConstraints(1328, 431, 46, 30));
+        jPanel1.add(Silla183, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 469, 46, 30));
 
         Silla184.setBackground(new java.awt.Color(255, 255, 255));
         Silla184.setForeground(new java.awt.Color(0, 0, 153));
@@ -2144,7 +2216,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla184ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla184, new org.netbeans.lib.awtextra.AbsoluteConstraints(1392, 431, 46, 30));
+        jPanel1.add(Silla184, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 468, 46, 30));
 
         Silla185.setBackground(new java.awt.Color(255, 255, 255));
         Silla185.setForeground(new java.awt.Color(0, 0, 153));
@@ -2153,7 +2225,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla185ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla185, new org.netbeans.lib.awtextra.AbsoluteConstraints(1444, 431, 46, 30));
+        jPanel1.add(Silla185, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 468, 46, 30));
 
         Silla186.setBackground(new java.awt.Color(255, 255, 255));
         Silla186.setForeground(new java.awt.Color(0, 0, 153));
@@ -2162,7 +2234,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla186ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla186, new org.netbeans.lib.awtextra.AbsoluteConstraints(1496, 431, 46, 30));
+        jPanel1.add(Silla186, new org.netbeans.lib.awtextra.AbsoluteConstraints(314, 468, 46, 30));
 
         Silla187.setBackground(new java.awt.Color(255, 255, 255));
         Silla187.setForeground(new java.awt.Color(0, 0, 153));
@@ -2171,7 +2243,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla187ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla187, new org.netbeans.lib.awtextra.AbsoluteConstraints(1560, 431, 46, 30));
+        jPanel1.add(Silla187, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 469, 46, 30));
 
         Silla188.setBackground(new java.awt.Color(255, 255, 255));
         Silla188.setForeground(new java.awt.Color(0, 0, 153));
@@ -2180,7 +2252,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla188ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla188, new org.netbeans.lib.awtextra.AbsoluteConstraints(1612, 431, 46, 30));
+        jPanel1.add(Silla188, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 469, 46, 30));
 
         Silla189.setBackground(new java.awt.Color(255, 255, 255));
         Silla189.setForeground(new java.awt.Color(0, 0, 153));
@@ -2189,7 +2261,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla189ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla189, new org.netbeans.lib.awtextra.AbsoluteConstraints(1664, 431, 46, 30));
+        jPanel1.add(Silla189, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 469, 46, 30));
 
         Silla190.setBackground(new java.awt.Color(255, 255, 255));
         Silla190.setForeground(new java.awt.Color(0, 0, 153));
@@ -2198,7 +2270,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla190ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla190, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 469, 46, 30));
+        jPanel1.add(Silla190, new org.netbeans.lib.awtextra.AbsoluteConstraints(546, 469, 46, 30));
 
         Silla191.setBackground(new java.awt.Color(255, 255, 255));
         Silla191.setForeground(new java.awt.Color(0, 0, 153));
@@ -2207,7 +2279,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla191ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla191, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 469, 46, 30));
+        jPanel1.add(Silla191, new org.netbeans.lib.awtextra.AbsoluteConstraints(604, 469, 46, 30));
 
         Silla192.setBackground(new java.awt.Color(255, 255, 255));
         Silla192.setForeground(new java.awt.Color(0, 0, 153));
@@ -2216,7 +2288,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla192ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla192, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 468, 46, 30));
+        jPanel1.add(Silla192, new org.netbeans.lib.awtextra.AbsoluteConstraints(656, 469, 46, 30));
 
         Silla193.setBackground(new java.awt.Color(255, 255, 255));
         Silla193.setForeground(new java.awt.Color(0, 0, 153));
@@ -2225,7 +2297,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla193ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla193, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 468, 46, 30));
+        jPanel1.add(Silla193, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 469, 46, 30));
 
         Silla194.setBackground(new java.awt.Color(255, 255, 255));
         Silla194.setForeground(new java.awt.Color(0, 0, 153));
@@ -2234,7 +2306,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla194ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla194, new org.netbeans.lib.awtextra.AbsoluteConstraints(314, 468, 46, 30));
+        jPanel1.add(Silla194, new org.netbeans.lib.awtextra.AbsoluteConstraints(772, 469, 46, 30));
 
         Silla195.setBackground(new java.awt.Color(255, 255, 255));
         Silla195.setForeground(new java.awt.Color(0, 0, 153));
@@ -2243,7 +2315,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla195ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla195, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 469, 46, 30));
+        jPanel1.add(Silla195, new org.netbeans.lib.awtextra.AbsoluteConstraints(824, 469, 46, 30));
 
         Silla196.setBackground(new java.awt.Color(255, 255, 255));
         Silla196.setForeground(new java.awt.Color(0, 0, 153));
@@ -2252,7 +2324,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla196ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla196, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 469, 46, 30));
+        jPanel1.add(Silla196, new org.netbeans.lib.awtextra.AbsoluteConstraints(888, 469, 46, 30));
 
         Silla197.setBackground(new java.awt.Color(255, 255, 255));
         Silla197.setForeground(new java.awt.Color(0, 0, 153));
@@ -2261,7 +2333,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla197ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla197, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 469, 46, 30));
+        jPanel1.add(Silla197, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 469, 46, 30));
 
         Silla198.setBackground(new java.awt.Color(255, 255, 255));
         Silla198.setForeground(new java.awt.Color(0, 0, 153));
@@ -2270,7 +2342,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla198ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla198, new org.netbeans.lib.awtextra.AbsoluteConstraints(546, 469, 46, 30));
+        jPanel1.add(Silla198, new org.netbeans.lib.awtextra.AbsoluteConstraints(992, 469, 46, 30));
 
         Silla199.setBackground(new java.awt.Color(255, 255, 255));
         Silla199.setForeground(new java.awt.Color(0, 0, 153));
@@ -2279,7 +2351,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla199ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla199, new org.netbeans.lib.awtextra.AbsoluteConstraints(604, 469, 46, 30));
+        jPanel1.add(Silla199, new org.netbeans.lib.awtextra.AbsoluteConstraints(1056, 469, 46, 30));
 
         Silla200.setBackground(new java.awt.Color(255, 255, 255));
         Silla200.setForeground(new java.awt.Color(0, 0, 153));
@@ -2288,7 +2360,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla200ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla200, new org.netbeans.lib.awtextra.AbsoluteConstraints(656, 469, 46, 30));
+        jPanel1.add(Silla200, new org.netbeans.lib.awtextra.AbsoluteConstraints(1108, 469, 46, 30));
 
         Silla201.setBackground(new java.awt.Color(255, 255, 255));
         Silla201.setForeground(new java.awt.Color(0, 0, 153));
@@ -2297,7 +2369,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla201ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla201, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 469, 46, 30));
+        jPanel1.add(Silla201, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 469, 46, 30));
 
         Silla202.setBackground(new java.awt.Color(255, 255, 255));
         Silla202.setForeground(new java.awt.Color(0, 0, 153));
@@ -2306,7 +2378,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla202ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla202, new org.netbeans.lib.awtextra.AbsoluteConstraints(772, 469, 46, 30));
+        jPanel1.add(Silla202, new org.netbeans.lib.awtextra.AbsoluteConstraints(1224, 469, 46, 30));
 
         Silla203.setBackground(new java.awt.Color(255, 255, 255));
         Silla203.setForeground(new java.awt.Color(0, 0, 153));
@@ -2315,7 +2387,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla203ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla203, new org.netbeans.lib.awtextra.AbsoluteConstraints(824, 469, 46, 30));
+        jPanel1.add(Silla203, new org.netbeans.lib.awtextra.AbsoluteConstraints(1276, 469, 46, 30));
 
         Silla204.setBackground(new java.awt.Color(255, 255, 255));
         Silla204.setForeground(new java.awt.Color(0, 0, 153));
@@ -2324,7 +2396,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla204ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla204, new org.netbeans.lib.awtextra.AbsoluteConstraints(888, 469, 46, 30));
+        jPanel1.add(Silla204, new org.netbeans.lib.awtextra.AbsoluteConstraints(1328, 469, 46, 30));
 
         Silla205.setBackground(new java.awt.Color(255, 255, 255));
         Silla205.setForeground(new java.awt.Color(0, 0, 153));
@@ -2333,7 +2405,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla205ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla205, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 469, 46, 30));
+        jPanel1.add(Silla205, new org.netbeans.lib.awtextra.AbsoluteConstraints(1392, 469, 46, 30));
 
         Silla206.setBackground(new java.awt.Color(255, 255, 255));
         Silla206.setForeground(new java.awt.Color(0, 0, 153));
@@ -2342,7 +2414,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla206ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla206, new org.netbeans.lib.awtextra.AbsoluteConstraints(992, 469, 46, 30));
+        jPanel1.add(Silla206, new org.netbeans.lib.awtextra.AbsoluteConstraints(1444, 469, 46, 30));
 
         Silla207.setBackground(new java.awt.Color(255, 255, 255));
         Silla207.setForeground(new java.awt.Color(0, 0, 153));
@@ -2351,7 +2423,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla207ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla207, new org.netbeans.lib.awtextra.AbsoluteConstraints(1056, 469, 46, 30));
+        jPanel1.add(Silla207, new org.netbeans.lib.awtextra.AbsoluteConstraints(1496, 469, 46, 30));
 
         Silla208.setBackground(new java.awt.Color(255, 255, 255));
         Silla208.setForeground(new java.awt.Color(0, 0, 153));
@@ -2360,7 +2432,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla208ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla208, new org.netbeans.lib.awtextra.AbsoluteConstraints(1108, 469, 46, 30));
+        jPanel1.add(Silla208, new org.netbeans.lib.awtextra.AbsoluteConstraints(1560, 469, 46, 30));
 
         Silla209.setBackground(new java.awt.Color(255, 255, 255));
         Silla209.setForeground(new java.awt.Color(0, 0, 153));
@@ -2369,7 +2441,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla209ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla209, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 469, 46, 30));
+        jPanel1.add(Silla209, new org.netbeans.lib.awtextra.AbsoluteConstraints(1612, 469, 46, 30));
 
         Silla210.setBackground(new java.awt.Color(255, 255, 255));
         Silla210.setForeground(new java.awt.Color(0, 0, 153));
@@ -2378,16 +2450,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla210ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla210, new org.netbeans.lib.awtextra.AbsoluteConstraints(1224, 469, 46, 30));
-
-        Silla211.setBackground(new java.awt.Color(255, 255, 255));
-        Silla211.setForeground(new java.awt.Color(0, 0, 153));
-        Silla211.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla211ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(Silla211, new org.netbeans.lib.awtextra.AbsoluteConstraints(1276, 469, 46, 30));
+        jPanel1.add(Silla210, new org.netbeans.lib.awtextra.AbsoluteConstraints(1664, 469, 46, 30));
 
         Silla212.setBackground(new java.awt.Color(255, 255, 255));
         Silla212.setForeground(new java.awt.Color(0, 0, 153));
@@ -2396,7 +2459,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla212ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla212, new org.netbeans.lib.awtextra.AbsoluteConstraints(1328, 469, 46, 30));
+        jPanel1.add(Silla212, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 515, 46, 30));
 
         Silla213.setBackground(new java.awt.Color(255, 255, 255));
         Silla213.setForeground(new java.awt.Color(0, 0, 153));
@@ -2405,7 +2468,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla213ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla213, new org.netbeans.lib.awtextra.AbsoluteConstraints(1392, 469, 46, 30));
+        jPanel1.add(Silla213, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 515, 46, 30));
 
         Silla214.setBackground(new java.awt.Color(255, 255, 255));
         Silla214.setForeground(new java.awt.Color(0, 0, 153));
@@ -2414,7 +2477,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla214ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla214, new org.netbeans.lib.awtextra.AbsoluteConstraints(1444, 469, 46, 30));
+        jPanel1.add(Silla214, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 515, 46, 30));
 
         Silla215.setBackground(new java.awt.Color(255, 255, 255));
         Silla215.setForeground(new java.awt.Color(0, 0, 153));
@@ -2423,7 +2486,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla215ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla215, new org.netbeans.lib.awtextra.AbsoluteConstraints(1496, 469, 46, 30));
+        jPanel1.add(Silla215, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 515, 46, 30));
 
         Silla216.setBackground(new java.awt.Color(255, 255, 255));
         Silla216.setForeground(new java.awt.Color(0, 0, 153));
@@ -2432,7 +2495,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla216ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla216, new org.netbeans.lib.awtextra.AbsoluteConstraints(1560, 469, 46, 30));
+        jPanel1.add(Silla216, new org.netbeans.lib.awtextra.AbsoluteConstraints(314, 515, 46, 30));
 
         Silla217.setBackground(new java.awt.Color(255, 255, 255));
         Silla217.setForeground(new java.awt.Color(0, 0, 153));
@@ -2441,7 +2504,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla217ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla217, new org.netbeans.lib.awtextra.AbsoluteConstraints(1612, 469, 46, 30));
+        jPanel1.add(Silla217, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 515, 46, 30));
 
         Silla218.setBackground(new java.awt.Color(255, 255, 255));
         Silla218.setForeground(new java.awt.Color(0, 0, 153));
@@ -2450,7 +2513,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla218ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla218, new org.netbeans.lib.awtextra.AbsoluteConstraints(1664, 469, 46, 30));
+        jPanel1.add(Silla218, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 515, 46, 30));
 
         Silla219.setBackground(new java.awt.Color(255, 255, 255));
         Silla219.setForeground(new java.awt.Color(0, 0, 153));
@@ -2459,7 +2522,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla219ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla219, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 515, 46, 30));
+        jPanel1.add(Silla219, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 515, 46, 30));
 
         Silla220.setBackground(new java.awt.Color(255, 255, 255));
         Silla220.setForeground(new java.awt.Color(0, 0, 153));
@@ -2468,7 +2531,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla220ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla220, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 515, 46, 30));
+        jPanel1.add(Silla220, new org.netbeans.lib.awtextra.AbsoluteConstraints(546, 515, 46, 30));
 
         Silla221.setBackground(new java.awt.Color(255, 255, 255));
         Silla221.setForeground(new java.awt.Color(0, 0, 153));
@@ -2477,7 +2540,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla221ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla221, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 515, 46, 30));
+        jPanel1.add(Silla221, new org.netbeans.lib.awtextra.AbsoluteConstraints(604, 515, 46, 30));
 
         Silla222.setBackground(new java.awt.Color(255, 255, 255));
         Silla222.setForeground(new java.awt.Color(0, 0, 153));
@@ -2486,7 +2549,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla222ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla222, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 515, 46, 30));
+        jPanel1.add(Silla222, new org.netbeans.lib.awtextra.AbsoluteConstraints(656, 515, 46, 30));
 
         Silla223.setBackground(new java.awt.Color(255, 255, 255));
         Silla223.setForeground(new java.awt.Color(0, 0, 153));
@@ -2495,7 +2558,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla223ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla223, new org.netbeans.lib.awtextra.AbsoluteConstraints(314, 515, 46, 30));
+        jPanel1.add(Silla223, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 515, 46, 30));
 
         Silla224.setBackground(new java.awt.Color(255, 255, 255));
         Silla224.setForeground(new java.awt.Color(0, 0, 153));
@@ -2504,7 +2567,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla224ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla224, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 515, 46, 30));
+        jPanel1.add(Silla224, new org.netbeans.lib.awtextra.AbsoluteConstraints(772, 515, 46, 30));
 
         Silla225.setBackground(new java.awt.Color(255, 255, 255));
         Silla225.setForeground(new java.awt.Color(0, 0, 153));
@@ -2513,7 +2576,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla225ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla225, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 515, 46, 30));
+        jPanel1.add(Silla225, new org.netbeans.lib.awtextra.AbsoluteConstraints(824, 515, 46, 30));
 
         Silla226.setBackground(new java.awt.Color(255, 255, 255));
         Silla226.setForeground(new java.awt.Color(0, 0, 153));
@@ -2522,7 +2585,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla226ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla226, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 515, 46, 30));
+        jPanel1.add(Silla226, new org.netbeans.lib.awtextra.AbsoluteConstraints(888, 515, 46, 30));
 
         Silla227.setBackground(new java.awt.Color(255, 255, 255));
         Silla227.setForeground(new java.awt.Color(0, 0, 153));
@@ -2531,7 +2594,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla227ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla227, new org.netbeans.lib.awtextra.AbsoluteConstraints(546, 515, 46, 30));
+        jPanel1.add(Silla227, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 515, 46, 30));
 
         Silla228.setBackground(new java.awt.Color(255, 255, 255));
         Silla228.setForeground(new java.awt.Color(0, 0, 153));
@@ -2540,7 +2603,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla228ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla228, new org.netbeans.lib.awtextra.AbsoluteConstraints(604, 515, 46, 30));
+        jPanel1.add(Silla228, new org.netbeans.lib.awtextra.AbsoluteConstraints(992, 515, 46, 30));
 
         Silla229.setBackground(new java.awt.Color(255, 255, 255));
         Silla229.setForeground(new java.awt.Color(0, 0, 153));
@@ -2549,7 +2612,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla229ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla229, new org.netbeans.lib.awtextra.AbsoluteConstraints(656, 515, 46, 30));
+        jPanel1.add(Silla229, new org.netbeans.lib.awtextra.AbsoluteConstraints(1056, 515, 46, 30));
 
         Silla230.setBackground(new java.awt.Color(255, 255, 255));
         Silla230.setForeground(new java.awt.Color(0, 0, 153));
@@ -2558,7 +2621,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla230ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla230, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 515, 46, 30));
+        jPanel1.add(Silla230, new org.netbeans.lib.awtextra.AbsoluteConstraints(1108, 515, 46, 30));
 
         Silla231.setBackground(new java.awt.Color(255, 255, 255));
         Silla231.setForeground(new java.awt.Color(0, 0, 153));
@@ -2567,7 +2630,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla231ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla231, new org.netbeans.lib.awtextra.AbsoluteConstraints(772, 515, 46, 30));
+        jPanel1.add(Silla231, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 515, 46, 30));
 
         Silla232.setBackground(new java.awt.Color(255, 255, 255));
         Silla232.setForeground(new java.awt.Color(0, 0, 153));
@@ -2576,7 +2639,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla232ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla232, new org.netbeans.lib.awtextra.AbsoluteConstraints(824, 515, 46, 30));
+        jPanel1.add(Silla232, new org.netbeans.lib.awtextra.AbsoluteConstraints(1224, 515, 46, 30));
 
         Silla233.setBackground(new java.awt.Color(255, 255, 255));
         Silla233.setForeground(new java.awt.Color(0, 0, 153));
@@ -2585,7 +2648,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla233ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla233, new org.netbeans.lib.awtextra.AbsoluteConstraints(888, 515, 46, 30));
+        jPanel1.add(Silla233, new org.netbeans.lib.awtextra.AbsoluteConstraints(1276, 515, 46, 30));
 
         Silla234.setBackground(new java.awt.Color(255, 255, 255));
         Silla234.setForeground(new java.awt.Color(0, 0, 153));
@@ -2594,7 +2657,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla234ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla234, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 515, 46, 30));
+        jPanel1.add(Silla234, new org.netbeans.lib.awtextra.AbsoluteConstraints(1328, 515, 46, 30));
 
         Silla235.setBackground(new java.awt.Color(255, 255, 255));
         Silla235.setForeground(new java.awt.Color(0, 0, 153));
@@ -2603,7 +2666,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla235ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla235, new org.netbeans.lib.awtextra.AbsoluteConstraints(992, 515, 46, 30));
+        jPanel1.add(Silla235, new org.netbeans.lib.awtextra.AbsoluteConstraints(1392, 515, 46, 30));
 
         Silla236.setBackground(new java.awt.Color(255, 255, 255));
         Silla236.setForeground(new java.awt.Color(0, 0, 153));
@@ -2612,7 +2675,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla236ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla236, new org.netbeans.lib.awtextra.AbsoluteConstraints(1056, 515, 46, 30));
+        jPanel1.add(Silla236, new org.netbeans.lib.awtextra.AbsoluteConstraints(1444, 515, 46, 30));
 
         Silla237.setBackground(new java.awt.Color(255, 255, 255));
         Silla237.setForeground(new java.awt.Color(0, 0, 153));
@@ -2621,7 +2684,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla237ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla237, new org.netbeans.lib.awtextra.AbsoluteConstraints(1108, 515, 46, 30));
+        jPanel1.add(Silla237, new org.netbeans.lib.awtextra.AbsoluteConstraints(1496, 515, 46, 30));
 
         Silla238.setBackground(new java.awt.Color(255, 255, 255));
         Silla238.setForeground(new java.awt.Color(0, 0, 153));
@@ -2630,7 +2693,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla238ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla238, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 515, 46, 30));
+        jPanel1.add(Silla238, new org.netbeans.lib.awtextra.AbsoluteConstraints(1560, 515, 46, 30));
 
         Silla239.setBackground(new java.awt.Color(255, 255, 255));
         Silla239.setForeground(new java.awt.Color(0, 0, 153));
@@ -2639,7 +2702,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla239ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla239, new org.netbeans.lib.awtextra.AbsoluteConstraints(1224, 515, 46, 30));
+        jPanel1.add(Silla239, new org.netbeans.lib.awtextra.AbsoluteConstraints(1612, 515, 46, 30));
 
         Silla240.setBackground(new java.awt.Color(255, 255, 255));
         Silla240.setForeground(new java.awt.Color(0, 0, 153));
@@ -2648,16 +2711,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla240ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla240, new org.netbeans.lib.awtextra.AbsoluteConstraints(1276, 515, 46, 30));
-
-        Silla241.setBackground(new java.awt.Color(255, 255, 255));
-        Silla241.setForeground(new java.awt.Color(0, 0, 153));
-        Silla241.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla241ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(Silla241, new org.netbeans.lib.awtextra.AbsoluteConstraints(1328, 515, 46, 30));
+        jPanel1.add(Silla240, new org.netbeans.lib.awtextra.AbsoluteConstraints(1664, 515, 46, 30));
 
         Silla242.setBackground(new java.awt.Color(255, 255, 255));
         Silla242.setForeground(new java.awt.Color(0, 0, 153));
@@ -2666,7 +2720,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla242ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla242, new org.netbeans.lib.awtextra.AbsoluteConstraints(1392, 515, 46, 30));
+        jPanel1.add(Silla242, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 554, 46, 30));
 
         Silla243.setBackground(new java.awt.Color(255, 255, 255));
         Silla243.setForeground(new java.awt.Color(0, 0, 153));
@@ -2675,7 +2729,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla243ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla243, new org.netbeans.lib.awtextra.AbsoluteConstraints(1444, 515, 46, 30));
+        jPanel1.add(Silla243, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 554, 46, 30));
 
         Silla244.setBackground(new java.awt.Color(255, 255, 255));
         Silla244.setForeground(new java.awt.Color(0, 0, 153));
@@ -2684,7 +2738,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla244ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla244, new org.netbeans.lib.awtextra.AbsoluteConstraints(1496, 515, 46, 30));
+        jPanel1.add(Silla244, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 554, 46, 30));
 
         Silla245.setBackground(new java.awt.Color(255, 255, 255));
         Silla245.setForeground(new java.awt.Color(0, 0, 153));
@@ -2693,7 +2747,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla245ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla245, new org.netbeans.lib.awtextra.AbsoluteConstraints(1560, 515, 46, 30));
+        jPanel1.add(Silla245, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 554, 46, 30));
 
         Silla246.setBackground(new java.awt.Color(255, 255, 255));
         Silla246.setForeground(new java.awt.Color(0, 0, 153));
@@ -2702,7 +2756,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla246ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla246, new org.netbeans.lib.awtextra.AbsoluteConstraints(1612, 515, 46, 30));
+        jPanel1.add(Silla246, new org.netbeans.lib.awtextra.AbsoluteConstraints(314, 554, 46, 30));
 
         Silla247.setBackground(new java.awt.Color(255, 255, 255));
         Silla247.setForeground(new java.awt.Color(0, 0, 153));
@@ -2711,7 +2765,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla247ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla247, new org.netbeans.lib.awtextra.AbsoluteConstraints(1664, 515, 46, 30));
+        jPanel1.add(Silla247, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 553, 46, 30));
 
         Silla248.setBackground(new java.awt.Color(255, 255, 255));
         Silla248.setForeground(new java.awt.Color(0, 0, 153));
@@ -2720,7 +2774,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla248ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla248, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 554, 46, 30));
+        jPanel1.add(Silla248, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 553, 46, 30));
 
         Silla249.setBackground(new java.awt.Color(255, 255, 255));
         Silla249.setForeground(new java.awt.Color(0, 0, 153));
@@ -2729,7 +2783,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla249ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla249, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 554, 46, 30));
+        jPanel1.add(Silla249, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 553, 46, 30));
 
         Silla250.setBackground(new java.awt.Color(255, 255, 255));
         Silla250.setForeground(new java.awt.Color(0, 0, 153));
@@ -2738,7 +2792,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla250ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla250, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 554, 46, 30));
+        jPanel1.add(Silla250, new org.netbeans.lib.awtextra.AbsoluteConstraints(546, 553, 46, 30));
 
         Silla251.setBackground(new java.awt.Color(255, 255, 255));
         Silla251.setForeground(new java.awt.Color(0, 0, 153));
@@ -2747,7 +2801,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla251ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla251, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 554, 46, 30));
+        jPanel1.add(Silla251, new org.netbeans.lib.awtextra.AbsoluteConstraints(604, 553, 46, 30));
 
         Silla252.setBackground(new java.awt.Color(255, 255, 255));
         Silla252.setForeground(new java.awt.Color(0, 0, 153));
@@ -2756,7 +2810,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla252ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla252, new org.netbeans.lib.awtextra.AbsoluteConstraints(314, 554, 46, 30));
+        jPanel1.add(Silla252, new org.netbeans.lib.awtextra.AbsoluteConstraints(656, 553, 46, 30));
 
         Silla253.setBackground(new java.awt.Color(255, 255, 255));
         Silla253.setForeground(new java.awt.Color(0, 0, 153));
@@ -2765,7 +2819,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla253ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla253, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 553, 46, 30));
+        jPanel1.add(Silla253, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 553, 46, 30));
 
         Silla254.setBackground(new java.awt.Color(255, 255, 255));
         Silla254.setForeground(new java.awt.Color(0, 0, 153));
@@ -2774,7 +2828,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla254ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla254, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 553, 46, 30));
+        jPanel1.add(Silla254, new org.netbeans.lib.awtextra.AbsoluteConstraints(772, 553, 46, 30));
 
         Silla255.setBackground(new java.awt.Color(255, 255, 255));
         Silla255.setForeground(new java.awt.Color(0, 0, 153));
@@ -2783,7 +2837,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla255ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla255, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 553, 46, 30));
+        jPanel1.add(Silla255, new org.netbeans.lib.awtextra.AbsoluteConstraints(824, 553, 46, 30));
 
         Silla256.setBackground(new java.awt.Color(255, 255, 255));
         Silla256.setForeground(new java.awt.Color(0, 0, 153));
@@ -2792,7 +2846,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla256ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla256, new org.netbeans.lib.awtextra.AbsoluteConstraints(546, 553, 46, 30));
+        jPanel1.add(Silla256, new org.netbeans.lib.awtextra.AbsoluteConstraints(888, 553, 46, 30));
 
         Silla257.setBackground(new java.awt.Color(255, 255, 255));
         Silla257.setForeground(new java.awt.Color(0, 0, 153));
@@ -2801,7 +2855,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla257ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla257, new org.netbeans.lib.awtextra.AbsoluteConstraints(604, 553, 46, 30));
+        jPanel1.add(Silla257, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 553, 46, 30));
 
         Silla258.setBackground(new java.awt.Color(255, 255, 255));
         Silla258.setForeground(new java.awt.Color(0, 0, 153));
@@ -2810,7 +2864,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla258ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla258, new org.netbeans.lib.awtextra.AbsoluteConstraints(656, 553, 46, 30));
+        jPanel1.add(Silla258, new org.netbeans.lib.awtextra.AbsoluteConstraints(992, 553, 46, 30));
 
         Silla259.setBackground(new java.awt.Color(255, 255, 255));
         Silla259.setForeground(new java.awt.Color(0, 0, 153));
@@ -2819,7 +2873,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla259ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla259, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 553, 46, 30));
+        jPanel1.add(Silla259, new org.netbeans.lib.awtextra.AbsoluteConstraints(1056, 553, 46, 30));
 
         Silla260.setBackground(new java.awt.Color(255, 255, 255));
         Silla260.setForeground(new java.awt.Color(0, 0, 153));
@@ -2828,7 +2882,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla260ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla260, new org.netbeans.lib.awtextra.AbsoluteConstraints(772, 553, 46, 30));
+        jPanel1.add(Silla260, new org.netbeans.lib.awtextra.AbsoluteConstraints(1108, 553, 46, 30));
 
         Silla261.setBackground(new java.awt.Color(255, 255, 255));
         Silla261.setForeground(new java.awt.Color(0, 0, 153));
@@ -2837,7 +2891,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla261ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla261, new org.netbeans.lib.awtextra.AbsoluteConstraints(824, 553, 46, 30));
+        jPanel1.add(Silla261, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 553, 46, 30));
 
         Silla262.setBackground(new java.awt.Color(255, 255, 255));
         Silla262.setForeground(new java.awt.Color(0, 0, 153));
@@ -2846,7 +2900,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla262ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla262, new org.netbeans.lib.awtextra.AbsoluteConstraints(888, 553, 46, 30));
+        jPanel1.add(Silla262, new org.netbeans.lib.awtextra.AbsoluteConstraints(1224, 553, 46, 30));
 
         Silla263.setBackground(new java.awt.Color(255, 255, 255));
         Silla263.setForeground(new java.awt.Color(0, 0, 153));
@@ -2855,7 +2909,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla263ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla263, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 553, 46, 30));
+        jPanel1.add(Silla263, new org.netbeans.lib.awtextra.AbsoluteConstraints(1276, 553, 46, 30));
 
         Silla264.setBackground(new java.awt.Color(255, 255, 255));
         Silla264.setForeground(new java.awt.Color(0, 0, 153));
@@ -2864,7 +2918,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla264ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla264, new org.netbeans.lib.awtextra.AbsoluteConstraints(992, 553, 46, 30));
+        jPanel1.add(Silla264, new org.netbeans.lib.awtextra.AbsoluteConstraints(1328, 553, 46, 30));
 
         Silla265.setBackground(new java.awt.Color(255, 255, 255));
         Silla265.setForeground(new java.awt.Color(0, 0, 153));
@@ -2873,7 +2927,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla265ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla265, new org.netbeans.lib.awtextra.AbsoluteConstraints(1056, 553, 46, 30));
+        jPanel1.add(Silla265, new org.netbeans.lib.awtextra.AbsoluteConstraints(1392, 553, 46, 30));
 
         Silla266.setBackground(new java.awt.Color(255, 255, 255));
         Silla266.setForeground(new java.awt.Color(0, 0, 153));
@@ -2882,7 +2936,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla266ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla266, new org.netbeans.lib.awtextra.AbsoluteConstraints(1108, 553, 46, 30));
+        jPanel1.add(Silla266, new org.netbeans.lib.awtextra.AbsoluteConstraints(1444, 553, 46, 30));
 
         Silla267.setBackground(new java.awt.Color(255, 255, 255));
         Silla267.setForeground(new java.awt.Color(0, 0, 153));
@@ -2891,7 +2945,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla267ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla267, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 553, 46, 30));
+        jPanel1.add(Silla267, new org.netbeans.lib.awtextra.AbsoluteConstraints(1496, 553, 46, 30));
 
         Silla268.setBackground(new java.awt.Color(255, 255, 255));
         Silla268.setForeground(new java.awt.Color(0, 0, 153));
@@ -2900,7 +2954,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla268ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla268, new org.netbeans.lib.awtextra.AbsoluteConstraints(1224, 553, 46, 30));
+        jPanel1.add(Silla268, new org.netbeans.lib.awtextra.AbsoluteConstraints(1560, 553, 46, 30));
 
         Silla269.setBackground(new java.awt.Color(255, 255, 255));
         Silla269.setForeground(new java.awt.Color(0, 0, 153));
@@ -2909,7 +2963,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla269ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla269, new org.netbeans.lib.awtextra.AbsoluteConstraints(1276, 553, 46, 30));
+        jPanel1.add(Silla269, new org.netbeans.lib.awtextra.AbsoluteConstraints(1612, 553, 46, 30));
 
         Silla270.setBackground(new java.awt.Color(255, 255, 255));
         Silla270.setForeground(new java.awt.Color(0, 0, 153));
@@ -2918,16 +2972,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla270ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla270, new org.netbeans.lib.awtextra.AbsoluteConstraints(1328, 553, 46, 30));
-
-        Silla271.setBackground(new java.awt.Color(255, 255, 255));
-        Silla271.setForeground(new java.awt.Color(0, 0, 153));
-        Silla271.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla271ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(Silla271, new org.netbeans.lib.awtextra.AbsoluteConstraints(1392, 553, 46, 30));
+        jPanel1.add(Silla270, new org.netbeans.lib.awtextra.AbsoluteConstraints(1664, 553, 46, 30));
 
         Silla272.setBackground(new java.awt.Color(255, 255, 255));
         Silla272.setForeground(new java.awt.Color(0, 0, 153));
@@ -2936,7 +2981,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla272ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla272, new org.netbeans.lib.awtextra.AbsoluteConstraints(1444, 553, 46, 30));
+        jPanel1.add(Silla272, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 591, 46, 30));
 
         Silla273.setBackground(new java.awt.Color(255, 255, 255));
         Silla273.setForeground(new java.awt.Color(0, 0, 153));
@@ -2945,7 +2990,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla273ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla273, new org.netbeans.lib.awtextra.AbsoluteConstraints(1496, 553, 46, 30));
+        jPanel1.add(Silla273, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 591, 46, 30));
 
         Silla274.setBackground(new java.awt.Color(255, 255, 255));
         Silla274.setForeground(new java.awt.Color(0, 0, 153));
@@ -2954,7 +2999,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla274ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla274, new org.netbeans.lib.awtextra.AbsoluteConstraints(1560, 553, 46, 30));
+        jPanel1.add(Silla274, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 590, 46, 30));
 
         Silla275.setBackground(new java.awt.Color(255, 255, 255));
         Silla275.setForeground(new java.awt.Color(0, 0, 153));
@@ -2963,7 +3008,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla275ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla275, new org.netbeans.lib.awtextra.AbsoluteConstraints(1612, 553, 46, 30));
+        jPanel1.add(Silla275, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 590, 46, 30));
 
         Silla276.setBackground(new java.awt.Color(255, 255, 255));
         Silla276.setForeground(new java.awt.Color(0, 0, 153));
@@ -2972,7 +3017,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla276ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla276, new org.netbeans.lib.awtextra.AbsoluteConstraints(1664, 553, 46, 30));
+        jPanel1.add(Silla276, new org.netbeans.lib.awtextra.AbsoluteConstraints(314, 590, 46, 30));
 
         Silla277.setBackground(new java.awt.Color(255, 255, 255));
         Silla277.setForeground(new java.awt.Color(0, 0, 153));
@@ -2981,7 +3026,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla277ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla277, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 591, 46, 30));
+        jPanel1.add(Silla277, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 590, 46, 30));
 
         Silla278.setBackground(new java.awt.Color(255, 255, 255));
         Silla278.setForeground(new java.awt.Color(0, 0, 153));
@@ -2990,7 +3035,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla278ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla278, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 591, 46, 30));
+        jPanel1.add(Silla278, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 590, 46, 30));
 
         Silla279.setBackground(new java.awt.Color(255, 255, 255));
         Silla279.setForeground(new java.awt.Color(0, 0, 153));
@@ -2999,7 +3044,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla279ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla279, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 590, 46, 30));
+        jPanel1.add(Silla279, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 590, 46, 30));
 
         Silla280.setBackground(new java.awt.Color(255, 255, 255));
         Silla280.setForeground(new java.awt.Color(0, 0, 153));
@@ -3008,7 +3053,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla280ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla280, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 590, 46, 30));
+        jPanel1.add(Silla280, new org.netbeans.lib.awtextra.AbsoluteConstraints(546, 590, 46, 30));
 
         Silla281.setBackground(new java.awt.Color(255, 255, 255));
         Silla281.setForeground(new java.awt.Color(0, 0, 153));
@@ -3017,7 +3062,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla281ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla281, new org.netbeans.lib.awtextra.AbsoluteConstraints(314, 590, 46, 30));
+        jPanel1.add(Silla281, new org.netbeans.lib.awtextra.AbsoluteConstraints(604, 590, 46, 30));
 
         Silla282.setBackground(new java.awt.Color(255, 255, 255));
         Silla282.setForeground(new java.awt.Color(0, 0, 153));
@@ -3026,7 +3071,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla282ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla282, new org.netbeans.lib.awtextra.AbsoluteConstraints(378, 590, 46, 30));
+        jPanel1.add(Silla282, new org.netbeans.lib.awtextra.AbsoluteConstraints(656, 590, 46, 30));
 
         Silla283.setBackground(new java.awt.Color(255, 255, 255));
         Silla283.setForeground(new java.awt.Color(0, 0, 153));
@@ -3035,7 +3080,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla283ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla283, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 590, 46, 30));
+        jPanel1.add(Silla283, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 590, 46, 30));
 
         Silla284.setBackground(new java.awt.Color(255, 255, 255));
         Silla284.setForeground(new java.awt.Color(0, 0, 153));
@@ -3044,7 +3089,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla284ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla284, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 590, 46, 30));
+        jPanel1.add(Silla284, new org.netbeans.lib.awtextra.AbsoluteConstraints(772, 590, 46, 30));
 
         Silla285.setBackground(new java.awt.Color(255, 255, 255));
         Silla285.setForeground(new java.awt.Color(0, 0, 153));
@@ -3053,7 +3098,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla285ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla285, new org.netbeans.lib.awtextra.AbsoluteConstraints(546, 590, 46, 30));
+        jPanel1.add(Silla285, new org.netbeans.lib.awtextra.AbsoluteConstraints(824, 590, 46, 30));
 
         Silla286.setBackground(new java.awt.Color(255, 255, 255));
         Silla286.setForeground(new java.awt.Color(0, 0, 153));
@@ -3062,7 +3107,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla286ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla286, new org.netbeans.lib.awtextra.AbsoluteConstraints(604, 590, 46, 30));
+        jPanel1.add(Silla286, new org.netbeans.lib.awtextra.AbsoluteConstraints(888, 590, 46, 30));
 
         Silla287.setBackground(new java.awt.Color(255, 255, 255));
         Silla287.setForeground(new java.awt.Color(0, 0, 153));
@@ -3071,7 +3116,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla287ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla287, new org.netbeans.lib.awtextra.AbsoluteConstraints(656, 590, 46, 30));
+        jPanel1.add(Silla287, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 590, 46, 30));
 
         Silla288.setBackground(new java.awt.Color(255, 255, 255));
         Silla288.setForeground(new java.awt.Color(0, 0, 153));
@@ -3080,7 +3125,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla288ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla288, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 590, 46, 30));
+        jPanel1.add(Silla288, new org.netbeans.lib.awtextra.AbsoluteConstraints(992, 590, 46, 30));
 
         Silla289.setBackground(new java.awt.Color(255, 255, 255));
         Silla289.setForeground(new java.awt.Color(0, 0, 153));
@@ -3089,7 +3134,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla289ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla289, new org.netbeans.lib.awtextra.AbsoluteConstraints(772, 590, 46, 30));
+        jPanel1.add(Silla289, new org.netbeans.lib.awtextra.AbsoluteConstraints(1056, 590, 46, 30));
 
         Silla290.setBackground(new java.awt.Color(255, 255, 255));
         Silla290.setForeground(new java.awt.Color(0, 0, 153));
@@ -3098,7 +3143,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla290ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla290, new org.netbeans.lib.awtextra.AbsoluteConstraints(824, 590, 46, 30));
+        jPanel1.add(Silla290, new org.netbeans.lib.awtextra.AbsoluteConstraints(1108, 590, 46, 30));
 
         Silla291.setBackground(new java.awt.Color(255, 255, 255));
         Silla291.setForeground(new java.awt.Color(0, 0, 153));
@@ -3107,7 +3152,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla291ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla291, new org.netbeans.lib.awtextra.AbsoluteConstraints(888, 590, 46, 30));
+        jPanel1.add(Silla291, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 590, 46, 30));
 
         Silla292.setBackground(new java.awt.Color(255, 255, 255));
         Silla292.setForeground(new java.awt.Color(0, 0, 153));
@@ -3116,7 +3161,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla292ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla292, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 590, 46, 30));
+        jPanel1.add(Silla292, new org.netbeans.lib.awtextra.AbsoluteConstraints(1224, 590, 46, 30));
 
         Silla293.setBackground(new java.awt.Color(255, 255, 255));
         Silla293.setForeground(new java.awt.Color(0, 0, 153));
@@ -3125,7 +3170,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla293ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla293, new org.netbeans.lib.awtextra.AbsoluteConstraints(992, 590, 46, 30));
+        jPanel1.add(Silla293, new org.netbeans.lib.awtextra.AbsoluteConstraints(1276, 590, 46, 30));
 
         Silla294.setBackground(new java.awt.Color(255, 255, 255));
         Silla294.setForeground(new java.awt.Color(0, 0, 153));
@@ -3134,7 +3179,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla294ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla294, new org.netbeans.lib.awtextra.AbsoluteConstraints(1056, 590, 46, 30));
+        jPanel1.add(Silla294, new org.netbeans.lib.awtextra.AbsoluteConstraints(1328, 590, 46, 30));
 
         Silla295.setBackground(new java.awt.Color(255, 255, 255));
         Silla295.setForeground(new java.awt.Color(0, 0, 153));
@@ -3143,7 +3188,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla295ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla295, new org.netbeans.lib.awtextra.AbsoluteConstraints(1108, 590, 46, 30));
+        jPanel1.add(Silla295, new org.netbeans.lib.awtextra.AbsoluteConstraints(1392, 590, 46, 30));
 
         Silla296.setBackground(new java.awt.Color(255, 255, 255));
         Silla296.setForeground(new java.awt.Color(0, 0, 153));
@@ -3152,7 +3197,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla296ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla296, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 590, 46, 30));
+        jPanel1.add(Silla296, new org.netbeans.lib.awtextra.AbsoluteConstraints(1444, 590, 46, 30));
 
         Silla297.setBackground(new java.awt.Color(255, 255, 255));
         Silla297.setForeground(new java.awt.Color(0, 0, 153));
@@ -3161,7 +3206,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla297ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla297, new org.netbeans.lib.awtextra.AbsoluteConstraints(1224, 590, 46, 30));
+        jPanel1.add(Silla297, new org.netbeans.lib.awtextra.AbsoluteConstraints(1496, 590, 46, 30));
 
         Silla298.setBackground(new java.awt.Color(255, 255, 255));
         Silla298.setForeground(new java.awt.Color(0, 0, 153));
@@ -3170,7 +3215,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla298ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla298, new org.netbeans.lib.awtextra.AbsoluteConstraints(1276, 590, 46, 30));
+        jPanel1.add(Silla298, new org.netbeans.lib.awtextra.AbsoluteConstraints(1560, 590, 46, 30));
 
         Silla299.setBackground(new java.awt.Color(255, 255, 255));
         Silla299.setForeground(new java.awt.Color(0, 0, 153));
@@ -3179,7 +3224,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla299ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla299, new org.netbeans.lib.awtextra.AbsoluteConstraints(1328, 590, 46, 30));
+        jPanel1.add(Silla299, new org.netbeans.lib.awtextra.AbsoluteConstraints(1612, 590, 46, 30));
 
         Silla300.setBackground(new java.awt.Color(255, 255, 255));
         Silla300.setForeground(new java.awt.Color(0, 0, 153));
@@ -3188,52 +3233,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 Silla300ActionPerformed(evt);
             }
         });
-        jPanel1.add(Silla300, new org.netbeans.lib.awtextra.AbsoluteConstraints(1392, 590, 46, 30));
-
-        Silla301.setBackground(new java.awt.Color(255, 255, 255));
-        Silla301.setForeground(new java.awt.Color(0, 0, 153));
-        Silla301.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla301ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(Silla301, new org.netbeans.lib.awtextra.AbsoluteConstraints(1444, 590, 46, 30));
-
-        Silla302.setBackground(new java.awt.Color(255, 255, 255));
-        Silla302.setForeground(new java.awt.Color(0, 0, 153));
-        Silla302.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla302ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(Silla302, new org.netbeans.lib.awtextra.AbsoluteConstraints(1496, 590, 46, 30));
-
-        Silla303.setBackground(new java.awt.Color(255, 255, 255));
-        Silla303.setForeground(new java.awt.Color(0, 0, 153));
-        Silla303.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla303ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(Silla303, new org.netbeans.lib.awtextra.AbsoluteConstraints(1560, 590, 46, 30));
-
-        Silla304.setBackground(new java.awt.Color(255, 255, 255));
-        Silla304.setForeground(new java.awt.Color(0, 0, 153));
-        Silla304.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla304ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(Silla304, new org.netbeans.lib.awtextra.AbsoluteConstraints(1612, 590, 46, 30));
-
-        Silla305.setBackground(new java.awt.Color(255, 255, 255));
-        Silla305.setForeground(new java.awt.Color(0, 0, 153));
-        Silla305.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Silla305ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(Silla305, new org.netbeans.lib.awtextra.AbsoluteConstraints(1664, 590, 46, 30));
+        jPanel1.add(Silla300, new org.netbeans.lib.awtextra.AbsoluteConstraints(1664, 590, 46, 30));
 
         Silla306.setBackground(new java.awt.Color(255, 255, 255));
         Silla306.setForeground(new java.awt.Color(0, 0, 153));
@@ -4550,11 +4550,17 @@ public class Interfazsillas extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(52, 52, 52)
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 892, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(45, 45, 45))
         );
 
         pack();
@@ -4592,13 +4598,13 @@ public class Interfazsillas extends javax.swing.JFrame {
         silla5.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_silla5ActionPerformed
 
-    private void Silla162ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla162ActionPerformed
-        Silla162.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla162ActionPerformed
+    private void Silla153ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla153ActionPerformed
+        Silla153.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla153ActionPerformed
 
-    private void Silla264ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla264ActionPerformed
-        Silla264.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla264ActionPerformed
+    private void Silla258ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla258ActionPerformed
+        Silla258.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla258ActionPerformed
 
     private void silla31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla31ActionPerformed
         silla31.setBackground(new Color(255,0,0));
@@ -4616,25 +4622,25 @@ public class Interfazsillas extends javax.swing.JFrame {
        silla121.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_silla121ActionPerformed
 
-    private void Silla13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla13ActionPerformed
-     Silla13.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla13ActionPerformed
+    private void Silla151ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla151ActionPerformed
+     Silla151.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla151ActionPerformed
 
-    private void Silla14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla14ActionPerformed
-        Silla14.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla14ActionPerformed
+    private void Silla181ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla181ActionPerformed
+        Silla181.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla181ActionPerformed
 
-    private void Silla15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla15ActionPerformed
-       Silla15.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla15ActionPerformed
+    private void Silla211ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla211ActionPerformed
+       Silla211.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla211ActionPerformed
 
-    private void Silla16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla16ActionPerformed
-      Silla16.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla16ActionPerformed
+    private void Silla241ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla241ActionPerformed
+      Silla241.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla241ActionPerformed
 
-    private void Silla17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla17ActionPerformed
-        Silla17.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla17ActionPerformed
+    private void Silla271ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla271ActionPerformed
+        Silla271.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla271ActionPerformed
 
     private void Silla18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla18ActionPerformed
         Silla18.setBackground(new Color(255,0,0));
@@ -4672,25 +4678,25 @@ public class Interfazsillas extends javax.swing.JFrame {
         silla122.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_silla122ActionPerformed
 
-    private void Silla161ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla161ActionPerformed
-       Silla161.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla161ActionPerformed
+    private void Silla152ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla152ActionPerformed
+       Silla152.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla152ActionPerformed
 
-    private void Silla190ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla190ActionPerformed
-        Silla190.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla190ActionPerformed
+    private void Silla182ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla182ActionPerformed
+        Silla182.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla182ActionPerformed
 
-    private void Silla219ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla219ActionPerformed
-        Silla219.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla219ActionPerformed
+    private void Silla212ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla212ActionPerformed
+        Silla212.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla212ActionPerformed
 
-    private void Silla248ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla248ActionPerformed
-       Silla248.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla248ActionPerformed
+    private void Silla242ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla242ActionPerformed
+       Silla242.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla242ActionPerformed
 
-    private void Silla277ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla277ActionPerformed
-        Silla277.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla277ActionPerformed
+    private void Silla272ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla272ActionPerformed
+        Silla272.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla272ActionPerformed
 
     private void Silla306ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla306ActionPerformed
         Silla306.setBackground(new Color(255,0,0));
@@ -4728,21 +4734,21 @@ public class Interfazsillas extends javax.swing.JFrame {
         silla123.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_silla123ActionPerformed
 
-    private void Silla191ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla191ActionPerformed
-       Silla191.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla191ActionPerformed
+    private void Silla183ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla183ActionPerformed
+       Silla183.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla183ActionPerformed
 
-    private void Silla220ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla220ActionPerformed
-       Silla220.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla220ActionPerformed
+    private void Silla213ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla213ActionPerformed
+       Silla213.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla213ActionPerformed
 
-    private void Silla249ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla249ActionPerformed
-       Silla249.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla249ActionPerformed
+    private void Silla243ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla243ActionPerformed
+       Silla243.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla243ActionPerformed
 
-    private void Silla278ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla278ActionPerformed
-      Silla278.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla278ActionPerformed
+    private void Silla273ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla273ActionPerformed
+      Silla273.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla273ActionPerformed
 
     private void Silla307ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla307ActionPerformed
       Silla307.setBackground(new Color(255,0,0));
@@ -4780,25 +4786,25 @@ public class Interfazsillas extends javax.swing.JFrame {
        silla124.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_silla124ActionPerformed
 
-    private void Silla163ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla163ActionPerformed
-        Silla163.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla163ActionPerformed
+    private void Silla154ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla154ActionPerformed
+        Silla154.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla154ActionPerformed
 
-    private void Silla192ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla192ActionPerformed
-        Silla192.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla192ActionPerformed
+    private void Silla184ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla184ActionPerformed
+        Silla184.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla184ActionPerformed
 
-    private void Silla221ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla221ActionPerformed
-       Silla221.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla221ActionPerformed
+    private void Silla214ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla214ActionPerformed
+       Silla214.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla214ActionPerformed
 
-    private void Silla250ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla250ActionPerformed
-         Silla250.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla250ActionPerformed
+    private void Silla244ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla244ActionPerformed
+         Silla244.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla244ActionPerformed
 
-    private void Silla279ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla279ActionPerformed
-        Silla279.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla279ActionPerformed
+    private void Silla274ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla274ActionPerformed
+        Silla274.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla274ActionPerformed
 
     private void Silla308ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla308ActionPerformed
        Silla308.setBackground(new Color(255,0,0));
@@ -4840,25 +4846,25 @@ public class Interfazsillas extends javax.swing.JFrame {
        Silla309.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_Silla309ActionPerformed
 
-    private void Silla280ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla280ActionPerformed
-         Silla208.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla280ActionPerformed
+    private void Silla275ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla275ActionPerformed
+         Silla200.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla275ActionPerformed
 
-    private void Silla251ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla251ActionPerformed
-        Silla251.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla251ActionPerformed
+    private void Silla245ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla245ActionPerformed
+        Silla245.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla245ActionPerformed
 
-    private void Silla222ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla222ActionPerformed
-         Silla222.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla222ActionPerformed
+    private void Silla215ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla215ActionPerformed
+         Silla215.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla215ActionPerformed
 
-    private void Silla193ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla193ActionPerformed
-         Silla193.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla193ActionPerformed
+    private void Silla185ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla185ActionPerformed
+         Silla185.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla185ActionPerformed
 
-    private void Silla164ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla164ActionPerformed
-        Silla164.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla164ActionPerformed
+    private void Silla155ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla155ActionPerformed
+        Silla155.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla155ActionPerformed
 
     private void silla125ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla125ActionPerformed
          silla125.setBackground(new Color(255,0,0));
@@ -4896,25 +4902,25 @@ public class Interfazsillas extends javax.swing.JFrame {
          silla126.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_silla126ActionPerformed
 
-    private void Silla165ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla165ActionPerformed
-        Silla165.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla165ActionPerformed
+    private void Silla156ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla156ActionPerformed
+        Silla156.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla156ActionPerformed
 
-    private void Silla194ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla194ActionPerformed
-         Silla194.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla194ActionPerformed
+    private void Silla186ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla186ActionPerformed
+         Silla186.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla186ActionPerformed
 
-    private void Silla223ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla223ActionPerformed
-         Silla223.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla223ActionPerformed
+    private void Silla216ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla216ActionPerformed
+         Silla216.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla216ActionPerformed
 
-    private void Silla252ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla252ActionPerformed
-         Silla252.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla252ActionPerformed
+    private void Silla246ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla246ActionPerformed
+         Silla246.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla246ActionPerformed
 
-    private void Silla281ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla281ActionPerformed
-        Silla281.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla281ActionPerformed
+    private void Silla276ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla276ActionPerformed
+        Silla276.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla276ActionPerformed
 
     private void Silla310ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla310ActionPerformed
          Silla310.setBackground(new Color(255,0,0));
@@ -5080,73 +5086,73 @@ public class Interfazsillas extends javax.swing.JFrame {
       Silla332.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_Silla332ActionPerformed
 
-    private void Silla305ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla305ActionPerformed
-        Silla305.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla305ActionPerformed
+    private void Silla300ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla300ActionPerformed
+        Silla300.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla300ActionPerformed
 
-    private void Silla304ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla304ActionPerformed
-      Silla304.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla304ActionPerformed
+    private void Silla299ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla299ActionPerformed
+      Silla299.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla299ActionPerformed
 
-    private void Silla303ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla303ActionPerformed
-       Silla303.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla303ActionPerformed
+    private void Silla298ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla298ActionPerformed
+       Silla298.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla298ActionPerformed
 
-    private void Silla276ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla276ActionPerformed
-       Silla276.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla276ActionPerformed
+    private void Silla270ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla270ActionPerformed
+       Silla270.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla270ActionPerformed
 
-    private void Silla275ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla275ActionPerformed
-       Silla275.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla275ActionPerformed
+    private void Silla269ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla269ActionPerformed
+       Silla269.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla269ActionPerformed
 
-    private void Silla274ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla274ActionPerformed
-       Silla274.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla274ActionPerformed
+    private void Silla268ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla268ActionPerformed
+       Silla268.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla268ActionPerformed
 
-    private void Silla247ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla247ActionPerformed
-        Silla247.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla247ActionPerformed
+    private void Silla240ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla240ActionPerformed
+        Silla240.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla240ActionPerformed
 
-    private void Silla246ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla246ActionPerformed
-      Silla264.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla246ActionPerformed
+    private void Silla239ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla239ActionPerformed
+      Silla258.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla239ActionPerformed
 
-    private void Silla245ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla245ActionPerformed
-        Silla245.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla245ActionPerformed
+    private void Silla238ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla238ActionPerformed
+        Silla238.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla238ActionPerformed
 
-    private void Silla218ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla218ActionPerformed
-      Silla218.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla218ActionPerformed
+    private void Silla210ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla210ActionPerformed
+      Silla210.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla210ActionPerformed
 
-    private void Silla217ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla217ActionPerformed
-      Silla217.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla217ActionPerformed
+    private void Silla209ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla209ActionPerformed
+      Silla209.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla209ActionPerformed
 
-    private void Silla216ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla216ActionPerformed
-      Silla216.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla216ActionPerformed
+    private void Silla208ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla208ActionPerformed
+      Silla208.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla208ActionPerformed
 
-    private void Silla189ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla189ActionPerformed
-        Silla189.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla189ActionPerformed
+    private void Silla180ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla180ActionPerformed
+        Silla180.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla180ActionPerformed
 
-    private void Silla188ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla188ActionPerformed
-        Silla188.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla188ActionPerformed
+    private void Silla179ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla179ActionPerformed
+        Silla179.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla179ActionPerformed
 
-    private void Silla187ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla187ActionPerformed
-    Silla187.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla187ActionPerformed
+    private void Silla178ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla178ActionPerformed
+    Silla178.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla178ActionPerformed
 
     private void silla119ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla119ActionPerformed
        silla119.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_silla119ActionPerformed
 
-    private void Silla186ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla186ActionPerformed
-      Silla186.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla186ActionPerformed
+    private void Silla177ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla177ActionPerformed
+      Silla177.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla177ActionPerformed
 
     private void silla150ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla150ActionPerformed
        silla150.setBackground(new Color(255,0,0));
@@ -5217,28 +5223,28 @@ public class Interfazsillas extends javax.swing.JFrame {
     }//GEN-LAST:event_silla87ActionPerformed
 
     private void silla117ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla117ActionPerformed
-        Silla192.setBackground(new Color(255,0,0));
+        Silla184.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_silla117ActionPerformed
 
     private void silla147ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla147ActionPerformed
        silla147.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_silla147ActionPerformed
 
-    private void Silla215ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla215ActionPerformed
-       Silla215.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla215ActionPerformed
+    private void Silla207ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla207ActionPerformed
+       Silla207.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla207ActionPerformed
 
-    private void Silla244ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla244ActionPerformed
-       Silla244.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla244ActionPerformed
+    private void Silla237ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla237ActionPerformed
+       Silla237.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla237ActionPerformed
 
-    private void Silla273ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla273ActionPerformed
-       Silla273.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla273ActionPerformed
+    private void Silla267ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla267ActionPerformed
+       Silla267.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla267ActionPerformed
 
-    private void Silla302ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla302ActionPerformed
-      Silla302.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla302ActionPerformed
+    private void Silla297ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla297ActionPerformed
+      Silla297.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla297ActionPerformed
 
     private void Silla331ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla331ActionPerformed
        Silla331.setBackground(new Color(255,0,0));
@@ -5288,45 +5294,45 @@ public class Interfazsillas extends javax.swing.JFrame {
        Silla416.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_Silla416ActionPerformed
 
-    private void Silla301ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla301ActionPerformed
-       Silla301.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla301ActionPerformed
+    private void Silla296ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla296ActionPerformed
+       Silla296.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla296ActionPerformed
 
-    private void Silla300ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla300ActionPerformed
-       Silla300.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla300ActionPerformed
+    private void Silla295ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla295ActionPerformed
+       Silla295.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla295ActionPerformed
 
-    private void Silla272ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla272ActionPerformed
-      Silla272.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla272ActionPerformed
+    private void Silla266ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla266ActionPerformed
+      Silla266.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla266ActionPerformed
 
-    private void Silla271ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla271ActionPerformed
-      Silla271.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla271ActionPerformed
+    private void Silla265ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla265ActionPerformed
+      Silla265.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla265ActionPerformed
 
-    private void Silla243ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla243ActionPerformed
-      Silla243.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla243ActionPerformed
+    private void Silla236ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla236ActionPerformed
+      Silla236.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla236ActionPerformed
 
-    private void Silla242ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla242ActionPerformed
-        Silla242.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla242ActionPerformed
+    private void Silla235ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla235ActionPerformed
+        Silla235.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla235ActionPerformed
 
-    private void Silla214ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla214ActionPerformed
-       Silla214.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla214ActionPerformed
+    private void Silla206ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla206ActionPerformed
+       Silla206.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla206ActionPerformed
 
-    private void Silla213ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla213ActionPerformed
-       Silla213.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla213ActionPerformed
+    private void Silla205ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla205ActionPerformed
+       Silla205.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla205ActionPerformed
 
-    private void Silla185ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla185ActionPerformed
-       Silla185.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla185ActionPerformed
+    private void Silla176ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla176ActionPerformed
+       Silla176.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla176ActionPerformed
 
-    private void Silla184ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla184ActionPerformed
-        Silla184.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla184ActionPerformed
+    private void Silla175ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla175ActionPerformed
+        Silla175.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla175ActionPerformed
 
     private void silla146ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla146ActionPerformed
         silla146.setBackground(new Color(255,0,0));
@@ -5428,65 +5434,65 @@ public class Interfazsillas extends javax.swing.JFrame {
          silla129.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_silla129ActionPerformed
 
-    private void Silla166ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla166ActionPerformed
-        Silla166.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla166ActionPerformed
+    private void Silla157ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla157ActionPerformed
+        Silla157.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla157ActionPerformed
 
-    private void Silla167ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla167ActionPerformed
-         Silla167.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla167ActionPerformed
+    private void Silla158ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla158ActionPerformed
+         Silla158.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla158ActionPerformed
 
-    private void Silla168ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla168ActionPerformed
-         Silla168.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla168ActionPerformed
+    private void Silla159ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla159ActionPerformed
+         Silla159.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla159ActionPerformed
 
-    private void Silla195ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla195ActionPerformed
-        Silla195.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla195ActionPerformed
+    private void Silla187ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla187ActionPerformed
+        Silla187.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla187ActionPerformed
 
-    private void Silla196ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla196ActionPerformed
-         Silla196.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla196ActionPerformed
+    private void Silla188ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla188ActionPerformed
+         Silla188.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla188ActionPerformed
 
-    private void Silla197ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla197ActionPerformed
-         Silla197.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla197ActionPerformed
+    private void Silla189ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla189ActionPerformed
+         Silla189.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla189ActionPerformed
 
-    private void Silla224ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla224ActionPerformed
-        Silla224.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla224ActionPerformed
+    private void Silla217ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla217ActionPerformed
+        Silla217.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla217ActionPerformed
 
-    private void Silla225ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla225ActionPerformed
-         Silla225.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla225ActionPerformed
+    private void Silla218ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla218ActionPerformed
+         Silla218.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla218ActionPerformed
 
-    private void Silla226ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla226ActionPerformed
-        Silla226.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla226ActionPerformed
+    private void Silla219ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla219ActionPerformed
+        Silla219.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla219ActionPerformed
 
-    private void Silla253ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla253ActionPerformed
-         Silla253.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla253ActionPerformed
+    private void Silla247ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla247ActionPerformed
+         Silla247.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla247ActionPerformed
 
-    private void Silla254ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla254ActionPerformed
-        Silla254.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla254ActionPerformed
+    private void Silla248ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla248ActionPerformed
+        Silla248.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla248ActionPerformed
 
-    private void Silla255ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla255ActionPerformed
-        Silla255.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla255ActionPerformed
+    private void Silla249ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla249ActionPerformed
+        Silla249.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla249ActionPerformed
 
-    private void Silla282ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla282ActionPerformed
-         Silla282.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla282ActionPerformed
+    private void Silla277ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla277ActionPerformed
+         Silla277.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla277ActionPerformed
 
-    private void Silla283ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla283ActionPerformed
-        Silla283.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla283ActionPerformed
+    private void Silla278ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla278ActionPerformed
+        Silla278.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla278ActionPerformed
 
-    private void Silla284ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla284ActionPerformed
-         Silla284.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla284ActionPerformed
+    private void Silla279ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla279ActionPerformed
+         Silla279.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla279ActionPerformed
 
     private void Silla311ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla311ActionPerformed
          Silla311.setBackground(new Color(255,0,0));
@@ -5501,7 +5507,7 @@ public class Interfazsillas extends javax.swing.JFrame {
     }//GEN-LAST:event_Silla313ActionPerformed
 
     private void Silla340ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla340ActionPerformed
-        Silla304.setBackground(new Color(255,0,0));
+        Silla299.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_Silla340ActionPerformed
 
     private void Silla341ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla341ActionPerformed
@@ -5576,65 +5582,65 @@ public class Interfazsillas extends javax.swing.JFrame {
         Silla314.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_Silla314ActionPerformed
 
-    private void Silla287ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla287ActionPerformed
-         Silla287.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla287ActionPerformed
+    private void Silla282ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla282ActionPerformed
+         Silla282.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla282ActionPerformed
 
-    private void Silla286ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla286ActionPerformed
-         Silla286.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla286ActionPerformed
+    private void Silla281ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla281ActionPerformed
+         Silla281.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla281ActionPerformed
 
-    private void Silla285ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla285ActionPerformed
-         Silla285.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla285ActionPerformed
+    private void Silla280ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla280ActionPerformed
+         Silla280.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla280ActionPerformed
 
-    private void Silla258ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla258ActionPerformed
-         Silla258.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla258ActionPerformed
+    private void Silla252ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla252ActionPerformed
+         Silla252.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla252ActionPerformed
 
-    private void Silla257ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla257ActionPerformed
-         Silla257.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla257ActionPerformed
+    private void Silla251ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla251ActionPerformed
+         Silla251.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla251ActionPerformed
 
-    private void Silla256ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla256ActionPerformed
-        Silla256.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla256ActionPerformed
+    private void Silla250ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla250ActionPerformed
+        Silla250.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla250ActionPerformed
 
-    private void Silla229ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla229ActionPerformed
-        Silla299.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla229ActionPerformed
+    private void Silla222ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla222ActionPerformed
+        Silla294.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla222ActionPerformed
 
-    private void Silla228ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla228ActionPerformed
-         Silla228.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla228ActionPerformed
+    private void Silla221ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla221ActionPerformed
+         Silla221.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla221ActionPerformed
 
-    private void Silla227ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla227ActionPerformed
-         Silla227.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla227ActionPerformed
+    private void Silla220ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla220ActionPerformed
+         Silla220.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla220ActionPerformed
 
-    private void Silla200ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla200ActionPerformed
-         Silla200.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla200ActionPerformed
+    private void Silla192ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla192ActionPerformed
+         Silla192.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla192ActionPerformed
 
-    private void Silla199ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla199ActionPerformed
-        Silla199.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla199ActionPerformed
+    private void Silla191ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla191ActionPerformed
+        Silla191.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla191ActionPerformed
 
-    private void Silla198ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla198ActionPerformed
-        Silla198.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla198ActionPerformed
+    private void Silla190ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla190ActionPerformed
+        Silla190.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla190ActionPerformed
 
-    private void Silla171ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla171ActionPerformed
-        Silla171.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla171ActionPerformed
+    private void Silla162ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla162ActionPerformed
+        Silla162.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla162ActionPerformed
 
-    private void Silla170ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla170ActionPerformed
-        Silla170.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla170ActionPerformed
+    private void Silla161ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla161ActionPerformed
+        Silla161.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla161ActionPerformed
 
-    private void Silla169ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla169ActionPerformed
-         Silla169.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla169ActionPerformed
+    private void Silla160ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla160ActionPerformed
+         Silla160.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla160ActionPerformed
 
     private void silla132ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla132ActionPerformed
          silla132.setBackground(new Color(255,0,0));
@@ -5756,77 +5762,77 @@ public class Interfazsillas extends javax.swing.JFrame {
         silla135.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_silla135ActionPerformed
 
-    private void Silla172ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla172ActionPerformed
-         Silla172.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla172ActionPerformed
+    private void Silla163ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla163ActionPerformed
+         Silla163.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla163ActionPerformed
 
-    private void Silla173ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla173ActionPerformed
-       Silla173.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla173ActionPerformed
+    private void Silla164ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla164ActionPerformed
+       Silla164.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla164ActionPerformed
 
-    private void Silla174ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla174ActionPerformed
-         Silla174.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla174ActionPerformed
+    private void Silla165ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla165ActionPerformed
+         Silla165.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla165ActionPerformed
 
-    private void Silla201ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla201ActionPerformed
-        Silla201.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla201ActionPerformed
+    private void Silla193ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla193ActionPerformed
+        Silla193.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla193ActionPerformed
 
-    private void Silla202ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla202ActionPerformed
-        Silla202.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla202ActionPerformed
+    private void Silla194ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla194ActionPerformed
+        Silla194.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla194ActionPerformed
 
-    private void Silla203ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla203ActionPerformed
-         Silla203.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla203ActionPerformed
+    private void Silla195ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla195ActionPerformed
+         Silla195.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla195ActionPerformed
 
-    private void Silla204ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla204ActionPerformed
-         Silla204.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla204ActionPerformed
+    private void Silla196ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla196ActionPerformed
+         Silla196.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla196ActionPerformed
 
-    private void Silla175ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla175ActionPerformed
-         Silla175.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla175ActionPerformed
+    private void Silla166ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla166ActionPerformed
+         Silla166.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla166ActionPerformed
 
     private void silla106ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla106ActionPerformed
         silla106.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_silla106ActionPerformed
 
-    private void Silla230ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla230ActionPerformed
-         Silla230.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla230ActionPerformed
+    private void Silla223ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla223ActionPerformed
+         Silla223.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla223ActionPerformed
 
-    private void Silla231ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla231ActionPerformed
-         Silla213.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla231ActionPerformed
+    private void Silla224ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla224ActionPerformed
+         Silla205.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla224ActionPerformed
 
-    private void Silla232ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla232ActionPerformed
-         Silla232.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla232ActionPerformed
+    private void Silla225ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla225ActionPerformed
+         Silla225.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla225ActionPerformed
 
-    private void Silla259ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla259ActionPerformed
-         Silla259.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla259ActionPerformed
+    private void Silla253ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla253ActionPerformed
+         Silla253.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla253ActionPerformed
 
-    private void Silla260ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla260ActionPerformed
-        Silla260.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla260ActionPerformed
+    private void Silla254ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla254ActionPerformed
+        Silla254.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla254ActionPerformed
 
-    private void Silla261ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla261ActionPerformed
-         Silla261.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla261ActionPerformed
+    private void Silla255ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla255ActionPerformed
+         Silla255.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla255ActionPerformed
 
-    private void Silla288ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla288ActionPerformed
-      Silla288.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla288ActionPerformed
+    private void Silla283ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla283ActionPerformed
+      Silla283.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla283ActionPerformed
 
-    private void Silla289ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla289ActionPerformed
-         Silla289.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla289ActionPerformed
+    private void Silla284ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla284ActionPerformed
+         Silla284.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla284ActionPerformed
 
-    private void Silla290ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla290ActionPerformed
-         Silla290.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla290ActionPerformed
+    private void Silla285ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla285ActionPerformed
+         Silla285.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla285ActionPerformed
 
     private void Silla317ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla317ActionPerformed
          Silla317.setBackground(new Color(255,0,0));
@@ -5925,53 +5931,53 @@ public class Interfazsillas extends javax.swing.JFrame {
          Silla320.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_Silla320ActionPerformed
 
-    private void Silla293ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla293ActionPerformed
-         Silla293.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla293ActionPerformed
+    private void Silla288ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla288ActionPerformed
+         Silla288.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla288ActionPerformed
 
-    private void Silla292ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla292ActionPerformed
-         Silla292.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla292ActionPerformed
+    private void Silla287ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla287ActionPerformed
+         Silla287.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla287ActionPerformed
 
-    private void Silla291ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla291ActionPerformed
-         Silla291.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla291ActionPerformed
+    private void Silla286ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla286ActionPerformed
+         Silla286.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla286ActionPerformed
 
-    private void Silla263ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla263ActionPerformed
-         Silla263.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla263ActionPerformed
+    private void Silla257ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla257ActionPerformed
+         Silla257.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla257ActionPerformed
 
-    private void Silla262ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla262ActionPerformed
-         Silla262.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla262ActionPerformed
+    private void Silla256ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla256ActionPerformed
+         Silla256.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla256ActionPerformed
 
-    private void Silla235ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla235ActionPerformed
-         Silla235.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla235ActionPerformed
+    private void Silla228ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla228ActionPerformed
+         Silla228.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla228ActionPerformed
 
-    private void Silla234ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla234ActionPerformed
-         Silla234.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla234ActionPerformed
+    private void Silla227ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla227ActionPerformed
+         Silla227.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla227ActionPerformed
 
-    private void Silla233ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla233ActionPerformed
-         Silla233.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla233ActionPerformed
+    private void Silla226ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla226ActionPerformed
+         Silla226.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla226ActionPerformed
 
-    private void Silla206ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla206ActionPerformed
-         Silla206.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla206ActionPerformed
+    private void Silla198ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla198ActionPerformed
+         Silla198.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla198ActionPerformed
 
-    private void Silla205ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla205ActionPerformed
-         Silla205.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla205ActionPerformed
+    private void Silla197ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla197ActionPerformed
+         Silla197.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla197ActionPerformed
 
-    private void Silla177ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla177ActionPerformed
-         Silla177.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla177ActionPerformed
+    private void Silla168ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla168ActionPerformed
+         Silla168.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla168ActionPerformed
 
-    private void Silla176ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla176ActionPerformed
-         Silla176.setBackground(new Color(255,0,0));
-    }//GEN-LAST:event_Silla176ActionPerformed
+    private void Silla167ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla167ActionPerformed
+         Silla167.setBackground(new Color(255,0,0));
+    }//GEN-LAST:event_Silla167ActionPerformed
 
     private void silla138ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla138ActionPerformed
         silla138.setBackground(new Color(255,0,0));
@@ -6089,65 +6095,65 @@ public class Interfazsillas extends javax.swing.JFrame {
         silla141.setBackground(new Color(255,0,0));  
     }//GEN-LAST:event_silla141ActionPerformed
 
-    private void Silla178ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla178ActionPerformed
-        Silla178.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla178ActionPerformed
+    private void Silla169ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla169ActionPerformed
+        Silla169.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla169ActionPerformed
 
-    private void Silla179ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla179ActionPerformed
-       Silla179.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla179ActionPerformed
+    private void Silla170ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla170ActionPerformed
+       Silla170.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla170ActionPerformed
 
-    private void Silla180ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla180ActionPerformed
-        Silla180.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla180ActionPerformed
+    private void Silla171ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla171ActionPerformed
+        Silla171.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla171ActionPerformed
 
-    private void Silla207ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla207ActionPerformed
-        Silla207.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla207ActionPerformed
+    private void Silla199ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla199ActionPerformed
+        Silla199.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla199ActionPerformed
 
-    private void Silla208ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla208ActionPerformed
-       Silla208.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla208ActionPerformed
+    private void Silla200ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla200ActionPerformed
+       Silla200.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla200ActionPerformed
 
-    private void Silla209ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla209ActionPerformed
-        Silla209.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla209ActionPerformed
+    private void Silla201ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla201ActionPerformed
+        Silla201.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla201ActionPerformed
 
-    private void Silla236ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla236ActionPerformed
-        Silla236.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla236ActionPerformed
+    private void Silla229ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla229ActionPerformed
+        Silla229.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla229ActionPerformed
 
-    private void Silla237ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla237ActionPerformed
-        Silla237.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla237ActionPerformed
+    private void Silla230ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla230ActionPerformed
+        Silla230.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla230ActionPerformed
 
-    private void Silla238ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla238ActionPerformed
-        Silla238.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla238ActionPerformed
+    private void Silla231ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla231ActionPerformed
+        Silla231.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla231ActionPerformed
 
-    private void Silla265ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla265ActionPerformed
-        Silla265.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla265ActionPerformed
+    private void Silla259ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla259ActionPerformed
+        Silla259.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla259ActionPerformed
 
-    private void Silla266ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla266ActionPerformed
-        Silla266.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla266ActionPerformed
+    private void Silla260ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla260ActionPerformed
+        Silla260.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla260ActionPerformed
 
-    private void Silla267ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla267ActionPerformed
-        Silla267.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla267ActionPerformed
+    private void Silla261ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla261ActionPerformed
+        Silla261.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla261ActionPerformed
 
-    private void Silla294ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla294ActionPerformed
-        Silla294.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla294ActionPerformed
+    private void Silla289ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla289ActionPerformed
+        Silla289.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla289ActionPerformed
 
-    private void Silla295ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla295ActionPerformed
-        Silla295.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla295ActionPerformed
+    private void Silla290ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla290ActionPerformed
+        Silla290.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla290ActionPerformed
 
-    private void Silla296ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla296ActionPerformed
-      Silla296.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla296ActionPerformed
+    private void Silla291ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla291ActionPerformed
+      Silla291.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla291ActionPerformed
 
     private void Silla323ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla323ActionPerformed
         Silla323.setBackground(new Color(255,0,0));  
@@ -6158,7 +6164,7 @@ public class Interfazsillas extends javax.swing.JFrame {
     }//GEN-LAST:event_Silla324ActionPerformed
 
     private void Silla325ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla325ActionPerformed
-       Silla235.setBackground(new Color(255,0,0));  
+       Silla228.setBackground(new Color(255,0,0));  
     }//GEN-LAST:event_Silla325ActionPerformed
 
     private void Silla352ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla352ActionPerformed
@@ -6245,65 +6251,65 @@ public class Interfazsillas extends javax.swing.JFrame {
         Silla326.setBackground(new Color(255,0,0));  
     }//GEN-LAST:event_Silla326ActionPerformed
 
-    private void Silla299ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla299ActionPerformed
-        Silla299.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla299ActionPerformed
+    private void Silla294ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla294ActionPerformed
+        Silla294.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla294ActionPerformed
 
-    private void Silla298ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla298ActionPerformed
-       Silla298.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla298ActionPerformed
+    private void Silla293ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla293ActionPerformed
+       Silla293.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla293ActionPerformed
 
-    private void Silla297ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla297ActionPerformed
-        Silla297.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla297ActionPerformed
+    private void Silla292ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla292ActionPerformed
+        Silla292.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla292ActionPerformed
 
-    private void Silla270ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla270ActionPerformed
-        Silla270.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla270ActionPerformed
+    private void Silla264ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla264ActionPerformed
+        Silla264.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla264ActionPerformed
 
-    private void Silla269ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla269ActionPerformed
-        Silla269.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla269ActionPerformed
+    private void Silla263ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla263ActionPerformed
+        Silla263.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla263ActionPerformed
 
-    private void Silla268ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla268ActionPerformed
-        Silla268.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla268ActionPerformed
+    private void Silla262ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla262ActionPerformed
+        Silla262.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla262ActionPerformed
 
-    private void Silla241ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla241ActionPerformed
-        Silla241.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla241ActionPerformed
+    private void Silla234ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla234ActionPerformed
+        Silla234.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla234ActionPerformed
 
-    private void Silla240ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla240ActionPerformed
-       Silla240.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla240ActionPerformed
+    private void Silla233ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla233ActionPerformed
+       Silla233.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla233ActionPerformed
 
-    private void Silla239ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla239ActionPerformed
-        Silla239.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla239ActionPerformed
+    private void Silla232ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla232ActionPerformed
+        Silla232.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla232ActionPerformed
 
-    private void Silla212ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla212ActionPerformed
-        Silla212.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla212ActionPerformed
+    private void Silla204ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla204ActionPerformed
+        Silla204.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla204ActionPerformed
 
-    private void Silla211ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla211ActionPerformed
-      Silla211.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla211ActionPerformed
+    private void Silla203ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla203ActionPerformed
+      Silla203.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla203ActionPerformed
 
-    private void Silla210ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla210ActionPerformed
-        Silla210.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla210ActionPerformed
+    private void Silla202ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla202ActionPerformed
+        Silla202.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla202ActionPerformed
 
-    private void Silla183ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla183ActionPerformed
-        Silla183.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla183ActionPerformed
+    private void Silla174ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla174ActionPerformed
+        Silla174.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla174ActionPerformed
 
-    private void Silla182ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla182ActionPerformed
-       Silla182.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla182ActionPerformed
+    private void Silla173ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla173ActionPerformed
+       Silla173.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla173ActionPerformed
 
-    private void Silla181ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla181ActionPerformed
-       Silla181.setBackground(new Color(255,0,0));  
-    }//GEN-LAST:event_Silla181ActionPerformed
+    private void Silla172ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla172ActionPerformed
+       Silla172.setBackground(new Color(255,0,0));  
+    }//GEN-LAST:event_Silla172ActionPerformed
 
     private void silla144ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla144ActionPerformed
        silla144.setBackground(new Color(255,0,0));  
@@ -6413,10 +6419,16 @@ public class Interfazsillas extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Aceptar;
     private javax.swing.JButton Cancelar;
-    private javax.swing.JToggleButton Silla13;
-    private javax.swing.JToggleButton Silla14;
-    private javax.swing.JToggleButton Silla15;
-    private javax.swing.JToggleButton Silla16;
+    private javax.swing.JToggleButton Silla151;
+    private javax.swing.JToggleButton Silla152;
+    private javax.swing.JToggleButton Silla153;
+    private javax.swing.JToggleButton Silla154;
+    private javax.swing.JToggleButton Silla155;
+    private javax.swing.JToggleButton Silla156;
+    private javax.swing.JToggleButton Silla157;
+    private javax.swing.JToggleButton Silla158;
+    private javax.swing.JToggleButton Silla159;
+    private javax.swing.JToggleButton Silla160;
     private javax.swing.JToggleButton Silla161;
     private javax.swing.JToggleButton Silla162;
     private javax.swing.JToggleButton Silla163;
@@ -6426,7 +6438,6 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla167;
     private javax.swing.JToggleButton Silla168;
     private javax.swing.JToggleButton Silla169;
-    private javax.swing.JToggleButton Silla17;
     private javax.swing.JToggleButton Silla170;
     private javax.swing.JToggleButton Silla171;
     private javax.swing.JToggleButton Silla172;
@@ -6560,11 +6571,6 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla298;
     private javax.swing.JToggleButton Silla299;
     private javax.swing.JToggleButton Silla300;
-    private javax.swing.JToggleButton Silla301;
-    private javax.swing.JToggleButton Silla302;
-    private javax.swing.JToggleButton Silla303;
-    private javax.swing.JToggleButton Silla304;
-    private javax.swing.JToggleButton Silla305;
     private javax.swing.JToggleButton Silla306;
     private javax.swing.JToggleButton Silla307;
     private javax.swing.JToggleButton Silla308;
