@@ -1,6 +1,7 @@
 
 package Parqueadero;
 
+import static Parqueadero.interfazparqueadero.parqueadero2;
 import java.util.Date;
 import javax.swing.JOptionPane;
 
@@ -10,8 +11,8 @@ import javax.swing.JOptionPane;
  */
 public class Panelretirarvehiculo extends javax.swing.JFrame {
 
-    public Logicaparqueadero parqueadero = new Logicaparqueadero();
-    public Transportes Trans= new Transportes();
+ //   public Logicaparqueadero parqueadero = new Logicaparqueadero();
+    
 
     public Panelretirarvehiculo() {
         initComponents();
@@ -163,7 +164,8 @@ public class Panelretirarvehiculo extends javax.swing.JFrame {
             if(Cedulasalir.getText().isEmpty()){
              JOptionPane.showMessageDialog(null, "Ingrese cedula del dueño de bicicleta");
             }else{
-            parqueadero.retirarBici(cedula, hfinal);
+            parqueadero2.retirarBici(cedula, hfinal);
+            
             }
         }
       

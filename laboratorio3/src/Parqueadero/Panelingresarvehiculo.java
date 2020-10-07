@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package Parqueadero;
+import static Parqueadero.interfazparqueadero.parqueadero2;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -14,7 +15,6 @@ import javax.swing.JOptionPane;
  * @author Acer
  */
 public class Panelingresarvehiculo extends javax.swing.JFrame {
-    public Logicaparqueadero parqueadero = new Logicaparqueadero();
     public Panelingresarvehiculo() {
         initComponents();
         this.setLocationRelativeTo(null);
@@ -48,6 +48,7 @@ public class Panelingresarvehiculo extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         pantalla = new javax.swing.JTextArea();
+        Retirar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -120,6 +121,14 @@ public class Panelingresarvehiculo extends javax.swing.JFrame {
 
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 100, 220, 240));
 
+        Retirar.setText("Retirar");
+        Retirar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                RetirarActionPerformed(evt);
+            }
+        });
+        jPanel1.add(Retirar, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 310, -1, -1));
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -166,17 +175,18 @@ public class Panelingresarvehiculo extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null, "Ingrese la placa del vehiculo");
             } 
             else {
-                parqueadero.parquearCarro(placa, hinicial);
-            }
-            parqueadero.parquearCarro(placa, hinicial);
-            
-            this.pantalla.setText("Parqueadero\n\n" + this.parqueadero.concatenarPlacasCarros());
-            this.Placa.setText("");
-            
+                parqueadero2.parquearCarro(placa, hinicial);
+            } 
         }
         else if(TipoVehiculo.getSelectedItem()== "Moto")
         {
-            
+            if (Placa.getText()== "")
+            {
+                JOptionPane.showMessageDialog(null, "Ingrese la placa del vehiculo");
+            } 
+            else {
+                parqueadero2.parquearMoto(placa, hinicial);
+            } 
         }
         else if (TipoVehiculo.getSelectedItem() == "Bicicleta")
         {
@@ -184,16 +194,15 @@ public class Panelingresarvehiculo extends javax.swing.JFrame {
              JOptionPane.showMessageDialog(null, "Ingrese cedula del dueño de bicicleta");
 
             }else{
-                parqueadero.parquearBici(cedula, hinicial);
+                parqueadero2.parquearBici(cedula, hinicial);
             }
-            
-        this.pantalla.setText("Parqueadero\n\n"+this.parqueadero.concatenarInfoBici());
-        this.pantalla.setText("Parqueadero\n\n"+this.parqueadero.concatenarPlacasCarros());
+        }
+             
+        this.pantalla.setText("Parqueadero\n\n"+parqueadero2.concatenarInfoBici());
+        this.pantalla.setText("Parqueadero\n\n"+parqueadero2.concatenarPlacasCarros());
+        this.pantalla.setText("Parqueadero\n\n"+parqueadero2.concatenarPlacasMotos());
         this.Placa.setText("");
         this.Cedula.setText("");
-        
-    }      
-        
     }//GEN-LAST:event_RegistrarActionPerformed
 
     private void TipoVehiculoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TipoVehiculoActionPerformed
@@ -220,6 +229,12 @@ public class Panelingresarvehiculo extends javax.swing.JFrame {
     private void CedulaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CedulaActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_CedulaActionPerformed
+
+    private void RetirarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RetirarActionPerformed
+       Panelretirarvehiculo abrir = new Panelretirarvehiculo();
+        abrir.setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_RetirarActionPerformed
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
@@ -258,6 +273,7 @@ public class Panelingresarvehiculo extends javax.swing.JFrame {
     private javax.swing.JTextField Nombre;
     private javax.swing.JTextField Placa;
     private javax.swing.JButton Registrar;
+    private javax.swing.JButton Retirar;
     private javax.swing.JComboBox<String> TipoVehiculo;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;

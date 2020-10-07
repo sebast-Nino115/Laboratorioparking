@@ -5,10 +5,21 @@
  */
 package Parqueadero;
 
-/**
- *
- * @author Acer
- */
-class motos {
+import java.util.Date;
+
+class motos extends Transportes{
+ public motos(String Placa, Date fechaingreso){
+        this.placa = Placa;
+        this.fechaingreso=fechaingreso;
+    }
+
+    public String getPlaca() {
+        return placa;
+    }
+
+    public void setPlaca(String placa) {
+        this.placa = placa;
+    }
+   
     
 }

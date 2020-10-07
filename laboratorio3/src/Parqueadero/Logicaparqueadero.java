@@ -88,7 +88,7 @@ public String parquearMoto(String placa, Date fechaingreso){
         
         if(this.puestoVacio()!=-1){
             motos moto = new motos(placa, fechaingreso);
-            this.Puestom.get(this.puestoVacio()).asignarpuesto(moto);
+           // this.Puestom.get(this.puestoVacio()).;
             this.Puestom.get(this.puestoVacio()).setEstado("Ocupado");
             return "Moto parqueada con exito";
         }
@@ -100,8 +100,7 @@ public String parquearMoto(String placa, Date fechaingreso){
     public String retirarBici(String cedula, Date fechasalida){
         String mensaje = "No se ha podido retirar la bicicleta";
         int costo = 0;
-        canttiempo= fechaingreso.compareTo(fechasalida);
-        System.out.println(canttiempo + " segundos");
+        int precio = this.calcularPrecioBici(fechasalida, this.buscarBici(cedula));
         
         for(int i=0; i<=this.Puestob.size(); i++)
             if(this.Puestob.get(i).getBici()!= null && 
@@ -132,13 +131,15 @@ public String parquearMoto(String placa, Date fechaingreso){
         String mensaje = "No se ha podido retirar la moto";
         int precio = 0 ;
         
-        for(int i=0; i<=this.Puestom.size(); i++)
-            if(this.Puestom.get(i).getmoto()!= null && 
+        for(int i=0; i<=this.Puestom.size(); i++){
+          /*  if(this.Puestom.get(i).getmoto()!= null && 
                      this.Puestom.get(i).getmoto().getplaca().equalsIgnoreCase(placa)){
                 this.Puestom.get(i).setmoto(null);
                 this.Puestom.get(i).setEstado("Libre");
                 return "Se ha retirado correctamente, debe pagar " + precio;
             }
+*/
+        }
                 
         return mensaje;
     }
@@ -167,9 +168,11 @@ public String parquearMoto(String placa, Date fechaingreso){
       public String InfoPuestosLibresmoto(){
         String libresm = "";
         
-        for(puestosmoto pc: Puestom)
-            if(pc!=null && pc.getEstado().equalsIgnoreCase("Libre"))
-                libresm += pc.libreStringm()+"\n\n";
+        for(puestosmoto pc: Puestom){
+        
+        }
+    //        if(pc!=null && pc.getEstado().equalsIgnoreCase("Libre"))
+     //           libresm += pc.libreStringm()+"\n\n";
                 
         return libresm;
     }
@@ -201,10 +204,13 @@ public carros buscarCarro(String placa){
 public motos buscarMoto(String placa){
         motos moto = null;
         
-        for(puestosmoto pc: Puestom)
-            if(pc.getEstado().equalsIgnoreCase("Ocupado") && 
+        for(puestosmoto pc: Puestom){
+            
+        }
+     /*       if(pc.getEstado().equalsIgnoreCase("Ocupado") && 
                     pc.getmoto().getplaca().equalsIgnoreCase(placa))
                 moto = pc.getmoto();
+*/
         
         return moto;
     }
@@ -232,10 +238,10 @@ public motos buscarMoto(String placa){
         
         return -1;
     }
-    
-    public int calcularPrecioBici( Date fechaingreso, Date fechasalida, bicicletas Bici){
+  //CALCULAR
+    public int calcularPrecioBici(Date fechasalida, bicicletas Bici){
         int costo = 0;
-        canttiempo= fechaingreso.compareTo(fechasalida);
+        canttiempo= fechasalida.compareTo(Bici.getFechaingreso());
         System.out.println(canttiempo +" segundos");
       
         
@@ -244,9 +250,9 @@ public motos buscarMoto(String placa){
     }
     
     
-    public int calcularPreciocarro( Date fechaingreso, Date fechasalida, carros carro){
+    public int calcularPreciocarro(  Date fechasalida, carros carro){
         int costo = 0;
-        int canttiempo= fechaingreso.compareTo(fechasalida);
+        
         System.out.println(canttiempo + " segundos");
         if (canttiempo <= 36000){
             
@@ -294,7 +300,7 @@ public motos buscarMoto(String placa){
         
         for(int i=0; i<this.Puestom.size();i++)
             if(this.Puestom.get(i).getEstado().equalsIgnoreCase("Ocupado"))
-                motos += this.Puestom.get(i).getmoto().getplaca()+ "~";
+                motos += this.Puestom.get(i).getMoto().getPlaca()+ "~";
         
         return motos;
     }
