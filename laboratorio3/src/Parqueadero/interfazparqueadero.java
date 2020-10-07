@@ -6,6 +6,7 @@ import laboratorio3.Maininterfaz;
 
 
 public class interfazparqueadero extends javax.swing.JFrame {
+     public static Logicaparqueadero parqueadero2 = new Logicaparqueadero();
 
    
     public interfazparqueadero() {
