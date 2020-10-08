@@ -21,10 +21,7 @@ public class interfazparqueadero extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
         Ingresarvehiculo = new javax.swing.JButton();
-        Listavehiculos = new javax.swing.JButton();
-        Retirarvehiculo = new javax.swing.JButton();
         Salir = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
@@ -33,8 +30,6 @@ public class interfazparqueadero extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(204, 255, 204));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/png carro.png"))); // NOI18N
-
         Ingresarvehiculo.setBackground(new java.awt.Color(0, 0, 0));
         Ingresarvehiculo.setFont(new java.awt.Font("Sitka Small", 3, 11)); // NOI18N
         Ingresarvehiculo.setForeground(new java.awt.Color(255, 255, 255));
@@ -42,26 +37,6 @@ public class interfazparqueadero extends javax.swing.JFrame {
         Ingresarvehiculo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 IngresarvehiculoActionPerformed(evt);
-            }
-        });
-
-        Listavehiculos.setBackground(new java.awt.Color(0, 0, 0));
-        Listavehiculos.setFont(new java.awt.Font("Sitka Small", 3, 11)); // NOI18N
-        Listavehiculos.setForeground(new java.awt.Color(255, 255, 255));
-        Listavehiculos.setText("Parqueadero");
-        Listavehiculos.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ListavehiculosActionPerformed(evt);
-            }
-        });
-
-        Retirarvehiculo.setBackground(new java.awt.Color(0, 0, 0));
-        Retirarvehiculo.setFont(new java.awt.Font("Sitka Small", 3, 11)); // NOI18N
-        Retirarvehiculo.setForeground(new java.awt.Color(255, 255, 255));
-        Retirarvehiculo.setText("Retirar Vehiculo");
-        Retirarvehiculo.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RetirarvehiculoActionPerformed(evt);
             }
         });
 
@@ -88,37 +63,24 @@ public class interfazparqueadero extends javax.swing.JFrame {
                         .addGap(50, 50, 50)
                         .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(60, 60, 60)
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(47, 47, 47)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(Ingresarvehiculo)
-                            .addComponent(Listavehiculos, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(Ingresarvehiculo)
                         .addGap(18, 18, 18)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(Retirarvehiculo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(Salir, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                .addContainerGap(33, Short.MAX_VALUE))
+                        .addComponent(Salir, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(30, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(20, 20, 20)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(20, 20, 20)
+                .addGap(180, 180, 180)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Retirarvehiculo, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Ingresarvehiculo, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(16, 16, 16)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(Listavehiculos, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Ingresarvehiculo, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Salir, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(29, Short.MAX_VALUE))
+                .addContainerGap(89, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 370, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -128,18 +90,6 @@ public class interfazparqueadero extends javax.swing.JFrame {
         abrir.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_IngresarvehiculoActionPerformed
-
-    private void ListavehiculosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ListavehiculosActionPerformed
-        digitalparquea abrir = new digitalparquea();
-        abrir.setVisible(true);
-        this.setVisible(false);
-    }//GEN-LAST:event_ListavehiculosActionPerformed
-
-    private void RetirarvehiculoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RetirarvehiculoActionPerformed
-        Panelretirarvehiculo abrir = new Panelretirarvehiculo();
-        abrir.setVisible(true);
-        this.setVisible(false);
-    }//GEN-LAST:event_RetirarvehiculoActionPerformed
 
     private void SalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SalirActionPerformed
         Maininterfaz abrir = new Maininterfaz();
@@ -185,10 +135,7 @@ public class interfazparqueadero extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Ingresarvehiculo;
-    private javax.swing.JButton Listavehiculos;
-    private javax.swing.JButton Retirarvehiculo;
     private javax.swing.JButton Salir;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables

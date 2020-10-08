@@ -1,17 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Parqueadero;
 import static Parqueadero.interfazparqueadero.parqueadero2;
 import java.util.Date;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author Acer
- */
+
 public class Panelingresarvehiculo extends javax.swing.JFrame {
     
     public Panelingresarvehiculo() {
@@ -48,6 +41,10 @@ public class Panelingresarvehiculo extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
+        Lista3 = new javax.swing.JComboBox<>();
+        jLabel9 = new javax.swing.JLabel();
+        Lista1 = new javax.swing.JComboBox<>();
+        Lista2 = new javax.swing.JComboBox<>();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -152,6 +149,30 @@ public class Panelingresarvehiculo extends javax.swing.JFrame {
         jLabel8.setText("Parqueadero Motos");
         jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 70, -1, -1));
 
+        Lista3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Lista3ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(Lista3, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 360, 110, 50));
+
+        jLabel9.setText("Búsqueda");
+        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 340, -1, -1));
+
+        Lista1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Lista1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(Lista1, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 360, 110, 50));
+
+        Lista2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Lista2ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(Lista2, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 360, 110, 50));
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -215,13 +236,14 @@ public class Panelingresarvehiculo extends javax.swing.JFrame {
             parqueadero2.parquearBici(cedula, Tinicial);
             }
         }
-        
- 
         this.textbici.setText("Parqueadero\n\n"+parqueadero2.concatenarInfoBici());
         this.textcarros.setText("Parqueadero\n\n"+parqueadero2.concatenarInfoCarro());
         this.textmotos.setText("Parqueadero\n\n"+parqueadero2.concatenarInfoMoto());
         this.Cedula.setText("");
         this.Placa.setText("");
+        this.llenarCarro();
+        this.llenarBici();
+        this.llenarMoto();
         
     }//GEN-LAST:event_RegistrarActionPerformed
 
@@ -251,11 +273,62 @@ public class Panelingresarvehiculo extends javax.swing.JFrame {
     }//GEN-LAST:event_CedulaActionPerformed
 
     private void RetirarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RetirarActionPerformed
-       Panelretirarvehiculo abrir = new Panelretirarvehiculo();
-        abrir.setVisible(true);
-        this.setVisible(false);
+        String placa = this.Placa.getText();
+        String cedula=this.Cedula.getText();
+        Date hfinal = new Date(); 
+        if (TipoVehiculo.getSelectedItem()== "Carro")
+        {
+            parqueadero2.retirarcarro(placa, hfinal);
+            this.llenarCarro();
+            this.textcarros.setText("Parqueadero\n\n"+parqueadero2.concatenarInfoCarro());
+        }
+        else if(TipoVehiculo.getSelectedItem()== "Moto")
+        {
+             parqueadero2.retirarmoto(placa, hfinal);
+             this.llenarMoto();
+             this.textmotos.setText("Parqueadero\n\n"+parqueadero2.concatenarInfoMoto());
+             
+        }
+        else if (TipoVehiculo.getSelectedItem() == "Bicicleta")
+        {
+             parqueadero2.retirarBici(placa, hfinal);
+             this.llenarBici();
+              this.textbici.setText("Parqueadero\n\n"+parqueadero2.concatenarInfoBici());
+        }
+        
     }//GEN-LAST:event_RetirarActionPerformed
 
+    private void Lista3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Lista3ActionPerformed
+       
+    }//GEN-LAST:event_Lista3ActionPerformed
+
+    private void Lista1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Lista1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Lista1ActionPerformed
+
+    private void Lista2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Lista2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Lista2ActionPerformed
+        public void llenarCarro(){
+        String []carro = parqueadero2.concatenarPlacasCarros().split("~");
+        this.Lista2.removeAllItems();
+        for(String c: carro)
+            this.Lista2.addItem(c);
+        
+    }
+public void llenarBici(){
+        String []bici = parqueadero2.concatenarCedulasBicicletas().split("~");
+        this.Lista1.removeAllItems();
+        for(String b: bici)
+            this.Lista1.addItem(b);
+}
+public void llenarMoto(){
+        String []moto = parqueadero2.concatenarPlacasMotos().split("~");
+        this.Lista3.removeAllItems();
+        for(String m: moto)
+            this.Lista3.addItem(m);
+}
+        
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -290,6 +363,9 @@ public class Panelingresarvehiculo extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField Cedula;
+    private javax.swing.JComboBox<String> Lista1;
+    private javax.swing.JComboBox<String> Lista2;
+    private javax.swing.JComboBox<String> Lista3;
     private javax.swing.JTextField Nombre;
     private javax.swing.JTextField Placa;
     private javax.swing.JButton Registrar;
@@ -303,6 +379,7 @@ public class Panelingresarvehiculo extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
@@ -312,3 +389,4 @@ public class Panelingresarvehiculo extends javax.swing.JFrame {
     private javax.swing.JTextArea textmotos;
     // End of variables declaration//GEN-END:variables
 }
+
