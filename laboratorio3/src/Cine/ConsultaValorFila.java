@@ -226,7 +226,7 @@ public class ConsultaValorFila extends javax.swing.JFrame {
 
     private void VolverActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverActionPerformed
         // TODO add your handling code here:
-        ConsultaDatos abrir = new ConsultaDatos();
+        Interfazsillas abrir = new Interfazsillas();
         abrir.setVisible(true);
         this.setVisible(false);
        

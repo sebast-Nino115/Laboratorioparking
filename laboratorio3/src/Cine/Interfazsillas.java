@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 
 public class Interfazsillas extends javax.swing.JFrame {
     LógicaCine sillas = new LógicaCine();
-    ConsultaDatos disponibilidad = new ConsultaDatos();
+   
     public Interfazsillas() {
         initComponents();
         
@@ -478,7 +478,7 @@ public class Interfazsillas extends javax.swing.JFrame {
         Silla449 = new javax.swing.JToggleButton();
         Silla450 = new javax.swing.JToggleButton();
         Aceptar = new javax.swing.JButton();
-        asignacion = new javax.swing.JButton();
+        Consulta = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -525,6 +525,7 @@ public class Interfazsillas extends javax.swing.JFrame {
         jLabel44 = new javax.swing.JLabel();
         jLabel45 = new javax.swing.JLabel();
         jLabel46 = new javax.swing.JLabel();
+        asignacion1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -4587,15 +4588,15 @@ public class Interfazsillas extends javax.swing.JFrame {
                 AceptarActionPerformed(evt);
             }
         });
-        jPanel1.add(Aceptar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1610, 820, -1, 40));
+        jPanel1.add(Aceptar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1650, 850, -1, 40));
 
-        asignacion.setText("Volver");
-        asignacion.addActionListener(new java.awt.event.ActionListener() {
+        Consulta.setText("Consultar valor por fila");
+        Consulta.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                asignacionActionPerformed(evt);
+                ConsultaActionPerformed(evt);
             }
         });
-        jPanel1.add(asignacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 820, 100, 40));
+        jPanel1.add(Consulta, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 150, 160, 40));
 
         jLabel1.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
@@ -4826,6 +4827,14 @@ public class Interfazsillas extends javax.swing.JFrame {
         jLabel46.setForeground(new java.awt.Color(255, 255, 255));
         jLabel46.setText("PANTALLA");
         jPanel1.add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 80, -1, -1));
+
+        asignacion1.setText("Volver");
+        asignacion1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                asignacion1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(asignacion1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 840, 100, 40));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1748, 912));
 
@@ -7441,12 +7450,16 @@ public class Interfazsillas extends javax.swing.JFrame {
         abrir.setVisible(true);
     }//GEN-LAST:event_AceptarActionPerformed
 
-    private void asignacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_asignacionActionPerformed
+    private void ConsultaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ConsultaActionPerformed
         // TODO add your handling code here:
-        InterfazMenuCine abrir = new InterfazMenuCine();
-        abrir.setVisible(true);
+        ConsultaValorFila abrir = new ConsultaValorFila();
+        abrir.setVisible(false);
         
-    }//GEN-LAST:event_asignacionActionPerformed
+    }//GEN-LAST:event_ConsultaActionPerformed
+
+    private void asignacion1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_asignacion1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_asignacion1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -7486,6 +7499,7 @@ public class Interfazsillas extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Aceptar;
+    private javax.swing.JButton Consulta;
     private javax.swing.JToggleButton Silla151;
     private javax.swing.JToggleButton Silla152;
     private javax.swing.JToggleButton Silla153;
@@ -7786,7 +7800,7 @@ public class Interfazsillas extends javax.swing.JFrame {
     private javax.swing.JToggleButton Silla448;
     private javax.swing.JToggleButton Silla449;
     private javax.swing.JToggleButton Silla450;
-    private javax.swing.JButton asignacion;
+    private javax.swing.JButton asignacion1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
