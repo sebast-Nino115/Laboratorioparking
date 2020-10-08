@@ -2,6 +2,7 @@
 package Parqueadero;
 
  import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 
 public class Logicaparqueadero {
@@ -95,7 +96,7 @@ public Logicaparqueadero(){
 
     public String retirarBici(String cedula, Date fechasalida){
         String mensaje = "No se ha podido retirar el carro";
-        int precio = this.calcularPrecioBici(fechasalida, this.buscarBici(cedula));
+        long precio = this.calcularPrecioBici(fechasalida, this.buscarBici(cedula));
 
        for(int i=0; i<=this.Puestob.size(); i++)
             if(this.Puestob.get(i).getBici()!= null && 
@@ -110,7 +111,7 @@ public Logicaparqueadero(){
      public String retirarcarro(String placa, Date fechasalida){
         String mensaje = "No se ha podido retirar el carro";
 
-        int precio = this.calcularPrecioCarro(fechasalida, this.buscarCarro(placa));
+        long precio = this.calcularPrecioCarro(fechasalida, this.buscarCarro(placa));
         for(int i=0; i<=this.Puestoc.size(); i++)
             if(this.Puestoc.get(i).getcarro()!= null && 
                      this.Puestoc.get(i).getcarro().getPlaca().equalsIgnoreCase(placa)){
@@ -123,7 +124,7 @@ public Logicaparqueadero(){
     }
 public String retirarmoto(String placa, Date fechasalida){
         String mensaje = "No se ha podido retirar la moto";
-        int precio = this.calcularPrecioMoto(fechasalida, this.buscarMoto(placa));
+        long precio = this.calcularPrecioMoto(fechasalida, this.buscarMoto(placa));
         
         for(int i=0; i<=this.Puestom.size(); i++){
           if(this.Puestom.get(i).getMoto()!= null && 
@@ -218,23 +219,42 @@ public String retirarmoto(String placa, Date fechasalida){
     }
 
 //calculos
-    public int calcularPrecioBici(Date fechasalida, bicicletas Bici){
-        int costo = 0;
-        int canttiempo= fechasalida.compareTo(Bici.getFechaingreso());
+    public long calcularPrecioBici(Date fechasalida, bicicletas Bici){
+        
+        long costob = 10;
+        long canttiempo= fechasalida.getTime()-Bici.getFechaingreso().getTime();
+        long minutos= canttiempo/(60*1000);
+        if(minutos == 600){
+            costob=13000;
+        }else {
+            costob=(costob*minutos);
+        }
         System.out.println(canttiempo +" segundos");
-        return canttiempo;
+        return costob;
     }
-    public int calcularPrecioCarro(Date fechasalida, carros Carro){
-        int costo = 0;
-        int canttiempo= fechasalida.compareTo(Carro.getFechaingreso());
+    public long calcularPrecioCarro(Date fechasalida, carros Carro){
+        long costoc = 75;
+        long canttiempo= fechasalida.getTime()-Carro.getFechaingreso().getTime();
+        long minutos= canttiempo/(60*1000);
+        if(minutos ==600){
+            costoc=13000;
+        }else{
+             costoc=(costoc*minutos);
+        }
         System.out.println(canttiempo +" segundos");
-        return canttiempo;
+        return costoc;
     }
-    public int calcularPrecioMoto(Date fechasalida, motos Moto){
-        int costo = 0;
-        int canttiempo= fechasalida.compareTo(Moto.getFechaingreso());
+    public long calcularPrecioMoto(Date fechasalida, motos Moto){
+        long costom = 20;
+        long canttiempo= fechasalida.getTime()-Moto.getFechaingreso().getTime();
+        long minutos= canttiempo/(60*1000);
+        if(minutos ==600){
+            costom=13000;
+        }else{
+             costom=(costom*minutos);
+        }
         System.out.println(canttiempo +" segundos");
-        return canttiempo;
+        return costom;
     }
  //concatenar información 
     public String concatenarInfoBici(){
@@ -264,4 +284,33 @@ public String retirarmoto(String placa, Date fechasalida){
         
         return infom;
     }
+    //concatenar 
+    public String concatenarPlacasCarros(){
+        String carros = "";
+        
+        for(int i=0; i<this.Puestoc.size();i++)
+            if(this.Puestoc.get(i).getEstado().equalsIgnoreCase("Ocupado"))
+                carros += this.Puestoc.get(i).getcarro().getPlaca()+"~";
+        
+        return carros;
+    }
+    public String concatenarCedulasBicicletas(){
+        String Bicicletas = "";
+        
+        for(int i=0; i<this.Puestob.size();i++)
+            if(this.Puestob.get(i).getEstado().equalsIgnoreCase("Ocupado"))
+                Bicicletas += this.Puestob.get(i).getBici().getCedula()+"~";
+        
+        return Bicicletas;
+    }
+    public String concatenarPlacasMotos(){
+        String Motos = "";
+        
+        for(int i=0; i<this.Puestom.size();i++)
+            if(this.Puestom.get(i).getEstado().equalsIgnoreCase("Ocupado"))
+                Motos += this.Puestom.get(i).getMoto().getPlaca()+"~";
+        
+        return Motos;
+    }
+    
 }
