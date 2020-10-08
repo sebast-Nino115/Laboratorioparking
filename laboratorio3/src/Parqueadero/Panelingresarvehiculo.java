@@ -231,7 +231,7 @@ public class Panelingresarvehiculo extends javax.swing.JFrame {
             if(Nombre.getText().isEmpty()){
             JOptionPane.showMessageDialog(null, "Ingrese el nombre del propietario");
             }else if(Cedula.getText().isEmpty()){
-             JOptionPane.showMessageDialog(null, "Ingrese el color de la bicicleta");
+             JOptionPane.showMessageDialog(null, "Ingrese la cedula de la bicicleta");
             }else{
             parqueadero2.parquearBici(cedula, Tinicial);
             }
@@ -273,27 +273,32 @@ public class Panelingresarvehiculo extends javax.swing.JFrame {
     }//GEN-LAST:event_CedulaActionPerformed
 
     private void RetirarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RetirarActionPerformed
-        String placa = this.Placa.getText();
-        String cedula=this.Cedula.getText();
+       
         Date hfinal = new Date(); 
         if (TipoVehiculo.getSelectedItem()== "Carro")
         {
-            parqueadero2.retirarcarro(placa, hfinal);
+            String placa = this.Lista2.getSelectedItem().toString();
+            String resul = parqueadero2.retirarcarro(placa, hfinal);
             this.llenarCarro();
+            JOptionPane.showMessageDialog(null,resul);
             this.textcarros.setText("Parqueadero\n\n"+parqueadero2.concatenarInfoCarro());
         }
         else if(TipoVehiculo.getSelectedItem()== "Moto")
         {
-             parqueadero2.retirarmoto(placa, hfinal);
+            String placa = this.Lista3.getSelectedItem().toString();
+            String resul = parqueadero2.retirarmoto(placa, hfinal);
              this.llenarMoto();
+             JOptionPane.showMessageDialog(null,resul);
              this.textmotos.setText("Parqueadero\n\n"+parqueadero2.concatenarInfoMoto());
              
         }
         else if (TipoVehiculo.getSelectedItem() == "Bicicleta")
         {
-             parqueadero2.retirarBici(placa, hfinal);
+            String cedula = this.Lista1.getSelectedItem().toString();
+            String resul = parqueadero2.retirarBici(cedula, hfinal);
              this.llenarBici();
-              this.textbici.setText("Parqueadero\n\n"+parqueadero2.concatenarInfoBici());
+             JOptionPane.showMessageDialog(null,resul);
+             this.textbici.setText("Parqueadero\n\n"+parqueadero2.concatenarInfoBici());
         }
         
     }//GEN-LAST:event_RetirarActionPerformed
