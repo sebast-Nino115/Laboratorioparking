@@ -6680,6 +6680,8 @@ public class Interfazsillas extends javax.swing.JFrame {
 
     private void asignacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_asignacionActionPerformed
         // TODO add your handling code here:
+        InterfazMenuCine abrir = new InterfazMenuCine();
+        abrir.setVisible(true);
         for (silla=0;silla<450;silla++)
         {
             

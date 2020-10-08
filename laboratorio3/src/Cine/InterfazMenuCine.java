@@ -21,9 +21,9 @@ public class InterfazMenuCine extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         Compras = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
         Datos = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(51, 51, 255));
@@ -40,11 +40,6 @@ public class InterfazMenuCine extends javax.swing.JFrame {
         });
         jPanel1.add(Compras, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 340, 170, 60));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText(" Bienvenidos a Cine Colombia");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 60, 200, 30));
-
         Datos.setBackground(new java.awt.Color(255, 255, 255));
         Datos.setText("Consulta de datos ");
         Datos.addActionListener(new java.awt.event.ActionListener() {
@@ -59,6 +54,11 @@ public class InterfazMenuCine extends javax.swing.JFrame {
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText(" Seleccione el servicio a tomar:");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 120, -1, 33));
+
+        jLabel2.setFont(new java.awt.Font("Lucida Bright", 0, 24)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("BIENVENID@ A CINE COLOMBIA");
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 30, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -75,13 +75,13 @@ public class InterfazMenuCine extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void DatosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DatosActionPerformed
-        InterfazMenuCine abrir = new InterfazMenuCine();
+        ConsultaDatos abrir = new ConsultaDatos();
         abrir.setVisible(true);
         this.setVisible(false);      
     }//GEN-LAST:event_DatosActionPerformed
 
     private void ComprasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ComprasActionPerformed
-        ComprasCine abrir = new ComprasCine();
+        Interfazsillas abrir = new Interfazsillas();
         abrir.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_ComprasActionPerformed
@@ -125,7 +125,7 @@ public class InterfazMenuCine extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Compras;
     private javax.swing.JButton Datos;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
