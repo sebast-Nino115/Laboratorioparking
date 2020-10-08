@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
  * @author catal
  */
 public class ComprasCine extends javax.swing.JFrame {
-
+    LógicaCine cine = new LógicaCine();
     /**
      * Creates new form ComprasCine
      */
@@ -21,21 +21,7 @@ public class ComprasCine extends javax.swing.JFrame {
         
 
     }
-int preciof1;
-        Integer preciof2;
-        Integer preciof3;
-        Integer preciof4;
-        Integer preciof5;
-        Integer preciof6;
-        Integer preciof7;
-        Integer preciof8;
-        Integer preciof9;
-        Integer preciof10;
-        Integer preciof11;
-        Integer preciof12;
-        Integer preciof13;
-        Integer preciof14;
-        Integer preciof15;
+        
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -219,26 +205,27 @@ int preciof1;
             JOptionPane.showMessageDialog(null, "Ingrese el valor de todas las filas");
         }
         else{
-          
-            preciof1 = Integer.valueOf(fila1.getText()); 
-            preciof2 = Integer.valueOf(fila2.getText()); 
-            preciof3 = Integer.valueOf(fila3.getText()); 
-            preciof4 = Integer.valueOf(fila4.getText()); 
-            preciof5 = Integer.valueOf(fila5.getText()); 
-            preciof6 = Integer.valueOf(fila6.getText()); 
-            preciof7 = Integer.valueOf(fila7.getText()); 
-            preciof8 = Integer.valueOf(fila8.getText()); 
-            preciof9 = Integer.valueOf(fila9.getText()); 
-            preciof10 = Integer.valueOf(fila10.getText()); 
-            preciof11 = Integer.valueOf(fila11.getText()); 
-            preciof12 = Integer.valueOf(fila12.getText()); 
-            preciof13 = Integer.valueOf(fila13.getText()); 
-            preciof14 = Integer.valueOf(fila14.getText());
-            preciof15 = Integer.valueOf(fila15.getText()); 
+            
+            
+            cine.preciof1 = Integer.valueOf(fila1.getText()); 
+            cine.preciof2 = Integer.valueOf(fila2.getText()); 
+            cine.preciof3 = Integer.valueOf(fila3.getText()); 
+            cine.preciof4 = Integer.valueOf(fila4.getText()); 
+            cine.preciof5 = Integer.valueOf(fila5.getText()); 
+            cine.preciof6 = Integer.valueOf(fila6.getText()); 
+            cine.preciof7 = Integer.valueOf(fila7.getText()); 
+            cine.preciof8 = Integer.valueOf(fila8.getText()); 
+            cine.preciof9 = Integer.valueOf(fila9.getText()); 
+            cine.preciof10 = Integer.valueOf(fila10.getText()); 
+            cine.preciof11 = Integer.valueOf(fila11.getText()); 
+            cine.preciof12 = Integer.valueOf(fila12.getText()); 
+            cine.preciof13 = Integer.valueOf(fila13.getText()); 
+            cine.preciof14 = Integer.valueOf(fila14.getText());
+            cine.preciof15 = Integer.valueOf(fila15.getText()); 
           
         }
     }//GEN-LAST:event_guardarActionPerformed
-
+    
     /**
      * @param args the command line arguments
      */

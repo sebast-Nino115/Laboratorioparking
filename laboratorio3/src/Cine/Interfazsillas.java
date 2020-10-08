@@ -7,16 +7,16 @@ import javax.swing.JOptionPane;
 
 
 public class Interfazsillas extends javax.swing.JFrame {
-
+    LógicaCine sillas = new LógicaCine();
     public Interfazsillas() {
         initComponents();
         
     }
-       int fila[];
-       int columna[];
+       
        int silla;
        boolean disponibilidad[];
        int ocupados=0;
+       
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -4587,15 +4587,15 @@ public class Interfazsillas extends javax.swing.JFrame {
                 AceptarActionPerformed(evt);
             }
         });
-        jPanel1.add(Aceptar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1600, 820, -1, 40));
+        jPanel1.add(Aceptar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1610, 820, -1, 40));
 
-        asignacion.setText("Asignacion");
+        asignacion.setText("Volver");
         asignacion.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 asignacionActionPerformed(evt);
             }
         });
-        jPanel1.add(asignacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 820, -1, 40));
+        jPanel1.add(asignacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 820, 100, 40));
 
         jLabel1.setFont(new java.awt.Font("Lucida Bright", 0, 13)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
@@ -4833,17 +4833,19 @@ public class Interfazsillas extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void silla1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla1ActionPerformed
-        if(silla1.getBackground() == new Color(255,255,255)){
-            silla1.setBackground(new Color(255,0,0));
-            ocupados++;
-        }
-        else{
-           JOptionPane.showMessageDialog(null, "Silla ocupada, seleccione otra");
-        }
+       silla1.setBackground(new Color(255,0,0));
+       silla1.setEnabled(false);
+       sillas.cantidadboletos++;
+       
+       sillas.dispo[1] = 1;
     }//GEN-LAST:event_silla1ActionPerformed
 
     private void silla4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla4ActionPerformed
-        
+       silla4.setBackground(new Color(255,0,0));
+       silla4.setEnabled(false);
+       sillas.cantidadboletos++;
+       
+       sillas.dispo[4] = 1;
     }//GEN-LAST:event_silla4ActionPerformed
 
     private void silla1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_silla1MousePressed
@@ -4855,13 +4857,17 @@ public class Interfazsillas extends javax.swing.JFrame {
     }//GEN-LAST:event_silla1MouseReleased
 
     private void silla3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla3ActionPerformed
-       silla3.setBackground(new Color(255,0,0));
-       disponibilidad[3] = false; 
+       silla3.setEnabled(false);
+       silla3.setText("#");
+       sillas.cantidadboletos++;
+       
+       sillas.dispo[3] = 1;
     }//GEN-LAST:event_silla3ActionPerformed
 
     private void silla2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla2ActionPerformed
        silla2.setBackground(new Color(255,0,0));
        disponibilidad[2] = false; 
+       
     }//GEN-LAST:event_silla2ActionPerformed
 
     private void silla5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla5ActionPerformed
@@ -5128,7 +5134,7 @@ public class Interfazsillas extends javax.swing.JFrame {
     }//GEN-LAST:event_Silla305ActionPerformed
 
     private void Silla275ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla275ActionPerformed
-         Silla200.setBackground(new Color(255,0,0));
+         Silla275.setBackground(new Color(255,0,0));
     }//GEN-LAST:event_Silla275ActionPerformed
 
     private void Silla245ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla245ActionPerformed
@@ -6641,7 +6647,7 @@ public class Interfazsillas extends javax.swing.JFrame {
     }//GEN-LAST:event_silla52ActionPerformed
 
     private void silla24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla24ActionPerformed
-        silla24.setBackground(new Color(255,0,0));  
+        silla24.setBackground(new Color(255,0,0)); 
     }//GEN-LAST:event_silla24ActionPerformed
 
     private void silla23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla23ActionPerformed
@@ -6654,6 +6660,20 @@ public class Interfazsillas extends javax.swing.JFrame {
 
     private void AceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AceptarActionPerformed
         // TODO add your handling code here:
+        
+        
+        for (silla=1;silla<450;silla++){
+            
+
+            
+            if (sillas.dispo[silla] == 1){ 
+                sillas.venta[silla] = silla;
+                sillas.dispo[silla] = 2;
+                sillas.fila[silla] = (int)Math.ceil(silla/30); 
+                sillas.columna[silla] = silla-(30*(fila[silla]-1));
+           }
+        }
+        sillas.cantidadboletos=0;
         Recibo abrir = new Recibo();
         abrir.setVisible(true);
     }//GEN-LAST:event_AceptarActionPerformed
@@ -6662,11 +6682,10 @@ public class Interfazsillas extends javax.swing.JFrame {
         // TODO add your handling code here:
         for (silla=0;silla<450;silla++)
         {
-            fila[silla] = (int)Math.ceil(silla/30); 
-            columna[silla] = silla-(30*(fila[silla]-1));
+            
         }
     }//GEN-LAST:event_asignacionActionPerformed
-     
+
     /**
      * @param args the command line arguments
      */
