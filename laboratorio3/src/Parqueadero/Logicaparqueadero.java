@@ -95,7 +95,7 @@ public Logicaparqueadero(){
 // retirar transportes
 
     public String retirarBici(String cedula, Date fechasalida){
-        String mensaje = "No se ha podido retirar el carro";
+        String mensaje = "No se ha podido retirar la bicicleta ";
         long precio = this.calcularPrecioBici(fechasalida, this.buscarBici(cedula));
 
        for(int i=0; i<=this.Puestob.size(); i++)
@@ -103,7 +103,7 @@ public Logicaparqueadero(){
                     this.Puestob.get(i).getBici().getCedula().equalsIgnoreCase(cedula)){
                 this.Puestob.get(i).setBici(null);
                 this.Puestob.get(i).setEstado("Libre");
-                return "Se ha retirado correctamente, debe pagar ";
+                return "Se ha retirado correctamente, debe pagar "+precio;
             }
                 
         return mensaje;
@@ -229,7 +229,7 @@ public String retirarmoto(String placa, Date fechasalida){
         }else {
             costob=(costob*minutos);
         }
-        System.out.println(canttiempo +" segundos");
+        System.out.println(minutos +" minutos ");
         return costob;
     }
     public long calcularPrecioCarro(Date fechasalida, carros Carro){
@@ -241,7 +241,7 @@ public String retirarmoto(String placa, Date fechasalida){
         }else{
              costoc=(costoc*minutos);
         }
-        System.out.println(canttiempo +" segundos");
+        System.out.println(minutos +" minutos ");
         return costoc;
     }
     public long calcularPrecioMoto(Date fechasalida, motos Moto){
@@ -253,7 +253,7 @@ public String retirarmoto(String placa, Date fechasalida){
         }else{
              costom=(costom*minutos);
         }
-        System.out.println(canttiempo +" segundos");
+        System.out.println(minutos +" minutos ");
         return costom;
     }
  //concatenar información 
