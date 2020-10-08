@@ -8,13 +8,13 @@ import javax.swing.JOptionPane;
 
 public class Interfazsillas extends javax.swing.JFrame {
     LógicaCine sillas = new LógicaCine();
+    ConsultaDatos disponibilidad = new ConsultaDatos();
     public Interfazsillas() {
         initComponents();
         
     }
        
        int silla;
-       boolean disponibilidad[];
        int ocupados=0;
        
     /**
@@ -4836,7 +4836,6 @@ public class Interfazsillas extends javax.swing.JFrame {
        silla1.setBackground(new Color(255,0,0));
        silla1.setEnabled(false);
        sillas.cantidadboletos++;
-       
        sillas.dispo[1] = 1;
     }//GEN-LAST:event_silla1ActionPerformed
 
@@ -4866,63 +4865,63 @@ public class Interfazsillas extends javax.swing.JFrame {
 
     private void silla2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla2ActionPerformed
        silla2.setBackground(new Color(255,0,0));
-       disponibilidad[2] = false; 
+       
        
     }//GEN-LAST:event_silla2ActionPerformed
 
     private void silla5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla5ActionPerformed
         silla5.setBackground(new Color(255,0,0));
-        disponibilidad[5] = false; 
+        
     }//GEN-LAST:event_silla5ActionPerformed
 
     private void Silla153ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla153ActionPerformed
         Silla153.setBackground(new Color(255,0,0));
-        disponibilidad[153] = false; 
+        
     }//GEN-LAST:event_Silla153ActionPerformed
 
     private void Silla258ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla258ActionPerformed
         Silla258.setBackground(new Color(255,0,0));
-        disponibilidad[258] = false; 
+        
     }//GEN-LAST:event_Silla258ActionPerformed
 
     private void silla31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla31ActionPerformed
         silla31.setBackground(new Color(255,0,0));
-        disponibilidad[31] = false; 
+        
     }//GEN-LAST:event_silla31ActionPerformed
 
     private void silla61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla61ActionPerformed
        silla61.setBackground(new Color(255,0,0));
-       disponibilidad[61] = false; 
+       
     }//GEN-LAST:event_silla61ActionPerformed
 
     private void silla91ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla91ActionPerformed
       silla91.setBackground(new Color(255,0,0));
-      disponibilidad[91] = false; 
+      
     }//GEN-LAST:event_silla91ActionPerformed
 
     private void silla121ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla121ActionPerformed
        silla121.setBackground(new Color(255,0,0));
-       disponibilidad[121] = false; 
+       
     }//GEN-LAST:event_silla121ActionPerformed
 
     private void Silla151ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla151ActionPerformed
      Silla151.setBackground(new Color(255,0,0));
-       disponibilidad[151] = false; 
+       
     }//GEN-LAST:event_Silla151ActionPerformed
 
     private void Silla181ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla181ActionPerformed
         Silla181.setBackground(new Color(255,0,0));
-       disponibilidad[181] = false; 
+       
     }//GEN-LAST:event_Silla181ActionPerformed
 
     private void Silla211ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla211ActionPerformed
        Silla211.setBackground(new Color(255,0,0));
-       disponibilidad[211] = false; 
+        
     }//GEN-LAST:event_Silla211ActionPerformed
 
     private void Silla241ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla241ActionPerformed
       Silla241.setBackground(new Color(255,0,0));
-      disponibilidad[24] = false; 
+      
     }//GEN-LAST:event_Silla241ActionPerformed
 
     private void Silla271ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla271ActionPerformed
@@ -6660,20 +6659,65 @@ public class Interfazsillas extends javax.swing.JFrame {
 
     private void AceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AceptarActionPerformed
         // TODO add your handling code here:
-        
-        
-        for (silla=1;silla<450;silla++){
-            
-
+        for (silla=1;silla<451;silla++){
             
             if (sillas.dispo[silla] == 1){ 
                 sillas.venta[silla] = silla;
                 sillas.dispo[silla] = 2;
+                disponibilidad.sillasocupadas++;
                 sillas.fila[silla] = (int)Math.ceil(silla/30); 
+                switch(sillas.fila[silla]){
+                    case 1:
+                        disponibilidad.sillasocfil1++;
+                        break;
+                    case 2:
+                        disponibilidad.sillasocfil2++;
+                        break;
+                    case 3:
+                        disponibilidad.sillasocfil3++;
+                        break;
+                    case 4:
+                        disponibilidad.sillasocfil4++;
+                        break;
+                    case 5:
+                        disponibilidad.sillasocfil5++;
+                        break;
+                    case 6:
+                        disponibilidad.sillasocfil6++;
+                        break;
+                    case 7:
+                        disponibilidad.sillasocfil7++;
+                        break;
+                    case 8:
+                        disponibilidad.sillasocfil8++;
+                        break;
+                    case 9:
+                        disponibilidad.sillasocfil9++;
+                        break;
+                    case 10:
+                        disponibilidad.sillasocfil10++;
+                        break;
+                    case 11:
+                        disponibilidad.sillasocfil11++;
+                        break;
+                    case 12:
+                        disponibilidad.sillasocfil12++;
+                        break;
+                    case 13:
+                        disponibilidad.sillasocfil13++;
+                        break;
+                    case 14:
+                        disponibilidad.sillasocfil14++;
+                        break;
+                    case 15:
+                        disponibilidad.sillasocfil15++;
+                        break;
+                }
+                if (sillas.venta[silla]!=0)
                 sillas.columna[silla] = silla-(30*(sillas.fila[silla]-1));
+                
            }
         }
-        sillas.cantidadboletos=0;
         Recibo abrir = new Recibo();
         abrir.setVisible(true);
     }//GEN-LAST:event_AceptarActionPerformed

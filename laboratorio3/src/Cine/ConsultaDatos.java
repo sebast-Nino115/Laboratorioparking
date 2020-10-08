@@ -10,7 +10,23 @@ package Cine;
  * @author nicolasmedina
  */
 public class ConsultaDatos extends javax.swing.JFrame {
-
+        
+        int sillasocupadas;
+        int sillasocfil1=0;
+        int sillasocfil2=0;
+        int sillasocfil3=0;
+        int sillasocfil4=0;
+        int sillasocfil5=0;
+        int sillasocfil6=0;
+        int sillasocfil7=0;
+        int sillasocfil8=0;
+        int sillasocfil9=0;
+        int sillasocfil10=0;
+        int sillasocfil11=0;
+        int sillasocfil12=0;
+        int sillasocfil13=0;
+        int sillasocfil14=0;
+        int sillasocfil15=0;
     /**
      * Creates new form ConsultaDatos
      */
@@ -27,7 +43,7 @@ public class ConsultaDatos extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jComboBox1 = new javax.swing.JComboBox<>();
+        filas = new javax.swing.JComboBox<>();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -50,13 +66,13 @@ public class ConsultaDatos extends javax.swing.JFrame {
         setBackground(new java.awt.Color(0, 0, 0));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15" }));
-        jComboBox1.addActionListener(new java.awt.event.ActionListener() {
+        filas.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15" }));
+        filas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox1ActionPerformed(evt);
+                filasActionPerformed(evt);
             }
         });
-        getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(156, 152, 72, -1));
+        getContentPane().add(filas, new org.netbeans.lib.awtextra.AbsoluteConstraints(156, 152, 72, -1));
 
         jLabel1.setFont(new java.awt.Font("Lucida Bright", 0, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
@@ -162,12 +178,106 @@ public class ConsultaDatos extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
+    private void filasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_filasActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox1ActionPerformed
+     //Compradas
+        if(filas.getSelectedItem()=="1"){
+            compradas.setText(String.valueOf(sillasocfil1)); 
+        }
+        else if(filas.getSelectedItem()=="2"){
+            compradas.setText(String.valueOf(sillasocfil2)); 
+        }
+        else if(filas.getSelectedItem()=="3"){
+            compradas.setText(String.valueOf(sillasocfil3)); 
+        }
+        else if(filas.getSelectedItem()=="4"){
+            compradas.setText(String.valueOf(sillasocfil4)); 
+        }
+        else if(filas.getSelectedItem()=="5"){
+            compradas.setText(String.valueOf(sillasocfil5)); 
+        }
+        else if(filas.getSelectedItem()=="6"){
+            compradas.setText(String.valueOf(sillasocfil6)); 
+        }
+        else if(filas.getSelectedItem()=="7"){
+            compradas.setText(String.valueOf(sillasocfil7)); 
+        }
+        else if(filas.getSelectedItem()=="8"){
+            compradas.setText(String.valueOf(sillasocfil8)); 
+        }
+        else if(filas.getSelectedItem()=="9"){
+            compradas.setText(String.valueOf(sillasocfil9)); 
+        }
+        else if(filas.getSelectedItem()=="10"){
+            compradas.setText(String.valueOf(sillasocfil10)); 
+        }
+        else if(filas.getSelectedItem()=="11"){
+            compradas.setText(String.valueOf(sillasocfil11)); 
+        }
+        else if(filas.getSelectedItem()=="12"){
+            compradas.setText(String.valueOf(sillasocfil12)); 
+        }
+        else if(filas.getSelectedItem()=="13"){
+            compradas.setText(String.valueOf(sillasocfil13)); 
+        }
+        else if(filas.getSelectedItem()=="14"){
+            compradas.setText(String.valueOf(sillasocfil14)); 
+        }
+        else {
+            compradas.setText(String.valueOf(sillasocfil15)); 
+        }
+    //Disponibles
+        if(filas.getSelectedItem()=="1"){
+            disponibles.setText(String.valueOf(30 - sillasocfil1)); 
+        }
+        else if(filas.getSelectedItem()=="2"){
+            disponibles.setText(String.valueOf(30 - sillasocfil2)); 
+        }
+        else if(filas.getSelectedItem()=="3"){
+            disponibles.setText(String.valueOf(30 - sillasocfil3)); 
+        }
+        else if(filas.getSelectedItem()=="4"){
+            disponibles.setText(String.valueOf(30 - sillasocfil4)); 
+        }
+        else if(filas.getSelectedItem()=="5"){
+            disponibles.setText(String.valueOf(30 - sillasocfil5)); 
+        }
+        else if(filas.getSelectedItem()=="6"){
+            disponibles.setText(String.valueOf(30 - sillasocfil6)); 
+        }
+        else if(filas.getSelectedItem()=="7"){
+            disponibles.setText(String.valueOf(30 - sillasocfil7)); 
+        }
+        else if(filas.getSelectedItem()=="8"){
+            disponibles.setText(String.valueOf(30 - sillasocfil8)); 
+        }
+        else if(filas.getSelectedItem()=="9"){
+            disponibles.setText(String.valueOf(30 - sillasocfil9)); 
+        }
+        else if(filas.getSelectedItem()=="10"){
+            disponibles.setText(String.valueOf(30 - sillasocfil10)); 
+        }
+        else if(filas.getSelectedItem()=="11"){
+            disponibles.setText(String.valueOf(30 - sillasocfil11)); 
+        }
+        else if(filas.getSelectedItem()=="12"){
+            disponibles.setText(String.valueOf(30 - sillasocfil12)); 
+        }
+        else if(filas.getSelectedItem()=="13"){
+            disponibles.setText(String.valueOf(30 - sillasocfil13)); 
+        }
+        else if(filas.getSelectedItem()=="14"){
+            disponibles.setText(String.valueOf(30 - sillasocfil14)); 
+        }
+        else {
+            disponibles.setText(String.valueOf(30 - sillasocfil15)); 
+        }
+    }//GEN-LAST:event_filasActionPerformed
 
     private void compradasfilaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_compradasfilaActionPerformed
         // TODO add your handling code here:
+        
+            
     }//GEN-LAST:event_compradasfilaActionPerformed
 
     private void disponiblesfilaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_disponiblesfilaActionPerformed
@@ -176,14 +286,17 @@ public class ConsultaDatos extends javax.swing.JFrame {
 
     private void compradasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_compradasActionPerformed
         // TODO add your handling code here:
+        disponibles.setText(String.valueOf(sillasocupadas));
     }//GEN-LAST:event_compradasActionPerformed
 
     private void disponiblesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_disponiblesActionPerformed
         // TODO add your handling code here:
+        disponibles.setText(String.valueOf(450-sillasocupadas));
     }//GEN-LAST:event_disponiblesActionPerformed
 
     private void dineroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dineroActionPerformed
         // TODO add your handling code here:
+        
     }//GEN-LAST:event_dineroActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -241,9 +354,9 @@ public class ConsultaDatos extends javax.swing.JFrame {
     private javax.swing.JTextField dinero;
     private javax.swing.JTextField disponibles;
     private javax.swing.JTextField disponiblesfila;
+    private javax.swing.JComboBox<String> filas;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
-    private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
