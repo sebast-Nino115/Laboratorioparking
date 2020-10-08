@@ -45,6 +45,9 @@ public class Panelingresarvehiculo extends javax.swing.JFrame {
         textcarros = new javax.swing.JTextArea();
         jScrollPane3 = new javax.swing.JScrollPane();
         textmotos = new javax.swing.JTextArea();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -86,7 +89,7 @@ public class Panelingresarvehiculo extends javax.swing.JFrame {
                 RegistrarActionPerformed(evt);
             }
         });
-        jPanel1.add(Registrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(134, 308, 119, 41));
+        jPanel1.add(Registrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 310, 119, 41));
 
         jLabel4.setFont(new java.awt.Font("MS UI Gothic", 3, 18)); // NOI18N
         jLabel4.setText("Ingreso de vehiculos al parquedero");
@@ -117,13 +120,16 @@ public class Panelingresarvehiculo extends javax.swing.JFrame {
 
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 100, 220, 240));
 
+        Retirar.setBackground(new java.awt.Color(0, 102, 102));
+        Retirar.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
+        Retirar.setForeground(new java.awt.Color(255, 255, 255));
         Retirar.setText("Retirar");
         Retirar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 RetirarActionPerformed(evt);
             }
         });
-        jPanel1.add(Retirar, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 310, -1, -1));
+        jPanel1.add(Retirar, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 370, 120, 40));
 
         textcarros.setColumns(20);
         textcarros.setRows(5);
@@ -137,6 +143,15 @@ public class Panelingresarvehiculo extends javax.swing.JFrame {
 
         jPanel1.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 100, 210, 240));
 
+        jLabel6.setText("Parqueadero Bicicletas");
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 70, -1, -1));
+
+        jLabel7.setText("Parqueadero Carros");
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 70, -1, -1));
+
+        jLabel8.setText("Parqueadero Motos");
+        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 70, -1, -1));
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -148,7 +163,7 @@ public class Panelingresarvehiculo extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 403, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 441, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
@@ -285,6 +300,9 @@ public class Panelingresarvehiculo extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
