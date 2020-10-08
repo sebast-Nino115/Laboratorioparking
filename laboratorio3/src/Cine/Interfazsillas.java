@@ -6110,7 +6110,7 @@ public class Interfazsillas extends javax.swing.JFrame {
     }//GEN-LAST:event_Silla398ActionPerformed
 
     private void Silla399ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla399ActionPerformed
-       Silla399.setBackground(new Color(255,0,0));
+       Silla399.setBackground(new Color(255,0,0));      
     }//GEN-LAST:event_Silla399ActionPerformed
 
     private void Silla400ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla400ActionPerformed
