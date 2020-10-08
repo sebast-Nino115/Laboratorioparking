@@ -7244,11 +7244,11 @@ public class Interfazsillas extends javax.swing.JFrame {
         // TODO add your handling code here:
         for (silla=0;silla<450;silla++){
             
-            if (sillas.dispo[silla] == 1){ 
+            if (sillas.dispo[silla+1] == 1){ 
                 sillas.venta[silla] = silla+1;
                 sillas.dispo[silla] = 2;
                 disponibilidad.sillasocupadas++;
-                sillas.fila[silla] = (int)Math.ceil((silla+1)/30); 
+                sillas.fila[silla] = (int)Math.ceil((silla+1)/30)+1; 
                 switch(sillas.fila[silla]){
                     case 1:
                         disponibilidad.sillasocfil1++;

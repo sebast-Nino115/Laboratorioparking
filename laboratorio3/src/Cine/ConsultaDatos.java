@@ -12,22 +12,22 @@ package Cine;
 public class ConsultaDatos extends javax.swing.JFrame {
         LógicaCine cine = new LógicaCine();
         
-        int sillasocupadas;
-        int sillasocfil1=0;
-        int sillasocfil2=0;
-        int sillasocfil3=0;
-        int sillasocfil4=0;
-        int sillasocfil5=0;
-        int sillasocfil6=0;
-        int sillasocfil7=0;
-        int sillasocfil8=0;
-        int sillasocfil9=0;
-        int sillasocfil10=0;
-        int sillasocfil11=0;
-        int sillasocfil12=0;
-        int sillasocfil13=0;
-        int sillasocfil14=0;
-        int sillasocfil15=0;
+        public int sillasocupadas;
+        public int sillasocfil1=0;
+        public int sillasocfil2=0;
+        public int sillasocfil3=0;
+        public int sillasocfil4=0;
+        public int sillasocfil5=0;
+        public int sillasocfil6=0;
+        public int sillasocfil7=0;
+        public int sillasocfil8=0;
+        public int sillasocfil9=0;
+        public int sillasocfil10=0;
+        public int sillasocfil11=0;
+        public int sillasocfil12=0;
+        public int sillasocfil13=0;
+        public int sillasocfil14=0;
+        public int sillasocfil15=0;
     /**
      * Creates new form ConsultaDatos
      */
