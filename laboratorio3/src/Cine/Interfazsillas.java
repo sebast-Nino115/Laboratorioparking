@@ -6024,7 +6024,7 @@ public class Interfazsillas extends javax.swing.JFrame {
 
     private void silla9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla9ActionPerformed
        silla9.setText("#");
-       silla49.setEnabled(false);
+       silla9.setEnabled(false);
        sillas.dispo[9] = 1;
     }//GEN-LAST:event_silla9ActionPerformed
 
@@ -6435,9 +6435,9 @@ public class Interfazsillas extends javax.swing.JFrame {
     }//GEN-LAST:event_silla40ActionPerformed
 
     private void silla12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla12ActionPerformed
-        silla112.setText("#");
-       silla112.setEnabled(false);
-       sillas.dispo[112] = 1;
+        silla12.setText("#");
+       silla12.setEnabled(false);
+       sillas.dispo[12] = 1;
     }//GEN-LAST:event_silla12ActionPerformed
 
     private void silla11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla11ActionPerformed
@@ -7363,63 +7363,80 @@ public class Interfazsillas extends javax.swing.JFrame {
         // TODO add your handling code here:
         for (silla=0;silla<450;silla++){
             
-            if (sillas.dispo[silla+1] == 1){ 
+            if (sillas.dispo[silla] == 1){ 
                 sillas.venta[silla] = silla+1;
                 sillas.dispo[silla] = 2;
                 disponibilidad.sillasocupadas++;
                 sillas.fila[silla] = (int)Math.ceil((silla+1)/30)+1; 
-                switch(sillas.fila[silla]){
-                    case 1:
-                        disponibilidad.sillasocfil1++;
-                        break;
-                    case 2:
-                        disponibilidad.sillasocfil2++;
-                        break;
-                    case 3:
-                        disponibilidad.sillasocfil3++;
-                        break;
-                    case 4:
-                        disponibilidad.sillasocfil4++;
-                        break;
-                    case 5:
-                        disponibilidad.sillasocfil5++;
-                        break;
-                    case 6:
-                        disponibilidad.sillasocfil6++;
-                        break;
-                    case 7:
-                        disponibilidad.sillasocfil7++;
-                        break;
-                    case 8:
-                        disponibilidad.sillasocfil8++;
-                        break;
-                    case 9:
-                        disponibilidad.sillasocfil9++;
-                        break;
-                    case 10:
-                        disponibilidad.sillasocfil10++;
-                        break;
-                    case 11:
-                        disponibilidad.sillasocfil11++;
-                        break;
-                    case 12:
-                        disponibilidad.sillasocfil12++;
-                        break;
-                    case 13:
-                        disponibilidad.sillasocfil13++;
-                        break;
-                    case 14:
-                        disponibilidad.sillasocfil14++;
-                        break;
-                    case 15:
-                        disponibilidad.sillasocfil15++;
-                        break;
+                
+                if(sillas.fila[silla]==1)
+                {
+                    disponibilidad.sillasocfil1++;
                 }
+                else if(sillas.fila[silla]==2)
+                {
+                    disponibilidad.sillasocfil2++;
+                }
+                else if(sillas.fila[silla]==3)
+                {
+                    disponibilidad.sillasocfil3++;
+                }
+                else if(sillas.fila[silla]==4)
+                {
+                    disponibilidad.sillasocfil4++;
+                }
+                else if(sillas.fila[silla]==5)
+                {
+                    disponibilidad.sillasocfil5++;
+                }
+                else if(sillas.fila[silla]==6)
+                {
+                    disponibilidad.sillasocfil6++;
+                }
+                else if(sillas.fila[silla]==7)
+                {
+                    disponibilidad.sillasocfil7++;
+                }
+                else if(sillas.fila[silla]==8)
+                {
+                    disponibilidad.sillasocfil8++;
+                }
+                else if(sillas.fila[silla]==9)
+                {
+                    disponibilidad.sillasocfil9++;
+                }
+                else if(sillas.fila[silla]==10)
+                {
+                    disponibilidad.sillasocfil10++;
+                }
+                else if(sillas.fila[silla]==11)
+                {
+                    disponibilidad.sillasocfil11++;
+                }
+                else if(sillas.fila[silla]==12)
+                {
+                    disponibilidad.sillasocfil12++;
+                }
+                else if(sillas.fila[silla]==13)
+                {
+                    disponibilidad.sillasocfil13++;
+                }
+                else if(sillas.fila[silla]==14)
+                {
+                    disponibilidad.sillasocfil14++;
+                }
+                else if(sillas.fila[silla]==15)
+                {
+                    disponibilidad.sillasocfil15++;
+                }
+
                 if (sillas.venta[silla]!=0)
-                sillas.columna[silla] = (silla+1)-(30*(sillas.fila[silla]-1));
+                sillas.columna[silla] = (silla+1)-(30*(sillas.fila[silla]- 1));
                 
            }
         }
+        
+        
         Recibo abrir = new Recibo();
         abrir.setVisible(true);
     }//GEN-LAST:event_AceptarActionPerformed
@@ -7428,10 +7445,7 @@ public class Interfazsillas extends javax.swing.JFrame {
         // TODO add your handling code here:
         InterfazMenuCine abrir = new InterfazMenuCine();
         abrir.setVisible(true);
-        for (silla=0;silla<450;silla++)
-        {
-            
-        }
+        
     }//GEN-LAST:event_asignacionActionPerformed
 
     /**

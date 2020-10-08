@@ -205,12 +205,12 @@ public class ConsultaDatos extends javax.swing.JFrame {
 
     private void compradasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_compradasActionPerformed
         // TODO add your handling code here:
-        disponibles.setText(String.valueOf(sillasocupadas));
+        
     }//GEN-LAST:event_compradasActionPerformed
 
     private void disponiblesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_disponiblesActionPerformed
         // TODO add your handling code here:
-        disponibles.setText(String.valueOf(450-sillasocupadas));
+        
     }//GEN-LAST:event_disponiblesActionPerformed
 
     private void dineroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dineroActionPerformed
@@ -234,6 +234,10 @@ public class ConsultaDatos extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
+        disponibles.setText(String.valueOf(sillasocupadas));
+        
+        disponibles.setText(String.valueOf(450- sillasocupadas));
+        
         //Compradas
         if(filas.getSelectedItem()=="1"){
             compradasfila.setText(String.valueOf(sillasocfil1)); 
