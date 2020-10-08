@@ -6670,7 +6670,7 @@ public class Interfazsillas extends javax.swing.JFrame {
                 sillas.venta[silla] = silla;
                 sillas.dispo[silla] = 2;
                 sillas.fila[silla] = (int)Math.ceil(silla/30); 
-                sillas.columna[silla] = silla-(30*(fila[silla]-1));
+                sillas.columna[silla] = silla-(30*(sillas.fila[silla]-1));
            }
         }
         sillas.cantidadboletos=0;
