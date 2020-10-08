@@ -4872,7 +4872,9 @@ public class Interfazsillas extends javax.swing.JFrame {
     }//GEN-LAST:event_silla5ActionPerformed
 
     private void Silla153ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla153ActionPerformed
-        Silla153.setBackground(new Color(255,0,0));
+       Silla153.setText("#");
+       Silla153.setEnabled(false);
+       sillas.dispo[153] = 1;
         
     }//GEN-LAST:event_Silla153ActionPerformed
 
@@ -4910,12 +4912,16 @@ public class Interfazsillas extends javax.swing.JFrame {
     }//GEN-LAST:event_silla121ActionPerformed
 
     private void Silla151ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla151ActionPerformed
-     Silla151.setBackground(new Color(255,0,0));
+       Silla151.setText("#");
+       Silla151.setEnabled(false);
+       sillas.dispo[151] = 1;
        
     }//GEN-LAST:event_Silla151ActionPerformed
 
     private void Silla181ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla181ActionPerformed
-        Silla181.setBackground(new Color(255,0,0));
+       Silla181.setText("#");
+       Silla181.setEnabled(false);
+       sillas.dispo[181] = 1;
        
     }//GEN-LAST:event_Silla181ActionPerformed
 
@@ -4978,11 +4984,15 @@ public class Interfazsillas extends javax.swing.JFrame {
     }//GEN-LAST:event_silla122ActionPerformed
 
     private void Silla152ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla152ActionPerformed
-       Silla152.setBackground(new Color(255,0,0));
+       Silla152.setText("#");
+       Silla152.setEnabled(false);
+       sillas.dispo[152] = 1;
     }//GEN-LAST:event_Silla152ActionPerformed
 
     private void Silla182ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla182ActionPerformed
-        Silla182.setBackground(new Color(255,0,0));
+       Silla182.setText("#");
+       Silla182.setEnabled(false);
+       sillas.dispo[182] = 1;
     }//GEN-LAST:event_Silla182ActionPerformed
 
     private void Silla212ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla212ActionPerformed
@@ -5042,7 +5052,9 @@ public class Interfazsillas extends javax.swing.JFrame {
     }//GEN-LAST:event_silla123ActionPerformed
 
     private void Silla183ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla183ActionPerformed
-       Silla183.setBackground(new Color(255,0,0));
+       Silla183.setText("#");
+       Silla183.setEnabled(false);
+       sillas.dispo[183] = 1;
     }//GEN-LAST:event_Silla183ActionPerformed
 
     private void Silla213ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla213ActionPerformed
@@ -5102,11 +5114,15 @@ public class Interfazsillas extends javax.swing.JFrame {
     }//GEN-LAST:event_silla124ActionPerformed
 
     private void Silla154ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla154ActionPerformed
-        Silla154.setBackground(new Color(255,0,0));
+       Silla154.setText("#");
+       Silla154.setEnabled(false);
+       sillas.dispo[154] = 1;
     }//GEN-LAST:event_Silla154ActionPerformed
 
     private void Silla184ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla184ActionPerformed
-        Silla184.setBackground(new Color(255,0,0));
+       Silla184.setText("#");
+       Silla184.setEnabled(false);
+       sillas.dispo[184] = 1;
     }//GEN-LAST:event_Silla184ActionPerformed
 
     private void Silla214ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla214ActionPerformed
@@ -5174,11 +5190,15 @@ public class Interfazsillas extends javax.swing.JFrame {
     }//GEN-LAST:event_Silla215ActionPerformed
 
     private void Silla185ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla185ActionPerformed
-         Silla185.setBackground(new Color(255,0,0));
+       Silla185.setText("#");
+       Silla185.setEnabled(false);
+       sillas.dispo[185] = 1;
     }//GEN-LAST:event_Silla185ActionPerformed
 
     private void Silla155ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla155ActionPerformed
-        Silla155.setBackground(new Color(255,0,0));
+       Silla155.setText("#");
+       Silla155.setEnabled(false);
+       sillas.dispo[155] = 1;
     }//GEN-LAST:event_Silla155ActionPerformed
 
     private void silla125ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla125ActionPerformed
@@ -5236,11 +5256,15 @@ public class Interfazsillas extends javax.swing.JFrame {
     }//GEN-LAST:event_silla126ActionPerformed
 
     private void Silla156ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla156ActionPerformed
-        Silla156.setBackground(new Color(255,0,0));
+       Silla156.setText("#");
+       Silla156.setEnabled(false);
+       sillas.dispo[156] = 1;
     }//GEN-LAST:event_Silla156ActionPerformed
 
     private void Silla186ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla186ActionPerformed
-         Silla186.setBackground(new Color(255,0,0));
+       Silla186.setText("#");
+       Silla186.setEnabled(false);
+       sillas.dispo[186] = 1;
     }//GEN-LAST:event_Silla186ActionPerformed
 
     private void Silla216ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla216ActionPerformed
@@ -5468,15 +5492,21 @@ public class Interfazsillas extends javax.swing.JFrame {
     }//GEN-LAST:event_Silla208ActionPerformed
 
     private void Silla180ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla180ActionPerformed
-        Silla180.setBackground(new Color(255,0,0));
+       Silla180.setText("#");
+       Silla180.setEnabled(false);
+       sillas.dispo[180] = 1;
     }//GEN-LAST:event_Silla180ActionPerformed
 
     private void Silla179ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla179ActionPerformed
-        Silla179.setBackground(new Color(255,0,0));
+       Silla179.setText("#");
+       Silla179.setEnabled(false);
+       sillas.dispo[179] = 1;
     }//GEN-LAST:event_Silla179ActionPerformed
 
     private void Silla178ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla178ActionPerformed
-    Silla178.setBackground(new Color(255,0,0));
+       Silla178.setText("#");
+       Silla178.setEnabled(false);
+       sillas.dispo[178] = 1;
     }//GEN-LAST:event_Silla178ActionPerformed
 
     private void silla119ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla119ActionPerformed
@@ -5484,7 +5514,9 @@ public class Interfazsillas extends javax.swing.JFrame {
     }//GEN-LAST:event_silla119ActionPerformed
 
     private void Silla177ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla177ActionPerformed
-      Silla177.setBackground(new Color(255,0,0));
+       Silla177.setText("#");
+       Silla177.setEnabled(false);
+       sillas.dispo[177] = 1;
     }//GEN-LAST:event_Silla177ActionPerformed
 
     private void silla150ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla150ActionPerformed
@@ -5698,11 +5730,15 @@ public class Interfazsillas extends javax.swing.JFrame {
     }//GEN-LAST:event_Silla205ActionPerformed
 
     private void Silla176ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla176ActionPerformed
-       Silla176.setBackground(new Color(255,0,0));
+       Silla176.setText("#");
+       Silla176.setEnabled(false);
+       sillas.dispo[176] = 1;
     }//GEN-LAST:event_Silla176ActionPerformed
 
     private void Silla175ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla175ActionPerformed
-        Silla175.setBackground(new Color(255,0,0));
+       Silla175.setText("#");
+       Silla175.setEnabled(false);
+       sillas.dispo[175] = 1;
     }//GEN-LAST:event_Silla175ActionPerformed
 
     private void silla146ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla146ActionPerformed
@@ -5856,27 +5892,39 @@ public class Interfazsillas extends javax.swing.JFrame {
     }//GEN-LAST:event_silla129ActionPerformed
 
     private void Silla157ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla157ActionPerformed
-        Silla157.setBackground(new Color(255,0,0));
+       Silla157.setText("#");
+       Silla157.setEnabled(false);
+       sillas.dispo[157] = 1;
     }//GEN-LAST:event_Silla157ActionPerformed
 
     private void Silla158ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla158ActionPerformed
-         Silla158.setBackground(new Color(255,0,0));
+       Silla158.setText("#");
+       Silla158.setEnabled(false);
+       sillas.dispo[158] = 1;
     }//GEN-LAST:event_Silla158ActionPerformed
 
     private void Silla159ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla159ActionPerformed
-         Silla159.setBackground(new Color(255,0,0));
+       Silla159.setText("#");
+       Silla159.setEnabled(false);
+       sillas.dispo[159] = 1;
     }//GEN-LAST:event_Silla159ActionPerformed
 
     private void Silla187ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla187ActionPerformed
-        Silla187.setBackground(new Color(255,0,0));
+       Silla187.setText("#");
+       Silla187.setEnabled(false);
+       sillas.dispo[187] = 1;
     }//GEN-LAST:event_Silla187ActionPerformed
 
     private void Silla188ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla188ActionPerformed
-         Silla188.setBackground(new Color(255,0,0));
+       Silla188.setText("#");
+       Silla188.setEnabled(false);
+       sillas.dispo[188] = 1;
     }//GEN-LAST:event_Silla188ActionPerformed
 
     private void Silla189ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla189ActionPerformed
-         Silla189.setBackground(new Color(255,0,0));
+       Silla189.setText("#");
+       Silla189.setEnabled(false);
+       sillas.dispo[189] = 1;
     }//GEN-LAST:event_Silla189ActionPerformed
 
     private void Silla217ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla217ActionPerformed
@@ -6040,27 +6088,39 @@ public class Interfazsillas extends javax.swing.JFrame {
     }//GEN-LAST:event_Silla220ActionPerformed
 
     private void Silla192ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla192ActionPerformed
-         Silla192.setBackground(new Color(255,0,0));
+       Silla192.setText("#");
+       Silla192.setEnabled(false);
+       sillas.dispo[192] = 1;
     }//GEN-LAST:event_Silla192ActionPerformed
 
     private void Silla191ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla191ActionPerformed
-        Silla191.setBackground(new Color(255,0,0));
+       Silla191.setText("#");
+       Silla191.setEnabled(false);
+       sillas.dispo[191] = 1;
     }//GEN-LAST:event_Silla191ActionPerformed
 
     private void Silla190ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla190ActionPerformed
-        Silla190.setBackground(new Color(255,0,0));
+       Silla190.setText("#");
+       Silla190.setEnabled(false);
+       sillas.dispo[190] = 1;
     }//GEN-LAST:event_Silla190ActionPerformed
 
     private void Silla162ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla162ActionPerformed
-        Silla162.setBackground(new Color(255,0,0));
+       Silla162.setText("#");
+       Silla162.setEnabled(false);
+       sillas.dispo[162] = 1;
     }//GEN-LAST:event_Silla162ActionPerformed
 
     private void Silla161ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla161ActionPerformed
-        Silla161.setBackground(new Color(255,0,0));
+       Silla161.setText("#");
+       Silla161.setEnabled(false);
+       sillas.dispo[161] = 1;
     }//GEN-LAST:event_Silla161ActionPerformed
 
     private void Silla160ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla160ActionPerformed
-         Silla160.setBackground(new Color(255,0,0));
+       Silla160.setText("#");
+       Silla160.setEnabled(false);
+       sillas.dispo[160] = 1;
     }//GEN-LAST:event_Silla160ActionPerformed
 
     private void silla132ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla132ActionPerformed
@@ -6244,35 +6304,51 @@ public class Interfazsillas extends javax.swing.JFrame {
     }//GEN-LAST:event_silla135ActionPerformed
 
     private void Silla163ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla163ActionPerformed
-         Silla163.setBackground(new Color(255,0,0));
+       Silla163.setText("#");
+       Silla163.setEnabled(false);
+       sillas.dispo[163] = 1;
     }//GEN-LAST:event_Silla163ActionPerformed
 
     private void Silla164ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla164ActionPerformed
-       Silla164.setBackground(new Color(255,0,0));
+       Silla164.setText("#");
+       Silla164.setEnabled(false);
+       sillas.dispo[164] = 1;
     }//GEN-LAST:event_Silla164ActionPerformed
 
     private void Silla165ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla165ActionPerformed
-         Silla165.setBackground(new Color(255,0,0));
+       Silla165.setText("#");
+       Silla165.setEnabled(false);
+       sillas.dispo[165] = 1;
     }//GEN-LAST:event_Silla165ActionPerformed
 
     private void Silla193ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla193ActionPerformed
-        Silla193.setBackground(new Color(255,0,0));
+       Silla193.setText("#");
+       Silla193.setEnabled(false);
+       sillas.dispo[193] = 1;
     }//GEN-LAST:event_Silla193ActionPerformed
 
     private void Silla194ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla194ActionPerformed
-        Silla194.setBackground(new Color(255,0,0));
+       Silla194.setText("#");
+       Silla194.setEnabled(false);
+       sillas.dispo[194] = 1;
     }//GEN-LAST:event_Silla194ActionPerformed
 
     private void Silla195ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla195ActionPerformed
-         Silla195.setBackground(new Color(255,0,0));
+       Silla195.setText("#");
+       Silla195.setEnabled(false);
+       sillas.dispo[195] = 1;
     }//GEN-LAST:event_Silla195ActionPerformed
 
     private void Silla196ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla196ActionPerformed
-         Silla196.setBackground(new Color(255,0,0));
+       Silla196.setText("#");
+       Silla196.setEnabled(false);
+       sillas.dispo[196] = 1;
     }//GEN-LAST:event_Silla196ActionPerformed
 
     private void Silla166ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla166ActionPerformed
-         Silla166.setBackground(new Color(255,0,0));
+       Silla166.setText("#");
+       Silla166.setEnabled(false);
+       sillas.dispo[166] = 1;
     }//GEN-LAST:event_Silla166ActionPerformed
 
     private void silla106ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla106ActionPerformed
@@ -6447,19 +6523,27 @@ public class Interfazsillas extends javax.swing.JFrame {
     }//GEN-LAST:event_Silla226ActionPerformed
 
     private void Silla198ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla198ActionPerformed
-         Silla198.setBackground(new Color(255,0,0));
+       Silla198.setText("#");
+       Silla198.setEnabled(false);
+       sillas.dispo[198] = 1;
     }//GEN-LAST:event_Silla198ActionPerformed
 
     private void Silla197ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla197ActionPerformed
-         Silla197.setBackground(new Color(255,0,0));
+       Silla197.setText("#");
+       Silla197.setEnabled(false);
+       sillas.dispo[197] = 1;
     }//GEN-LAST:event_Silla197ActionPerformed
 
     private void Silla168ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla168ActionPerformed
-         Silla168.setBackground(new Color(255,0,0));
+       Silla168.setText("#");
+       Silla168.setEnabled(false);
+       sillas.dispo[168] = 1;
     }//GEN-LAST:event_Silla168ActionPerformed
 
     private void Silla167ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla167ActionPerformed
-         Silla167.setBackground(new Color(255,0,0));
+       Silla167.setText("#");
+       Silla167.setEnabled(false);
+       sillas.dispo[167] = 1;
     }//GEN-LAST:event_Silla167ActionPerformed
 
     private void silla138ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla138ActionPerformed
@@ -6637,27 +6721,39 @@ public class Interfazsillas extends javax.swing.JFrame {
     }//GEN-LAST:event_silla141ActionPerformed
 
     private void Silla169ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla169ActionPerformed
-        Silla169.setBackground(new Color(255,0,0));  
+       Silla169.setText("#");
+       Silla169.setEnabled(false);
+       sillas.dispo[169] = 1; 
     }//GEN-LAST:event_Silla169ActionPerformed
 
     private void Silla170ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla170ActionPerformed
-       Silla170.setBackground(new Color(255,0,0));  
+       Silla170.setText("#");
+       Silla170.setEnabled(false);
+       sillas.dispo[170] = 1;
     }//GEN-LAST:event_Silla170ActionPerformed
 
     private void Silla171ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla171ActionPerformed
-        Silla171.setBackground(new Color(255,0,0));  
+       Silla171.setText("#");
+       Silla171.setEnabled(false);
+       sillas.dispo[171] = 1; 
     }//GEN-LAST:event_Silla171ActionPerformed
 
     private void Silla199ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla199ActionPerformed
-        Silla199.setBackground(new Color(255,0,0));  
+       Silla199.setText("#");
+       Silla199.setEnabled(false);
+       sillas.dispo[199] = 1;
     }//GEN-LAST:event_Silla199ActionPerformed
 
     private void Silla200ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla200ActionPerformed
-       Silla200.setBackground(new Color(255,0,0));  
+       Silla200.setText("#");
+       Silla200.setEnabled(false);
+       sillas.dispo[200] = 1; 
     }//GEN-LAST:event_Silla200ActionPerformed
 
     private void Silla201ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla201ActionPerformed
-        Silla201.setBackground(new Color(255,0,0));  
+       Silla201.setText("#");
+       Silla201.setEnabled(false);
+       sillas.dispo[201] = 1; 
     }//GEN-LAST:event_Silla201ActionPerformed
 
     private void Silla229ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla229ActionPerformed
@@ -6837,19 +6933,27 @@ public class Interfazsillas extends javax.swing.JFrame {
     }//GEN-LAST:event_Silla203ActionPerformed
 
     private void Silla202ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla202ActionPerformed
-        Silla202.setBackground(new Color(255,0,0));  
+       Silla202.setText("#");
+       Silla202.setEnabled(false);
+       sillas.dispo[202] = 1;  
     }//GEN-LAST:event_Silla202ActionPerformed
 
     private void Silla174ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla174ActionPerformed
-        Silla174.setBackground(new Color(255,0,0));  
+       Silla174.setText("#");
+       Silla174.setEnabled(false);
+       sillas.dispo[174] = 1;
     }//GEN-LAST:event_Silla174ActionPerformed
 
     private void Silla173ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla173ActionPerformed
-       Silla173.setBackground(new Color(255,0,0));  
+       Silla173.setText("#");
+       Silla173.setEnabled(false);
+       sillas.dispo[173] = 1;
     }//GEN-LAST:event_Silla173ActionPerformed
 
     private void Silla172ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Silla172ActionPerformed
-       Silla172.setBackground(new Color(255,0,0));  
+       Silla172.setText("#");
+       Silla172.setEnabled(false);
+       sillas.dispo[172] = 1;
     }//GEN-LAST:event_Silla172ActionPerformed
 
     private void silla144ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_silla144ActionPerformed
