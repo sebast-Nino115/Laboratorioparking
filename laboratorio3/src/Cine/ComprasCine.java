@@ -155,6 +155,12 @@ public class ComprasCine extends javax.swing.JFrame {
         jLabel17.setForeground(new java.awt.Color(255, 255, 255));
         jLabel17.setText("Fila 2");
         jPanel1.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 170, -1, -1));
+
+        fila1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                fila1ActionPerformed(evt);
+            }
+        });
         jPanel1.add(fila1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 120, 120, -1));
         jPanel1.add(fila2, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 160, 120, -1));
         jPanel1.add(fila3, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 200, 120, -1));
@@ -228,6 +234,10 @@ public class ComprasCine extends javax.swing.JFrame {
         abrir.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_guardarActionPerformed
+
+    private void fila1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fila1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_fila1ActionPerformed
     
     /**
      * @param args the command line arguments
