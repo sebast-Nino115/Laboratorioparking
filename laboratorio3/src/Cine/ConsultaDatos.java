@@ -10,6 +10,7 @@ package Cine;
  * @author nicolasmedina
  */
 public class ConsultaDatos extends javax.swing.JFrame {
+        LógicaCine cine = new LógicaCine();
         
         int sillasocupadas;
         int sillasocfil1=0;
@@ -296,7 +297,7 @@ public class ConsultaDatos extends javax.swing.JFrame {
 
     private void dineroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dineroActionPerformed
         // TODO add your handling code here:
-        
+        dinero.setText(String.valueOf(cine.preciototal(cine.fila, cine.columna, cine.preciof1, cine.preciof2, cine.preciof3, cine.preciof4, cine.preciof5, cine.preciof6, cine.preciof7, cine.preciof8, cine.preciof9, cine.preciof10, cine.preciof11, cine.preciof12, cine.preciof13, cine.preciof14, cine.preciof15)));
     }//GEN-LAST:event_dineroActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
