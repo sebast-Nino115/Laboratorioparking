@@ -1,17 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package Parqueadero;
 
-import java.util.ArrayList;
+package Parqueadero;
 import java.util.Date;
 
-/**
- *
- * @author Acer
- */
 class carros extends Transportes{
   
     public carros(String Placa, Date fechaingreso){
@@ -19,12 +9,38 @@ class carros extends Transportes{
         this.fechaingreso=fechaingreso;
     }
 
-    public String getplaca() {
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getPlaca() {
         return placa;
     }
 
-    public void setplaca(String placa) {
+    public void setPlaca(String placa) {
         this.placa = placa;
     }
+
+    public Date getFechaingreso() {
+        return fechaingreso;
+    }
+
+    public void setFechaingreso(Date fechaingreso) {
+        this.fechaingreso = fechaingreso;
+    }
+
+    public Date getFechasalida() {
+        return fechasalida;
+    }
+
+    public void setFechasalida(Date fechasalida) {
+        this.fechasalida = fechasalida;
+    }
+
+    
    
 }

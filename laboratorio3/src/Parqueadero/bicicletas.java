@@ -26,5 +26,28 @@ class bicicletas extends Transportes {
     public void setCedula(String cedula) {
         this.cedula = cedula;
     }
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public Date getFechaingreso() {
+        return fechaingreso;
+    }
+
+    public void setFechaingreso(Date fechaingreso) {
+        this.fechaingreso = fechaingreso;
+    }
+
+    public Date getFechasalida() {
+        return fechasalida;
+    }
+
+    public void setFechasalida(Date fechasalida) {
+        this.fechasalida = fechasalida;
+    }
     
 }

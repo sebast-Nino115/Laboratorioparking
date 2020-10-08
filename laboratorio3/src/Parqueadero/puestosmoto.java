@@ -2,16 +2,9 @@
 package Parqueadero;
 
 public class puestosmoto {
+
     private int numero;
     private String estado;
-
-    public motos getMoto() {
-        return moto;
-    }
-
-    public void setMoto(motos moto) {
-        this.moto = moto;
-    }
     private motos moto;
     
     public puestosmoto (int numero){
@@ -20,7 +13,7 @@ public class puestosmoto {
     }
     
     public void asignarpuesto(motos moto){
-        this.moto = moto;
+        this.moto=moto;
     }
 
     public int getNumero() {
@@ -39,19 +32,25 @@ public class puestosmoto {
         this.estado = estado;
     }
 
-   
+    public motos getMoto() {
+        return moto;
+    }
+
+    public void setMoto(motos moto) {
+        this.moto = moto;
+    }
+
     
-    
-    public String libreStringc(){
+    public String libreStringm(){
         return "Puesto: "+this.getNumero()
             +"\nEstado: "+this.getEstado();
     }
     
-    public String Datoscarro(){
-        return "Puesto: " + this.getNumero()
-            +"\nEstado: " + this.getEstado();
-           /* +"\nPlaca del carro: "+this.getcarro().getplaca()
-            +"\nHora: "+this.getcarro().getFechaingreso();
-*/
+    public String Datosmoto(){
+        return "Puesto Moto N: " + this.getNumero()
+            +"\nEstado: " + this.getEstado()
+            +"\nPlaca de la moto: "+this.getMoto().getPlaca()
+            +"\nHora: "+this.getMoto().getFechaingreso();
+
     }
 }

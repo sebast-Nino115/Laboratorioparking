@@ -1,15 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Parqueadero;
 
-/**
- *
- * @author nicolasmedina
- */
 public class puestoscarro {
+
     private int numero;
     private String estado;
     private carros carro;
@@ -54,9 +47,10 @@ public class puestoscarro {
     }
     
     public String Datoscarro(){
-        return "Puesto: " + this.getNumero()
+        return "Puesto Carro: " + this.getNumero()
             +"\nEstado: " + this.getEstado()
-            +"\nPlaca del carro: "+this.getcarro().getplaca()
+            +"\nPlaca del carro: "+this.getcarro().getPlaca()
             +"\nHora: "+this.getcarro().getFechaingreso();
     }
+
 }

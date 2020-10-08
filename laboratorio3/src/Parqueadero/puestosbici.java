@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package Parqueadero;
 
-/**
- *
- * @author Acer
- */
+package Parqueadero;
 public class puestosbici {
     private int numero;
     private String estado;
@@ -47,19 +38,15 @@ public class puestosbici {
         this.Bici = Bici;
     }
 
-    
-
-  
-    
     public String libreStringb(){
-        return "Puesto: "+this.getNumero()
+        return "Puesto : "+this.getNumero()
             +"\nEstado: "+this.getEstado();
     }
     
     public String Datosbici(){
-        return "Puesto: "+this.getNumero()
+        return "Puesto Bicicleta N: "+this.getNumero()
             +"\nEstado: "+this.getEstado()
-            +"\nCedula: "+this.getBici().getCedula()
+            +"\nNumero de cedula: "+this.getBici().getCedula()
             +"\nHora: "+this.getBici().getFechaingreso();
     }
 }
